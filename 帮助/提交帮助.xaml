@@ -6,7 +6,7 @@
 <local:MyCard Title="概述" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="PCL2 的帮助库欢迎大家参与修改！你可以参与完善 PCL2 的帮助库，帮助更多玩家了解这个游戏！&#xa;本页面将指导你下载、修改 PCL2 的内置帮助库，然后上传。&#xa;这里默认你已经了解如何修改、添加 PCL2 的自定义帮助页面。如果你还不清楚，可以先查看此教程：" />
+                   Text="PCL2 帮助库欢迎大家参与编辑！你可以参与完善帮助库，帮助更多人了解 PCL2 与 Minecraft！&#xa;本页面将指导你下载、修改 PCL2 的内置帮助库，最后提交更改。&#xa;这里默认你已经了解如何修改、添加 PCL2 的自定义帮助页面。如果你还不了解，可以先查看此教程：" />
         <local:MyListItem Margin="0,0,0,4"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
     </StackPanel>
@@ -14,6 +14,10 @@
 
 <local:MyCard Title="从 GitHub 获取帮助库" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="你需要将 GitHub 的帮助库克隆到 PCL\Help 文件夹下。注意不要嵌套子文件夹，例如本文件应该位于 PCL\Help\帮助\提交帮助.xaml 而不是 PCL\Help\PCL2Help\帮助\提交帮助.xaml。&#xa;PCL2 不会读取 .git 文件夹中的内容。" />
+        <local:MyListItem Margin="0,2,0,10" 
+		                  Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Title="GitHub PCL2 内置帮助库" Type="Clickable" PaddingRight="4"
+		                  EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help" />
     </StackPanel>
 </local:MyCard>
