@@ -1,0 +1,11 @@
+﻿
+<!-- 作者：龙腾猫跃 -->
+
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面尚未完成！" />
+
+<local:MyCard Title="概述" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="帮助 XAML 格式与自定义主页完全一致。在本页面完成前可以先参考自定义主页。" />
+    </StackPanel>
+</local:MyCard>

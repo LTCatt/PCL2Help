@@ -1,0 +1,19 @@
+
+<!-- 作者：龙腾猫跃 -->
+
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面尚未完成！" />
+
+<local:MyCard Title="概述" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="PCL2 的帮助库欢迎大家参与修改！你可以参与完善 PCL2 的帮助库，帮助更多玩家了解这个游戏！&#xa;本页面将指导你下载、修改 PCL2 的内置帮助库，然后上传。&#xa;这里默认你已经了解如何修改、添加 PCL2 的自定义帮助页面。如果你还不清楚，可以先查看此教程：" />
+        <local:MyListItem Margin="0,0,0,4"
+		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="从 GitHub 获取帮助库" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+
+    </StackPanel>
+</local:MyCard>
