@@ -6,7 +6,7 @@
 <local:MyCard Title="概述" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="PCL2 帮助库欢迎大家参与编辑！你可以参与完善帮助库，帮助更多人了解 PCL2 与 Minecraft！&#xa;本页面将指导你下载、修改 PCL2 的内置帮助库，最后提交更改。&#xa;这里默认你已经了解如何修改、添加 PCL2 的自定义帮助页面。如果你还不了解，可以先查看此教程：" />
+                   Text="PCL2 帮助库欢迎大家参与编辑！你可以参与完善帮助库，帮助更多人了解 PCL2 与 Minecraft！&#xa;本文将指导你下载、修改 PCL2 的内置帮助库，最后提交更改。&#xa;这里默认你已经了解如何修改、添加 PCL2 的自定义帮助页面。如果你还不了解，可以先查看此教程：" />
         <local:MyListItem Margin="0,0,0,4"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
     </StackPanel>
@@ -15,9 +15,16 @@
 <local:MyCard Title="从 GitHub 获取帮助库" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="你需要将 GitHub 的帮助库克隆到 PCL\Help 文件夹下。注意不要嵌套子文件夹，例如本文件应该位于 PCL\Help\帮助\提交帮助.xaml 而不是 PCL\Help\PCL2Help\帮助\提交帮助.xaml。&#xa;PCL2 不会读取 .git 文件夹中的内容。" />
-        <local:MyListItem Margin="0,2,0,10" 
-		                  Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Title="GitHub PCL2 内置帮助库" Type="Clickable" PaddingRight="4"
-		                  EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help" />
+                   Text="你需要将 GitHub 中的存储库克隆到 PCL\Help 文件夹。&#xa;本文内容将以安装了中文语言包的 Visual Studio Code 中的操作为例。当然，你也可以使用其他软件，只是操作可能略有不同。" />
+        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+                            Text="GitHub 存储库" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help" />
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="下载 VSCode" EventType="打开网页" EventData="https://code.visualstudio.com/Download" />
+            <local:MyButton MinWidth="210" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="如何将 VSCode 设置为中文" EventType="打开网页" EventData="https://code.visualstudio.com/docs/getstarted/locales#_changing-the-display-language" />
+        </StackPanel>
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="打开 VSCode，点击左边栏 → 源代码管理 → 克隆存储库，输入上方按钮打开的网页的网址，选择任意文件夹并确定。&#xa;完成后，刚才选择的文件夹中会生成名为 PCL2Help 的子文件夹。&#xa;将 PCL2Help 文件夹中的内容剪切到 PCL\Help 中。注意，在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中。&#xa;最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。&#xa;此时在 VSCode 打开任意文件，你若能在左下角的时间线中查看到该文件的变更记录，就代表你已经正确完成了帮助库获取。" />
     </StackPanel>
 </local:MyCard>
