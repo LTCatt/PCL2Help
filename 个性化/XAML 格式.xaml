@@ -1,7 +1,7 @@
 ﻿
 <!-- 作者：龙腾猫跃 -->
 
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面尚未完成！" />
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面尚未完成，其内容可能会在之后变更或进行补充。" />
 
 <local:MyCard Title="概述" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">

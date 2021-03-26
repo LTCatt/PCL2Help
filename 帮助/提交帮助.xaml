@@ -1,7 +1,7 @@
 
 <!-- 作者：龙腾猫跃 -->
 
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面尚未完成！" />
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面尚未完成，其内容可能会在之后变更或进行补充。" />
 
 <local:MyCard Title="概述" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -26,5 +26,12 @@
         </StackPanel>
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                    Text="打开 VSCode，点击左边栏 → 源代码管理 → 克隆存储库，输入上方按钮打开的网页的网址，选择任意文件夹并确定。&#xa;完成后，刚才选择的文件夹中会生成名为 PCL2Help 的子文件夹。&#xa;将 PCL2Help 文件夹中的内容剪切到 PCL\Help 中。注意，在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中。&#xa;最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。&#xa;此时在 VSCode 打开任意文件，你若能在左下角的时间线中查看到该文件的变更记录，就代表你已经正确完成了帮助库获取。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="提交" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了，修改后提交 Pull Request 即可。&#xa;目前我们需要将 PCL2 帮助站中的常见内容搬运到帮助库中，以及补充 MC 中的常见问题（例如 Mod、光影安装等），你可以考虑添加这些帮助页面。" />
     </StackPanel>
 </local:MyCard>
