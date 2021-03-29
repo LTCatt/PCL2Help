@@ -1,0 +1,10 @@
+{
+    "__Author__": "WIFIGUN",
+	"Title": "Hypixel SkyBlock Wiki",
+	"Description": "由Fandom社區的一個或多個成員整理而成的 Hypixel SkyBlock 百科站",
+	"Keywords": "Hypixel SkyBlock wikipedia",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://hypixel-skyblock.fandom.com/wiki/Hypixel_SkyBlock_Wiki"
+}
