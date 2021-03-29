@@ -1,0 +1,10 @@
+{
+    "__Author__": "Executif_s",
+	"Title": "Minecraft Command Generator",
+	"Description": "我的世界指令生成器(mcmod)",
+	"Keywords": "指令生成器",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.mcmod.cn/tools/cbcreator/"
+}
