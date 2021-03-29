@@ -1,0 +1,10 @@
+{
+    "__Author__": "WIFIGUN",
+	"Title": "ALL Hypixel Skyblock Timer",
+	"Description": "各種 Hypixel Skyblock 計時器",
+	"Keywords": "Timer",
+	"Types": ["参考工具"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://hypixel.inventivetalent.org"
+}
