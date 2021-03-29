@@ -1,0 +1,10 @@
+{
+    "__Author__": "Executif_s",
+	"Title": "Minecraft Mod Wiki",
+	"Description": "我的世界MOD百科",
+	"Keywords": "MC百科首页|我的世界MOD百科，提供Minecraft(我的世界)MOD(模组)物品资料介绍教程攻略和MOD下载。",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.mcmod.cn/"
+}
