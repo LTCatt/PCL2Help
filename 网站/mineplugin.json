@@ -1,0 +1,10 @@
+{
+    "__Author__": "WIFIGUN",
+	"Title": "Minecraft 插件百科",
+	"Description": "帮助插件使用者了解服务端的各种插件，学会如何使用插件；同时也面向插件开发者，为他们提供WIKI的平台以存放插件说明信息。",
+	"Keywords": "Minecraft plugin wikipedia",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://mineplugin.org"
+}
