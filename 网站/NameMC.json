@@ -1,0 +1,10 @@
+{
+    "__Author__": "WIFIGUN",
+	"Title": "NameMC",
+	"Description": "Minecraft用戶名/外觀和伺服器查詢",
+    "Keywords": [ "skins", "Names", "Servers", "Capes" ],
+	"Types": ["参考工具"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://zh-tw.namemc.com"
+}
