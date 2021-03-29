@@ -1,0 +1,10 @@
+{
+    "__Author__": "WIFIGUN",
+	"Title": "Minecraft-Heads",
+	"Description": "這是世界上裝飾 Minecraft頭顱 最大的網站，可用于装饰您的世界！",
+	"Keywords": "Custom Heads",
+	"Types": ["頭顱收集网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://minecraft-heads.com"
+}

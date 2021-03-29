@@ -1,0 +1,10 @@
+{
+    "__Author__": "WIFIGUN",
+	"Title": "FreshCoal Heads",
+	"Description": "由FreshCoal團隊維護的 Minecraft頭顱 數據庫,用來裝飾您的Minecraft世界!",
+	"Keywords": "Custom Heads",
+	"Types": ["頭顱收集网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://freshcoal.com"
+}
