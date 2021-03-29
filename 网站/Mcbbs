@@ -1,0 +1,10 @@
+{
+    "__Author__": "Executif_s",
+	"Title": "Minecraft Forum",
+	"Description": "Minecraft(我的世界)中文论坛",
+	"Keywords": "Minecraft(我的世界)中文论坛",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.mcbbs.net/"
+}
