@@ -1,0 +1,10 @@
+{
+    "__Author__": "Executif_s",
+	"Title": "PCL2 offical website",
+	"Description": "PCL2官网",
+	"Keywords": "PCL官网",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://pcl2.org/"
+}
