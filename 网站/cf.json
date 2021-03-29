@@ -1,0 +1,10 @@
+{
+    "__Author__": "Executif_s",
+	"Title": "CurseForge",
+	"Description": "我的世界世界级MOD下载站",
+	"Keywords": "MOD下载。",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.curseforge.com/"
+}
