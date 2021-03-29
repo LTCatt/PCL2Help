@@ -1,0 +1,10 @@
+{
+    "__Author__": "龙腾猫跃",
+	"Title": "Minecraft Tools",
+	"Description": "包含游戏过程中复杂合成项目及指令生成的生成/查询工具站",
+	"Keywords": "我的世界合成查询",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://minecraft.tools/"
+}
