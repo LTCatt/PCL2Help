@@ -15,7 +15,7 @@
 <local:MyCard Title="从 GitHub 获取帮助库" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="你需要将 GitHub 中的存储库克隆到 PCL\Help 文件夹。&#xa;本文内容将以安装了中文语言包的 Visual Studio Code，Github Desktop与Github网页端中的操作为例。当然，你也可以使用其他软件，只是操作可能略有不同。" />
+                   Text="你需要将 GitHub 中的存储库克隆到 PCL\Help 文件夹。&#xa;本文内容将以安装了中文语言包的 Visual Studio Code与Github Desktop中的操作为例。当然，你也可以使用其他软件，只是操作可能略有不同。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                             Text="GitHub 存储库" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help" />
