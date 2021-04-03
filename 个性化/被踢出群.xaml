@@ -1,0 +1,8 @@
+<local:MyCard Title="概述" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="1.你可能违反了群规，那你就进不来了" />
+                   <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="2.你可能在一段很长的时间内，一个字都没有说过（也许你只是来下载个PCL的最新版的，那你可以在资源群 群号:[数据删除] 待着，资源群群号龙猫应该私聊给你了，如果想回来聊天直接私聊龙猫和发加群申请即可，爱发电应该有给你群号），被飞了的话可以直接加回来。" />
+    </StackPanel>
+</local:MyCard>
