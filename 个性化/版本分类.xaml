@@ -1,0 +1,11 @@
+<local:MyHint Margin="0,0,0,15" IsWarn="False" Text="你可以将 Beta 版本发给你想白嫖的朋友什么的，不过在群里的各位赞助者请依然使用最新的 Alpha 版本，别用 Beta……       —— lm" />
+
+<local:MyCard Title="概述" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="Beta是公测版，主要给整合包/服务器作者打包整合端用的，亦或是给一些没有内测资格却想白嫖的玩家用的，你可以把Beta随意分发给他们，随意使用，但是内测版是不能外分发的，功能更多，比Beta版本更新，如果你已经拥有内测资格，请选择上使用内测版Alpha/Snapshot" />
+                   <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="Tip：如果赞助23.33以下只可以使能用Alpha版本，赞助23.33及以上可以用Snapshot版本，Snapshot版本为最新快照版" />
+                   <Image Height="100" HorizontalAlignment="Center" Source="https://pcl2-help.gitee.io/wp-content/uploads/2020/08/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2020-08-05-213114.png" />
+    </StackPanel>
+</local:MyCard>
