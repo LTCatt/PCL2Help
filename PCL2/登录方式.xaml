@@ -1,0 +1,22 @@
+<local:MyCard Title="简介" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="PCL2启动器 支持多种登录方式，其中支持为特定版本使用特定登录方式，是对服务器整合端很友善的一个功能。支持有 离线登录、正版登录、统一通行证 和 Authlib-Injector 的登录方式，本帮助页面将提供为特定版本切换登录方式的教程。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="PCL2启动器 支持为每一个游戏版本单独设置登录方式，如果你是服务器服主，需要为特定游戏版本设置特定第三方登录方式，首先你需要切换到特定游戏版本版本后继续操作。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="点击下方“版本设置”" />
+        <Image HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/948abccedaeef79b462bb81b4717925bad764b30.png@1320w_802h.webp" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="&#xa;&#xa;再点击左侧“设置”按钮" />
+        <Image HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/781ba2ee3111cd89325ea8282ca04863272816bb.png@1320w_802h.webp" />        
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="&#xa;&#xa;再滑动至下方“服务器选项”，点击登录方式，选择登录方式即可切换" />
+        <Image HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/c294bade36924bfb3fb77cd4a3b8eea30c18cd18.png@1320w_838h.webp" />    
+    </StackPanel>
+</local:MyCard>
