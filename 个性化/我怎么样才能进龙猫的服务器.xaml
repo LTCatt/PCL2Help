@@ -1,0 +1,16 @@
+<local:MyHint Margin="0,0,0,15"  Text="需要正版MC" />
+
+<local:MyCard Title="概述" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="搜索qq2677390946，名为 罗伯特兔兔 然后输入 白名 你的游戏id （请不要玩机器)（只需要发起临时会话即可，机器人无法加好友）" />
+        <Image Height="200" HorizontalAlignment="Center" Source="https://pcl2-help.gitee.io/wp-content/uploads/2020/07/1.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="PS:本次为1.16.1纯净端即可，可以添加辅助优化mod，但是不能添加作弊mod！无需加载服务器资源包，忽略即可" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="服务器IP：s4.e7mc.com:12385" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="小游戏机制：假设对局已经开启，新加入的人会默认旁观者模式，服务器上限15人，一次随机挑选8位开局游戏，剩下的旁观者模式，积攒了一定金锭可换启动器(PCL2)内的活跃橙皮肤，兑换后可私聊龙猫。(通过qq私聊）" />
+                   
+    </StackPanel>
+</local:MyCard>

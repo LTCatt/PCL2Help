@@ -1,0 +1,8 @@
+<local:MyCard Title="概述" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="请导出崩溃日志，发在群里等待群友为您解答，或前往https://www.mcbbs.net/forum.php 选择特定的版块进行答疑，勿私聊龙猫。" />
+                   <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="（注：一般情况下极少数可能启动器影响游戏的启动，如果游戏启动完成后正常游玩崩溃了，那真的是极其极端的情况下PCL会影响游戏，一般不可能）（请发.zip 或者 .txt ,切记不要直接复制全部发出来，那是刷屏，也不要拍照或者截图）（也请不要出现一些小看为您解答的人，因为他不懂是他不懂，他看不出是他看不出，他没有义务给你看你的崩溃日志，从本质上来说，你发出了日志，他下载了你的日志就已经是在尊重你了，也请你尊重他）" />
+    </StackPanel>
+</local:MyCard>
