@@ -1,0 +1,41 @@
+
+<!-- 作者：Misaka-L, 龙腾猫跃 -->
+
+<StackPanel.Resources>
+    <Style TargetType="TextBlock">
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="Margin" Value="0,0,0,4"/>
+        <Setter Property="LineHeight" Value="17"/>
+    </Style>
+    <Style TargetType="local:MyCard">
+        <Setter Property="Margin" Value="0,0,0,15"/>
+    </Style>
+    <Style TargetType="Image">
+        <Setter Property="RenderOptions.BitmapScalingMode" Value="HighQuality"/>
+    </Style>
+</StackPanel.Resources>
+
+<local:MyCard Title="下载游戏的时候卡住了">
+    <StackPanel Margin="25,40,23,15">
+	    <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Download_Game_Stopped/Download_Game_Stopped.png"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="下载纯净版 / Forge / Frabic / Optfine 游戏">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Text="- 检查您的互联网连接是否正常"/>
+        <TextBlock Text="- 在 设置 > 启动器 > 下载 > 版本列表获取 选择 尽量使用镜像源"/>
+        <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Download_Game_Stopped/Switch_Source.png"/>
+        <TextBlock Margin="0,10,0,4" Text="- 如果依然不行请等待十分钟后重试，还不行请问其他人有没有同样情况 (确认是不是镜像出问题了)"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="下载 CurseForge Mods / 整合包">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Text="- 检查您的互联网连接是否正常"/>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="- 开"/>
+            <local:MyTextButton Text="木棍" EventType="打开帮助" EventData="木棍.json"/>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>

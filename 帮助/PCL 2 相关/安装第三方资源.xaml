@@ -1,0 +1,46 @@
+<!-- 作者：Misaka-L, 龙腾猫跃 -->
+
+<StackPanel.Resources>
+    <Style TargetType="TextBlock">
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="Margin" Value="0,10"/>
+        <Setter Property="LineHeight" Value="17"/>
+    </Style>
+    <Style TargetType="local:MyCard">
+        <Setter Property="Margin" Value="0,0,0,15"/>
+    </Style>
+    <Style TargetType="Image">
+        <Setter Property="RenderOptions.BitmapScalingMode" Value="HighQuality"/>
+    </Style>
+</StackPanel.Resources>
+
+<local:MyHint IsWarn="True" Margin="0,0,0,7" Text="资源包 (材质包) / 光影 / Mods 在安装后需要手动启用"/>
+
+<local:MyCard Title="如何安装地图 / 材质包 / 光影 / Mods">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Text="1. 打开版本选择页面" Margin="0,0,0,10"/>
+        <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Install_Resource/Home.png"/>
+        <TextBlock Text="2. 右键已选择文件夹，然后点击 打开" Margin="0,10"/>
+        <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Install_Resource/VersionSelect.png"/>
+        <TextBlock Text="3. 在打开的窗口中，找到指定的文件夹并放入 地图 / Mods / 材质包 / 光影"/>
+        <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Install_Resource/Minecraft_Dir.png"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="启用 Mods">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint IsWarn="True" Margin="0,0,0,7" Text="需要先安装你所安装的 Mods 要求的 Mods Api (Forge, Forge, Frabic, LiteLoader)"/>
+        <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Install_Resource/Mod_Api_Require.png"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="启用资源包 (材质包)">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Text="1. 启动游戏，并点击 选项"/>
+        <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Install_Resource/Game_MainMenu.png"/>
+        <TextBlock Text="2. 点击 资源包..."/>
+        <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Install_Resource/Game_Settings.jpg"/>
+        <TextBlock Text="3. 点击要添加的资源包 (材质包) 的图标，然后点击 完成"/>
+        <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Install_Resource/Game_Resource.png"/>
+    </StackPanel>
+</local:MyCard>
