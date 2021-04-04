@@ -1,0 +1,15 @@
+
+<!-- 作者：Misaka-L, 龙腾猫跃 -->
+
+<local:MyCard Title="杀毒软件报毒" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="从正常渠道下载到的 PCL 2 是没有病毒的，由于 PCL 2 使用钩子来修改 Minecraft 窗口标题，所以被识别为病毒。" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="沙箱报毒" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="由于部分沙箱并没有安装 .NET 运行环境，导致 PCL 2 使用 IE 打开了 .NET 运行环境的下载页面。而 IE 更新了系统驱动。所以 PCL 2 就被认成了病毒" />
+    </StackPanel>
+</local:MyCard>

@@ -1,0 +1,13 @@
+
+<!-- 作者：Misaka-L, 龙腾猫跃 -->
+
+<local:MyCard Title="我可以在群里 / 公开地方发我的识别码吗" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="当然可以，识别码目前只有两个用途。并且只能在您的计算机有有效。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="- 获取更新 Key"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="- 获取解锁码"/>
+    </StackPanel>
+</local:MyCard>

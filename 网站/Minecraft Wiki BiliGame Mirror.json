@@ -1,0 +1,11 @@
+{
+    "__Author__": "Misaka-L",
+	"Title": "Minecraft Wiki BiliGame 镜像",
+	"Logo": "https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Wiki[1].png",
+	"Description": "Minecraft Wiki 的中国大陆镜像站",
+	"Keywords": "我的世界wikipedia",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://wiki.biligame.com/mc/Minecraft_Wiki"
+}

@@ -1,0 +1,45 @@
+
+<!-- 作者：Misaka-L, 龙腾猫跃 -->
+
+<local:MyCard Title="怎么关掉窗口？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="按住键盘上的 Alt 键，再按下键盘上的 F4 键。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="有多少种形态？" Margin="0,0,0,15">
+    <Grid Margin="25,40,23,30">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Resources>
+            <Style TargetType="Image">
+                <Setter Property="Height" Value="120"/>
+                <Setter Property="Width" Value="230"/>
+                <Setter Property="Stretch" Value="UniformToFill"/>
+            </Style>
+            <Style TargetType="TextBlock">
+                <Setter Property="TextWrapping" Value="Wrap"/>
+                <Setter Property="Margin" Value="0,0,0,10"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="LineHeight" Value="17" />
+            </Style>
+        </Grid.Resources>
+        <StackPanel>
+            <TextBlock Text="缩小" />
+            <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Dot't Click Me/Min.png" />
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="5 0">
+            <TextBlock Text="镜像" />
+            <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Dot't Click Me/wtf.png" />
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <TextBlock Text="大风车 (一直旋转)" />
+            <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Dot't Click Me/Big Fan.png" />
+        </StackPanel>
+    </Grid>
+</local:MyCard>
