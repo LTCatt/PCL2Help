@@ -1,0 +1,8 @@
+{
+    "__Author__": "tang_ge",
+	"Title": "备份PCL的设置",
+	"Description": "备份PCL存储在程序所在目录和注册表中的设置的帮助",
+    "ShowInSearch": true,
+    "ShowInPublic": true,
+	"Types": ["常用帮助"]
+}
