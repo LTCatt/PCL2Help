@@ -2,7 +2,7 @@
     "__Author__": "重生就是希望",
 	"Title": "MC百科",
 	"Description": "最大的Minecraft中文百科",
-	"Keywords": "mod",
+	"Keywords": "mod百科",
 	"Types": ["常用网站"],
 	"IsEvent": true,
 	"EventType": "打开网页",
