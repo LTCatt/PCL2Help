@@ -6,5 +6,5 @@
 	"Types": ["常用网站"],
 	"IsEvent": true,
 	"EventType": "打开网页",
-	"EventData": "https://minecraft-zh.gamepedia.com/Minecraft_Wiki"
+	"EventData": "https://minecraft.fandom.com/zh/"
 }
