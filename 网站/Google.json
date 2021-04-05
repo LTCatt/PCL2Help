@@ -1,0 +1,11 @@
+{
+    "__Author__": "Misaka-L",
+	"Title": "Google",
+	"Logo": "D:\\随便放\\不同步-存档\\Files\\PCL_Help\\WebSite\\Google.png",
+	"Description": "你知道的太多了，可以解决 99.999999% 的问题",
+	"Keywords": "解决问题怎么办错误故障搜索引擎",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.google.com"
+}

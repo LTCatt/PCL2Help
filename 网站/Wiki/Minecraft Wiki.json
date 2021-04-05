@@ -1,10 +1,10 @@
 {
     "__Author__": "龙腾猫跃",
 	"Title": "Minecraft Wiki",
-	"Logo": "https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Wiki[1].png",
+	"Logo": "https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/PCL_Help/WebSite/Minecraft_Wiki.png",
 	"Description": "包含游戏过程中所需大多数知识的中文百科站",
 	"Keywords": "我的世界wikipedia",
-	"Types": ["常用网站"],
+	"Types": ["百科 Wiki", "常用网站"],
 	"IsEvent": true,
 	"EventType": "打开网页",
 	"EventData": "https://minecraft-zh.gamepedia.com/Minecraft_Wiki"

@@ -40,15 +40,15 @@
         </Grid.Resources>
         <StackPanel>
             <TextBlock Text="缩小" />
-            <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Dot't Click Me/Min.png" />
+            <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/PCL_Help/Dot't Click Me/Min.png" />
         </StackPanel>
         <StackPanel Grid.Column="1" Margin="5 0">
             <TextBlock Text="镜像" />
-            <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Dot't Click Me/wtf.png" />
+            <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/PCL_Help/Dot't Click Me/wtf.png" />
         </StackPanel>
         <StackPanel Grid.Column="2">
             <TextBlock Text="大风车 (一直旋转)" />
-            <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/Dot't Click Me/Big Fan.png" />
+            <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/PCL_Help/Dot't Click Me/Big Fan.png" />
         </StackPanel>
     </Grid>
 </local:MyCard>
