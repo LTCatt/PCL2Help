@@ -1,0 +1,10 @@
+{
+    "Title": "哔哩哔哩",
+    "Description": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+    "Logo": "https://www.bilibili.com/favicon.ico",
+    "Keywords": "B站",
+    "Types": ["常用网站"],
+    "IsEvent": true,
+    "EventType": "打开网页",
+    "EventData": "https://www.bilibili.com/"
+}
