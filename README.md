@@ -1,8 +1,8 @@
 
 
-<a style="algin:center;"><img src="https://z3.ax1x.com/2021/04/05/cMgvw9.jpg" alt="cMgvw9.jpg" border="0" /></a>
+<div align="center"><img src="https://z3.ax1x.com/2021/04/05/cMgvw9.jpg" alt="PCL2 内置帮助库"/></div>
 
-<div style="align:center;"><img src="https://img.shields.io/github/stars/LTCatt/PCL2Help">&nbsp; <img src="https://img.shields.io/github/forks/LTCatt/PCL2Help?color=%23f8e71c">&nbsp;<img src="https://img.shields.io/github/issues/LTCatt/PCL2Help?color=%237ed321"></div>
+<div align="center"><img src="https://img.shields.io/github/stars/LTCatt/PCL2Help">&nbsp; <img src="https://img.shields.io/github/forks/LTCatt/PCL2Help?color=%23f8e71c">&nbsp;<img src="https://img.shields.io/github/issues/LTCatt/PCL2Help?color=%237ed321"></div>
 
 ## 💎简介
 
@@ -19,7 +19,7 @@
 - 完善的整合包及服务器客户端 专用启动器制作指南
 - 等
 
-当然，帮助库建立初期，内容较为空缺，非常需要你的参与编写！
+当然，帮助库建立初期，内容较为空缺，非常需要你的参与！
 
 ## 🎨我如何参与编写？
 
