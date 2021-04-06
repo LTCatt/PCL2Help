@@ -9,7 +9,7 @@
         <TextBlock TextWrapping="Wrap" Margin="20,5,20,0" FontSize="15" HorizontalAlignment="Center" Foreground="#EC4141"
                    Text="此篇帮助建议对照本文件代码查看，点击下方按钮打开代码" />
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
-                   Text="打开本篇的代码" EventType="打开文件" EventData="Help\个性化\XAML 格式.xaml" ToolTip="PCL2 的日志文件就在 PCL 文件夹内，且名为 Log1.txt" />
+                   Text="打开本篇的代码" EventType="打开文件" EventData="Help\个性化\XAML 格式.xaml" ToolTip="打开本篇的代码" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="基础教学 1：纯文本" Margin="0,0,0,15">
