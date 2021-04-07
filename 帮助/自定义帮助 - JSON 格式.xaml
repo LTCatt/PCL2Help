@@ -1,5 +1,5 @@
 ﻿
-<!-- 作者：龙腾猫跃 -->
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：龙腾猫跃" IsWarn="False" />
 
 <local:MyCard Title="概述" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -41,7 +41,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="0" Grid.Column="2" Text="String" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="0" Grid.Column="3" Text="帮助条目的标题，以及第一类中点击进入后的子页面左上角的标题。" />
+				   Grid.Row="0" Grid.Column="3" Text="帮助条目的标题，以及第一类中点击进入后的子页面左上角的标题。&#xa;对 PCL2 内置帮助库，它应该为对问题非常简短的概括。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="1" Grid.Column="0" Text="Description" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
@@ -49,7 +49,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="1" Grid.Column="2" Text="String" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="1" Grid.Column="3" Text="帮助条目标题下方的描述。" />
+				   Grid.Row="1" Grid.Column="3" Text="帮助条目标题下方的描述。&#xa;对 PCL2 内置帮助库，它应该为对问题的进一步的详细描述。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="2" Grid.Column="0" Text="Logo" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
@@ -57,7 +57,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="2" Grid.Column="2" Text="String" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="2" Grid.Column="3" Text="帮助条目的图标。第一类默认为草方块，第二类默认为命令方块。&#xa;支持填写图片网址或本地文件地址。" />
+				   Grid.Row="2" Grid.Column="3" Text="帮助条目的图标，第一类默认为草方块，第二类默认为命令方块。支持填写图片网址或本地文件地址。&#xa;对 PCL2 内置帮助库，应当不包含此项，全部使用默认图标。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="3" Grid.Column="0" Text="ShowInSearch" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
@@ -73,7 +73,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="4" Grid.Column="2" Text="String" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="4" Grid.Column="3" Text="额外的搜索关键字。在搜索帮助时，输入这些关键字也同样能够搜索到该条目。" />
+				   Grid.Row="4" Grid.Column="3" Text="额外的搜索关键字。在搜索帮助时，输入它们也能够搜索到该条目。&#xa;对 PCL2 内置帮助库，它应只包含未出现在 Title 与 Description 中的关键字。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="5" Grid.Column="0" Text="Types" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
@@ -89,7 +89,7 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="6" Grid.Column="2" Text="Boolean" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="6" Grid.Column="3" Text="若为 true (默认)，该条目会在 PCL2 内测版与公开版中均显示。&#xa;若为 false，该条目就仅在 PCL2 内测版中可见，在公开版中隐藏。&#xa;如果条目内容涉及内测（例如群服务器、隐藏主题等），则应该设置为 false。" />
+				   Grid.Row="6" Grid.Column="3" Text="若为 true (默认)，该条目会在 PCL2 内测版与公开版中均显示。&#xa;若为 false，该条目就仅在 PCL2 内测版中可见，在公开版中隐藏。&#xa;对 PCL2 内置帮助库，如果内容涉及内测（例如群服务器、隐藏主题等），则应设置为 false。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="7" Grid.Column="0" Text="IsEvent" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
@@ -123,9 +123,9 @@
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
 		<Grid Margin="7,6,0,0">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-					   Text='{}{&#xa;    "Title": "自定义帮助页面",&#xa;    "Description": "添加自己的帮助页面，或是隐藏 PCL2 内置的帮助页面",&#xa;    "Keywords": "PCL2个性化修改自定义xaml",&#xa;    "Types": ["个性化"]&#xa;}' />
+					   Text='{}{&#xa;	"__Author__": "龙腾猫跃",&#xa;	"Title": "自定义帮助页面",&#xa;	"Description": "添加自己的帮助页面，或是隐藏 PCL2 内置的帮助页面",&#xa;	"Keywords": "PCL2个性化修改自定义xaml",&#xa;	"Types": ["个性化"]&#xa;}' />
 			<local:MyButton Width="80" Height="35" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="13,0,13,0" Margin="0,0,0,8"
-					   Text="复制" EventType="复制文本" EventData='{}{&#xa;    "Title": "自定义帮助页面",&#xa;    "Description": "添加自己的帮助页面，或是隐藏 PCL2 内置的帮助页面",&#xa;    "Keywords": "PCL2个性化修改自定义xaml",&#xa;    "Types": ["个性化"]&#xa;}' />
+					   Text="复制" EventType="复制文本" EventData='{}{&#xa;	"__Author__": "龙腾猫跃",&#xa;	"Title": "自定义帮助页面",&#xa;	"Description": "添加自己的帮助页面，或是隐藏 PCL2 内置的帮助页面",&#xa;	"Keywords": "PCL2个性化修改自定义xaml",&#xa;	"Types": ["个性化"]&#xa;}' />
 		</Grid>
     </StackPanel>
 </local:MyCard>
@@ -136,9 +136,9 @@
 		                  EventType="打开帮助" EventData="网站/Minecraft Wiki.json" />
 		<Grid Margin="7,6,0,0">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-					   Text='{}{&#xa;    "Title": "Minecraft Wiki",&#xa;    "Description": "包含游戏过程中所需大多数知识的中文百科站",&#xa;    "Keywords": "我的世界wikipedia",&#xa;    "Types": ["常用网站"],&#xa;    "IsEvent": true,&#xa;    "EventType": "打开网页",&#xa;    "EventData": "https://minecraft-zh.gamepedia.com/Minecraft_Wiki"&#xa;}' />
+					   Text='{}{&#xa;	"__Author__": "NotKiller233、龙腾猫跃",&#xa;	"Title": "Minecraft Wiki",&#xa;	"Description": "包含原版游戏过程中所需大多数知识的中文百科",&#xa;	"Keywords": "我的世界wikipedia",&#xa;	"Types": ["网站"],&#xa;	"IsEvent": true,&#xa;	"EventType": "打开网页",&#xa;	"EventData": "https://minecraft.fandom.com/zh/"&#xa;}' />
 			<local:MyButton Width="80" Height="35" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="13,0,13,0" Margin="0,0,0,8"
-					   Text="复制" EventType="复制文本" EventData='{}{&#xa;    "Title": "Minecraft Wiki",&#xa;    "Description": "包含游戏过程中所需大多数知识的中文百科站",&#xa;    "Keywords": "我的世界wikipedia",&#xa;    "Types": ["常用网站"],&#xa;    "IsEvent": true,&#xa;    "EventType": "打开网页",&#xa;    "EventData": "https://minecraft-zh.gamepedia.com/Minecraft_Wiki"&#xa;}' />
+					   Text="复制" EventType="复制文本" EventData='{}{&#xa;	"__Author__": "NotKiller233、龙腾猫跃",&#xa;	"Title": "Minecraft Wiki",&#xa;	"Description": "包含原版游戏过程中所需大多数知识的中文百科",&#xa;	"Keywords": "我的世界wikipedia",&#xa;	"Types": ["网站"],&#xa;	"IsEvent": true,&#xa;	"EventType": "打开网页",&#xa;	"EventData": "https://minecraft.fandom.com/zh/"&#xa;}' />
 		</Grid>
     </StackPanel>
 </local:MyCard>
