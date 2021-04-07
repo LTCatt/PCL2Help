@@ -1,0 +1,28 @@
+<local:MyCard Title="备份存储在注册表中的设置" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,7,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                   Text="说明：" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="PCL会将一些个人的设置（如游戏ID、游戏更新提示、隐藏主题等）存储在注册表中，在重装系统前有必要先备份其中的内容。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,20,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                   Text="具体步骤：" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="1、按下Win + R，在弹出的对话框（也就是运行）中输入“regedit”并回车。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="2、在弹出的窗口（注册表管理器）上方的导航栏中输入“计算机\HKEY_CURRENT_USER\SOFTWARE\PCL”并回车，界面跳转到PCL在注册表中所存储的设置。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="3、在左侧的导航栏中找到“PCL”，右键选择“导出”，并保存到一个合适的位置。"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="备份存储在程序目录的设置" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,7,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                   Text="说明：" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="PCL会在这些设置中存储一些个性化信息（如当前设置的主题、程序标题、音乐、背景图片等），通常不包含使用者的信息。制作服务器整合包时会用到。一般来说，只要该文件不在C盘，重装系统不会丢失。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,20,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                   Text="具体步骤：" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="1、打开PCL主程序所在的目录将其所在文件夹下的“PCL”文件夹复制到合适位置即可。"/>
+    </StackPanel>
+</local:MyCard>

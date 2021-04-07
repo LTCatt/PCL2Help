@@ -1,0 +1,10 @@
+{
+    "__Author__": "重生就是希望",
+	"Title": "MC MOD百科",
+	"Description": "最大的Minecraft MOD中文百科",
+	"Keywords": "MOD百科",
+	"Types": ["常用网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.mcmod.cn/"
+}
