@@ -2,6 +2,5 @@
     "__Author__": "XiaoFans",
 	"Title": "登录方式",
 	"Description": "为特定版本选择特定登录方式",
-    "Keywords": "登录",
     "Types": ["个性化"]
 }
