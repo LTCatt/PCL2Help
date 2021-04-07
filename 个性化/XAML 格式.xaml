@@ -1,7 +1,7 @@
 ﻿
-<!-- 作者：龙腾猫跃 -->
-
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面尚未完成，其内容可能会在之后变更或进行补充。" />
+<!-- <local:MyHint Margin="0,0,0,15" Text="帮助作者：龙腾猫跃" IsWarn="False" /> -->
+<!-- <local:MyHint Margin="0,0,0,15" Text="该帮助页面尚未完成。如果你感兴趣也可以来帮帮忙！" /> -->
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面尚未完成，但已有一个与此相关的 Pull Request。在更改完成前，无需进一步编辑该页面。" IsWarn="False" />
 
 <local:MyCard Title="概述" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
