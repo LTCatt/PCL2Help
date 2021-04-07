@@ -1,4 +1,4 @@
-﻿<!-- 
+<!-- 
     如果你成功看到本段文字，代表你已经打开本篇的代码了 
     建议配合Ctrl + F 快速查找某项，例如：需要改变文本颜色，则搜索“颜色”准确
     定位查找。
@@ -22,7 +22,6 @@
                    Text="它还有许多可以调整的属性：Margin 调整边距，FontSize 调整字号，TextWrapping 则是启用自动换行。" />
     </StackPanel>
 </local:MyCard>
-
 <local:MyCard Title="基础教学 2：卡片属性、提示条" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="local:MyHint 代表提示条，它默认是警告样式。" />
@@ -32,7 +31,6 @@
                    Text="卡片（local:MyCard）的 Title 属性决定了它的标题。&#xA;为卡片添加 CanSwap 属性让它可以被折叠，True 代表是，False 代表否。在此基础上，再使用 IsSwaped 属性调整它是否默认被折叠。" />
    </StackPanel>
 </local:MyCard>
-
 <local:MyCard Title="基础教学 3：长宽属性、图片" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
@@ -42,7 +40,6 @@
         <Image Height="50" HorizontalAlignment="Center" Source="https://www.mcbbs.net/template/mcbbs/image/logo_sc.png" />
     </StackPanel>
 </local:MyCard>
-
 <local:MyCard Title="按钮教学 1：基础" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -53,7 +50,6 @@
                    Text="打开 MCBBS" EventType="打开网页" EventData="https://www.mcbbs.net/" />
     </StackPanel>
 </local:MyCard>
-
 <local:MyCard Title="按钮教学 2：属性" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap"
@@ -66,7 +62,6 @@
                    Text="点击打开知乎" EventType="打开网页" EventData="https://www.zhihu.com/" />
     </StackPanel>
 </local:MyCard>
-
 <local:MyCard Title="按钮教学 3：启动游戏" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
       <TextBlock TextWrapping="Wrap"
@@ -79,7 +74,6 @@
                  Text="使用 1.12.2 进入 Hypixel" EventType="启动游戏" EventData="1.12.2|mc.hypixel.net" ToolTip="服务器 IP：mc.hypixel.net" />
     </StackPanel>
 </local:MyCard>
-
 <local:MyCard Title="按钮教学 4：打开文件" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap"
@@ -98,7 +92,6 @@
                    Text="定位游戏启动脚本" EventType="打开文件" EventData="explorer.exe|/select,LatestLaunch.bat" ToolTip="PCL2 会将上一次启动 MC 的脚本保存在 PCL 文件夹内，且名为 LatestLaunch.bat。&#xA;点击按钮会打开文件管理器，并且借助参数要求它选中这个文件。" />
     </StackPanel>
 </local:MyCard>
-
 <local:MyCard Title="按钮教学 5：其他命令" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -111,7 +104,6 @@
                    Text="下载 MCBBS 的 Logo" EventType="下载文件" EventData="https://www.mcbbs.net/template/mcbbs/image/logo_sc.png" />
     </StackPanel>
 </local:MyCard>
-
 <local:MyCard Title="复杂布局" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
@@ -143,8 +135,6 @@
       
     </StackPanel>
 </local:MyCard>
-
-
 
 <!-- 
 
