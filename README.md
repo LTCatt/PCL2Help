@@ -23,61 +23,7 @@
 
 ## 🎨我如何参与编写？
 
-首先你需要Star本项目再Fork本仓库，并安装[Git](https://git-scm.com/downloads)，当然有很多方法，例如：vscode的git插件、github桌面版等，你的所有编写将在你Fork的仓库中进行修改，再与本仓库提交合并，接下来将提供简单的过程如果想了解更多方法，请前往PCL2帮助库中的“参与完善PCL2帮助库”条目中了解更多。
-
-1.打开PCL2启动器的文件夹，并进入PCL文件夹内，创建名称为：<code>Help</code>的文件夹
-
-2.进入文件夹，右键鼠标，单击<code>Git Bash Here</code>
-
-3.在启动的Git窗口中，逐行输入
-
-①目的是生成公钥和私钥，与你的Github账号建立连接
-
-```
-ssh-keygen -t rsa -C "此处填写邮箱" 
-```
-
-建立过程中需要确认，请一直按回车
-
-②再使用记事本打开
-
-```
-C:\User\你目前登录的电脑账户\.ssh\id_rsa.pub
-```
-
-③进入网页版Github的设置中，打开<code>ssh and GPG keys</code>项，点击<code>NEW ssh key</code>，标题任意，内容粘贴打开文件的内容
-
-④设置用户信息（填写和上述操作一致的邮箱）
-
-```git
-git config --global user.name "此处填写名称"
-git config --global user.email "此处填写邮箱"
-```
-
-⑤初始化仓库及建立连接
-
-```
-git init.
-git remote add origin 此处为仓库SSH（以.git结尾的链接）
-```
-
-⑥克隆仓库到本地
-
-```
-git pull --rebase origin master
-```
-
-⑦开始在克隆的仓库中编写，编写完成后推送编写的文件到远程仓库
-
-```
-git add .
-git commit -m "此处填写修改记录"
-git push -u origin master
-```
-
-⑧再提交合并信息即可
-
-以上为简单的过程，如果看不懂，建议百度：使用Git本地项目远程上传到Github
+请前往PCL2帮助库 “参与完善PCL2帮助库”条目中查看详细的过程，其中提供：Git、Vscode、GitHub Desktop等的详细过程。
 
 
 
@@ -87,6 +33,6 @@ git push -u origin master
 
 ## 📣更多~
 
-欢迎━(*｀∀´*)ノ亻!访问 龙腾猫跃 的爱发电主页，为你喜欢的PCL2启动器作者赞助吧~ 
+欢迎━(*｀∀´*)ノ亻!访问 龙腾猫跃 的爱发电主页，为你喜欢的PCL2启动器作者赞助吧~ [点此访问](https://afdian.net/@LTCat)
 
-[点此访问](https://afdian.net/@LTCat)
+README.md by XiaoFans
