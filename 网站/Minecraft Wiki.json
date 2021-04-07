@@ -1,9 +1,9 @@
 {
-    "__Author__": "龙腾猫跃",
+    "__Author__": "NotKiller233、龙腾猫跃",
 	"Title": "Minecraft Wiki",
-	"Description": "包含游戏过程中所需大多数知识的中文百科站",
+	"Description": "包含原版游戏过程中所需大多数知识的中文百科",
 	"Keywords": "我的世界wikipedia",
-	"Types": ["常用网站"],
+	"Types": ["网站"],
 	"IsEvent": true,
 	"EventType": "打开网页",
 	"EventData": "https://minecraft.fandom.com/zh/"
