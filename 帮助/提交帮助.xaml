@@ -33,9 +33,42 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="规范" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="1. 使用官方视角，而不是第三方视角。" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ×  要修改龙猫的帮助，在提交 Pull Request 后需要等待龙猫审核" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                   Text="    √  要修改 PCL2 的内置帮助，在提交 Pull Request 后需要等待审核" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="2. 使用书面化的正式语言，避免出现口语化的表达。" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ×  内测版与公开版有啥区别，我该用哪个？" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                   Text="    √  内测版与公开版有什么区别，我应当如何选择？" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="3. 注意大小写。在中文与非中文的连接处添加一个空格。描述本启动器时统一使用 “PCL2”。" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ×  进入pcl的设置页，如果没有安装64位java，最多就只能分配1G内存" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                   Text="    √  进入 PCL2 的设置页，如果没有安装 64 位 Java，最多就只能分配 1G 内存" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="4. 添加的帮助应当对多数人有用；添加的网站需要是有帮助性质、有一定知名度的中文网站，而不仅是你自己常用的网站。" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ×  如何在 IC2 制作核电站；添加 Bilibili；添加 MC 命令生成器" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                   Text="    √  如何设置 MC 的皮肤；添加 Minecraft Wiki" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="5. 修改文件后，请在 JSON 与 XAML 文件的开头添加自己的名字。格式见已有的文件。" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="下一步计划" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="目前我们需要将 PCL2 帮助站中的常见内容搬运到帮助库中，以及补充 MC 中的常见问题（例如 Mod、光影安装等），你可以考虑添加这些帮助页面。" />
+                   Text="目前我们需要将 PCL2 帮助站中的常见内容搬运到帮助库中，以及补充 MC 游戏过程中的常见问题。你可以考虑添加这些帮助，或者继续修改目前已有的页面。" />
+        <local:MyButton MinWidth="180" Height="35" Padding="13,0" Margin="0,4,20,4" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="打开 PCL2 帮助站" EventType="打开网页" EventData="https://pcl2-help.gitee.io/" />
     </StackPanel>
 </local:MyCard>

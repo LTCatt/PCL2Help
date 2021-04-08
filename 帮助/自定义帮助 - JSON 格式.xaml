@@ -27,6 +27,7 @@
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="135" />
@@ -89,31 +90,39 @@
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="6" Grid.Column="2" Text="Boolean" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="6" Grid.Column="3" Text="若为 true (默认)，该条目会在 PCL2 内测版与公开版中均显示。&#xa;若为 false，该条目就仅在 PCL2 内测版中可见，在公开版中隐藏。&#xa;对 PCL2 内置帮助库，如果内容涉及内测（例如群服务器、隐藏主题等），则应设置为 false。" />
+				   Grid.Row="6" Grid.Column="3" Text="默认为 true。若改为 false，该条目会 PCL2 公开版中隐藏。&#xa;对 PCL2 内置帮助库，如果内容涉及内测（例如群服务器、隐藏主题等），则应设置为 false。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
-				   Grid.Row="7" Grid.Column="0" Text="IsEvent" />
+				   Grid.Row="7" Grid.Column="0" Text="ShowInAlpha" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="7" Grid.Column="1" Text="可选" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="7" Grid.Column="2" Text="Boolean" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="7" Grid.Column="3" Text="若为 true，在点击后会执行特定事件，而不打开页面，即第二类。&#xa;若为 false (默认)，在点击后会打开同名的 XAML 页面，即第一类。" />
+				   Grid.Row="7" Grid.Column="3" Text="默认为 true。若改为 false，该条目会 PCL2 内测版中隐藏。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
-				   Grid.Row="8" Grid.Column="0" Text="EventType" />
+				   Grid.Row="8" Grid.Column="0" Text="IsEvent" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="8" Grid.Column="1" Text="第一类不填&#xa;第二类必须" />
+				   Grid.Row="8" Grid.Column="1" Text="可选" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="8" Grid.Column="2" Text="String" />
+				   Grid.Row="8" Grid.Column="2" Text="Boolean" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="8" Grid.Column="3" Text="点击该条目时执行的事件类别。&#xa;详见自定义主页。" />
+				   Grid.Row="8" Grid.Column="3" Text="若为 true，在点击后会执行特定事件，而不打开页面，即第二类。&#xa;若为 false (默认)，在点击后会打开同名的 XAML 页面，即第一类。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
-				   Grid.Row="9" Grid.Column="0" Text="EventData" />
+				   Grid.Row="9" Grid.Column="0" Text="EventType" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="9" Grid.Column="1" Text="第一类不填&#xa;第二类可选" />
+				   Grid.Row="9" Grid.Column="1" Text="第一类不填&#xa;第二类必须" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="9" Grid.Column="2" Text="String" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="9" Grid.Column="3" Text="点击该条目时执行的事件的额外参数。&#xa;详见自定义主页。" />
+				   Grid.Row="9" Grid.Column="3" Text="点击该条目时执行的事件类别。&#xa;详见自定义主页。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
+				   Grid.Row="10" Grid.Column="0" Text="EventData" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
+				   Grid.Row="10" Grid.Column="1" Text="第一类不填&#xa;第二类可选" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
+				   Grid.Row="10" Grid.Column="2" Text="String" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,6" LineHeight="17"
+				   Grid.Row="10" Grid.Column="3" Text="点击该条目时执行的事件的额外参数。&#xa;详见自定义主页。" />
     </Grid>
 </local:MyCard>
 

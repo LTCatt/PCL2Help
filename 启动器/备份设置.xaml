@@ -5,7 +5,7 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                    Text="PCL2 会在 PCL 文件夹中存储部分个性化设置（例如音乐、背景图片、启动器样式、自定义主页等），不包含个人信息。&#xa;如果你正在制作整合包，且需要保留所设置的启动器个性化内容，你就需要在整合包中包含该文件夹。"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,15,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+        <TextBlock TextWrapping="Wrap" Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="具体步骤" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="打开 PCL2 主程序所在文件夹，将该文件夹下的 PCL 文件夹复制到合适位置即可。"/>
@@ -15,9 +15,11 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                    Text="PCL2 会在注册表中存储部分个人设置（例如隐藏主题、账号密码、Java 路径等），在重装系统前有必要先备份其中的内容。&#xa;需要注意的是，账号密码、隐藏主题等敏感信息只能在同一台电脑上进行备份、还原，无法在更换电脑的情况下进行迁移。"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,15,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+        <TextBlock TextWrapping="Wrap" Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="具体步骤" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="1. 右键开始菜单图标，选择 “运行”，在对话框中输入 regedit 并确认。&#xa;2. 在弹出的窗口左边栏打开 HKEY_CURRENT_USER\Software\PCL 文件夹。&#xa;3. 右键左边栏中的 PCL 文件夹，选择 “导出”。此后，双击导出的文件即可导入配置。"/>
+                   Text="1. 点击下方按钮打开注册表编辑器。&#xa;2. 在其左边栏打开 HKEY_CURRENT_USER\Software\PCL 文件夹。&#xa;3. 右键左边栏中的 PCL 文件夹，选择 “导出”。此后，双击导出的文件即可导入配置。"/>
+        <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="打开注册表编辑器" EventType="打开文件" EventData="regedit" />
     </StackPanel>
 </local:MyCard>
