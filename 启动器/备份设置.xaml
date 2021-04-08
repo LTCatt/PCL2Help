@@ -18,6 +18,8 @@
         <TextBlock TextWrapping="Wrap" Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="具体步骤" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="1. 右键开始菜单图标，选择 “运行”，在对话框中输入 regedit 并确认。&#xa;2. 在弹出的窗口左边栏打开 HKEY_CURRENT_USER\Software\PCL 文件夹。&#xa;3. 右键左边栏中的 PCL 文件夹，选择 “导出”。此后，双击导出的文件即可导入配置。"/>
+                   Text="1. 点击下方按钮打开注册表编辑器。&#xa;2. 在其左边栏打开 HKEY_CURRENT_USER\Software\PCL 文件夹。&#xa;3. 右键左边栏中的 PCL 文件夹，选择 “导出”。此后，双击导出的文件即可导入配置。"/>
+        <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="打开注册表编辑器" EventType="打开文件" EventData="regedit" />
     </StackPanel>
 </local:MyCard>
