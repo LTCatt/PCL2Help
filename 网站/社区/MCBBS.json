@@ -4,7 +4,7 @@
 	"Logo": "https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/PCL_Help/WebSite/MCBBS.png",
 	"Description": "最大的《Minecraft》玩家创造、研究、交流学习和分享的专业中文社交平台",
 	"Keywords": "我的世界论坛",
-	"Types": ["社区", "常用网站"],
+	"Types": ["网站"],
 	"IsEvent": true,
 	"EventType": "打开网页",
 	"EventData": "https://www.mcbbs.net/"

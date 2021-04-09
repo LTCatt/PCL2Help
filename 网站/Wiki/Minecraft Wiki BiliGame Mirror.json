@@ -4,7 +4,7 @@
 	"Logo": "https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/PCL_Help/WebSite/Minecraft_Wiki.png",
 	"Description": "Minecraft Wiki 的中国大陆镜像站",
 	"Keywords": "我的世界wikipedia",
-	"Types": ["百科 Wiki", "常用网站"],
+	"Types": ["网站"],
 	"IsEvent": true,
 	"EventType": "打开网页",
 	"EventData": "https://wiki.biligame.com/mc/Minecraft_Wiki"
