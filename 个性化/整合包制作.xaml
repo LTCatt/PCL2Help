@@ -1,0 +1,16 @@
+﻿
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：龙腾猫跃" IsWarn="False" />
+
+<local:MyCard Title="修改启动时 “你知道吗?” 的内容" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="在 PCL 文件夹下新建一个名为 hints.txt 的文件，然后每一行写入一条信息，即可修改启动时 “你知道吗?” 的内容。&#xa;PCL2 读取该文件时会忽略空行。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="修改主页右侧的内容（主页自定义）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="尚未完成。" />
+    </StackPanel>
+</local:MyCard>
