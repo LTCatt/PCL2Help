@@ -1,38 +1,31 @@
-
-
 <div align="center"><img src="https://z3.ax1x.com/2021/04/05/cMgvw9.jpg" alt="PCL2 内置帮助库"/></div>
-
 <div align="center"><img src="https://img.shields.io/github/stars/LTCatt/PCL2Help">&nbsp; <img src="https://img.shields.io/github/forks/LTCatt/PCL2Help?color=%23f8e71c">&nbsp;<img src="https://img.shields.io/github/issues/LTCatt/PCL2Help?color=%237ed321"></div>
+ 
+  
+ 
+## 💎 简介
 
-## 💎简介
+ PCL2 内置帮助库是 PCL2 启动器内置的，可查阅关于启动器及 Minecraft 的帮助文档库，由 PCL2 用户及 Minecraft 玩家共同编写维护。
 
- PCL2 内置帮助库 —— PCL2 启动器 (Plain Craft Launcher 2) 内置可供查阅一些关于启动器及Minecraft的在线帮助库，由广大PCL2用户及Minecraft玩家共同编写维护
+## ✨ 它有什么用？
 
-## ✨它有什么用？
+有许多 MC 新人在游戏过程中会遇到很多疑惑，也有 PCL2 用户在使用时出现了一些问题。本帮助库的目标即为尽量帮助大家解决这些问题，让 MC 对新人更为友好。
 
-许多PCL2用户在使用时出现了一些问题，为了帮助这些用户，就出现了本帮助库，本帮助库将提供 
+本帮助库计划中将提供： 
 
-- 完善的PCL2使用教程
-- 完善的PCL2常见问题解答
-- 完善的Minecraft常见问题解答
-- 完善的Minecraft常见启动错误
-- 完善的整合包及服务器客户端 专用启动器制作指南
-- 等
+- PCL2 的使用教程与常见问题解答
+- Minecraft 的常见问题解答
+- Minecraft 的常见启动错误的解决方案
+- 制作整合包及服务器客户端的指南
 
 当然，帮助库建立初期，内容较为空缺，非常需要你的参与！
 
-## 🎨我如何参与编写？
+## 🎨 我要如何参与编写？
 
-请前往PCL2帮助库 “参与完善PCL2帮助库”条目中查看详细的过程，其中提供：Git、Vscode、GitHub Desktop等的详细过程。
+请打开 PCL2，依次进入 “更多 → 帮助库 → 启动器 → 参与完善 PCL2 帮助库”，该帮助文档中有详细的参与流程。
 
+你可以在这里下载 PCL2：https://afdian.net/p/0164034c016c11ebafcb52540025c377
 
+非常感谢你抽出宝贵的时间参与编写！
 
-## 🎲遇到问题怎么办？
-
-如果遇到无法解决的问题，请在上方Issues中新建一个问题，并详细说明情况，即可收到回复（除非是智商问题）
-
-## 📣更多~
-
-欢迎━(*｀∀´*)ノ亻!访问 龙腾猫跃 的爱发电主页，为你喜欢的PCL2启动器作者赞助吧~ [点此访问](https://afdian.net/@LTCat)
-
-README.md by XiaoFans
+本 README 文档由 XiaoFans 与龙腾猫跃共同编辑。
