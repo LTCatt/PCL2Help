@@ -1,6 +1,4 @@
 ﻿
-<local:MyHint Margin="0,0,0,15" Text="帮助作者：龙腾猫跃" IsWarn="False" />
-
 <local:MyCard Title="概述" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
@@ -44,3 +42,5 @@
                    Text="在读取 .helpignore 文件的内容时，空行、行首行尾空格以及每行的 # 符号之后的内容均会被忽略。因此，你可以在 # 符号后书写注释。" />
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃" IsWarn="False" />

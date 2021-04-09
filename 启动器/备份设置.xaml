@@ -1,6 +1,4 @@
 
-<local:MyHint Margin="0,0,0,15" Text="帮助作者：tang_ge、龙腾猫跃" IsWarn="False" />
-
 <local:MyCard Title="备份配置文件" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
@@ -23,3 +21,5 @@
                         Text="打开注册表编辑器" EventType="打开文件" EventData="regedit" />
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：tang_ge、龙腾猫跃" IsWarn="False" />

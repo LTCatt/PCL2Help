@@ -1,6 +1,6 @@
 
-<local:MyHint Margin="0,0,0,10" Text="帮助作者：Not_Killer_233、龙腾猫跃" IsWarn="False" />
-<local:MyHint Margin="0,0,0,20" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 需要根据规范重新整理格式。 -->
 
 <local:MyCard Title="使用 GitHub Desktop 获取帮助库" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -21,3 +21,5 @@
                     Text="在窗口标题栏下方，选中“Current branch”,再在子栏底部选择“Choose a branch to merge into master”以新建拉取请求。&#xa;选中master分支，并单击子窗口下方的蓝色按钮确认"/>
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃" IsWarn="False" />

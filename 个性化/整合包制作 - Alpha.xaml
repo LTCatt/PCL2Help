@@ -1,6 +1,6 @@
 ﻿
-<local:MyHint Margin="0,0,0,15" Text="帮助作者：龙腾猫跃" IsWarn="False" />
-<local:MyHint Margin="0,0,0,20" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。" IsWarn="False" />
+<!-- 龙腾猫跃：我会接着写这一页的，不用管 =。= -->
 
 <local:MyCard Title="内测提示" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -24,3 +24,5 @@
                    Text="尚未完成。" />
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃" IsWarn="False" />

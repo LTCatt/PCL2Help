@@ -1,3 +1,7 @@
+
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 需要根据规范重新整理格式、标点、空格等。部分语句不太通顺，需要再改改。 -->
+
 <local:MyCard Title="简介" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
@@ -20,3 +24,5 @@
         <Image HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/c294bade36924bfb3fb77cd4a3b8eea30c18cd18.png@1320w_838h.webp" />    
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans" IsWarn="False" />
