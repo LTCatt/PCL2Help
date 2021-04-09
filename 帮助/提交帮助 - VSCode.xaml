@@ -1,0 +1,21 @@
+
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 需要根据规范重新整理格式。 -->
+
+<local:MyCard Title="使用 VSCode 获取帮助库" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="如果你使用的是VSCode，则你还需要安装Git，VSCode将在右下方信息栏提示你安装，按照VSCode的引导安装即可。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="在主界面按下“F1”键，输入“Git Clone”。&#xa;复制你Fork的仓库地址，粘贴到文本框以Clone。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="完成后，刚才选择的文件夹中会生成名为 PCL2Help 的子文件夹。 将 PCL2Help 文件夹中的内容剪切到 PCL\Help 中。"/>
+        <local:MyHint Margin="0,0,0,15" Text="在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了，修改后提交 Pull Request 即可。"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃" IsWarn="False" />

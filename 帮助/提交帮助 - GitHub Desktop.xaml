@@ -1,0 +1,25 @@
+
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 需要根据规范重新整理格式。 -->
+
+<local:MyCard Title="使用 GitHub Desktop 获取帮助库" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="在开始前，请先根据下文中的 “第 1 部分：安装和身份验证” 完成对 GitHub Desktop 的安装与登录。"/>
+        <local:MyListItem Margin="0,2,0,10" Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+                            Title="GitHub Desktop 使用入门" Info="GitHub 的官方教程文档页，根据其中的内容完成安装与登录即可" EventType="打开网页" EventData="https://docs.github.com/cn/desktop/installing-and-configuring-github-desktop/getting-started-with-github-desktop#part-1-installing-and-authenticating" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="打开你Clone的仓库的本地文件夹，在文件浏览器中，开启“显示隐藏的项目选项以选中.git文件夹。&#xa;此后，将整个PCL2Help内的内容剪切到 PCL/Help 文件夹下。"/>
+        <local:MyHint Margin="0,0,0,15" Text="在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="使用你喜爱的编辑器编辑文件，并保存。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="在Github Desktop仓库界面左侧栏，找到你修改的文件，并在文件左侧的方框中选中(仅选中一个文件，如要选中多个文件，请在Commit to main按钮上方的文本框输入消息)。&#xa;在右侧的文件预览中确认无误后，单击“Commit to main”(位于左侧栏的下方) "/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="在所有文件均提交完毕后，按下“Ctrl+P”以推送至Github。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="在窗口标题栏下方，选中“Current branch”,再在子栏底部选择“Choose a branch to merge into master”以新建拉取请求。&#xa;选中master分支，并单击子窗口下方的蓝色按钮确认"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃" IsWarn="False" />

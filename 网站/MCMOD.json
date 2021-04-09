@@ -1,0 +1,10 @@
+{
+    "__Author__": "重生就是希望、龙腾猫跃",
+	"Title": "Minecraft Mod 百科站（MCMOD）",
+	"Description": "包含大量 Minecraft Mod 信息的中文百科",
+	"Keywords": "我的世界模组",
+	"Types": ["网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.mcmod.cn/"
+}

@@ -1,5 +1,6 @@
 
-<!-- 作者：龙腾猫跃，Not_Killer_233 -->
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。" IsWarn="False" />
+<!-- 龙腾猫跃：我会接着写这一页的，不用管 =。= -->
 
 <local:MyCard Title="概述" Margin="0,0,0,15">
 <StackPanel Margin="25,40,23,15">
@@ -25,46 +26,53 @@
         </StackPanel>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,14" LineHeight="17"
                    Text="Fork 完成后，你需要使用软件获取你的分支内容。下文将以 GitHub Desktop 或安装了中文语言包的 VSCode 为例。" />
-        <local:MyCard Title="使用 GitHub Desktop 获取帮助库" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-            <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="在开始前，请先根据下文中的 “第 1 部分：安装和身份验证” 完成对 GitHub Desktop 的安装与登录。"/>
-                <local:MyListItem Margin="0,2,0,10" Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
-		                          Title="GitHub Desktop 使用入门" Info="GitHub 的官方教程文档页，根据其中的内容完成安装与登录即可" EventType="打开网页" EventData="https://docs.github.com/cn/desktop/installing-and-configuring-github-desktop/getting-started-with-github-desktop#part-1-installing-and-authenticating" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="打开你Clone的仓库的本地文件夹，在文件浏览器中，开启“显示隐藏的项目选项以选中.git文件夹。&#xa;并将整个PCL2Help内的内容，复制到PCL/Help文件夹下”"/>
-                <local:MyHint Margin="0,0,0,15" Text="注意，在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中。" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="使用你喜爱的编辑编辑译文件，并保存。"/>
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="在Github Desktop仓库界面左侧栏，找到你修改的文件，并在文件左侧的方框中选中(仅选中一个文件，如要选中多个文件，请在Commit to main按钮上方的文本框输入消息)。&#xa;在右侧的文件预览中确认无误后，单击“Commit to main”(位于左侧栏的下方) "/>
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="在所有文件均提交完毕后，按下“Ctrl+P”以推送至Github。"/>
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="在窗口标题栏下方，选中“Current branch”,再在子栏底部选择“Choose a branch to merge into master”以新建拉取请求。&#xa;选中master分支，并单击子窗口下方的蓝色按钮确认"/>
-            </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="使用 VSCode 获取帮助库" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-            <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="如果你使用的是VSCode，则你还需要安装Git，VSCode将在右下方信息栏提示你安装，按照VSCode的引导安装即可。"/>
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="在主界面按下“F1”键，输入“Git Clone”。&#xa;复制你Fork的仓库地址，粘贴到文本框以Clone。"/>
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="完成后，刚才选择的文件夹中会生成名为 PCL2Help 的子文件夹。 将 PCL2Help 文件夹中的内容剪切到 PCL\Help 中。"/>
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。 此时在 VSCode 打开任意文件，你若能在左下角的时间线中查看到该文件的变更记录，就代表你已经正确完成了帮助库获取。"/>
-                <local:MyHint Margin="0,0,0,15" Text="注意，在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中。" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                           Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了，修改后提交 Pull Request 即可。"/>
-            </StackPanel>
-        </local:MyCard>
+        <local:MyListItem Margin="0,0,0,0"
+		                  EventType="打开帮助" EventData="帮助/提交帮助 - GitHub Desktop.json" />
+        <local:MyListItem Margin="0,0,0,10"
+		                  EventType="打开帮助" EventData="帮助/提交帮助 - VSCode.json" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="End" Margin="0,0,0,15">
+<local:MyCard Title="规范" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="目前我们需要将 PCL2 帮助站中的常见内容搬运到帮助库中，以及补充 MC 中的常见问题（例如 Mod、光影安装等），你可以考虑添加这些帮助页面。" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="1. 使用官方视角，而不是第三方视角。" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ×  要修改龙猫的帮助，在提交 Pull Request 后需要等待龙猫审核" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                   Text="    √  要修改 PCL2 的内置帮助，在提交 Pull Request 后需要等待审核" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="2. 使用书面化的正式语言，避免出现口语化的表达。" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ×  内测版与公开版有啥区别，我该用哪个？" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                   Text="    √  内测版与公开版有什么区别，我应当如何选择？" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="3. 注意大小写。在中文与非中文的连接处添加一个空格。描述本启动器时统一使用 “PCL2”。" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ×  进入pcl的设置页，如果没有安装64位java，最多就只能分配1G内存" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                   Text="    √  进入 PCL2 的设置页，如果没有安装 64 位 Java，最多就只能分配 1G 内存" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="4. 添加的帮助应当对多数人有用；添加的网站需要是有帮助性质、有一定知名度的中文网站，而不仅是你自己常用的网站。" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ×  如何在 IC2 制作核电站；添加 Bilibili；添加 MC 命令生成器" />
+	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                   Text="    √  如何设置 MC 的皮肤；添加 Minecraft Wiki" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="5. 请按照 JSON 格式中的具体要求撰写 Title、Description 和 Keywords 项。" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="6. 修改文件后，请在 JSON 文件的 __Author__ 项与 XAML 文件的末尾添加自己的名字。格式见已有的文件。" />
     </StackPanel>
 </local:MyCard>
+
+<local:MyCard Title="下一步计划" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="目前我们需要将 PCL2 帮助站中的常见内容搬运到帮助库中，以及补充 MC 游戏过程中常见问题的解决方法。&#xa;你可以考虑添加这些帮助，或者修改目前标注需要进一步完善的页面。" />
+        <local:MyButton MinWidth="180" Height="35" Padding="13,0" Margin="0,4,20,4" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="打开 PCL2 帮助站" EventType="打开网页" EventData="https://pcl2-help.gitee.io/" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、Not_Killer_233" IsWarn="False" />
