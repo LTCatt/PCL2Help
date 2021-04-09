@@ -1,7 +1,7 @@
 {
     "__Author__": "Misaka-L",
 	"Keywords": "服务器服务端下载开服联机",
-	"Title": "PCL 2 支持服务端下载吗？",
-	"Description": "不支持，PCL 2 只负责启动游戏和下载游戏。",
+	"Title": "PCL 2 支持服务端下载吗",
+	"Description": "我能否在 PCL 2 中下载服务端？",
 	"Types": ["启动器"]
 }

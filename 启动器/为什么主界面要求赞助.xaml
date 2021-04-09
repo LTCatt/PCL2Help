@@ -1,13 +1,30 @@
 
 <!-- 作者：Misaka-L, 龙腾猫跃, 浅墨 -->
 
-<local:MyCard Title="为什么我的启动器主页右侧要求我赞助 23.33 元" Margin="0,0,0,15">
+<local:MyCard Title="您触发了 PCL 2 的防泄露措施" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="因为 PCL 2 需要 23.33 元以上的赞助计划来解除启动器主界面的右侧提示。" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="赞助完后请复制识别码，在爱发电把你的识别码发送给龙猫，会在 12 个小时内处理并发送给您解锁码。"/>
-        <local:MyButton Margin="0,8,0,0" Height="40" Text="前往 PCL 2 的爱发电页面" EventType="打开网页"
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontWeight="Bold"
+                   Text="该为 PCL 2 内测版的防泄露措施，如果您是通过非正常渠道获得的 PCL 2 内测版，请检查一下您的良心。然后决定要不要赞助一下龙猫。" />
+        <local:MyButton Margin="0,3,0,8" Height="40" Text="前往 PCL 2 的爱发电页面" EventType="打开网页"
                    EventData="https://afdian.net/@LTCat"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="如果您是通过正常渠道获得的 PCL 2 内测版，请继续往下看" FontWeight="Bold"/>
+    </StackPanel>
+</local:MyCard>
+
+<!-- 这里是按爱发电上写的，有问题评论一下 -->
+<local:MyCard Title="没有赞助到 23.33 ￥ 及以上" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="需要赞助到 23.33 ￥ 及以上，如果你已赞助请继续往下看。"/>
+        <local:MyButton Margin="0,3,0,8" Height="40" Text="前往 PCL 2 的爱发电页面" EventType="打开网页"
+                   EventData="https://afdian.net/@LTCat"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我已赞助到 23.33 ￥ 及以上" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontWeight="Bold"
+                   Text="赞助完后请复制识别码，在爱发电把你的识别码发送给龙猫，会在 12 个小时内处理并发送给您解锁码。"/>
     </StackPanel>
 </local:MyCard>

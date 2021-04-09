@@ -1,15 +1,22 @@
 
 <!-- 作者：Misaka-L, 龙腾猫跃 -->
 
-<local:MyCard Title="杀毒软件报毒" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="从正常渠道下载到的 PCL 2 是没有病毒的，由于 PCL 2 使用钩子来修改 Minecraft 窗口标题，所以被识别为病毒。" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="沙箱报毒" Margin="0,0,0,15">
+<local:MyCard Title="检查您下载 PCL 2 的渠道" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="由于部分沙箱并没有安装 .NET 运行环境，导致 PCL 2 使用 IE 打开了 .NET 运行环境的下载页面。而 IE 更新了系统驱动。所以 PCL 2 就被认成了病毒" />
+                   Text="- 如果您是从官方渠道 (爱发电 / 内测 QQ 群 / 软件内更新) 下载的，那么您下载的软件本体是安全的。添加白名单即可。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="- 如果您是从整合包或者其他人获得了软件本体，可能是整合包作者或他人的电脑上存在感染性病毒。请从官方渠道重新下载。"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="可能的报毒原因" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="- 由于拉起 .NET 运行环境的下载页面，被误判为与病毒相似的行为。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="- 由于下载游戏等行为被误判成 从网络中下载程序并运行 等类似病毒行为。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="- 一大堆奇奇怪怪或很奇葩的原因"/>
     </StackPanel>
 </local:MyCard>
