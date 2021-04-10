@@ -1,6 +1,6 @@
-
 <local:MyHint Margin="0,0,0,10" Text="帮助作者：龙腾猫跃、Not_Killer_233、XiaoFans" IsWarn="False" />
 <local:MyHint Margin="0,0,0,20" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+
 
 <local:MyCard Title="概述" Margin="0,0,0,15">
 <StackPanel Margin="25,40,23,15">
@@ -60,15 +60,19 @@
 	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
                    Text="    √  如何设置 MC 的皮肤；添加 Minecraft Wiki" />
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="5. 修改文件后，请在 JSON 与 XAML 文件的开头添加自己的名字。格式见已有的文件。" />
+                   Text="5. 请按照 JSON 格式中的具体要求撰写 Title、Description 和 Keywords 项。" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="6. 修改文件后，请在 JSON 文件的 __Author__ 项与 XAML 文件的末尾添加自己的名字。格式见已有的文件。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="下一步计划" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="目前我们需要将 PCL2 帮助站中的常见内容搬运到帮助库中，以及补充 MC 游戏过程中的常见问题。你可以考虑添加这些帮助，或者继续修改目前已有的页面。" />
+                   Text="目前我们需要将 PCL2 帮助站中的常见内容搬运到帮助库中，以及补充 MC 游戏过程中常见问题的解决方法。&#xa;你可以考虑添加这些帮助，或者修改目前标注需要进一步完善的页面。" />
         <local:MyButton MinWidth="180" Height="35" Padding="13,0" Margin="0,4,20,4" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="打开 PCL2 帮助站" EventType="打开网页" EventData="https://pcl2-help.gitee.io/" />
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、Not_Killer_233" IsWarn="False" />

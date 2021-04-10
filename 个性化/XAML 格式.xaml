@@ -1,8 +1,11 @@
 
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 需要补充 EventType “打开帮助”、通过 DynamicResources 绑定主题颜色、
+     MyListItem 的简介、使用 MyListItem 跳转帮助或触发事件 等内容。 -->
+
 <!-- 
-    如果你成功看到本段文字，代表你已经打开本篇的代码了 
-    建议配合Ctrl + F 快速查找某项，例如：需要改变文本颜色，则搜索“颜色”准确
-    定位查找。
+    如果你成功看到本段文字，代表你已经打开本篇的代码了。
+    建议配合Ctrl + F 快速查找某项，例如：需要改变文本颜色，则搜索 “颜色” 准确定位查找。
     Change by XiaoFans
 -->
 <local:MyCard Title="前言" Margin="0,0,0,15">
@@ -175,3 +178,5 @@ local:MyCard（卡片）：
  - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
 
 -->
+
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans" IsWarn="False" />
