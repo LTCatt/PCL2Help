@@ -4,7 +4,7 @@
 <local:MyCard Title="您触发了 PCL 2 的防泄露措施" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontWeight="Bold"
-                   Text="该为 PCL 2 内测版的防泄露措施，如果您是通过非正常渠道获得的 PCL 2 内测版，请检查一下您的良心。然后决定要不要赞助一下龙猫。" />
+                   Text="该为 PCL 2 内测版的防泄露措施，如果您是通过非正常渠道获得的 PCL 2 内测版，请检查一下您的良心。然后决定要不要赞助一下 PCL 2。" />
         <local:MyButton Margin="0,3,0,8" Height="40" Text="前往 PCL 2 的爱发电页面" EventType="打开网页"
                    EventData="https://afdian.net/@LTCat"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
