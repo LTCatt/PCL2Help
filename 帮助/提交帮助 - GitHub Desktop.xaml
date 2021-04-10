@@ -7,6 +7,12 @@
                     Text="在开始前，请先根据下文中的 “第 1 部分：安装和身份验证” 完成对 GitHub Desktop 的安装与登录。"/>
         <local:MyListItem Margin="0,2,0,10" Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
                             Title="GitHub Desktop 使用入门" Info="GitHub 的官方教程文档页，根据其中的内容完成安装与登录即可" EventType="打开网页" EventData="https://docs.github.com/cn/desktop/installing-and-configuring-github-desktop/getting-started-with-github-desktop#part-1-installing-and-authenticating" />
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
+                    Text="1.点击下方按钮进入 PCL 文件夹内，创建名称为：Help 的文件夹。"/>
+        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
+        </StackPanel>        
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="打开你Clone的仓库的本地文件夹，在文件浏览器中，开启“显示隐藏的项目选项以选中.git文件夹。&#xa;此后，将整个PCL2Help内的内容剪切到 PCL/Help 文件夹下。"/>
         <local:MyHint Margin="0,0,0,15" Text="在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中" />
@@ -21,4 +27,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、XiaoFans" IsWarn="False" />
