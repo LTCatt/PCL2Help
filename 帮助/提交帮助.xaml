@@ -23,9 +23,9 @@
                    Text="Fork 完成后，使用以下介绍的任意软件提交帮助。下方条目为 GitHub Desktop、VSCode 和 Git 详细提交帮助的过程；&#xa;推荐使用VSCode提交帮助。" />
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - VSCode.json" />
-        <local:MyListItem Margin="0,0,0,10"
-		                  EventType="打开帮助" EventData="帮助/提交帮助 - Git.json" />
         <local:MyListItem Margin="0,0,0,0"
+		                  EventType="打开帮助" EventData="帮助/提交帮助 - Git.json" />
+        <local:MyListItem Margin="0,0,0,10"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - GitHub Desktop.json" />
     </StackPanel>
 </local:MyCard>
