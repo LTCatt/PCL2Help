@@ -1,7 +1,3 @@
-
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。" IsWarn="False" />
-<!-- 龙腾猫跃：我会接着写这一页的，不用管 =。= -->
-
 <local:MyCard Title="概述" Margin="0,0,0,15">
 <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
@@ -14,10 +10,8 @@
 <local:MyCard Title="获取帮助库" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,2,0,10" Text="GitHub 目前在国内的访问不太通畅。如果遇到网络问题，请自行使用科学上网工具，然后为 Git 设置代理。" IsWarn="false" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="在开始编辑前，你需要将 GitHub 中的存储库克隆到 PCL\Help 文件夹。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="你需要先注册并登录 GitHub 账号。此后，点击下方按钮打开 GitHub 存储库，然后点击页面右上角的 Fork 按钮创建一个分支。" />
+                   Text="你需要先注册并登录 GitHub 账号。此后，点击下方 GitHub 存储库 ，然后点击页面右上角的 Star 与 Fork 收藏并建立一个分支。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                             Text="GitHub 存储库" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help" />
@@ -25,44 +19,14 @@
                             Text="为 Git 设置代理" EventType="打开网页" EventData="https://www.jianshu.com/p/290152303598" />
         </StackPanel>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,14" LineHeight="17"
-                   Text="Fork 完成后，你需要使用软件获取你的分支内容。下文将以 GitHub Desktop 或安装了中文语言包的 VSCode 为例。" />
+
+                   Text="Fork 完成后，使用以下介绍的任意软件提交帮助。下方条目为 GitHub Desktop、VSCode 和 Git 详细提交帮助的过程；&#xa;推荐使用VSCode提交帮助。" />
+        <local:MyListItem Margin="0,0,0,0"
+		                  EventType="打开帮助" EventData="帮助/提交帮助 - VSCode.json" />
+        <local:MyListItem Margin="0,0,0,10"
+		                  EventType="打开帮助" EventData="帮助/提交帮助 - Git.json" />
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - GitHub Desktop.json" />
-        <local:MyListItem Margin="0,0,0,10"
-		                  EventType="打开帮助" EventData="帮助/提交帮助 - VSCode.json" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="规范" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="1. 使用官方视角，而不是第三方视角。" />
-	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
-                   Text="    ×  要修改龙猫的帮助，在提交 Pull Request 后需要等待龙猫审核" />
-	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
-                   Text="    √  要修改 PCL2 的内置帮助，在提交 Pull Request 后需要等待审核" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="2. 使用书面化的正式语言，避免出现口语化的表达。" />
-	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
-                   Text="    ×  内测版与公开版有啥区别，我该用哪个？" />
-	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
-                   Text="    √  内测版与公开版有什么区别，我应当如何选择？" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="3. 注意大小写。在中文与非中文的连接处添加一个空格。描述本启动器时统一使用 “PCL2”。" />
-	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
-                   Text="    ×  进入pcl的设置页，如果没有安装64位java，最多就只能分配1G内存" />
-	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
-                   Text="    √  进入 PCL2 的设置页，如果没有安装 64 位 Java，最多就只能分配 1G 内存" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="4. 添加的帮助应当对多数人有用；添加的网站需要是有帮助性质、有一定知名度的中文网站，而不仅是你自己常用的网站。" />
-	    <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
-                   Text="    ×  如何在 IC2 制作核电站；添加 Bilibili；添加 MC 命令生成器" />
-	    <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
-                   Text="    √  如何设置 MC 的皮肤；添加 Minecraft Wiki" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="5. 请按照 JSON 格式中的具体要求撰写 Title、Description 和 Keywords 项。" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="6. 修改文件后，请在 JSON 文件的 __Author__ 项与 XAML 文件的末尾添加自己的名字。格式见已有的文件。" />
     </StackPanel>
 </local:MyCard>
 
@@ -75,4 +39,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、Not_Killer_233" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、Not_Killer_233、XiaoFans" IsWarn="False" />

@@ -1,0 +1,116 @@
+<!-- 本规范严格按照百度百科、维基百科等的规范进行编写 -->
+<local:MyCard Title="概述" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="欢迎参与 PCL2 帮助库 的编写，在开始编写之前，请详细阅读本条目，本帮助条目目的是：规范用户编写，提高条目质量，规范条目要求。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="创建帮助条目" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="在你开始创建新的帮助条目之前，请先确认以下问题：" />
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
+                   Text="  · 1. 在帮助库中搜索你想创建的帮助条目关键词，帮助库是否尚未收录这一帮助的内容？" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="  · 2. 确认你想要创建的帮助条目是否有一定的帮助性？" />
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
+                   Text="对与以上问题，如果答案是“是”，那么可以继续创建，否则，请不要创建条目。" />
+        
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="开始创建之前，请先规范Json和Xaml文件" />
+        <local:MyCard Title="Json规范" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="帮助类条目的 Json文件 请打开其他帮助类条目的 Json 查看格式，其中要包括：作者、标题、简介、分类这些基本信息；&#xA;网站类条目的 Json文件 请打开其他网站类条目的 Json 查看格式，其中要包括：作者、标题、简介、关键词、分类、网页链接、执行方式这些基本信息。&#xA;更多格式内容请前往“参与完善 PCL2 帮助库——>帮助Json格式”查看相关内容。" />
+            </StackPanel>
+        </local:MyCard>     
+        <local:MyCard Title="Xaml规范" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="Xaml文件 ，请在开头添加作者信息，请打开其他帮助类条目的 Xaml 查看开头的格式，具体内容规范请参阅下方 完善/修改 帮助条目 中的内容。" />
+            </StackPanel>
+        </local:MyCard>   
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="完善/修改 帮助条目" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="如果你认为帮助库中条目的内容不够完善，希望整理或补充它。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="在你开始做这件事情之前，请首先确认以下几个问题：" />                   
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
+                   Text="  · 1. 你完善/修改的内容是否非常有必要性？（如： 原文：1.17开发版本截止2021年11月，修改后：1.17开发版本截止2021年11月4日）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="  · 2. 你完善/修改的内容是否有可靠依据？（如：Java版 1.16 进行了下界更新，此事实是 Mojang团队 发的官方内容）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="  · 2. 你完善/修改的内容是否不包含宣传信息？（如：包含链接到你的QQ、微信等的链接、明文出现的广告语等）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
+                   Text="对与以上问题，如果答案是“是”，那么可以继续完善/修改，否则，请不要完善/修改条目。" />
+        
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
+                   Text="在编写时要做到：规范的文字和措辞、合理排版、避免无意义修改、避免信息重复等（下方示例内容包含不准确的信息，仅做范例使用）" />
+        <StackPanel Margin="25,20,23,15">
+	        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                        Text="1. 使用官方视角下的第三人称编写，而不是个人视角下的第三人称编写。" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                        Text="    ×  要修改龙猫的帮助，在提交 Pull Request 后需要等待龙猫审核" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                        Text="    √  要修改 PCL2 的内置帮助，在提交 Pull Request 后需要等待审核" />
+	        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                        Text="2. 使用书面化的正式语言，避免出现口语化的表达。" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                        Text="    ×  内测版与公开版有啥区别，我该用哪个？" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                        Text="    √  内测版与公开版有什么区别，我应当如何选择？" />
+	        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                        Text="3. 注意大小写。在中文与非中文的连接处添加一个空格。描述本启动器时统一使用 “PCL2”。" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                        Text="    ×  进入pcl的设置页，如果没有安装64位java，最多就只能分配1G内存" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                        Text="    √  进入 PCL2 的设置页，如果没有安装 64 位 Java，最多就只能分配 1G 内存" />
+	        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                        Text="4. 添加的帮助应当对多数人有用；添加的网站需要是有帮助性质、有一定知名度的中文网站，而不仅是你自己常用的网站。" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                        Text="    ×  如何在 IC2 制作核电站；添加 Bilibili；添加 MC 命令生成器" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                        Text="    √  如何设置 MC 的皮肤；添加 Minecraft Wiki" />
+	        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                        Text="5. 使用简体中文编写相关内容，避免中英混用。" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                        Text="    ×  Mojang 的 developer 表示，将在下个版本新增内容。" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                        Text="    √  Mojang 的开发者表示，将在下个版本新增内容。" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                        Text="6. 使用说明文文体，客观的编写内容，避免第一人称、主观表达、时效性叙述。" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#DD4411" Margin="0,0,0,2"
+                        Text="    ×  我们最棒的 Mj 将在15号更新1.17正式版。" />
+	        <TextBlock TextWrapping="Wrap" Foreground="#229922" Margin="0,0,0,10"
+                        Text="    √  Mojang工作室 在 2021年4月15日 更新 Java 1.17 正式版。" />
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                        Text="7. 等" />
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
+                   Text="写到有争议性的内容时，请将你参考的客观描述出处，引用到后面（描述出处应该为官网、官方人员等可信度高处引用）；" />
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
+                   Text="在编写时请全面完整的编写内容，不要过于简略的概述问题，帮助库的实质是帮助，不是简单介绍。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
+                   Text="帮助条目 Xaml 文件，编写格式要美观、整洁，方便后者修改。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
+                   Text="编写时注意断句和在合适位置添加标点符号，使读起来更加通顺。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
+                   Text="在编写时请使用通用名称，如 “Mojang” ，就不要出现 “Mj” ；&#xA;全篇使用 “Minecraft” ，就不要即出现 “Minecraft” ，又出现 “我的世界” ；&#xa;编写的 Xaml 应该在预览时 美观、识别性高，请在排版上多花些功夫。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="提交与审核" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="当您已经按照以上各步完善或创建了一个帮助条目，请在帮助库中刷新并查看它的排版、按钮功能等方面。如果确认没有问题，就可以提交合并。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
+                   Text="以上就完成了帮助库的整个编写过程。希望你在编写过程中始终牢记帮助库的质量原则：可信、可读、完整、客观。感谢你的阅读，快去编写属于你的帮助条目吧！" />
+   
+    </StackPanel>
+</local:MyCard>
+<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans、龙腾猫跃" IsWarn="False" />
