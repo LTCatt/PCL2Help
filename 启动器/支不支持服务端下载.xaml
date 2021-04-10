@@ -5,9 +5,9 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyHint IsWarn="False" Margin="0,0,0,7" Text="别把 PCL 2 当成下载器了啊 (暴风哭泣) —— 龙腾猫跃"/>
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="不支持哦，PCL 2 只负责启动 Minecraft，讲道理连 Mods 下载啥的都是副业。" />
+                   Text="不支持，PCL 2 只负责启动 / 下载游戏。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="要下载服务端可以前往 MCBBS 下载打包好的服务端哦。"/>
+                   Text="如果您有下载服务端的需求，还请移步我的世界中文论坛服务端整合包板块。"/>
         <local:MyButton Margin="0,8,0,0" Height="40" Text="前往 MCBBS 服务端整合包板块" EventType="打开网页"
                    EventData="https://www.mcbbs.net/forum-serverpack-1.html"/>
     </StackPanel>
