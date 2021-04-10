@@ -1,5 +1,5 @@
 
-<local:MyHint Margin="0,0,0,10" Text="帮助作者：龙腾猫跃、Not_Killer_233" IsWarn="False" />
+<local:MyHint Margin="0,0,0,10" Text="帮助作者：龙腾猫跃、Not_Killer_233、XiaoFans" IsWarn="False" />
 <local:MyHint Margin="0,0,0,20" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 
 <local:MyCard Title="概述" Margin="0,0,0,15">
@@ -14,10 +14,8 @@
 <local:MyCard Title="获取帮助库" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,2,0,10" Text="GitHub 目前在国内的访问不太通畅。如果遇到网络问题，请自行使用科学上网工具，然后为 Git 设置代理。" IsWarn="false" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="在开始编辑前，你需要将 GitHub 中的存储库克隆到 PCL\Help 文件夹。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="你需要先注册并登录 GitHub 账号。此后，点击下方按钮打开 GitHub 存储库，然后点击页面右上角的 Fork 按钮创建一个分支。" />
+                   Text="你需要先注册并登录 GitHub 账号。此后，点击下方 GitHub 存储库 ，然后点击页面右上角的 Star 与 Fork 收藏并建立一个分支。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                             Text="GitHub 存储库" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help" />
@@ -25,11 +23,13 @@
                             Text="为 Git 设置代理" EventType="打开网页" EventData="https://www.jianshu.com/p/290152303598" />
         </StackPanel>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,14" LineHeight="17"
-                   Text="Fork 完成后，你需要使用软件获取你的分支内容。下文将以 GitHub Desktop 或安装了中文语言包的 VSCode 为例。" />
+                   Text="Fork 完成后，你需要使用软件获取你的分支内容，再具所需查看下方任意条目。下方条目为 GitHub Desktop、VSCode 和 Git 的详细过程。" />
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - GitHub Desktop.json" />
-        <local:MyListItem Margin="0,0,0,10"
+        <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - VSCode.json" />
+        <local:MyListItem Margin="0,0,0,10"
+		                  EventType="打开帮助" EventData="帮助/提交帮助 - Git.json" />
     </StackPanel>
 </local:MyCard>
 
