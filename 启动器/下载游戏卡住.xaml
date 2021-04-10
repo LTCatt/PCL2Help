@@ -38,3 +38,5 @@
         <TextBlock Text="- 开木棍"/>
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Misaka-L" IsWarn="False" />

@@ -28,3 +28,5 @@
                    Text="赞助完后请复制识别码，在爱发电把你的识别码发送给龙猫，会在 12 个小时内处理并发送给您解锁码。"/>
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Misaka-L" IsWarn="False" />

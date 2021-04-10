@@ -20,3 +20,5 @@
                    Text="- 一大堆奇奇怪怪或很奇葩的原因"/>
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Misaka-L" IsWarn="False" />
