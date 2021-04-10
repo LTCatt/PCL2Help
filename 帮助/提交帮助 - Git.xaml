@@ -125,4 +125,4 @@
                     Text="以上内容为详细的 Git 提交帮助 如果还是无法理解，建议 百度 。"/>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans、龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans" IsWarn="False" />
