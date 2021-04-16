@@ -4,7 +4,7 @@
 	"Description": "Minecraft(我的世界) 中文论坛",
 	"Keywords": "我的世界mcbbs",
 	"Types": ["网站"],
-	"IsEvent": true,
+	"IsEvent": true, 
 	"EventType": "打开网页",
 	"EventData": "https://www.mcbbs.net" 
 }
