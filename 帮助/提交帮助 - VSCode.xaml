@@ -12,10 +12,11 @@
                     Text="完成后，刚才选择的文件夹中会生成名为 PCL2Help 的子文件夹。 将 PCL2Help 文件夹中的内容剪切到 PCL\Help 中。"/>
         <local:MyHint Margin="0,0,0,15" Text="在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。"/>
+                    Text="最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了，修改后提交 Pull Request 即可。"/>
+                    Text="推送完毕后，请进入Github页面的Pull requests子项，单击New pull request后，再点击Create pull request即可完成代码合并申请。"/>
+        <local:MyHint Margin="0,0,0,15" Text="申请后，请定期查看Github页面，若有问题，审核者会在下方留言。" IsWarn="True" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、ImFunnySun" IsWarn="False" />

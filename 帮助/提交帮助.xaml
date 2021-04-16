@@ -63,6 +63,8 @@
                    Text="5. 请按照 JSON 格式中的具体要求撰写 Title、Description 和 Keywords 项。" />
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="6. 修改文件后，请在 JSON 文件的 __Author__ 项与 XAML 文件的末尾添加自己的名字。格式见已有的文件。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="7. 若有上传图片的需求，请选择国内可以正常访问的图床(不推荐使用Github和SM.MS)" />
     </StackPanel>
 </local:MyCard>
 
@@ -75,4 +77,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、Not_Killer_233" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、Not_Killer_233、ImFunnySun" IsWarn="False" />
