@@ -1,0 +1,10 @@
+{
+	"__Author__": "ImFunnySun、龙腾猫跃",
+	"Title": "CurseForge",
+	"Description": "著名的 Minecraft MOD 发布网站",
+	"Keywords": "我的世界curseforge",
+	"Types": ["网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.curseforge.com/minecraft" 
+}

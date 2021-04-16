@@ -1,0 +1,10 @@
+{
+    "__Author__": "ImFunnySun、龙腾猫跃",
+	"Title": "Planet Minecraft",
+	"Description": "Minecraft(我的世界) 数据包下载站",
+	"Keywords": "我的世界官方网页",
+	"Types": ["网站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.planetminecraft.com/data-packs/"
+}
