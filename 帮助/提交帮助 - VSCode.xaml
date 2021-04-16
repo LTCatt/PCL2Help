@@ -8,7 +8,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="在主界面按下“F1”键，输入“Git Clone”。&#xa;复制你Fork的仓库地址，粘贴到文本框以Clone。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
-                    Text="1.点击下方按钮进入 PCL 文件夹内，创建名称为：Help 的文件夹。"/>
+                    Text="点击下方按钮，进入 PCL 文件夹，创建名称为：Help 的文件夹。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />

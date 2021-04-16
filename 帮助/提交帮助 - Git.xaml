@@ -1,5 +1,4 @@
-<local:MyHint Margin="0,0,0,10" Text="帮助作者：XiaoFans" IsWarn="False" />
-<local:MyHint Margin="0,0,0,10" Text="说明：该帮助页面已完善，请勿改动！因 Git GUI 版本不普及，将不编写进此帮助条目内，仅提供外站教程。" IsWarn="False" />
+<local:MyHint Margin="0,0,0,10" Text="说明：因 Git GUI 版本不普及，将不编写进此帮助条目内，仅提供外站教程。" IsWarn="False" />
 <local:MyTextButton Margin="0,0,0,20" HorizontalAlignment="Center"
                    Text="点击查看 Git GUI 操作指南" EventType="打开网页" EventData="https://www.runoob.com/w3cnote/git-gui-window.html" />
 <local:MyCard Title="使用 Git 获取帮助库" Margin="0,0,0,15">
@@ -21,7 +20,7 @@
                         Text="访问镜像" EventType="打开网页" EventData="https://npm.taobao.org/mirrors/git-for-windows/" />
         </StackPanel>
         <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
-                    Text="1.点击下方按钮进入 PCL 文件夹内，创建名称为：Help 的文件夹。"/>
+                    Text="1.点击下方按钮，进入 PCL 文件夹，创建名称为：Help 的文件夹。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />

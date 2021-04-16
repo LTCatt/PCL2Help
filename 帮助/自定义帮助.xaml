@@ -23,7 +23,7 @@
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                    Text="如果你的帮助条目不会触发事件（即第一类，IsEvent=False），你就需要创建一个与该 JSON 文件同名的 XAML 文件。在你点击这个帮助条目的时候，PCL2 会从该 XAML 文件中加载页面的实际内容。&#xa;XAML 文件的格式与自定义主页一致，你可以查看下述条目来了解详情：" />
         <local:MyListItem Margin="0,0,0,0"
-		                  EventType="打开帮助" EventData="帮助/自定义帮助 - XAML 格式.json" />
+		                  EventType="打开帮助" EventData="个性化/XAML 格式.json" />
 	    <TextBlock TextWrapping="Wrap" Margin="0,20,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="4.  刷新帮助页面" />
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
