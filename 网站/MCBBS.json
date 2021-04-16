@@ -1,0 +1,10 @@
+{
+    "__Author__": "Hanhan_awa",
+    "Title": "MCBBS",
+    "Description": "与其他国内Minecraft玩家交流游戏，获取来自国内外大神的资源!",
+    "Keywords": "我的世界中文论坛",
+    "Types": ["网站"],
+    "IsEvent": true,
+    "EventType": "打开网页",
+    "EventData": "https://www.mcbbs.net/"
+   }
