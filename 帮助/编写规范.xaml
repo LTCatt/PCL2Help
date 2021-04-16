@@ -88,6 +88,8 @@
         <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
                    Text="编写时注意断句和在合适位置添加标点符号，使读起来更加通顺。" />
         <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
+                   Text="默认 Json 文件中的作者指 帮助的创建人 和 核心文本的编辑人 ，当你在修改少数文本后，请不要在 Json 作者处添加你的名称，请在 Xaml 文件末尾，最后一位作者的后面处添加你的名称。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
                    Text="在编写时请使用通用名称，如 “ Mojang ” ，就不要出现 “ Mj ” ；&#xA;全篇使用 “ Minecraft ” ，就不要即出现 “ Minecraft ” ，又出现 “ 我的世界 ” ；&#xa;编写的 Xaml 应该在预览时 美观、识别性高，请在排版上多花些功夫。" />
     </StackPanel>
 </local:MyCard>
