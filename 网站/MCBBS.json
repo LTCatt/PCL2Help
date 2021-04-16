@@ -6,5 +6,5 @@
 	"Types": ["网站"],
 	"IsEvent": true,
 	"EventType": "打开网页",
-	"EventData": "https://www.mcbbs.net"
+	"EventData": "https://www.mcbbs.net" 
 }
