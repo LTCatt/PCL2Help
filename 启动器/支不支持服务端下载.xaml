@@ -1,6 +1,3 @@
-
-<!-- 作者：Misaka-L, 龙腾猫跃 -->
-
 <local:MyCard Title="PCL 2 支持服务端下载吗？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint IsWarn="False" Margin="0,0,0,7" Text="别把 PCL 2 当成下载器了啊 (暴风哭泣) —— 龙腾猫跃"/>

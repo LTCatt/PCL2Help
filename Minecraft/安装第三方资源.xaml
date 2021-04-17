@@ -29,7 +29,7 @@
 
 <local:MyCard Title="启用 Mods">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint IsWarn="True" Margin="0,0,0,7" Text="需要先安装你所安装的 Mods 要求的 Mods Api (Forge, Forge, Frabic, LiteLoader)"/>
+        <local:MyHint IsWarn="True" Margin="0,0,0,7" Text="需要先安装你所安装的 Mods 要求的 Mods Api (Forge, Forge, Fabric, LiteLoader)"/>
         <Image Source="https://cdn.jsdelivr.net/gh/Misaka-L/Files@main/PCL_Help/Install_Resource/Mod_Api_Require.png"/>
     </StackPanel>
 </local:MyCard>

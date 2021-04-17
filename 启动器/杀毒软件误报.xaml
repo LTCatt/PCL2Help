@@ -1,6 +1,3 @@
-
-<!-- 作者：Misaka-L, 龙腾猫跃 -->
-
 <local:MyCard Title="检查您下载 PCL 2 的渠道" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
