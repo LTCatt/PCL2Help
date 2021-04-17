@@ -1,0 +1,10 @@
+{
+    "__Author__": "Hanhan_awa",
+    "Title": "NameMC",
+    "Description": "查找大部分Minecraft正版玩家皮肤、uuid等数据",
+    "Keywords": "我的世界正版玩家信息查询",
+    "Types": ["网站"],
+    "IsEvent": true,
+    "EventType": "打开网页",
+    "EventData": "https://namemc.com/"
+   }
