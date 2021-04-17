@@ -13,7 +13,7 @@
         <TextBlock TextWrapping="Wrap" Margin="20,5,20,0" FontSize="15" HorizontalAlignment="Center" Foreground="#EC4141"
                    Text="此篇帮助建议对照代码查看，点击下方按钮下载代码" />
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
-                   Text="下载本篇的代码" EventType="下载文件" EventData="https://6get-xiaofan.github.io/XAML-格式.xaml" ToolTip="下载本篇的代码" />
+                   Text="下载本篇的代码" EventType="下载文件" EventData="http://189.ly93.cc/viyYf2rIze63/71443213109235631" ToolTip="下载本篇的代码" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="基础教学 1：纯文本" Margin="0,0,0,15">
