@@ -14,7 +14,7 @@
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
         </StackPanel>        
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="打开你Clone的仓库的本地文件夹，在文件浏览器中，开启“显示隐藏的项目选项以选中.git文件夹。&#xa;此后，将整个PCL2Help内的内容剪切到 PCL/Help 文件夹下。"/>
+                    Text="打开你Clone的仓库的本地文件夹，在文件浏览器中，开启“显示隐藏的项目”选项以选中.git文件夹。&#xa;此后，将整个PCL2Help内的内容剪切到 PCL/Help 文件夹下。"/>
         <local:MyHint Margin="0,0,0,15" Text="在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="使用你喜爱的编辑器编辑文件，并保存。"/>
