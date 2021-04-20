@@ -1,5 +1,4 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<!-- 需要根据规范重新整理格式。 -->
 
 <local:MyCard Title="使用 GitHub Desktop 获取帮助库" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -14,16 +13,16 @@
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
         </StackPanel>        
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="打开你Clone的仓库的本地文件夹，在文件浏览器中，开启“显示隐藏的项目选项以选中.git文件夹。&#xa;此后，将整个PCL2Help内的内容剪切到 PCL/Help 文件夹下。"/>
+                    Text="打开你 Clone 的仓库的本地文件夹，在文件浏览器中，开启“显示隐藏的项目选项以选中.git文件夹。&#xa;此后，将整个 PCL2Help 文件夹内的内容剪切到 PCL/Help 文件夹下。"/>
         <local:MyHint Margin="0,0,0,15" Text="在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 子文件夹中" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="使用你喜爱的编辑器编辑文件，并保存。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="在Github Desktop仓库界面左侧栏，找到你修改的文件，并在文件左侧的方框中选中(仅选中一个文件，如要选中多个文件，请在Commit to main按钮上方的文本框输入消息)。&#xa;在右侧的文件预览中确认无误后，单击“Commit to main”(位于左侧栏的下方) "/>
+                    Text="在 Github Desktop 仓库界面左侧栏，找到你修改的文件，并在文件左侧的方框中选中(仅选中一个文件，如要选中多个文件，请在 Commit to main 按钮上方的文本框输入消息)。&#xa;在右侧的文件预览中确认无误后，单击“Commit to main”(位于左侧栏的下方) "/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="在所有文件均提交完毕后，按下“Ctrl+P”以推送至Github。"/>
+                    Text="在所有文件均提交完毕后，按下“Ctrl+P”以推送至 Github 。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="在窗口标题栏下方，选中“Current branch”,再在子栏底部选择“Choose a branch to merge into master”以新建拉取请求。&#xa;选中master分支，并单击子窗口下方的蓝色按钮确认"/>
+                    Text="在窗口标题栏下方，选中“Current branch”,再在子栏底部选择“Choose a branch to merge into master”以新建拉取请求。&#xa;选中 master 分支，并单击子窗口下方的蓝色按钮确认"/>
     </StackPanel>
 </local:MyCard>
 
