@@ -10,16 +10,16 @@
 </local:MyCard>
 
 <!-- 这里是按爱发电上写的，有问题评论一下 -->
-<local:MyCard Title="没有赞助到 23.33 ￥ 及以上" Margin="0,0,0,15">
+<local:MyCard Title="累积赞助不足 23.33 档位" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="需要赞助到 23.33 ￥ 及以上，如果你已赞助请继续往下看。"/>
+                   Text="需要赞助到 23.33 档位，如果你已赞助请继续往下看。"/>
         <local:MyButton Margin="0,3,0,8" Height="40" Text="前往 PCL 2 的爱发电页面" EventType="打开网页"
                    EventData="https://afdian.net/@LTCat"/>
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我已赞助到 23.33 ￥ 及以上" Margin="0,0,0,15">
+<local:MyCard Title="我已赞助到 23.33 档位" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontWeight="Bold"
                    Text="赞助完后请复制识别码，在爱发电把你的识别码发送给龙猫，会在 12 个小时内处理并发送给您解锁码。"/>

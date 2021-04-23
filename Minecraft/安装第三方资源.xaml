@@ -14,7 +14,11 @@
     </Style>
 </StackPanel.Resources>
 
-<local:MyHint IsWarn="True" Margin="0,0,0,7" Text="资源包 (材质包) / 光影 / Mods 在安装后需要手动启用"/>
+<local:MyCard Title="提示">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Text="资源包 (材质包) / 光影 / Mods 在安装后需要手动启用" Margin="0,0,0,10"/>
+    </StackPanel>
+</local:MyCard>
 
 <local:MyCard Title="如何安装地图 / 材质包 / 光影 / Mods">
     <StackPanel Margin="25,40,23,15">
