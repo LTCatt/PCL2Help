@@ -1,0 +1,81 @@
+﻿    <StackPanel Margin="0,0,0,0">
+            <StackPanel.Resources>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Margin" Value="25,40,23,15"/>
+                </Style>
+                <Style TargetType="local:MyCard">
+                    <Setter Property="Margin" Value="0,0,0,15"/>
+                </Style>
+                <Style TargetType="local:MyButton">
+                    <Setter Property="Margin" Value="0,0,10,0"/>
+                    <Setter Property="Width" Value="140"/>
+                    <Setter Property="Height" Value="35"/>
+                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                    <Setter Property="Padding" Value="13,0,13,0"/>
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="TextWrapping" Value="Wrap"/>
+                </Style>
+            </StackPanel.Resources>
+                <Grid Margin="0,0,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <local:MyCard Grid.Column="0" Title="纵向StackPanel">
+                        <StackPanel>
+                            <TextBlock Margin="0,0,0,15" TextWrapping="Wrap" Text="        如你所见，右边的几个方块被竖着放在了一起。这便是StackPanel布局了，当然，还有其他的布局，比如Grid。下面是XAML源码了："/>
+                            <TextBlock Background="DarkGray" Foreground="White" Text="1. &lt;StackPanel&gt;
+                                       &#xA;2.        &lt;TextBlock Background=&quot;#BDD7EE&quot; Text=&quot;This Is StackPanel&quot;/&gt;
+                                       &#xA;3.        &lt;Rectangle Height=&quot;48&quot; Fill=&quot;#9DC3E6&quot;/&gt;
+                                       &#xA;4.        &lt;Rectangle Height=&quot;48&quot; Fill=&quot;#2E75B6&quot;/&gt;
+                                       &#xA;5.        &lt;Rectangle Height=&quot;48&quot; Fill=&quot;#1F4E79&quot;/&gt; 
+                        &#xA;6.&lt;/StackPanel&gt;"/>
+                            <TextBlock />
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,0" HorizontalAlignment="Center" >
+                                <local:MyButton Text="微软官方文档" 
+			EventType="打开网页" EventData="https://docs.microsoft.com/zh-cn/dotnet/api/system.windows.controls.stackpanel?view=net-5.0" 
+			ColorType="Highlight"/>
+                                <local:MyButton Text="查看视频教程" 
+			EventType="打开网页" EventData="https://www.bilibili.com/video/av49066072/" ToolTip="本人没有要恰饭的意思，仅仅是帮助他人。"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </local:MyCard>
+                    <local:MyCard Grid.Column="2" Title="这是StackPanel">
+                        <StackPanel>
+                            <TextBlock Background="#BDD7EE" Text="This Is StackPanel"/>
+                            <Rectangle Height="48" Fill="#9DC3E6"/>
+                            <Rectangle Height="48" Fill="#2E75B6"/>
+                            <Rectangle Height="48" Fill="#1F4E79"/> 
+                        </StackPanel>
+                    </local:MyCard>
+                </Grid>
+            <local:MyCard Margin="0,0,0,15" Title="横向StackPanel">
+                <StackPanel>
+                    <TextBlock Text="       实际上，StackPanel也可以横向排列，就像下面一样。" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
+                        <Rectangle Height="30" Width="50" Margin="10" Fill="#9DC3E6"/>
+                        <Rectangle Height="30" Width="50" Margin="10" Fill="#2E75B6"/>
+                        <Rectangle Height="30" Width="50" Margin="10" Fill="#1F4E79"/>
+                    </StackPanel>
+                    <TextBlock Background="DarkGray" Foreground="White" Text="1. &lt;StackPanel Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Center&quot; &gt;
+                        &#xA;2.     &lt;Rectangle Height=&quot;30&quot; Width=&quot;50&quot; Margin=&quot;10&quot; Fill=&quot;#9DC3E6&quot;/&gt;
+                        &#xA;3.     &lt;Rectangle Height=&quot;30&quot; Width=&quot;50&quot; Margin=&quot;10&quot; Fill=&quot;#2E75B6&quot;/&gt;
+                        &#xA;4.     &lt;Rectangle Height=&quot;30&quot; Width=&quot;50&quot; Margin=&quot;10&quot; Fill=&quot;#1F4E79&quot;/&gt;
+                    &#xA;5. &lt;/StackPanel&gt;
+"/>
+                </StackPanel>
+            </local:MyCard>
+            <local:MyCard Title="Grid布局" Margin="0,0,0,15">
+                <StackPanel>
+                    <TextBlock Text="尚未完成，预计5·1劳动节期间内完成"/>
+                </StackPanel>
+            </local:MyCard>
+        <Grid  Background="{DynamicResource ColorBrush2}">
+        <TextBlock HorizontalAlignment="Center">
+            <Run Text="Created by " FontSize="32" Foreground="White" />
+            <Run Text="Px2uRo" FontSize="32" Foreground="White" FontWeight="Bold"/>
+        </TextBlock>
+        </Grid>
+        </StackPanel>
