@@ -1,0 +1,67 @@
+
+<!-- 不会XAML，在XiaoFans的帮助文档上稍作修改，可能需要根据规范重新修改表述及格式。 可能仍需继续完善。 -->
+
+<local:MyCard Title="简介" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="在 Minecraft 中有各种各样的材质包，但是很多新手不会安装材质包。这篇帮助就可以让你学会安装材质包。
+                        (本文章假设您已经下载好材质包，如需材质包，请到如 MCBBS，CurseForge 等 Minecraft 资源网站下载)" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="通用方法" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="在 PCL2 启动器中找到您想要安装材质包的版本，如教程内选择 1.16.5 作为演示。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/Ptgj5deK37ZkFBL.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="点击最右侧的齿轮，打开 “版本设置”。 "/>
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/xR7BiQKX4CgTVGS.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="点击下方 “打开版本文件夹” 按钮。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/srbceVMR1m3oFj6.png" />        
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="此时，您应该能看到如下图一样的页面。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/aMwDAe6JTPOFhB2.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="打开 “resourcepacks” 文件夹。"  />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/zwLQsn3ScbVCprZ.png" />  
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="将您的材质包拖入 ”resourcepacks“ 文件夹。"/>
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/mZ7RhoElIeD1rH4.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="注: 部分材质包为套娃结构，即在材质包主体 .zip 文件内仍有一个文件夹，您也可以将整个文件夹存放至 “resourcepacks” 文件夹 (如下图)" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/G8LCameZBX73PHd.png"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="启动您的游戏，打开选项——资源包。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/lTvcOCedmzUZ7tP.png" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/qoDdbHTMQjEScJa.png" /> 
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="此时，您应该能看到左侧 “可用” 列表中有您下载的资源包名称，将指针移动至图标上方，将出现一个箭头，点击箭头，此时您应该可以看到此资源包移动到了右侧 “已选” 列表，点击 “完成” 应用资源包。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/JeEOFwsD76Mga4Q.png" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/KE5ha7yvgIe3tC9.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="等待红色 Mojang 进度条至尽头，资源包就已加载完成。"/>             
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="对于 1.16+ 的安装方法" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="对于 Minecraft 1.16 及以上版本，还有另外一种更加简单便捷的方法安装材质包。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="启动您的游戏，打开选项——资源包。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/lTvcOCedmzUZ7tP.png" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/qoDdbHTMQjEScJa.png" /> 
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="找到您下载的材质包，将其文件拖至 Minecraft 窗口内。此时会弹出一个提示，点击“是”。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/1i6fVT42CHpuWFq.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="此时，您应该能看到左侧 “可用” 列表中有您下载的资源包名称，将指针移动至图标上方，将出现一个箭头，点击箭头，此时您应该可以看到此资源包移动到了右侧 “已选” 列表，点击 “完成” 应用资源包。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/JeEOFwsD76Mga4Q.png" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/KE5ha7yvgIe3tC9.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="等待红色 Mojang 进度条至尽头，资源包就已加载完成。"/>    
+    </StackPanel>
+</local:MyCard>
+<local:MyHint Margin="0,0,0,15" Text="作者：WTP016" IsWarn="False" />
