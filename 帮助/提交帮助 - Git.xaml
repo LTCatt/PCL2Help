@@ -28,7 +28,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
                     Text="2.进入 Help 文件夹，右键鼠标，单击 Git Bash Here"/>
 
-        <local:MyCard Title="使用 Git 与 GitHub 账户建立连接（对与此步骤在已使用过Git的用户是无需的查看的）" Margin="0,10,0,15" CanSwap="True" IsSwaped="True">
+        <local:MyCard Title="使用 Git 与 GitHub 账户建立连接（对于此步骤，在已使用过Git与Github建立过连接的用户，是无需的查看的）" Margin="0,10,0,15" CanSwap="True" IsSwaped="True">
             <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="3.在启动的 Git 命令行窗口中，逐行输入 （点击按钮即可复制文本）"/>
@@ -112,10 +112,10 @@
 
 
         <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
-                    Text="7.再到原仓库中，新建合并请求，即可提交代码审核"/>
+                    Text="7.再到原仓库中，新建 Pull Requests ，即可提交代码审核"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">            
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="新建合并请求" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help/compare" />
+                        Text="新建 Pull Requests " EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help/compare" />
         </StackPanel>  
 
         <local:MyHint Text="注意，在请求合并之前请先请确保你的仓库分支与原仓库是同步的，GitHub不会自动同步你的分支仓库，请在你的仓库中新建合并请求选择“compare across forks(跨叉比较)”然后将(Head)头仓库选择为原仓库，(Base)合并仓库选择为你的分支仓库，创建合并请求，并拉取合并，进行同步仓库处理。" />
