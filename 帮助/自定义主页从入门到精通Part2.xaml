@@ -27,10 +27,10 @@
                         <StackPanel>
                             <TextBlock Margin="0,0,0,15" TextWrapping="Wrap" Text="        如你所见，右边的几个方块被竖着放在了一起。这便是StackPanel布局了，当然，还有其他的布局，比如Grid。下面是XAML源码了："/>
                             <TextBlock Background="DarkGray" Foreground="White" Text="1. &lt;StackPanel&gt;
-                                       &#xA;2.        &lt;TextBlock Background=&quot;#BDD7EE&quot; Text=&quot;This Is StackPanel&quot;/&gt;
-                                       &#xA;3.        &lt;Rectangle Height=&quot;48&quot; Fill=&quot;#9DC3E6&quot;/&gt;
-                                       &#xA;4.        &lt;Rectangle Height=&quot;48&quot; Fill=&quot;#2E75B6&quot;/&gt;
-                                       &#xA;5.        &lt;Rectangle Height=&quot;48&quot; Fill=&quot;#1F4E79&quot;/&gt; 
+                                       &#xA;2.        &lt;TextBlock Height=&quot;36&quot; Background=&quot;#BDD7EE&quot; Text=&quot;This is StackPanel&quot;/&gt;
+                                       &#xA;3.        &lt;Rectangle Height=&quot;36&quot; Fill=&quot;#9DC3E6&quot;/&gt;
+                                       &#xA;4.        &lt;Rectangle Height=&quot;36&quot; Fill=&quot;#2E75B6&quot;/&gt;
+                                       &#xA;5.        &lt;Rectangle Height=&quot;36&quot; Fill=&quot;#1F4E79&quot;/&gt; 
                         &#xA;6.&lt;/StackPanel&gt;"/>
                             <TextBlock />
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,0" HorizontalAlignment="Center" >
@@ -44,10 +44,10 @@
                     </local:MyCard>
                     <local:MyCard Grid.Column="2" Title="这是StackPanel">
                         <StackPanel>
-                            <TextBlock Background="#BDD7EE" Text="This Is StackPanel"/>
-                            <Rectangle Height="48" Fill="#9DC3E6"/>
-                            <Rectangle Height="48" Fill="#2E75B6"/>
-                            <Rectangle Height="48" Fill="#1F4E79"/> 
+                            <TextBlock Background="#BDD7EE" Height="36" Text="This is StackPanel"/>
+                            <Rectangle Height="36" Fill="#9DC3E6"/>
+                            <Rectangle Height="36" Fill="#2E75B6"/>
+                            <Rectangle Height="36" Fill="#1F4E79"/> 
                         </StackPanel>
                     </local:MyCard>
                 </Grid>
@@ -69,7 +69,45 @@
             </local:MyCard>
             <local:MyCard Title="Grid布局" Margin="0,0,0,15">
                 <StackPanel>
-                    <TextBlock Text="尚未完成，预计5·1劳动节期间内完成"/>
+                    <TextBlock Text="       Grid 的意思是网格，您可以通过 Grid.RowDefinitions 以及 ColumnDefinition 子元素将 Grid 布局分为多行。并通过 Grid.ColumnDefinitions 和 ColumnDefinition 子元素将布局分为多列。"/>
+                    <TextBlock Text="       那么，Grid 布局下的其它元素需要在元素上加入 Grid.Row 属性和 Grid.Cloumn 属性，注意，定义到第一行是 Grid.Row=&quot;0&quot;，而定义到第一列是 Grid.Cloumn=&quot;0&quot;。"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/><!--此元素下的 Width 属性定义了这列的宽度。-->
+                            <ColumnDefinition Width="7*"/><!--若以 * 结尾就说明它的宽度是安比例分配的。-->
+                            <ColumnDefinition Width="10"/><!--这是按像素分配-->
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/><!--这是自动分配-->
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Background="#1F4E79" Foreground="White" Text="   GirdTest" Grid.ColumnSpan="2"/><!--默认Grid.Cloumn="0" Grid.Row="0" Grid.ColumnSpan="2" 是指同时站 2 列。-->
+                        <TextBlock Background="#2E75B6" Grid.Column="2" Text=" x " HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Background="#9DC3E6" Grid.Row="1" Width="100" Height="120" Margin="10" Text="    这是第一列，第二行。" Foreground="White"/>
+                        <TextBlock Text="这是第二列，第二行。" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Rectangle Fill="#BDD7EE" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2"/>
+                        <TextBlock Grid.Row="2" Grid.ColumnSpan="3" Text="这是第一列第三行，并同时占用三列。"/>
+                    </Grid>
+                    <TextBlock Name="GridCode" Background="DarkGray" Foreground="White" Text="&lt;Grid&gt;
+                        &#xA;       &lt;Grid.ColumnDefinitions&gt;
+                        &#xA;       &lt;ColumnDefinition Width=&quot;2*&quot;/&gt;&lt;!--此元素下的 Width 属性定义了这列的宽度。--&gt;
+                        &#xA;       &lt;ColumnDefinition Width=&quot;7*&quot;/&gt;&lt;!--若以 * 结尾就说明它的宽度是安比例分配的。--&gt;
+                        &#xA;       &lt;ColumnDefinition Width=&quot;10&quot;/&gt;&lt;!--这是按像素分配--&gt;
+                        &#xA;       &lt;/Grid.ColumnDefinitions&gt;
+                        &#xA;       &lt;Grid.RowDefinitions&gt;
+                        &#xA;           &lt;RowDefinition Height=&quot;Auto&quot;/&gt;&lt;!--这是自动分配--&gt;
+                        &#xA;           &lt;RowDefinition Height=&quot;Auto&quot;/&gt;
+                        &#xA;           &lt;RowDefinition Height=&quot;Auto&quot;/&gt;
+                        &#xA;       &lt;/Grid.RowDefinitions&gt;
+                        &#xA;       &lt;TextBlock Background=&quot;#1F4E79&quot; Foreground=&quot;White&quot; Text=&quot;   GirdTest&quot; Grid.ColumnSpan=&quot;2&quot;/&gt;&lt;!--默认Grid.Cloumn=&quot;0&quot; Grid.Row=&quot;0&quot; Grid.ColumnSpan=&quot;2&quot; 是指同时站 2 列。--&gt;
+                        &#xA;       &lt;TextBlock Background=&quot;#2E75B6&quot; Grid.Column=&quot;2&quot; Text=&quot; x &quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt;
+                        &#xA;       &lt;TextBlock Background=&quot;#9DC3E6&quot; Grid.Row=&quot;1&quot; Width=&quot;100&quot; Height=&quot;120&quot; Margin=&quot;10&quot; Text=&quot;    这是第一列，第二行。&quot; Foreground=&quot;White&quot;/&gt;
+                        &#xA;       &lt;TextBlock Text=&quot;这是第二列，第二行。&quot; Grid.Row=&quot;1&quot; Grid.Column=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;/&gt;
+                        &#xA;       &lt;Rectangle Fill=&quot;#BDD7EE&quot; Grid.Row=&quot;1&quot; Grid.Column=&quot;2&quot; Grid.RowSpan=&quot;2&quot;/&gt;
+                        &#xA;       &lt;TextBlock Grid.Row=&quot;2&quot; Grid.ColumnSpan=&quot;3&quot; Text=&quot;这是第一列第三行，并同时占用三列。&quot;/&gt;
+                    &#xA;&lt;/Grid&gt;"/>
+                    <local:MyButton HorizontalAlignment="Center" EventType="复制文本" EventData="{Binding ElementName=GridCode,Path=Text}" Text="复制代码" ColorType="HighLight" />
                 </StackPanel>
             </local:MyCard>
         <Grid  Background="{DynamicResource ColorBrush2}">

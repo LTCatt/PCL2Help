@@ -42,11 +42,9 @@
         <local:MyCard Grid.Column="0" Title="1.XAML 前言">
             <StackPanel>
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" Text="       XAML 全称 eXtensible Application Markup Language 发音为 zammel。
-                           &#xA;       XAML 语言是微软于 .NET Framework 3.0 加入的一种标记语言，旨在简化 .NET 编程模式上的用户界面创建过程。
-                           &#xA;       如果您还是觉得 XAML 太难写的话，您可能需要 Visual Studio ，在 Visual Studio 上把 XAML 文档写好了复制到 PCL2 的帮助（或自定义主页）文档内。"/>
-                <StackPanel Orientation="Horizontal" Margin="0,0,0,15" HorizontalAlignment="Center">
+                           &#xA;       XAML 语言是微软于 .NET Framework 3.0 加入的一种标记语言，旨在简化 .NET 编程模式上的用户界面创建过程。"/>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,15" HorizontalAlignment="Center" >
                     <local:MyButton Width="160" Text="微软官方 XAML 帮助" EventType="打开网页" EventData="https://docs.microsoft.com/zh-cn/dotnet/desktop/wpf/advanced/xaml-in-wpf?view=netframeworkdesktop-4.8" ColorType="Highlight"/>
-                    <local:MyButton Text="下载 Visual Studio" EventType="打开网页" EventData="https://visualstudio.microsoft.com/"/>
                 </StackPanel>
             </StackPanel>
         </local:MyCard>
@@ -94,7 +92,7 @@
 		Text="赞助作者" EventType="打开网页" EventData="https://afdian.net/@LTCat" ColorType="HighLight"
                                         HorizontalAlignment="Center" VerticalAlignment="Center" />
                     <local:MyTextButton ToolTip="规范啊！规范！"  Grid.Column="1"
-Text="了解帮助规范" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help/blob/master/%E5%B8%AE%E5%8A%A9/%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83.xaml"
+Text="了解帮助规范" EventType="打开帮助" EventData="编写规范.json"
                                         HorizontalAlignment="Center" VerticalAlignment="Center" />
                     <local:MyComboBox SelectedIndex="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2">
                         <ComboBoxItem>Aqua</ComboBoxItem>
@@ -102,7 +100,7 @@ Text="了解帮助规范" EventType="打开网页" EventData="https://github.com
                     </local:MyComboBox>
                     <TextBlock Background="DarkGray" Name="Code2" Foreground="White" TextWrapping="Wrap" Grid.Row="1" Grid.Column="0" Text="&lt;local:MyButton ToolTip=&quot;前往爱发电与龙猫问个好。&quot;&#xA; Text=&quot;赞助作者&quot; EventType=&quot;打开网页&quot; EventData=&quot;https://afdian.net/@LTCat&quot; ColorType=&quot;HighLight&quot;/&gt;" />
                     <TextBlock Background="DarkGray" Name="Code3" Foreground="White" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1" Text="&lt;local:MyTextButton ToolTip=&quot;规范啊！规范！&quot;
-Text=&quot;了解帮助规范&quot; EventType=&quot;打开网页&quot; EventData=https://github.com/LTCatt/PCL2Help/blob/master/%E5%B8%AE%E5%8A%A9/%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83.xaml /&gt;
+Text=&quot;了解帮助规范&quot; EventType=&quot;打开帮助&quot; EventData=&quot;编写规范.json&quot; /&gt;
 "/>
                     <TextBlock Background="DarkGray" Name="Code4" Foreground="White" TextWrapping="Wrap" Grid.Row="1" Grid.Column="2" Text="&lt;local:MyComboBox SelectedIndex=&quot;0&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; Grid.Column=&quot;2&quot;&gt;
                         &lt;ComboBoxItem&gt;Aqua&lt;/ComboBoxItem&gt;

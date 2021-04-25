@@ -1,7 +1,7 @@
 ﻿{
     "Title": "布局",
-    "Description": "此文档阐述了布局的使用",
+    "Description": "此文档阐述了StackPanel、Grid布局的使用",
     "Keywords": "WPF",
     "Logo":"https://blog.prudhomme.wtf/wp-content/uploads/2015/06/XAML_Logo.png",
-    "Types": ["自定义主页从入门到入土"]
+    "Types": ["自定义主页"]
 }
