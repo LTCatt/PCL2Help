@@ -39,14 +39,14 @@
             <ColumnDefinition Width="20"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <local:MyCard Grid.Column="0" Title="1.XAML前言">
+        <local:MyCard Grid.Column="0" Title="1.XAML 前言">
             <StackPanel>
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" Text="       XAML 全称 eXtensible Application Markup Language 发音为 zammel。
                            &#xA;       XAML 语言是微软于 .NET Framework 3.0 加入的一种标记语言，旨在简化 .NET 编程模式上的用户界面创建过程。
-                           &#xA;       如果您还是觉得XAML太难写的话，您可能需要 Visual Studio ，在 Visual Studio 上把 XAML 文档写好了复制到 PCL2 的帮助（或自定义主页）文档内。"/>
+                           &#xA;       如果您还是觉得 XAML 太难写的话，您可能需要 Visual Studio ，在 Visual Studio 上把 XAML 文档写好了复制到 PCL2 的帮助（或自定义主页）文档内。"/>
                 <StackPanel Orientation="Horizontal" Margin="0,0,0,15" HorizontalAlignment="Center">
-                    <local:MyButton Width="150" Text="微软官方XAML帮助" EventType="打开网页" EventData="https://docs.microsoft.com/zh-cn/dotnet/desktop/wpf/advanced/xaml-in-wpf?view=netframeworkdesktop-4.8" ColorType="Highlight"/>
-                    <local:MyButton Text="下载Visual Studio" EventType="打开网页" EventData="https://visualstudio.microsoft.com/"/>
+                    <local:MyButton Width="160" Text="微软官方 XAML 帮助" EventType="打开网页" EventData="https://docs.microsoft.com/zh-cn/dotnet/desktop/wpf/advanced/xaml-in-wpf?view=netframeworkdesktop-4.8" ColorType="Highlight"/>
+                    <local:MyButton Text="下载 Visual Studio" EventType="打开网页" EventData="https://visualstudio.microsoft.com/"/>
                 </StackPanel>
             </StackPanel>
         </local:MyCard>
@@ -56,7 +56,7 @@
             </StackPanel>
         </local:MyCard>
     </Grid>
-        <local:MyCard Title="2.XAML基础语法" Margin="0,0,0,15">
+        <local:MyCard Title="2.XAML 基础语法" Margin="0,0,0,15">
             <StackPanel>
                 <TextBlock TextWrapping="Wrap" Text="        首先， XAML 是以元素名（可能会有属性）加两个尖括号（&lt;元素名 属性=&quot;值&quot;&gt;）开头的，并且以&lt;/元素名&gt;结尾，或者形如 &lt;元素名 属性=&quot;值&quot;/&gt; 就像下面的两行代码一样。" />
                 <TextBlock Background="DarkGray" FontSize="16" Margin="8" Foreground="AliceBlue" Name="Code1"
@@ -77,7 +77,6 @@
                 <Grid>
                     <Grid.Resources>
                         <Style TargetType="TextBlock">
-                            <Setter Property="Background" Value="DarkGray"/>
                             <Setter Property="Margin" Value="10"/>
                         </Style>
                     </Grid.Resources>
@@ -88,6 +87,7 @@
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="100"/>
+                        <RowDefinition/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
                     <local:MyButton ToolTip="前往爱发电与龙猫问个好。" Grid.Column="0" 
@@ -100,16 +100,18 @@ Text="了解帮助规范" EventType="打开网页" EventData="https://github.com
                         <ComboBoxItem>Aqua</ComboBoxItem>
                         <ComboBoxItem>HotPink</ComboBoxItem>
                     </local:MyComboBox>
-                    <TextBlock Foreground="White" TextWrapping="Wrap" Grid.Row="1" Grid.Column="0" Text="&lt;local:MyButton ToolTip=&quot;前往爱发电与龙猫问个好。&quot;&#xA; Text=&quot;赞助作者&quot; EventType=&quot;打开网页&quot; EventData=&quot;https://afdian.net/@LTCat&quot; ColorType=&quot;HighLight&quot;/&gt;" />
-                    <TextBlock Foreground="White" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1" Text="&lt;local:MyTextButton ToolTip=&quot;规范啊！规范！&quot;
+                    <TextBlock Background="DarkGray" Name="Code2" Foreground="White" TextWrapping="Wrap" Grid.Row="1" Grid.Column="0" Text="&lt;local:MyButton ToolTip=&quot;前往爱发电与龙猫问个好。&quot;&#xA; Text=&quot;赞助作者&quot; EventType=&quot;打开网页&quot; EventData=&quot;https://afdian.net/@LTCat&quot; ColorType=&quot;HighLight&quot;/&gt;" />
+                    <TextBlock Background="DarkGray" Name="Code3" Foreground="White" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1" Text="&lt;local:MyTextButton ToolTip=&quot;规范啊！规范！&quot;
 Text=&quot;了解帮助规范&quot; EventType=&quot;打开网页&quot; EventData=https://github.com/LTCatt/PCL2Help/blob/master/%E5%B8%AE%E5%8A%A9/%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83.xaml /&gt;
 "/>
-                    <TextBlock Foreground="White" TextWrapping="Wrap" Grid.Row="1" Grid.Column="2" Text="&lt;local:MyComboBox SelectedIndex=&quot;0&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; Grid.Column=&quot;2&quot;&gt;
+                    <TextBlock Background="DarkGray" Name="Code4" Foreground="White" TextWrapping="Wrap" Grid.Row="1" Grid.Column="2" Text="&lt;local:MyComboBox SelectedIndex=&quot;0&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; Grid.Column=&quot;2&quot;&gt;
                         &lt;ComboBoxItem&gt;Aqua&lt;/ComboBoxItem&gt;
                         &lt;ComboBoxItem&gt;HotPink&lt;/ComboBoxItem&gt;
                     &lt;/local:MyComboBox&gt;
 "/>
-
+<local:MyButton Text="复制代码" EventType="复制文本" EventData="{Binding ElementName=Code2,Path=Text}" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+<local:MyButton Text="复制代码" EventType="复制文本" EventData="{Binding ElementName=Code3,Path=Text}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+<local:MyButton Text="复制代码" EventType="复制文本" EventData="{Binding ElementName=Code4,Path=Text}" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </Grid>
             </StackPanel>
         </local:MyCard>
