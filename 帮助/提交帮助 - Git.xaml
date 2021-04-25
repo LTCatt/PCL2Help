@@ -28,7 +28,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
                     Text="2.进入 Help 文件夹，右键鼠标，单击 Git Bash Here"/>
 
-        <local:MyCard Title="使用 Git 与 GitHub 账户建立连接（对于此步骤，在已使用过Git与Github建立过连接的用户，是无需的查看的）" Margin="0,10,0,15" CanSwap="True" IsSwaped="True">
+        <local:MyCard Title="使用 Git 与 GitHub 账户建立连接（对于此步骤，已使用过 Git 与 Github 建立过连接的用户，是无需查看的）" Margin="0,10,0,15" CanSwap="True" IsSwaped="True">
             <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="3.在启动的 Git 命令行窗口中，逐行输入 （点击按钮即可复制文本）"/>
