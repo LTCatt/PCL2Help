@@ -1,26 +1,25 @@
-<local:MyCard Title="概述" Margin="0,0,0,15">
+<local:MyCard Title="概述">
 <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="PCL2 帮助库欢迎大家参与编辑！你可以参与完善帮助库，帮助更多人了解 PCL2 与 Minecraft！&#xa;本文将指导你下载、修改 PCL2 的内置帮助库，最后提交更改。&#xa;这里默认你已经了解如何修改、添加 PCL2 的自定义帮助页面。如果你还不了解，可以先查看此教程：" />
         <local:MyListItem Margin="0,0,0,4"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="获取帮助库" Margin="0,0,0,15">
+<local:MyCard Title="获取帮助库">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,2,0,10" Text="GitHub 目前在国内的访问不太通畅。如果遇到网络问题，请自行使用科学上网工具，然后为 Git 设置代理。" IsWarn="false" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="你需要先注册并登录 GitHub 账号。此后，点击下方 GitHub 存储库 ，然后点击页面右上角的 Fork 建立一个分支。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                             Text="GitHub 存储库" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help" />
-            <local:MyButton MinWidth="150" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                            Text="为 Git 设置代理" EventType="打开网页" EventData="https://www.jianshu.com/p/290152303598" />
+            <local:MyButton MinWidth="170" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="如何为 Git 设置代理" EventType="打开网页" EventData="https://www.jianshu.com/p/290152303598" />
         </StackPanel>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,14" LineHeight="17"
-
-                   Text="Fork 完成后，使用以下介绍的任意软件提交帮助。下方条目为 GitHub Desktop、VSCode 和 Git 详细提交帮助的过程；&#xa;推荐使用VSCode提交帮助。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="19"
+                   Text="Fork 完成后，使用以下介绍的任意软件提交帮助。下方条目为使用 VSCode、Git 命令行与 GitHub Desktop 提交帮助的详细过程。&#xa;我们推荐使用 VSCode 进行操作。" />
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - VSCode.json" />
         <local:MyListItem Margin="0,0,0,0"
@@ -30,19 +29,19 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="全局编写规范" Margin="0,0,0,15">
+<local:MyCard Title="编写规范">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="点击下方打开 编写规范 查看详情。" />
-        <local:MyListItem Margin="0,10,0,10" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
-		            EventType="打开帮助" EventData="帮助/编写规范.json" />
+        <TextBlock Margin="0,0,0,4" LineHeight="19"
+                   Text="我们对 PCL2 内置帮助库有一些格式与语法上的固定要求。&#xa;在开始编辑与提交前，请仔细阅读下文并逐条进行检查，这能让你的提交更快通过。" />
+        <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+		            EventType="打开帮助" EventData="帮助/提交帮助 - 编写规范.json" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="下一步计划" Margin="0,0,0,15">
+<local:MyCard Title="下一步计划">
     <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="目前我们需要将 PCL2 帮助站中的常见内容搬运到帮助库中，以及补充 MC 游戏过程中常见问题的解决方法。&#xa;你可以考虑添加这些帮助，或者修改目前标注需要进一步完善的页面。" />
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="目前我们需要将 PCL2 帮助站中的常见内容搬运到帮助库中，以及补充 MC 游戏过程中常见问题的解决方法。&#xa;你可以考虑添加这些帮助，或者修改、完善目前标注需要进一步完善的页面。" />
         <local:MyButton MinWidth="180" Height="35" Padding="13,0" Margin="0,4,20,4" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="打开 PCL2 帮助站" EventType="打开网页" EventData="https://pcl2-help.gitee.io/" />
     </StackPanel>
