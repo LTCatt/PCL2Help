@@ -6,7 +6,7 @@
 <local:MyCard Title="简介">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="PCL2 支持多种登录方式，可以单独为某一版本指定一种启动方式，是对服务器整合端很友善的一个功能。支持 离线登录、正版登录、统一通行证 和 Authlib-Injector 登录，本帮助页面将提供为特定版本切换登录方式的教程。" />
+                   Text="PCL2 支持多种登录方式，可以单独为某一版本指定一种启动方式。支持 离线登录、正版登录、统一通行证 和 Authlib-Injector 登录，此界面将提供简单的教程。" />
     </StackPanel>
 </local:MyCard>
 
