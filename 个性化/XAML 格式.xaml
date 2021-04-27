@@ -150,9 +150,15 @@
         <TextBlock TextWrapping="Wrap"
                    Text="你好世界！" Foreground="{DynamicResource ColorBrush5}"/>
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,15"
-                   Text="除了字体颜色的前景色，你也可以用于背景色、边框等绝大部分的颜色参数。" />
+                   Text="除了字体颜色的前景色，你也可以用于背景色、边框等绝大部分的颜色参数，参考如下复杂例子。" />
         <Border Background="{DynamicResource ColorBrush5}" BorderBrush="{DynamicResource ColorBrush2}"
-                   CornerRadius="7" HorizontalAlignment="Stretch" BorderThickness="1" Margin="15,0" Height="30px" ></Border>
+                   CornerRadius="3" HorizontalAlignment="Stretch" BorderThickness="1" Height="27px" Opacity="0.7">
+            <Grid>
+                <Path Fill="{DynamicResource ColorBrush1}" Stretch="Fill" Width="15" Height="15" HorizontalAlignment="Left" Margin="10,0,0,0"
+                        Data="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></Path>
+                <TextBlock Foreground="{DynamicResource ColorBrush1}" Margin="35,5,0,0" Text="仿造的同步主题色的信息条。" />
+            </Grid>
+        </Border>
     </StackPanel>
 </local:MyCard>
 
