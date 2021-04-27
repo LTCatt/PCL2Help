@@ -1,8 +1,8 @@
-<div align="center"><img src="https://z3.ax1x.com/2021/04/05/cMgvw9.jpg" alt="PCL2 内置帮助库"/></div>
+<div align="center"><img src="bar.png" alt="PCL2 内置帮助库"/></div>
 <div align="center"><img src="https://img.shields.io/github/stars/LTCatt/PCL2Help">&nbsp; <img src="https://img.shields.io/github/forks/LTCatt/PCL2Help?color=%23f8e71c">&nbsp;<img src="https://img.shields.io/github/issues/LTCatt/PCL2Help?color=%237ed321"></div>
- 
+
   
- 
+
 ## 💎 简介
 
 这是一个 PCL2 启动器内置的帮助库，你可以通过它查阅到关于 PCL2 启动器及 Minecraft 的帮助。 由 PCL2 用户及 Minecraft 玩家共同编写维护。
