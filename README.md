@@ -1,4 +1,4 @@
-<div align="center"><img src="bar.png" alt="PCL2 内置帮助库"/></div>
+<div align="center"><img src="https://i.loli.net/2021/04/27/OjXRwG5tArl2QnW.png" alt="PCL2 内置帮助库"/></div>
 <div align="center"><img src="https://img.shields.io/github/stars/LTCatt/PCL2Help">&nbsp; <img src="https://img.shields.io/github/forks/LTCatt/PCL2Help?color=%23f8e71c">&nbsp;<img src="https://img.shields.io/github/issues/LTCatt/PCL2Help?color=%237ed321"></div>
 
   
