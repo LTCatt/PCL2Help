@@ -19,7 +19,13 @@
                    Text="1. 点击下方按钮打开注册表编辑器。&#xa;2. 在其左边栏打开 HKEY_CURRENT_USER\Software\PCL 文件夹。&#xa;3. 右键左边栏中的 PCL 文件夹，选择 “导出”。此后，双击导出的文件即可导入配置。"/>
         <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="打开注册表编辑器" EventType="打开文件" EventData="regedit" />
+        <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                   Text="Bat 脚本" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="如果你依旧没有明白上面的步骤，你可以点击下方按钮下载批处理脚本双击运行进行进行自动备份。"/>
+        <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="下载批处理" EventType="下载文件" EventData="http://189.ly93.cc/vEZB732yMNBv/PCL2 Reg Backup.bat" ToolTip="下载批处理" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：tang_ge、龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：tang_ge、龙腾猫跃、林小槐" IsWarn="False" />
