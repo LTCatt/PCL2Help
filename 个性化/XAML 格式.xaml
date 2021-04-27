@@ -1,6 +1,6 @@
 
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<!-- 需要补充 EventType “打开帮助”、通过 DynamicResources 绑定主题颜色、
+<!-- 需要补充 EventType “打开帮助”、
      MyListItem 的简介、使用 MyListItem 跳转帮助或触发事件 等内容。 -->
 
 <!-- 
@@ -10,8 +10,8 @@
 -->
 <local:MyCard Title="前言">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="20,5,20,0" FontSize="15" HorizontalAlignment="Center" Foreground="#EC4141"
-                   Text="此篇帮助建议对照代码查看，点击下方按钮下载代码" />
+        <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush}"
+                   Text="本篇简单介绍了在 PCL2 中使用 XAML 进行自定义页面的相关语法，由于内容繁多，建议下载本篇代码参考学习。" />
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
                    Text="下载本篇的代码" EventType="下载文件" EventData="http://189.ly93.cc/viyYf2rIze63/71443213109235631.xaml" ToolTip="下载本篇的代码" />
     </StackPanel>
@@ -139,6 +139,22 @@
       
     </StackPanel>
 </local:MyCard>
+<local:MyCard Title="全局动态资源绑定">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="你可以使用全局动态资源绑定的方式来给你的控件赋予全局主题色。" />
+        <TextBlock TextWrapping="Wrap"
+                   Text="你好世界！" Foreground="{DynamicResource ColorBrush1}"/>
+        <TextBlock TextWrapping="Wrap"
+                   Text="你好世界！" Foreground="{DynamicResource ColorBrush3}"/>
+        <TextBlock TextWrapping="Wrap"
+                   Text="你好世界！" Foreground="{DynamicResource ColorBrush5}"/>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,15"
+                   Text="除了字体颜色的前景色，你也可以用于背景色、边框等绝大部分的颜色参数。" />
+        <Border Background="{DynamicResource ColorBrush5}" BorderBrush="{DynamicResource ColorBrush2}"
+                   CornerRadius="7" HorizontalAlignment="Stretch" BorderThickness="1" Margin="15,0" Height="30px" ></Border>
+    </StackPanel>
+</local:MyCard>
 
 <!-- 
 
@@ -179,4 +195,4 @@ local:MyCard（卡片）：
 
 -->
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、林小槐" IsWarn="False" />
