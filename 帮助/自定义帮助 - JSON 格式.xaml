@@ -88,7 +88,7 @@
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="6" Grid.Column="2" Text="Boolean" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="6" Grid.Column="3" Text="默认为 true。若改为 false，该条目会 PCL2 公开版中隐藏。&#xa;对 PCL2 内置帮助库，如果内容涉及内测（例如群服务器、隐藏主题等），则应设置为 false。" />
+				   Grid.Row="6" Grid.Column="3" Text="默认为 true。若改为 false，该条目会 PCL2 正式版中隐藏。&#xa;对 PCL2 内置帮助库，如果内容涉及内群（例如群服务器、隐藏主题等），则应设置为 false。" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="7" Grid.Column="0" Text="ShowInSnapshot" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
@@ -96,7 +96,7 @@
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="7" Grid.Column="2" Text="Boolean" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="7" Grid.Column="3" Text="默认为 true。若改为 false，该条目会 PCL2 内测版中隐藏。" />
+				   Grid.Row="7" Grid.Column="3" Text="默认为 true。若改为 false，该条目会 PCL2 快照版中隐藏。" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="8" Grid.Column="0" Text="IsEvent" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
