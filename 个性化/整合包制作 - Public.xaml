@@ -2,17 +2,17 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。" IsWarn="False" />
 <!-- 龙腾猫跃：我会接着写这一页的，不用管 =。= -->
 
-<local:MyCard Title="修改启动时 “你知道吗?” 的内容" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
+<local:MyCard Title="我可以使用 PCL2 制作整合包吗？" CanSwap="True">
+    <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="在 PCL 文件夹下新建一个名为 hints.txt 的文件，然后每一行写入一条信息，即可修改启动时 “你知道吗?” 的内容。&#xa;PCL2 读取该文件时会忽略空行。" />
+                   Text="你目前所使用的是 PCL2 正式版。与内测或快照版不同，正式版没有分发限制，因此你可以发给其他人或是用于制作整合包、服务器客户端。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="修改主页右侧的内容（主页自定义）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
+<local:MyCard Title="修改启动时 “你知道吗?” 的内容" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="尚未完成。" />
+                   Text="在 PCL 文件夹下新建一个名为 hints.txt 的文件，然后每一行写入一条信息，即可修改启动时 “你知道吗?” 的内容。&#xa;PCL2 读取该文件时会忽略空行。" />
     </StackPanel>
 </local:MyCard>
 

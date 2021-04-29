@@ -2,26 +2,19 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。" IsWarn="False" />
 <!-- 龙腾猫跃：我会接着写这一页的，不用管 =。= -->
 
-<local:MyCard Title="内测提示">
-    <StackPanel Margin="25,40,23,15">
+<local:MyCard Title="我可以使用 PCL2 制作整合包吗？" CanSwap="True">
+    <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你目前所使用的 PCL2 内测版仅限你本人使用，禁止用于制作整合包或服务器客户端。&#xa;不过，你可以使用 PCL2 公开版任意制作整合包，点击下方按钮即可下载。" />
-        <local:MyButton MinWidth="160" Height="35" Padding="13,0" Margin="0,4,20,4" HorizontalAlignment="Left" ColorType="Highlight"
-                        Text="下载 PCL2 公开版" EventType="打开网页" EventData="https://afdian.net/p/0164034c016c11ebafcb52540025c377" />
+                   Text="你目前所使用的 PCL2 快照版仅限你本人使用，禁止发给其他人或是用于制作整合包、服务器客户端。&#xa;不过，你可以使用 PCL2 正式版任意制作整合包，点击下方按钮即可下载。" />
+        <local:MyButton MinWidth="160" Height="35" Padding="13,0" Margin="0,4,20,8" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="下载 PCL2 正式版" EventType="打开网页" EventData="https://afdian.net/p/0164034c016c11ebafcb52540025c377" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="修改启动时 “你知道吗?” 的内容" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
+    <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="在 PCL 文件夹下新建一个名为 hints.txt 的文件，然后每一行写入一条信息，即可修改启动时 “你知道吗?” 的内容。&#xa;PCL2 读取该文件时会忽略空行。" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="修改主页右侧的内容（主页自定义）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="尚未完成。" />
     </StackPanel>
 </local:MyCard>
 
