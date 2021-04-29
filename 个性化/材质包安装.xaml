@@ -1,4 +1,4 @@
-
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 <!-- 不会XAML，在XiaoFans的帮助文档上稍作修改，可能需要根据规范重新修改表述及格式。 可能仍需继续完善。 -->
 
 <local:MyCard Title="简介" Margin="0,0,0,15">
@@ -24,7 +24,7 @@
                    Text="此时，您应该能看到如下图一样的页面。" />
         <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/aMwDAe6JTPOFhB2.png" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="打开 “resourcepacks” 文件夹。"  />
+                   Text="打开 ”resourcepacks“ 文件夹。"  />
         <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/zwLQsn3ScbVCprZ.png" />  
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="将您的材质包拖入 ”resourcepacks“ 文件夹。"/>
