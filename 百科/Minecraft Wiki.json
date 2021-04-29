@@ -3,7 +3,7 @@
 	"Title": "Minecraft Wiki",
 	"Description": "包含原版游戏过程中所需大多数知识的中文百科",
 	"Keywords": "我的世界wikipedia",
-	"Types": ["网站"],
+	"Types": ["百科"],
 	"IsEvent": true,
 	"EventType": "打开网页",
 	"EventData": "https://minecraft.fandom.com/zh/"

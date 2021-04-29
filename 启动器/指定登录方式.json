@@ -1,0 +1,7 @@
+{
+    "__Author__": "XiaoFans、一闪",
+	"Title": "指定登录方式",
+	"Description": "设置外置登录（如统一通行证、Authlib-Injector），单独为某一版本指定登录方式",
+    "Keywords": "第三方BlessingSkin",
+    "Types": ["启动器"]
+}
