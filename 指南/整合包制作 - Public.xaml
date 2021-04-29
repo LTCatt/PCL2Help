@@ -1,36 +1,48 @@
 ﻿
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。" IsWarn="False" />
-<!-- 龙腾猫跃：我会接着写这一页的，不用管 =。= -->
-
 <local:MyCard Title="我可以使用 PCL2 制作整合包吗？" CanSwap="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你目前所使用的是 PCL2 正式版。与内测或快照版不同，正式版没有分发限制，因此你可以发给其他人或是用于制作整合包、服务器客户端。" />
+                   Text="你目前所使用的是 PCL2 正式版。正式版没有分发限制，因此你可以发给其他人或是用于制作整合包、服务器客户端，无需向作者申请授权。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="删除整合包中的账号信息" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="整合包制作入门" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <local:MyListItem Margin="-5,0,-5,8" 
+		                  Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Title="整合包使用和制作入门" Info="如何打包整合包，并清理其中的冗余文件" Type="Clickable" PaddingRight="4"
+		                  EventType="打开网页" EventData="https://www.mcbbs.net/thread-485881-1-1.html" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="删除自己的账号信息" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="PCL2 将你的账号、密码等重要信息加密存储在注册表中，而不是文件中。&#xa;因此，你无需刻意删除你的账号信息，它们不会随着你的整合包被发放。" />
+                   Text="PCL2 将你的账号、密码等重要信息加密存储在注册表中，而不是文件中。&#xa;因此，你无需刻意删除你的账号信息，它们不会随着你的整合包被发放给其他人。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="设置外置登录（第三方登录）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="设置外置登录、限制登录方式" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="启动器/指定登录方式.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="添加、修改帮助页面" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="自定义主页" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="你可以在 设置→个性化→主页 中自定义启动器的主页。&#xa;你也可以将你的主页 XAML 文件上传到服务器，并通过 “联网更新” 选项实现主页的动态更新。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="自定义帮助页面" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="设置启动器更新与公告" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="关闭启动器更新与公告" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,8" LineHeight="17"
                    Text="你可以在 设置→启动器→系统 中修改启动器的更新方式与公告推送方式。" />
@@ -41,10 +53,17 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="修改启动时 “你知道吗?” 的内容" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="修改启动时 “你知道吗?” 的内容" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="在 PCL 文件夹下新建一个名为 hints.txt 的文件，然后每一行写入一条信息，即可修改启动时 “你知道吗?” 的内容。&#xa;PCL2 读取该文件时会忽略空行。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关闭 PCL2 中不需要的功能" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="你可以在 设置→个性化→功能隐藏 中关闭你不需要的功能入口，例如下载、个性化设置等页面。" />
     </StackPanel>
 </local:MyCard>
 
