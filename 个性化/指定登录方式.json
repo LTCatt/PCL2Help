@@ -1,0 +1,7 @@
+{
+    "__Author__": "XiaoFans、一闪",
+	"Title": "指定登录方式",
+	"Description": "单独为某一版本指定登录方式，包括第三方登录（如统一通行证、Authlib-Injector 等）",
+    "Keywords": "登录",
+    "Types": ["个性化"]
+}

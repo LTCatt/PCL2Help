@@ -1,0 +1,68 @@
+
+<local:MyCard Title="创建帮助条目">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="在创建新的帮助条目之前，请先确认：" />
+        <TextBlock Margin="0,5,0,2" LineHeight="17"
+                   Text="  1、在帮助库中搜索你想创建的帮助条目关键词，是否尚未收录此内容？" />
+        <TextBlock Margin="0,0,0,2" LineHeight="17"
+                   Text="  2、查看帮助库在 GitHub 上的 Pull Requests，是否没有其他人正在编辑此内容？" />
+        <TextBlock Margin="0,0,0,2" LineHeight="17"
+                   Text="  3、你的条目需要适用于较多玩家，且有足够派上用场的可能。如果它面向的情景极少发生，那就不要添加它。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="  4、如果要添加网页条目，它需要有帮助性质，且必须是中文网站。比起添加整个站点，仅添加其中的特定帖子会有用得多。" />
+        <TextBlock Margin="0,5,0,4" LineHeight="17"
+                   Text="此外，你可以多多参考已有的、顶部未标注 “需要重新整理格式” 或 “需要优化排版” 的 XAML 文件。&#xA;这些页面经过了审核，可以作为模板使用。你可以复制这样的文件，并在其基础上加以修改。" /> 
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="帮助内容规范">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,2"
+                   Text="1、文档将被合并入 PCL2 官方，因此请使用官方视角编写文档，而不是个人视角。例如不要出现 “龙猫” 等措辞。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="2、使用书面化的正式语言，避免出现口语化的表达。" />
+        <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ❌  要修改这一堆帮助，你去提交 Pull Request 后还得等龙猫审核完才可以" />
+        <TextBlock Foreground="#229922" Margin="0,0,0,10"
+                   Text="    ✔  要修改 PCL2 的内置帮助库，在提交 Pull Request 后还需要等待审核" />
+        <TextBlock Margin="0,0,0,2"
+                   Text="3、注意大小写。在中文与非中文的连接处添加一个空格（双引号除外）。使用中文标点符号（例如括号）。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="4、使用 PCL2、Minecraft、Mojang 作为标准称谓。不要使用 我的世界、MC、mj 等非标准称谓或缩写。" />
+        <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ❌  进入pcl的设置页，如果没有安装64位java，最多就只能分配1G内存" />
+        <TextBlock Foreground="#229922" Margin="0,0,0,10"
+                   Text="    ✔  进入 PCL2 的设置页，如果没有安装 64 位 Java，最多就只能分配 1G 内存" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="5、使用客观详实的说明文文体，尽量避免时效性叙述与主观评价。" />
+        <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ❌  mj 在今年4月更新了 1.14，更新内容很多" />
+        <TextBlock Foreground="#229922" Margin="0,0,0,10"
+                   Text="    ✔  Mojang 在 2019 年 4 月更新了 Java 版 1.14" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="6、考虑帮助的受众。如果面向新手，则应该写得尽量详细。如果面向高级用户，则应该省略部分基础内容。" />
+        <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ❌  在编辑帮助库的帮助中教学 “点击 Sign In 按钮登录”：能编辑帮助库的人应当可以自主完成这些操作" />
+        <TextBlock Foreground="#229922" Margin="0,0,0,10"
+                   Text="    ✔  在如何安装 Mod 的帮助中教学 “右键，点击剪切”：不会安装 Mod 的人确实需要极为详细的教学" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="7、不要在 XAML 文件中使用嵌套的 MyCard。若有大量需要折叠的内容，请新建一个子帮助页面（例如本页）。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="提交与审核">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="1、打开 PCL2，刷新并检查文档排版是否美观，按钮是否正常工作，文中是否存在错别字。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="2、在 Json 文件开头与 XAML 文件末尾留下作者信息。但如果你仅是修改已有文件中的个别措辞，没有大幅修改，那就不必添加了。" />
+        <TextBlock Margin="0,0,0,15"
+                   Text="3、如果没有完全完成某页，或你认为它还有优化空间，请在 XAML 的开头处添加类似于下方的提示条，以让他人可以继续修改。" />
+        <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="在提交之后请耐心等待结果。如果没有通过，你可以继续进行修改，并在 Pull Request 页面重新要求 Code Review。&#xA;如果没有通过，且你 2 周没有任何新的操作，你的 Pull Request 会被删除。&#xA;如果已通过（Merged），你可以 QQ 私聊龙猫你的 PCL2 识别码，以换取活跃橙主题！" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans" IsWarn="False" />
