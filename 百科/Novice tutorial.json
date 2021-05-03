@@ -2,7 +2,7 @@
     "__Author__": "XiaoFans",
 	"Title": "Minecraft 新手教程",
 	"Description": "网易镜像 官方最详细的 Minecraft 新手教程",
-	"Types": ["网站"],
+	"Types": ["新手教程"],
 	"IsEvent": true,
 	"EventType": "打开网页",
 	"EventData": "http://mc.163.com/wikigrab/"

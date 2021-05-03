@@ -5,10 +5,10 @@
     <StackPanel Margin="25,40,23,15">
 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="按照“参与完善 PCL2 帮助库”条目下的“获取帮助库”的指引，请确保你已经 注册 GitHub、Star 并 Fork 仓库 即可进行下一步"/>
+                    Text="按照 “参与完善 PCL2 帮助库” 条目下的 “获取帮助库” 的指引，请确保你已经 注册 GitHub 并 Fork 仓库 即可进行下一步"/>
 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="要想使用 Git 进行完善PCL2帮助库，Git工具是不可或缺的，请点击对应版本下载对应文件，或访问网页下载。"/>
+                    Text="要想使用 Git 进行完善 PCL2 帮助库，Git 工具是不可或缺的，请点击对应版本下载对应文件，或访问网页下载。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="点击下载 Git(32位)" EventType="下载文件" EventData="https://npm.taobao.org/mirrors/git-for-windows/v2.31.1.windows.1/Git-2.31.1-32-bit.exe" />
@@ -85,7 +85,7 @@
                         Text="git init" EventType="复制文本" EventData="git init" />
 
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="git remote add origin 此处为仓库SSH（以.git结尾的链接）" EventType="复制文本" EventData="git remote add origin 此处为仓库SSH（以.git结尾的链接）" />
+                        Text="git remote add origin 此处为仓库SSH（以.git结尾的链接）" EventType="复制文本" EventData="git remote add origin 此处为仓库SSH（以 .git 结尾的链接）" />
         </StackPanel>
 
 
@@ -118,7 +118,7 @@
                         Text="新建 Pull Requests " EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help/compare" />
         </StackPanel>  
 
-        <local:MyHint Text="注意，在请求合并之前请先请确保你的仓库分支与原仓库是同步的，GitHub不会自动同步你的分支仓库，请在你的仓库中新建合并请求选择“compare across forks(跨叉比较)”然后将(Head)头仓库选择为原仓库，(Base)合并仓库选择为你的分支仓库，创建合并请求，并拉取合并，进行同步仓库处理。" />
+        <local:MyHint Text="注意，在请求合并之前请先请确保你的仓库分支与原仓库是同步的，GitHub不会自动同步你的分支仓库，请在你的仓库中新建 Pull Requests 选择“ compare across forks(跨叉比较) ”然后将 (Head) 头仓库选择为原仓库，(Base) 合并仓库选择为你的分支仓库，创建 Pull Requests ，并拉取合并，进行同步仓库处理。" />
 
         <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="以上内容为详细的 Git 提交帮助 如果还是无法理解，建议 百度 。"/>
