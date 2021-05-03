@@ -1,16 +1,14 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-
 <local:MyHint Margin="0,0,0,10" Text="说明：因 Git GUI 版本不普及，将不编写进此帮助条目内，仅提供外站教程。" IsWarn="False" />
 <local:MyTextButton Margin="0,0,0,20" HorizontalAlignment="Center"
                    Text="点击查看 Git GUI 操作指南" EventType="打开网页" EventData="https://www.runoob.com/w3cnote/git-gui-window.html" />
-<local:MyCard Title="使用 Git 获取帮助库">
+<local:MyCard Title="使用 Git 获取帮助库" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="按照“参与完善 PCL2 帮助库”条目下的“获取帮助库”的指引，请确保你已经注册 GitHub、Fork 仓库 即可进行下一步"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="按照“参与完善 PCL2 帮助库”条目下的“获取帮助库”的指引，请确保你已经 注册 GitHub、Star 并 Fork 仓库 即可进行下一步"/>
 
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="要想使用 Git 进行完善PCL2帮助库，Git 工具是不可或缺的，请点击对应版本下载对应文件，或访问网页下载。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="要想使用 Git 进行完善PCL2帮助库，Git工具是不可或缺的，请点击对应版本下载对应文件，或访问网页下载。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="点击下载 Git(32位)" EventType="下载文件" EventData="https://npm.taobao.org/mirrors/git-for-windows/v2.31.1.windows.1/Git-2.31.1-32-bit.exe" />
@@ -21,22 +19,22 @@
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="访问镜像" EventType="打开网页" EventData="https://npm.taobao.org/mirrors/git-for-windows/" />
         </StackPanel>
-        <TextBlock Margin="0,10,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
                     Text="1.点击下方按钮，进入 PCL 文件夹，创建名称为：Help 的文件夹。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
         </StackPanel>
-        <TextBlock Margin="0,10,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,4" LineHeight="17"
                     Text="2.进入 Help 文件夹，右键鼠标，单击 Git Bash Here"/>
 
-        <local:MyCard Title="使用 Git 与 GitHub 账户建立连接（对与此步骤在已使用过Git的用户是无需的查看的）" Margin="0,10,0,15" CanSwap="True" IsSwaped="True">
+        <local:MyCard Title="使用 Git 与 GitHub 账户建立连接（对于此步骤，已使用过 Git 与 Github 建立过连接的用户，无需查看）" Margin="0,10,0,15" CanSwap="True" IsSwaped="True">
             <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="3.在启动的 Git 命令行窗口中，逐行输入 （点击按钮即可复制文本）"/>
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="①目的是生成公钥和私钥，与你的 GitHub 账号建立连接"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
+                    Text="①目的是生成公钥和私钥，与你的 Github账号 建立连接"/>
 
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
@@ -44,10 +42,10 @@
         </StackPanel>
 
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="建立过程中需要确认，请一直按回车"/>
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="②点击复制后，粘贴至 资源管理器地址栏 ，回车即可打开"/>
 
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
@@ -58,14 +56,14 @@
                         Text="打开资源管理器" EventType="打开文件" EventData="explorer.exe" />
         </StackPanel>
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="③进入网页版 Github 的设置中，打开 ssh and GPG keys 项，点击 NEW ssh key ，标题任意，内容粘贴打开文件的内容"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">            
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="访问设置" EventType="打开网页" EventData="https://github.com/settings/keys" />
         </StackPanel>
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="④设置用户信息（填写和上述操作一致的邮箱）"/>
 
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
@@ -79,7 +77,7 @@
         </local:MyCard>
 
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="4.初始化仓库及建立连接"/>
 
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
@@ -91,7 +89,7 @@
         </StackPanel>
 
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="5.克隆仓库到本地"/>
 
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
@@ -100,7 +98,7 @@
         </StackPanel>
 
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
                     Text="6.开始在克隆到本地的仓库中使用本地代码编辑器编写代码，编写完成后推送编写的文件到远程仓库"/>
         
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
@@ -113,17 +111,17 @@
         </StackPanel>
 
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="7.再到原仓库中，新建合并请求，即可提交代码审核"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
+                    Text="7.再到原仓库中，新建 Pull Requests ，即可提交代码审核"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">            
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="新建合并请求" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help/compare" />
+                        Text="新建 Pull Requests " EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help/compare" />
         </StackPanel>  
 
         <local:MyHint Text="注意，在请求合并之前请先请确保你的仓库分支与原仓库是同步的，GitHub不会自动同步你的分支仓库，请在你的仓库中新建合并请求选择“compare across forks(跨叉比较)”然后将(Head)头仓库选择为原仓库，(Base)合并仓库选择为你的分支仓库，创建合并请求，并拉取合并，进行同步仓库处理。" />
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="以上内容为详细的 Git 提交帮助 如果还是无法理解，建议百度 。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,4" LineHeight="17"
+                    Text="以上内容为详细的 Git 提交帮助 如果还是无法理解，建议 百度 。"/>
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans" IsWarn="False" />
