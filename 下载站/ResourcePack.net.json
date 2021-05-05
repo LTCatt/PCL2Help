@@ -1,0 +1,10 @@
+{
+	"__Author__": "ProgramApe6020",
+	"Title": "Minecraft资源包",
+	"Description": "ResourcePack.net：原版Minecraft材质包、光影包下载站",
+	"Keywords": "我的世界wikipedia",
+	"Types": ["下载站"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://resourcepack.net/"
+}
