@@ -6,7 +6,7 @@
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
         <local:MyListItem Margin="0,0,0,10"
-		                  EventType="打开帮助" EventData="网站/Minecraft Wiki.json" />
+		                  EventType="打开帮助" EventData="百科/Minecraft Wiki.json" />
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="每个帮助条目都由对应的 JSON 文件生成，且第一类与第二类的格式要求略有不同。" />
     </StackPanel>
@@ -140,12 +140,12 @@
 <local:MyCard Title="第二类 JSON 范例" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyListItem Margin="0,0,0,10"
-		                  EventType="打开帮助" EventData="网站/Minecraft Wiki.json" />
+		                  EventType="打开帮助" EventData="百科/Minecraft Wiki.json" />
 		<Grid Margin="7,6,0,0">
 			<TextBlock Margin="0,0,0,4" LineHeight="17"
-					   Text='{}{&#xa;	"__Author__": "NotKiller233、龙腾猫跃",&#xa;	"Title": "Minecraft Wiki",&#xa;	"Description": "包含原版游戏过程中所需大多数知识的中文百科",&#xa;	"Keywords": "我的世界wikipedia",&#xa;	"Types": ["网站"],&#xa;	"IsEvent": true,&#xa;	"EventType": "打开网页",&#xa;	"EventData": "https://minecraft.fandom.com/zh/"&#xa;}' />
+					   Text='{}{&#xa;	"__Author__": "NotKiller233、龙腾猫跃",&#xa;	"Title": "Minecraft Wiki",&#xa;	"Description": "包含原版游戏过程中所需大多数知识的中文百科",&#xa;	"Keywords": "我的世界wikipedia",&#xa;	"Types": ["百科"],&#xa;	"IsEvent": true,&#xa;	"EventType": "打开网页",&#xa;	"EventData": "https://minecraft.fandom.com/zh/"&#xa;}' />
 			<local:MyButton Width="80" Height="35" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="13,0,13,0" Margin="0,0,0,8"
-					   Text="复制" EventType="复制文本" EventData='{}{&#xa;	"__Author__": "NotKiller233、龙腾猫跃",&#xa;	"Title": "Minecraft Wiki",&#xa;	"Description": "包含原版游戏过程中所需大多数知识的中文百科",&#xa;	"Keywords": "我的世界wikipedia",&#xa;	"Types": ["网站"],&#xa;	"IsEvent": true,&#xa;	"EventType": "打开网页",&#xa;	"EventData": "https://minecraft.fandom.com/zh/"&#xa;}' />
+					   Text="复制" EventType="复制文本" EventData='{}{&#xa;	"__Author__": "NotKiller233、龙腾猫跃",&#xa;	"Title": "Minecraft Wiki",&#xa;	"Description": "包含原版游戏过程中所需大多数知识的中文百科",&#xa;	"Keywords": "我的世界wikipedia",&#xa;	"Types": ["百科"],&#xa;	"IsEvent": true,&#xa;	"EventType": "打开网页",&#xa;	"EventData": "https://minecraft.fandom.com/zh/"&#xa;}' />
 		</Grid>
     </StackPanel>
 </local:MyCard>
