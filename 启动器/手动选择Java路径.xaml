@@ -1,0 +1,28 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<local:MyCard Title="注意事项">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock FontSize="15" Margin="0,0,0,0" Text="PCL2 目前仅支持设置全局 Java 路径，因此在启动不同版本的 Minecraft 时，可能需要切换 Java 路径。例如：你之前使用 Java 16 游玩 Minecraft 21w19a ，现在你想游玩 Minecraft 1.8.9 ，则需要先切换 Java 版本为 Java 8 ，否则会启动失败。"/>
+    </StackPanel>
+</local:MyCard>
+
+<!-- 图片备份https://yshs.lanzoui.com/ig6c6p5kibe -->
+
+<local:MyCard Title="教程">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,5" IsWarn="False"
+                   Text="图片加载会有点慢" />
+        <TextBlock FontSize="15" Margin="0,0,0,0"
+                   Text="1.点击上方“设置”选项卡，再点击左侧“游戏”选项卡" />
+        <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/05/15/g6D7U1.png" />
+        <TextBlock FontSize="15" Margin="0,10,0,0"
+                   Text="2.滑动至下方“Java 选择”，点击“手动选择”" />
+        <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/05/15/g6DTER.png" />
+        <TextBlock FontSize="15" Margin="0,10,0,0"
+                   Text="3.进入 Java 文件目录，选择 “javaw.exe” 即可" />
+        <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/05/15/g6DIb9.png" />
+        <local:MyHint Margin="0,0,0,5" IsWarn="False"
+                   Text="Java 路径一般为C:\Program Files\xxx\bin\javaw.exe" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：一闪" IsWarn="False" />
