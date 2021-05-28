@@ -13,7 +13,7 @@
         <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
                    Text="本篇简单介绍了在 PCL2 中使用 XAML 进行自定义页面的相关语法，由于内容繁多，建议下载本篇代码参考学习。" />
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
-                   Text="下载本篇的代码" EventType="下载文件" EventData="http://189.ly93.cc/viyYf2rIze63/71443213109235631.xaml" ToolTip="下载本篇的代码" />
+                   Text="下载本篇的代码" EventType="下载文件" EventData="https://gitee.com/sssysy/PCL2Help/raw/master/个性化/XAML 格式.xaml" ToolTip="下载本篇的代码" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="基础教学 1：纯文本">
@@ -139,6 +139,7 @@
       
     </StackPanel>
 </local:MyCard>
+
 <local:MyCard Title="全局动态资源绑定">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
@@ -159,6 +160,34 @@
                 <TextBlock Foreground="{DynamicResource ColorBrush1}" Margin="35,5,0,0" Text="仿造的同步主题色的信息条。" />
             </Grid>
         </Border>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="应用内嵌图片和列表项">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17"
+                   Text="你可以在进行引导时使用应用内嵌图片加强强调。"/>
+        <StackPanel Orientation="Horizontal">
+            <Image Width="30" Height="30" Margin="15,15,0,15" Source="pack://application:,,,/images/Blocks/CommandBlock.png"/>      <!-- 命令方块 -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/Cobblestone.png"/>        <!-- 圆石 -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/GoldBlock.png"/>          <!-- 金块 -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/Grass.png"/>              <!-- 草方块 -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/GrassPath.png"/>          <!-- 草径 -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/Anvil.png"/>              <!-- 铁砧（zhen） -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/RedstoneBlock.png"/>      <!-- 红石块 -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/RedstoneLampOn.png"/>     <!-- 红石灯（亮） -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"/>    <!-- 红石灯（灭） -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/Egg.png"/>                <!-- 鸡蛋 -->
+            <Image Width="30" Height="30" Margin="5,15,0,15" Source="pack://application:,,,/images/Blocks/Fabric.png"/>             <!-- 布料（Fabric 图标） -->
+        </StackPanel>
+        
+        <TextBlock TextWrapping="Wrap" LineHeight="17"
+                   Text="在需要更详细的列出内容时，你可以使用列表项来替代按钮。在列表项中，点击操作的使用方式同按钮的使用方式。"/>
+        <local:MyListItem Margin="-5,15,-5,8" 
+		                  Logo="https://www.baidu.com/favicon.ico" SnapsToDevicePixels="True" Title="百度" Info="百度一下，你就知道！" Type="Clickable" PaddingRight="4"
+		                  EventType="打开网页" EventData="https://www.baidu.com/"/>
+        <local:MyListItem Margin="-5,0,-5,8"
+		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
     </StackPanel>
 </local:MyCard>
 
