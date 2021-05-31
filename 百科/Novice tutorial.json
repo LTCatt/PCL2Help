@@ -1,0 +1,9 @@
+{
+    "__Author__": "XiaoFans",
+	"Title": "Minecraft 中文新手教程",
+	"Description": "官方最详细的 Minecraft 新手中文教程",
+	"Types": ["新手教程"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://minecraft.fandom.com/zh/wiki/%E6%95%99%E7%A8%8B"
+}
