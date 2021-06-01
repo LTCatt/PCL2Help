@@ -1,0 +1,9 @@
+{
+	"__Author__": "皓理",
+	"Title": "玩家名称及皮肤查找",
+	"Description": "NameMC：包含 UUID 查询、玩家名称查找、下载皮肤等功能",
+	"Types": ["百科"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://namemc.com/"
+}
