@@ -10,27 +10,29 @@
 
 <local:MyCard Title="通用方法" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,5" IsWarn="False"
+                Text="图片加载速度可能较慢，稍安勿躁" />
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="1. 在 PCL2 启动器中找到您想要安装资源包的版本，如教程内选择 1.16.5 作为演示。" HorizontalAlignment="Left" />
+                        Text="1.在 PCL2 启动器中找到您想要安装资源包的版本，如教程内选择 1.16.5 作为演示。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/Ptgj5deK37ZkFBL.png" />        
         </Grid>
         
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 点击最右侧的齿轮打开 “版本设置”，点击下方 “打开版本文件夹” 按钮。" HorizontalAlignment="Left" />
+                        Text="2.点击最右侧的齿轮打开 “版本设置”，点击下方 “打开版本文件夹” 按钮。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/srbceVMR1m3oFj6.png" />        
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 此时，您应该能在弹出的资源管理器界面中看见 “resourcepacks” 文件夹。" HorizontalAlignment="Left" />
+                        Text="3.此时，您应该能在弹出的资源管理器界面中看见 “resourcepacks” 文件夹。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/zwLQsn3ScbVCprZ.png" />        
         </Grid>
-        
+    
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="4. 打开 “resourcepacks” 文件夹，并将您的资源包拖入 ”resourcepacks“ 文件夹。" HorizontalAlignment="Left" />
+                        Text="4.打开 “resourcepacks” 文件夹，并将您的资源包拖入 ”resourcepacks“ 文件夹。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i.loli.net/2021/04/24/mZ7RhoElIeD1rH4.png" />        
         </Grid>
 
@@ -87,4 +89,4 @@
                    Text="3. 最后，按照上一卡片的方式启用材质包即可。"/>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：WTP016、林小槐" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：WTP016、林小槐、He1lo-Wor1d" IsWarn="False" />

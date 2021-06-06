@@ -1,5 +1,5 @@
 {
-    "__Author__": "一闪",
+    "__Author__": "一闪、He1lo-Wor1d",
 	"Title": "设置游戏内存大小",
 	"Description": "在自动分配内存效果不佳时，手动设置游戏内存大小",
 	"Types": ["Minecraft", "启动器"]

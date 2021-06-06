@@ -2,11 +2,16 @@
 <local:MyHint Margin="0,0,0,15" Text="若并非特别需要，请勿修改游戏内存大小，以免造成不必要的麻烦"/>
 
 <!-- 图片备份https://yshs.lanzous.com/ijlfCoodvfc -->
-
+<local:MyCard Title="简介" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="有时在自动分配内存效果不佳时，这时需要手动设置游戏内存大小" />
+    </StackPanel>
+</local:MyCard>
 <local:MyCard Title="教程">
     <StackPanel Margin="25,40,23,15">   
         <local:MyHint Margin="0,0,0,5" IsWarn="False"
-                   Text="图片加载会有点慢" />
+                   Text="图片加载速度可能较慢，稍安勿躁" />
         <TextBlock FontSize="15" Margin="0,0,0,0"
                    Text="1.点击左下方“版本选择”" />
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE4hj0.png" />             
@@ -22,4 +27,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：一闪" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：一闪、He1lo-Wor1d" IsWarn="False" />
