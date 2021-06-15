@@ -22,7 +22,7 @@
         <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="批处理备份脚本" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="如果你依旧没有明白上面的步骤，你可以点击下方按钮下载批处理脚本双击运行进行进行自动备份。"/>
+                   Text="如果你依旧没有明白上面的步骤，你可以点击下方按钮下载批处理脚本双击运行进行自动备份。"/>
         <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="下载批处理" EventType="下载文件" EventData="http://189.ly93.cc/vEZB732yMNBv/PCL2 Reg Backup.bat" />
     </StackPanel>
