@@ -1,0 +1,9 @@
+{
+	"__Author__": "林小槐、龙腾猫跃",
+	"Title": "插件百科",
+	"Description": "Plugin Wiki：包含服务端、服务器插件知识的中文百科",
+	"Types": ["百科"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://mineplugin.org/"
+}

@@ -1,0 +1,6 @@
+{
+    "__Author__": "一闪",
+	"Title": "手动选择 Java 路径",
+	"Description": "若自动查找未找到 Java，可以手动选择 Java 路径",
+	"Types": ["启动器"]
+}

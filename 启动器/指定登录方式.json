@@ -1,0 +1,6 @@
+{
+    "__Author__": "XiaoFans、一闪、龙腾猫跃",
+	"Title": "设置外置登录、限制登录方式",
+	"Description": "设置第三方登录（如统一通行证、Authlib-Injector、Blessing Skin 等），单独为某一版本指定登录方式",
+    "Types": ["启动器"]
+}

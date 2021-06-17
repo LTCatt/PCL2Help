@@ -1,44 +1,44 @@
 ﻿
-<local:MyCard Title="概述" Margin="0,0,0,15">
+<local:MyCard Title="概述">
     <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="PCL2 允许你自由修改帮助页面：你可以添加自己的帮助条目，或是隐藏内置的帮助条目。&#xa;如果你是服主或整合包作者，你可以将教程或是必要信息列入帮助中，为玩家提供便利。此后，你还可以通过自定义主页功能，在主页添加一个打开特定帮助页面的按钮！&#xa;此外，你还可以添加让帮助条目之间互通的链接，也可以让它从主页或搜索结果中隐藏。你甚至可以利用这些特性，在帮助页面中做一个文字游戏……" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="添加自定义帮助条目" Margin="0,0,0,15">
+<local:MyCard Title="添加自定义帮助条目">
     <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,7,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+	    <TextBlock Margin="0,7,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="1.  创建帮助文件夹" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="PCL2 会从 PCL\Help 文件夹中读取自定义帮助条目，你需要在 PCL 文件夹中创建名为 Help 的文件夹，并把所有相关文件存放在其中。" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,20,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+	    <TextBlock Margin="0,20,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="2.  编辑 JSON 文件" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="每个帮助条目都是一个 JSON 文件。在加载帮助页面时，PCL2 会查找帮助文件夹及其子文件夹中的所有扩展名为 .json 的文件，并作为帮助条目加载。此外，查找时会忽略名称以英文句号开头的文件夹，例如 .git。&#xa;换而言之，你需要新建一个 JSON 文件来创建帮助条目。该文件的格式详见以下页面：" />
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助 - JSON 格式.json" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,20,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+	    <TextBlock Margin="0,20,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="3.  编辑 XAML 文件" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="如果你的帮助条目不会触发事件（即第一类，IsEvent=False），你就需要创建一个与该 JSON 文件同名的 XAML 文件。在你点击这个帮助条目的时候，PCL2 会从该 XAML 文件中加载页面的实际内容。&#xa;XAML 文件的格式与自定义主页一致，你可以查看下述条目来了解详情：" />
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="个性化/XAML 格式.json" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,20,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+	    <TextBlock Margin="0,20,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="4.  刷新帮助页面" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="在编辑完 JSON 与 XAML 文件后，你可以点击左边栏 帮助 项右侧的刷新按钮来快速重载所有帮助页面。如果顺利的话，你就能找到你的帮助条目啦！" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="隐藏内置帮助条目" Margin="0,0,0,15">
+<local:MyCard Title="隐藏内置帮助条目">
     <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="与读取自定义帮助条目时类似，PCL2 会在帮助文件夹查找扩展名为 .helpignore 的文件，该文件可以用于隐藏 PCL2 内置的帮助条目。&#xa;该文件的每行都是一条正则表达式，PCL2 会对这些正则逐条进行匹配，如果某内置条目的相对路径符合该正则，那么该条目就会被忽略。例如，这个帮助条目的路径为 帮助\自定义帮助.xaml，因此任何符合这一字符串的正则都可以隐藏这个条目。&#xa;此外，仅往文件中写入 \S* 就可以隐藏 PCL2 的所有内置帮助，因为任何文件名都满足这条正则。" />
         <local:MyListItem Margin="0,2,0,10" 
 		                  Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Title="正则表达式教程" Info="如果你对正则表达式并不熟悉，你可以查看此教程" Type="Clickable" PaddingRight="4"
 		                  EventType="打开网页" EventData="https://www.runoob.com/regexp/regexp-intro.html" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="在读取 .helpignore 文件的内容时，空行、行首行尾空格以及每行的 # 符号之后的内容均会被忽略。因此，你可以在 # 符号后书写注释。" />
     </StackPanel>
 </local:MyCard>
