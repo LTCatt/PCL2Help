@@ -1,0 +1,87 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善，优化排版与文案。如果您感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 不会XAML，在WTP016、林小槐的资源包安装教程帮助文档上稍作修改，可能需要根据规范重新修改表述及格式，仍需继续完善。 -->
+<!-- 图片备份 https://wwe.lanzoui.com/ieuBKqndr7g -->
+
+<local:MyCard Title="简介" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="这是数据包的安装教程，数据包是 Minecraft Java 1.13 版本及以上才添加特性。数据包不包括使用 Mod Loader/API（如 Forge、Fabric）开发出的 Mods。&#xa;本文章假设您已经下载好数据包，如需数据包，请到如 MCBBS，CurseForge 等 Minecraft 资源网站下载。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="通用方法" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL2 启动器中启动您想要安装数据包的版本，如教程内选择 1.17 作为演示。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMkplt.png" />        
+        </Grid>
+        <local:MyHint Margin="0,15,0,0" Text="在 Minecraft Java 1.16 版本以下，您需要一个已经创建的世界（存档）才能对这个世界添加数据包" IsWarn="False" />
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 点击“单人游戏”，单击选择您想要安装数据包的世界(不是进入世界)，点击下方“编辑”-->“打开世界文件夹" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMFvYd.png" />        
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMFxfA.png" />        
+        </Grid>
+
+        <local:MyHint Margin="0,15,0,0" Text="如果您不能直接在世界文件夹看见 datapacks 文件夹则手动创建&#xa;右键，点击新建-->文件夹，datapacks&#xa;如果图片太小看不清，尝试将光标移动到 PCL2 启动器窗口的角落边缘，待光标变为放大样式后按住拖动光标来放大启动器，同时放大启动器窗口内的图片" IsWarn="False" />
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 打开 datapacks 文件夹，并将光标移动到您准备的数据包上右键，点击复制。移动光标至 datapacks 文件夹空白区域，右键，点击粘贴。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMFjFH.png" />        
+        </Grid>
+
+        <local:MyHint Margin="0,15,0,0" Text="部分数据包压缩包主体内套入了一个文件夹，且包含资源包（材质包），此时您只需要将数据包文件夹移入，并在之后一并安装资源包。&#xa;此外，也可以通过将 zip 格式的资源包重命名为 resources.zip 并放入存档文件夹下以对该存档自动加载特定资源包。" IsWarn="False" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://z3.ax1x.com/2021/06/24/RMk96P.png"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="加载数据包" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="一般情况下，您只需重新打开存档即可加载数据包&#xa;您也可以在开启作弊的存档中按 T 输入 /reload 回车，来加载数据包" HorizontalAlignment="Left" />
+            <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
+                        Text="复制 /reload 文本" EventType="复制文本" EventData="/reload" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RM1SUI.png" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="对于 Minecraft Java 1.16 及以上版本的安装方法" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="这是 1.16 及以上版本的新的更便捷的安装方式。新的安装方式需要在创建一个世界（存档）前操作。&#xa;如果您已经创建了世界您依旧可以使用上面的方式来安装数据包。" IsWarn="False" />
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 参考上方内容启动您想要安装数据包的版本，点击“单人游戏”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMsRBR.png" />        
+        </Grid>
+        <local:MyHint Margin="0,15,0,0" Text="如果你还没有创建任何世界（存档）没有“创建新的世界”按钮，则直接点击右中“数据包”。" IsWarn="False" />
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 点击下方“创建新的世界”，点击右中“数据包”" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMyBqA.png" />        
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 打开资源管理器，定位至您准备的数据包，将其拖入 Minecraft 窗口，然后点击“是”" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMgsaR.png" />
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="4. 此时，您应该能看到左侧 “可用” 列表中有您下载的资源包，将指针移动至图标将出现一个箭头，点击箭头，此时您应该可以看到此资源包移动到了右侧 “已选” 列表，点击 “完成” 应用资源包。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMfDl6.png" />
+        </Grid>
+        <local:MyHint Margin="0,15,0,0" Text="如果点击箭头后出现“这个压缩包是为更旧的 Minecraft 版本所打造的,在此版本可能不会正常工作。”等提示，一般点击“是”，可以向他人或该数据包作者请求帮助" IsWarn="False" />
+        <Grid Margin="0,20,0,4">
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMgrZ9.png" />        
+        </Grid>
+        <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
+                   Text="5. 设置一些你想设置的，如世界名称、游戏模式等，点击下方“创建新的世界”进入游戏"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyHint Margin="0,0,0,15" Text="作者：jiecs_23" IsWarn="False" />
