@@ -3,11 +3,11 @@
     <StackPanel Margin="25,40,23,15">
 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="Mod 是由 Minecraft 社区的部分玩家制作的一些类似于浏览器扩展的小程序。通过 Forge ， Fabric 等 Mod API 的加载，这些小程序能够为 Minecraft 添加一些好玩的新功能"/>
+                    Text="Mod 是由 Minecraft 社区的部分玩家制作的一些类似于浏览器扩展的小程序。通过 Forge ， Fabric 等 Mod 加载器的加载，这些小程序能够为 Minecraft 添加一些好玩的新功能"/>
     </StackPanel>  
  </local:MyCard>
- <local:MyHint Margin="0,0,0,15" Text="Mod API 及 Mod 不受 Mojang 官方的支持，当此类客户端出现错误时 Mojang 不会对其提供服务" />
- <local:MyCard Title="安装 Mod API" Margin="0,0,0,15">
+ <local:MyHint Margin="0,0,0,15" Text="Mod 加载器及 Mod 不受 Mojang 官方的支持" />
+ <local:MyCard Title="安装 Mod 加载器" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Fabric 作为示例）"/>
