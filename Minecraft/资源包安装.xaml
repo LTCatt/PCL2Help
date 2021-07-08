@@ -1,0 +1,91 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 不会XAML，在XiaoFans的帮助文档上稍作修改，可能需要根据规范重新修改表述及格式。 可能仍需继续完善。 -->
+
+<local:MyCard Title="简介" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="在 Minecraft 中有各种各样的资源包，但是很多新手不会安装资源包。这篇帮助就可以让你学会安装资源包。&#xa;本文章假设您已经下载好资源包，如需资源包，请到如 MCBBS，CurseForge 等 Minecraft 资源网站下载。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="通用方法" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL2 启动器中找到您想要安装资源包的版本，如教程内选择 1.16.5 作为演示。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/pcl2-find-version-add-mosaic.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 点击最右侧的齿轮打开 “版本设置”，点击下方 “打开版本文件夹” 按钮。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/pcl2-open-folder-regular.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 此时，您应该能在弹出的资源管理器界面中看见 “resourcepacks” 文件夹。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/explorer-resource-pack-folder-find.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="4. 打开 “resourcepacks” 文件夹，并将您的资源包拖入 ”resourcepacks“ 文件夹。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/explorer-prepared-put-into-resourcepack-folder.png" />
+        </Grid>
+
+        <local:MyHint Margin="0,15,0,0" Text="注意：部分资源包压缩包主体内套入了一个文件夹，此时你可以直接将此文件夹解压至 “resourcepacks” 文件夹使用。（如下图）" IsWarn="False" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/bandizip-zip-folder.png"/>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/explorer-resourcepack-folder-resourcepack.png"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="启用材质包" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 启动您的游戏，打开 “选项 > 资源包”。" HorizontalAlignment="Left" />
+                <StackPanel Margin="250,0,0,0">
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/minecraft-settings.png" />
+                    <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/minecraft-settings-resourcepack.png" />
+                </StackPanel>
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 此时，您应该能看到左侧 “可用” 列表中有您下载的资源包名称，将指针移动至图标上方，将出现一个箭头，点击箭头，此时您应该可以看到此资源包移动到了右侧 “已选” 列表，点击 “完成” 应用资源包。" HorizontalAlignment="Left" />
+            <StackPanel Margin="250,0,0,0">
+                <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/minecraft-resourcepack-choose.png" />
+                <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/minecraft-resourcepack-left.png" />
+            </StackPanel>
+        </Grid>
+
+        <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
+                   Text="3. 最后，等待红色 Mojang 进度条至尽头，资源包就已加载完成。"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="对于 1.16 以上版本的安装方法" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="这是 1.16 以上版本的新的更便捷的安装方式，你依旧可以使用上面的方式来安装材质。" IsWarn="False" />
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 启动您的游戏，打开选项——资源包。" HorizontalAlignment="Left" />
+                <StackPanel Margin="250,0,0,0">
+                  <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/minecraft-settings.png" />
+                  <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/minecraft-settings-resourcepack.png" />
+                </StackPanel>
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 找到您下载的资源包，将其文件直接拖至 Minecraft 窗口内。此时会弹出一个提示询问安装，点击 “是”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help/minecraft-1.16+-resourcepack-true.png" />
+        </Grid>
+
+        <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
+                   Text="3. 最后，按照上一卡片的方式启用材质包即可。"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyHint Margin="0,0,0,15" Text="作者：WTP016、林小槐" IsWarn="False" />
