@@ -1,44 +1,44 @@
-<local:MyHint Margin="0,0,0,15" Text="¸Ã°ïÖúÒ³Ãæ»¹ÐèÒª¸ù¾Ý¹æ·¶ÖØÐÂÕûÀí¸ñÊ½£¬ÓÅ»¯ÅÅ°æÓëÎÄ°¸¡£Èç¹ûÄã¸ÐÐËÈ¤Ò²¿ÉÒÔÀ´°ï°ïÃ¦£¡" IsWarn="False" />
-<local:MyCard Title="Mod ÊÇÊ²Ã´£¿" Margin="0,0,0,15">
+<local:MyHint Margin="0,0,0,15" Text="è¯¥å¸®åŠ©é¡µé¢è¿˜éœ€è¦æ ¹æ®è§„èŒƒé‡æ–°æ•´ç†æ ¼å¼ï¼Œä¼˜åŒ–æŽ’ç‰ˆä¸Žæ–‡æ¡ˆã€‚å¦‚æžœä½ æ„Ÿå…´è¶£ä¹Ÿå¯ä»¥æ¥å¸®å¸®å¿™ï¼" IsWarn="False" />
+<local:MyCard Title="Mod æ˜¯ä»€ä¹ˆï¼Ÿ" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="Mod ÊÇÓÉ Minecraft ÉçÇøµÄ²¿·ÖÍæ¼ÒÖÆ×÷µÄÒ»Ð©ÀàËÆÓÚä¯ÀÀÆ÷À©Õ¹µÄÐ¡³ÌÐò¡£Í¨¹ý Forge £¬ Fabric µÈ Mod ¼ÓÔØÆ÷µÄ¼ÓÔØ£¬ÕâÐ©Ð¡³ÌÐòÄÜ¹»Îª Minecraft Ìí¼ÓÒ»Ð©ºÃÍæµÄÐÂ¹¦ÄÜ"/>
+                    Text="Mod æ˜¯ç”± Minecraft ç¤¾åŒºçš„éƒ¨åˆ†çŽ©å®¶åˆ¶ä½œçš„ä¸€äº›ç±»ä¼¼äºŽæµè§ˆå™¨æ‰©å±•çš„å°ç¨‹åºã€‚é€šè¿‡ Forge ï¼Œ Fabric ç­‰ Mod åŠ è½½å™¨çš„åŠ è½½ï¼Œè¿™äº›å°ç¨‹åºèƒ½å¤Ÿä¸º Minecraft æ·»åŠ ä¸€äº›å¥½çŽ©çš„æ–°åŠŸèƒ½"/>
     </StackPanel>  
  </local:MyCard>
- <local:MyHint Margin="0,0,0,15" Text="Mod ¼ÓÔØÆ÷¼° Mod ²»ÊÜ Mojang ¹Ù·½µÄÖ§³Ö" />
- <local:MyCard Title="°²×° Mod ¼ÓÔØÆ÷" Margin="0,0,0,15">
+ <local:MyHint Margin="0,0,0,15" Text="Mod åŠ è½½å™¨åŠ Mod ä¸å— Mojang å®˜æ–¹çš„æ”¯æŒ" />
+ <local:MyCard Title="å®‰è£… Mod åŠ è½½å™¨" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. ´ò¿ª PCL2 µÄÏÂÔØÒ³Ãæ£¬Ñ¡ÔñÒ»¸ö Minecraft °æ±¾£¨ÕâÀïÒÔ Minecraft 1.16.5 + Fabric ×÷ÎªÊ¾Àý£©"/>
+                    Text="1. æ‰“å¼€ PCL2 çš„ä¸‹è½½é¡µé¢ï¼Œé€‰æ‹©ä¸€ä¸ª Minecraft ç‰ˆæœ¬ï¼ˆè¿™é‡Œä»¥ Minecraft 1.16.5 + Fabric ä½œä¸ºç¤ºä¾‹ï¼‰"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/5b6f76317d8fa.PNG" />  
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. Ñ¡ÔñÊÊºÏµÄ Fabric °æ±¾ÒÔ¼° Fabric API"/>
-        <local:MyHint Margin="0,0,0,15" Text="Fabric API ÊÇ Fabric Ëù±ØÐëµÄ£¬Èç¹ûÃ»ÓÐ Fabric API »áµ¼ÖÂ Minecraft ÎÞ·¨Æô¶¯"/>
+                    Text="2. é€‰æ‹©é€‚åˆçš„ Fabric ç‰ˆæœ¬ä»¥åŠ Fabric API"/>
+        <local:MyHint Margin="0,0,0,15" Text="Fabric API æ˜¯ Fabric æ‰€å¿…é¡»çš„ï¼Œå¦‚æžœæ²¡æœ‰ Fabric API ä¼šå¯¼è‡´ Minecraft æ— æ³•å¯åŠ¨"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/7d154f44915ca.PNG" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. µã»÷¡°¿ªÊ¼°²×°¡±°´Å¥À´°²×°"/>
+                    Text="3. ç‚¹å‡»â€œå¼€å§‹å®‰è£…â€æŒ‰é’®æ¥å®‰è£…"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/d853c70517069.PNG" />
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/0579b07e6ae97.PNG" />
-        <local:MyHint Margin="0,0,0,15" Text="Èç¹ûÄãÏëÒªÍ¬Ê±°²×° OptiFine £¬ÔòÔÚÓÎÏ·°²×°Íê³Éºó»¹ÐèÒª°²×° OptiFabric Mod" IsWarn="False" />
+        <local:MyHint Margin="0,0,0,15" Text="å¦‚æžœä½ æƒ³è¦åŒæ—¶å®‰è£… OptiFine ï¼Œåˆ™åœ¨æ¸¸æˆå®‰è£…å®ŒæˆåŽè¿˜éœ€è¦å®‰è£… OptiFabric Mod" IsWarn="False" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="ÏÂÔØ²¢°²×° Mod" Margin="0,0,0,15">
+<local:MyCard Title="ä¸‹è½½å¹¶å®‰è£… Mod" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. »Øµ½ÏÂÔØÒ³Ãæ£¬ÔÚ²à±ßÀ¸ÓÐÒ»¸ö¡°Mod¡±Ñ¡Ïî£¬½øÈëÆäÖÐ"/>
+                    Text="1. å›žåˆ°ä¸‹è½½é¡µé¢ï¼Œåœ¨ä¾§è¾¹æ æœ‰ä¸€ä¸ªâ€œModâ€é€‰é¡¹ï¼Œè¿›å…¥å…¶ä¸­"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/f6e1beaaaafd4.PNG" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. ÒÔ ¡°Xaero µÄÐ¡µØÍ¼¡± Mod ÎªÀý£¬ÔÚËÑË÷¿òÖÐÊäÈë¡°Xaero µÄÐ¡µØÍ¼¡±»ò¡°Xaero¡¯s Minimap¡±ºóµã»÷¡°ËÑË÷¡±"/>
+                    Text="2. ä»¥ â€œXaero çš„å°åœ°å›¾â€ Mod ä¸ºä¾‹ï¼Œåœ¨æœç´¢æ¡†ä¸­è¾“å…¥â€œXaero çš„å°åœ°å›¾â€æˆ–â€œXaeroâ€™s Minimapâ€åŽç‚¹å‡»â€œæœç´¢â€"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/5ab40eea119fa.PNG" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. Ñ¡ÔñÕýÈ·µÄ Mod £¬ÕÒµ½ÕýÈ·µÄ°æ±¾²¢ÏÂÔØµ½ Mods ÎÄ¼þ¼ÐÄÚ"/>
+                    Text="3. é€‰æ‹©æ­£ç¡®çš„ Mod ï¼Œæ‰¾åˆ°æ­£ç¡®çš„ç‰ˆæœ¬å¹¶ä¸‹è½½åˆ° Mods æ–‡ä»¶å¤¹å†…"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/f09f45171f50f.PNG" />
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/10e304764d354.PNG" />
-        <local:MyHint Margin="0,0,0,15" Text="²¿·Ö Mod ÐèÒªÆäËü Mod ×÷ÎªÒÀÀµ£¬ÔÚÏÂÔØ°²×° Mod Ê±ÐèÒª½«ÆäÒ»Í¬ÏÂÔØ£¬ PCL2 »á¼ì²é Mod ÊÇ·ñÐèÒªÒÀÀµ Mod ¡£Èç¹ûÓÐ£¬¾Í»áÔÚ¸Ã Mod µÄÏÂÔØÒ³ÖÃ¶¥ÏÔÊ¾ÒÀÀµ Mod" />
-        <local:MyHint Margin="0,0,0,15" Text="Èç¹ûÄã¿ªÆôÁË°æ±¾¸ôÀë£¬ÔòÐèÒªÏÂÔØµ½ Minecraft °æ±¾ÎÄ¼þ¼ÐÖÐ¶ÔÓ¦°æ±¾µÄ Mods ÎÄ¼þ¼ÐÄÚ" />
+        <local:MyHint Margin="0,0,0,15" Text="éƒ¨åˆ† Mod éœ€è¦å…¶å®ƒ Mod ä½œä¸ºä¾èµ–ï¼Œåœ¨ä¸‹è½½å®‰è£… Mod æ—¶éœ€è¦å°†å…¶ä¸€åŒä¸‹è½½ï¼Œ PCL2 ä¼šæ£€æŸ¥ Mod æ˜¯å¦éœ€è¦ä¾èµ– Mod ã€‚å¦‚æžœæœ‰ï¼Œå°±ä¼šåœ¨è¯¥ Mod çš„ä¸‹è½½é¡µç½®é¡¶æ˜¾ç¤ºä¾èµ– Mod" />
+        <local:MyHint Margin="0,0,0,15" Text="å¦‚æžœä½ å¼€å¯äº†ç‰ˆæœ¬éš”ç¦»ï¼Œåˆ™éœ€è¦ä¸‹è½½åˆ° Minecraft ç‰ˆæœ¬æ–‡ä»¶å¤¹ä¸­å¯¹åº”ç‰ˆæœ¬çš„ Mods æ–‡ä»¶å¤¹å†…" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="4. ·µ»ØÖ÷Ò³£¬Ñ¡ÔñÕýÈ·µÄ°æ±¾²¢Æô¶¯"/>        
+                    Text="4. è¿”å›žä¸»é¡µï¼Œé€‰æ‹©æ­£ç¡®çš„ç‰ˆæœ¬å¹¶å¯åŠ¨"/>        
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="×÷Õß£ºBig_Cake" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="ä½œè€…ï¼šBig_Cake" IsWarn="False" />

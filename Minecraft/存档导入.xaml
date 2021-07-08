@@ -1,15 +1,15 @@
-<local:MyCard Title="ÓÎÏ·´æµµµ¼Èë" Margin="0,0,0,15">
+<local:MyCard Title="æ¸¸æˆå­˜æ¡£å¯¼å…¥" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="µ±ÄãµÃµ½ÁËÒ»¸öÍâ²¿´æµµ£¬È´·¢ÏÖ²»ÖªµÀÔõÃ´µ¼Èë£¬¸Ã½Ì³Ì¿ÉÄÜ»á³ÉÎªÄãµÄ¡°¾ÈÃüµ¾²Ý¡±¡£Çë×ñÑ­ÏÂÁÐ²½ÖèÀ´µ¼ÈëÄãµÄ´æµµ£º"/>
+                    Text="å½“ä½ å¾—åˆ°äº†ä¸€ä¸ªå¤–éƒ¨å­˜æ¡£ï¼Œå´å‘çŽ°ä¸çŸ¥é“æ€Žä¹ˆå¯¼å…¥ï¼Œè¯¥æ•™ç¨‹å¯èƒ½ä¼šæˆä¸ºä½ çš„â€œæ•‘å‘½ç¨»è‰â€ã€‚è¯·éµå¾ªä¸‹åˆ—æ­¥éª¤æ¥å¯¼å…¥ä½ çš„å­˜æ¡£ï¼š"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. ´ò¿ªsavesÎÄ¼þ¼Ð£¨Ò»°ãÎª¡°.minecraft/saves¡±¡£Èç¹ûÄã¿ªÆôÁË°æ±¾¸ôÀë£¬ÔòÂ·¾¶Îª¡°.minecraft/versions/Minecraft °æ±¾ºÅ£¨Èç1.15.2-OptiFine_G6£©/saves¡±"/>
+                    Text="1. æ‰“å¼€savesæ–‡ä»¶å¤¹ï¼ˆä¸€èˆ¬ä¸ºâ€œ.minecraft/savesâ€ã€‚å¦‚æžœä½ å¼€å¯äº†ç‰ˆæœ¬éš”ç¦»ï¼Œåˆ™è·¯å¾„ä¸ºâ€œ.minecraft/versions/Minecraft ç‰ˆæœ¬å·ï¼ˆå¦‚1.15.2-OptiFine_G6ï¼‰/savesâ€"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. ½«´æµµ·ÅÈësavesÎÄ¼þ¼Ð£¨Èç¹ûÊÇÑ¹Ëõ°üµÄ»°£¬½âÑ¹Ëü£©£¬×¢Òâ´æµµÎÄ¼þ¼ÐÄÚ²»ÄÜÖ»ÓÐ×ÓÎÄ¼þ¼Ð"/>
+                    Text="2. å°†å­˜æ¡£æ”¾å…¥savesæ–‡ä»¶å¤¹ï¼ˆå¦‚æžœæ˜¯åŽ‹ç¼©åŒ…çš„è¯ï¼Œè§£åŽ‹å®ƒï¼‰ï¼Œæ³¨æ„å­˜æ¡£æ–‡ä»¶å¤¹å†…ä¸èƒ½åªæœ‰å­æ–‡ä»¶å¤¹"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. ·µ»ØÓÎÏ·£¬¾Í¿ÉÒÔ¿´µ½µ¼ÈëµÄ´æµµÁË "/>
-        <local:MyHint Text="Èç¹ûÃ»ÓÐ¿´µ½´æµµ£¬Çë¼ì²éÎÄ¼þ¼ÐÊÇ·ñºÍÆäËüÄÚ²¿´æµµ£¨ Minecraft ÄÚ´´½¨µÄ´æµµ£©Ò»Ñù" />
+                    Text="3. è¿”å›žæ¸¸æˆï¼Œå°±å¯ä»¥çœ‹åˆ°å¯¼å…¥çš„å­˜æ¡£äº† "/>
+        <local:MyHint Text="å¦‚æžœæ²¡æœ‰çœ‹åˆ°å­˜æ¡£ï¼Œè¯·æ£€æŸ¥æ–‡ä»¶å¤¹æ˜¯å¦å’Œå…¶å®ƒå†…éƒ¨å­˜æ¡£ï¼ˆ Minecraft å†…åˆ›å»ºçš„å­˜æ¡£ï¼‰ä¸€æ ·" />
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="×÷Õß£ºBig_Cake" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="ä½œè€…ï¼šBig_Cake" IsWarn="False" />

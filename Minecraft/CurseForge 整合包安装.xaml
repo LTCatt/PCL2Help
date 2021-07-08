@@ -1,20 +1,20 @@
-<local:MyHint Margin="0,0,0,15" Text="¸Ã°ïÖúÒ³Ãæ»¹ÐèÒª¸ù¾Ý¹æ·¶ÖØÐÂÕûÀí¸ñÊ½£¬ÓÅ»¯ÅÅ°æÓëÎÄ°¸¡£Èç¹ûÄã¸ÐÐËÈ¤Ò²¿ÉÒÔÀ´°ï°ïÃ¦£¡" IsWarn="False" />
-<local:MyCard Title="CurseForge ÕûºÏ°ü°²×°" Margin="0,0,0,15">
+<local:MyHint Margin="0,0,0,15" Text="è¯¥å¸®åŠ©é¡µé¢è¿˜éœ€è¦æ ¹æ®è§„èŒƒé‡æ–°æ•´ç†æ ¼å¼ï¼Œä¼˜åŒ–æŽ’ç‰ˆä¸Žæ–‡æ¡ˆã€‚å¦‚æžœä½ æ„Ÿå…´è¶£ä¹Ÿå¯ä»¥æ¥å¸®å¸®å¿™ï¼" IsWarn="False" />
+<local:MyCard Title="CurseForge æ•´åˆåŒ…å®‰è£…" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="Ò»²¿·Ö Minecraft Íæ¼ÒÖÆ×÷ÁËÐíÐí¶à¶àµÄÕûºÏ°ü£¬µ«ÊÇ²¿·ÖÐÂÊÖÍæ¼ÒÈ´²»»á°²×°ÕûºÏ°ü¡£±¾½Ì³Ì½«¸æËßÄãÈçºÎ°²×° CurseForge ÕûºÏ°ü¡£"/>
+                    Text="ä¸€éƒ¨åˆ† Minecraft çŽ©å®¶åˆ¶ä½œäº†è®¸è®¸å¤šå¤šçš„æ•´åˆåŒ…ï¼Œä½†æ˜¯éƒ¨åˆ†æ–°æ‰‹çŽ©å®¶å´ä¸ä¼šå®‰è£…æ•´åˆåŒ…ã€‚æœ¬æ•™ç¨‹å°†å‘Šè¯‰ä½ å¦‚ä½•å®‰è£… CurseForge æ•´åˆåŒ…ã€‚"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. ´ò¿ª PCL2 µÄÏÂÔØÒ³Ãæ£¬¿ÉÒÔ¿´µ½²à±ßÀ¸ÓÐÒ»¸ö¡°ÕûºÏ°ü¡±Ñ¡Ïî"/>
+                    Text="1. æ‰“å¼€ PCL2 çš„ä¸‹è½½é¡µé¢ï¼Œå¯ä»¥çœ‹åˆ°ä¾§è¾¹æ æœ‰ä¸€ä¸ªâ€œæ•´åˆåŒ…â€é€‰é¡¹"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/a5dcc78a3f33e.PNG" />  
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. ÒÔ Levitated£¨Ê§ÖØ£© ÎªÀý£¬ÔÚËÑË÷¿òÖÐÊäÈë¡°Levitated¡±ºó½øÐÐËÑË÷"/>
+                    Text="2. ä»¥ Levitatedï¼ˆå¤±é‡ï¼‰ ä¸ºä¾‹ï¼Œåœ¨æœç´¢æ¡†ä¸­è¾“å…¥â€œLevitatedâ€åŽè¿›è¡Œæœç´¢"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/330e7161654fc.PNG "/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. Ñ¡ÔñÕûºÏ°üµÄ×îÐÂ°æ±¾½øÐÐ°²×°"/>
+                    Text="3. é€‰æ‹©æ•´åˆåŒ…çš„æœ€æ–°ç‰ˆæœ¬è¿›è¡Œå®‰è£…"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/e8827e36ffd7f.PNG" />
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/94a4fa5c23a35.PNG" />
-        <local:MyHint Margin="0,0,0,15" Text="ÇëÊ¼ÖÕÏÂÔØÕûºÏ°üµÄ×îÐÂ°æ±¾£¬ÒòÎª¾É°æ±¾ºÜ¿ÉÄÜ°üº¬Î´ÐÞ¸´µÄ Bug" IsWarn="True" />
+        <local:MyHint Margin="0,0,0,15" Text="è¯·å§‹ç»ˆä¸‹è½½æ•´åˆåŒ…çš„æœ€æ–°ç‰ˆæœ¬ï¼Œå› ä¸ºæ—§ç‰ˆæœ¬å¾ˆå¯èƒ½åŒ…å«æœªä¿®å¤çš„ Bug" IsWarn="True" />
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="×÷Õß£ºBig_Cake" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="ä½œè€…ï¼šBig_Cake" IsWarn="False" />
