@@ -5,26 +5,14 @@
                    Text="综述，PCL 2 的皮肤加载渠道分为下述三种：&#xa;1. 登录验证获取皮肤（Mojang/微软正版、Authlib-injector 外置登录、统一通行证）；&#xa;2. 直接加载正版用户的皮肤；&#xa;3. 本地加载。&#xa;由于本地加载依赖于自有皮肤文件，本教程仅针对前述两种处理情况分别讨论如何导出角色皮肤。"/>
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="1. 登录验证方法获取皮肤的解决方案">
+<local:MyCard Title="登录验证方法获取皮肤的解决方案">
     <StackPanel Margin="25,40,23,15">
-		<local:MyHint Margin="0,-5,0,15" Text="对于外置登录用户，请先确定您的登录配置正确。&#xa;如有必要，请先参考帮助内的“设置外置登录”。&#xa;如果您是正版用户，您可以参见方式 2 更快速的导出。"/>
+		<local:MyHint Margin="0,-5,0,15" Text="对于外置登录用户，请先确定您的登录配置正确。&#xa;如有必要，请先参考帮助内的“设置外置登录”。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="① 打开您的 PCL 2 启动器，在如图所示的角色界面右键角色头像。"/>
 		<Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/06/26/9IKCYT5HUWa43Me.png" />   
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="② 在弹出的对话框中选择导出路径，此时您应已导出皮肤文件。"/>
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="2. 直接加载正版用户皮肤的解决方案">
-    <StackPanel Margin="25,40,23,15">
-		<local:MyHint Margin="0,-5,0,15" Text="由于 PCL 2 内置了正版皮肤导出，我们建议您使用此方法更快速地导出。&#xa;当然，前述的方式 1 同样适用于正版用户。"/>
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="① 打开您的 PCL 2 启动器，在上方的“设置”选项卡中选择左侧的“游戏”，打开离线皮肤选项卡。"/>
-		<Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/06/26/7kH9odipz6UCmYZ.png" />   
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="② 在选项卡上方的皮肤类型中选择“正版皮肤”，随后在下方输入您的正版 ID，点击“保存皮肤”按钮。&#xa;	   如果您的网络缓慢，可反复刷新缓存后再尝试导出。"/>
-		<TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="③ 在弹出的对话框中选择导出路径，此时您应已导出皮肤文件。"/>
     </StackPanel>
 </local:MyCard>
 
