@@ -3,7 +3,7 @@
     <StackPanel Margin="25,40,23,15">
 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="一部分 Minecraft 玩家制作了许许多多的整合包，但是部分新手玩家却不会安装整合包。本教程将告诉你如何安装 CurseForge 整合包。"/>
+                    Text="在 CurseForge 中有各种各样的整合包（ Modpack ），但是很多新手不会安装整合包。这篇帮助就可以让你学会安装整合包"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="1. 打开 PCL2 的下载页面，可以看到侧边栏有一个“整合包”选项"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/a5dcc78a3f33e.PNG" />  

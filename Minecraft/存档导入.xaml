@@ -2,14 +2,14 @@
     <StackPanel Margin="25,40,23,15">
 
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="当你得到了一个外部存档，却发现不知道怎么导入，该教程可能会成为你的“救命稻草”。请遵循下列步骤来导入你的存档："/>
+                    Text="通过本教程，你将知道如何导入外部存档。接下来，请按照指定的步骤导入你的存档"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="1. 打开saves文件夹（一般为“.minecraft/saves”。如果你开启了版本隔离，则路径为“.minecraft/versions/Minecraft 版本号（如1.15.2-OptiFine_G6）/saves”"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="2. 将存档放入saves文件夹（如果是压缩包的话，解压它），注意存档文件夹内不能只有子文件夹"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="3. 返回游戏，就可以看到导入的存档了 "/>
-        <local:MyHint Text="如果没有看到存档，请检查文件夹是否和其它内部存档（ Minecraft 内创建的存档）一样" />
+        <local:MyHint Text="如果没有看到存档，请检查文件夹是否和其它内部存档（你在 Minecraft 内创建的存档）一样" />
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake" IsWarn="False" />
