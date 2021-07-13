@@ -1,0 +1,69 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 不会XAML，在XiaoFans的帮助文档上稍作修改，可能需要根据规范重新修改表述及格式。 可能仍需继续完善。 -->
+<!-- 图片备份: https://wtp016-cn.coding.net/public/image_for_pcl2help/modpack/git/files -->
+
+<local:MyCard Title="简介" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="无论是在 CurseForge 还是 MCBBS 上，都有许多可以供玩家使用的整合包。但下载下来后，安装它们就成了最大的问题。这篇教程就可以让你学会安装整合包的方法。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="对于来自 CurseForge 的整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL2 中找到”下载”按钮，在左侧菜单 CurseForge 小项中找到“整合包”选项。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-download-modpack.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 选择一个整合包。本教程使用 “RLCraft” 为范例。点击此整合包，点击最上方的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以“RLCraft”为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-choose-modpack.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-choose-modpack-version.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-input-version-name.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-download-start" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
+                        Text="3. 回到主页面，点击版本选择，您会看到以您刚刚输入的版本名命名的游戏。点击选择，启动，您即可进入游戏。"/>
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="对于来自 MCBBS 的整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 MCBBS 中打开 整合包发布 板块。" HorizontalAlignment="Left" />
+                <StackPanel Margin="250,0,0,0">
+                    <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-mcbbs-forum-modpack.png" />
+                </StackPanel>
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 选择任意一个整合包，此处以“XPlus 2.0”作为范例。" HorizontalAlignment="Left" />
+            <StackPanel Margin="250,0,0,0">
+                <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-mcbbs-choose-modpack.png" />
+            </StackPanel>
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="3. 在帖子中找到下载链接，点击，点击”请点击此链接“，打开 XPlus 下载链接，选择 OneIndex，打开”PCL版本\Fabric版本\1.17.1，选择最新的版本，下载并解压缩，打开 PCL2 启动器，点击启动，您即可进入游戏。" HorizontalAlignment="Left"/>
+            <StackPanel Margin="250,0,0,0">
+                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-find-download-link.png" />
+                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-mcbbs-go-away-safe.png" />
+                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-xplus-download-link.png" />
+                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-xplus-download-prepare.png" />
+                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/explorer-open-folder-and-launcher.png" />
+                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-xplus-version-launch-game.png" />
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：WTP016" IsWarn="False" />
