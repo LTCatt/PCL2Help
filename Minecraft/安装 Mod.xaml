@@ -11,7 +11,6 @@
                     Text="某些 Mod 只支持单一的 Mod 加载器，但也有部分 Mod 同时支持两种 Mod 加载器。如果你是高版本玩家，那么大部分 Mod 都已同时支持 Forge 与 Fabric 。如果你是低版本玩家（如 1.12.2 ），由于 Fabric 没有低版本，则只能使用 Forge 加载 Mod"/>
     </StackPanel>  
  </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="Mod 加载器及 Mod 不受 Mojang 官方的支持" />
 <local:MyCard Title="安装 Mod 加载器（ Fabric ）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
@@ -25,7 +24,6 @@
                     Text="3. 点击“开始安装”按钮来安装"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/d853c70517069.PNG" />
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/0579b07e6ae97.PNG" />
-        <local:MyHint Margin="0,0,0,15" Text="如果你想要同时安装 OptiFine ，则在游戏安装完成后还需要安装 OptiFabric Mod" IsWarn="False" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="安装 Mod 加载器（ Forge ）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
@@ -55,8 +53,7 @@
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/15/f4aa75547b82b.PNG" />
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/10e304764d354.PNG" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="4. 返回主页，选择正确的版本并启动"/>        
-        <local:MyHint Margin="0,0,0,15" Text="如果你开启了版本隔离，则需要下载到 Minecraft 版本文件夹中对应版本的 Mods 文件夹内" />
+                    Text="4. 返回主页，选择正确的版本并启动"/>
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake" IsWarn="False" />
