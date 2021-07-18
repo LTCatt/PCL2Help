@@ -1,15 +1,15 @@
 <local:MyHint Margin="0,0,0,15" Text="本篇帮助仅说明 PCL2 内置 Mod 安装功能的使用方法，对于 Forge 等 Mod 加载器的安装，或手动安装 Mod 的方法请查看相关帮助页面" IsWarn="False" />
 <local:MyCard Title="打开 Mod 安装界面">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="PCL2 内置了从 curseforge 安装 Mod 的功能，免去了从网页下载的各种麻烦。"/>
-        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="点击启动器顶部的“下载”，再点击右侧菜单栏中的“ Mod ”即可打开安装界面。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="PCL2 内置了从 CurseForge 安装 Mod 的功能，免去了从网页下载的各种麻烦。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="点击启动器顶部的“下载”，再点击右侧菜单栏中的“Mod”即可打开安装界面。"/>
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="搜索 Mod ">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,4" LineHeight="17" Text=" curseforge 提供了多种搜索 Mod 的方式，包括名称、标签、游戏版本，并且可以调整搜索结果的排序。不同的搜索方式可以同时使用也可以单独使用，方便用户快速找到需要的 Mod 。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="CurseForge 提供了多种搜索 Mod 的方式，包括名称、标签、游戏版本，并且可以调整搜索结果的排序。不同的搜索方式可以同时使用也可以单独使用，方便用户快速找到需要的 Mod 。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17" Text="最简单直接的搜索方法是名称搜索，在输入框输入 Mod 的名称后点击搜索按钮即可。"/>
-        <local:MyHint Margin="0,0,0,15" Text="由于 curseforge 是一个英文网站，搜索时请尽量使用 Mod 的英文名称" IsWarn="False" />
+        <local:MyHint Margin="0,0,0,15" Text="由于 CurseForge 是一个英文网站，搜索时请尽量使用 Mod 的英文名称" IsWarn="False" />
         <TextBlock Margin="0,0,0,4" LineHeight="17" Text="标签搜索能依据 Mod 的功能或者类型来寻找 Mod ，在下拉菜单中可以选择搜索的标签。"/>
         <local:MyHint Margin="0,0,0,15" Text="选择 Fabric 标签进行搜索可以快速查找支持 Fabric 加载器的 Mod " IsWarn="False" />
         <TextBlock Margin="0,0,0,4" LineHeight="17" Text="版本搜索可以查找支持指定游戏版本的 Mod ，可以选择具体的小版本如1.16.5，也可以选择一个大版本范围如1.12。"/>
@@ -19,7 +19,7 @@
 <local:MyCard Title="下载 Mod ">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17" Text="搜索完毕后，点击想要下载的 Mod 即可进入下载页面，这里会列出 Mod 的所有版本供用户选择。点击想要下载的版本即可开始下载，PCL2 会默认将 Mod 下载到在主页被选中的游戏版本中，下载完成后即可在此游戏版本中使用 Mod 。如有需要，用户也可在下载对话框中更改下载位置。"/>
-        <local:MyHint Margin="0,0,0,15" Text=" Mod 版本列表中会显示所有的版本，请注意选择和自己游戏对应的版本。PCL2 会在版本名称下方显示出该版本对应的游戏版本。" IsWarn="False" />
+        <local:MyHint Margin="0,0,0,15" Text="Mod 版本列表中会显示所有的版本，请注意选择和自己游戏对应的版本。PCL2 会在版本名称下方显示出该版本对应的游戏版本。" IsWarn="False" />
         <local:MyHint Margin="0,0,0,15" Text="同时支持 Fabric 和 Forge 的 Mod 一般会在版本名称中分别标注“forge”或“fabric”用于区分。" IsWarn="False" />
         <local:MyHint Margin="0,0,0,15" Text="PCL2 也会显示 Mod 版本的开发状态信息，如测试版（Beta Alpha）或正式版（Release），但一般情况下选择最新的版本下载即可。" IsWarn="False" />
     </StackPanel>
