@@ -1,6 +1,6 @@
 {
     "__Author__": "Logic_530",
     "Title": "安装Mod",
-    "Description": "使用PCL内置的Mod下载功能，从curseforge安装Mod",
+    "Description": "使用 PCL2 内置的Mod下载功能，从 curseforge 安装 Mod",
     "Types": ["启动器"]
 }
