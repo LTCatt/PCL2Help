@@ -18,9 +18,10 @@
 </local:MyCard>
 <local:MyCard Title="下载Mod">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="搜索完毕后，点击想要下载的Mod即可进入下载页面，这里会列出Mod的所有版本供用户选择下载。点击想要下载的版本即可开始下载，PCL2 会默认将Mod下载到在主页被选中的游戏版本中，下载完成后即可在此游戏版本中使用Mod。如有需要，用户也可在下载对话框中更改下载位置。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="搜索完毕后，点击想要下载的Mod即可进入下载页面，这里会列出Mod的所有版本供用户选择。点击想要下载的版本即可开始下载，PCL2 会默认将Mod下载到在主页被选中的游戏版本中，下载完成后即可在此游戏版本中使用Mod。如有需要，用户也可在下载对话框中更改下载位置。"/>
         <local:MyHint Margin="0,0,0,15" Text="Mod版本列表中会显示所有的版本，请注意选择和自己游戏对应的版本。PCL2 会在版本名称下方显示出该版本对应的游戏版本。" IsWarn="False" />
         <local:MyHint Margin="0,0,0,15" Text="同时支持Fabric和Forge的Mod一般会在版本名称中分别标注“forge”或“fabric”用于区分。" IsWarn="False" />
+        <local:MyHint Margin="0,0,0,15" Text="PCL2 也会显示Mod版本的开发状态信息，如测试版(Beta Alpha)或正式版(Release)，但一般情况下选择最新的版本下载即可。" IsWarn="False" />
     </StackPanel>
 </local:MyCard>
 
