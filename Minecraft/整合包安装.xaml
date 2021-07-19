@@ -33,32 +33,14 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="对于来自 MCBBS 的整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyHint Margin="0,0,0,15" Text="注意: 以下情况假设您已下载好整合包(通常是为 .zip / .rar 结尾的文件)。" IsWarn="False" />
+
+<local:MyCard Title="对于非来自 CurseForge 的整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <Grid>
-            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="1. 在 MCBBS 中打开 整合包发布 板块。" HorizontalAlignment="Left" />
-                <StackPanel Margin="250,0,0,0">
-                    <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-mcbbs-forum-modpack.png" />
-                </StackPanel>
-        </Grid>
-
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 选择任意一个整合包，此处以“XPlus 2.0”作为范例。" HorizontalAlignment="Left" />
+                       Text="解压缩此压缩文件(即结尾为 .zip / .rar 的文件)，找到启动器，登录 Mojang / Microsoft 账号，启动游戏，您即可游玩游戏。" HorizontalAlignment="Left"/>
             <StackPanel Margin="250,0,0,0">
-                <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-mcbbs-choose-modpack.png" />
-            </StackPanel>
-        </Grid>
-
-        <Grid Margin="0,20,0,4">
-            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                       Text="3. 在帖子中找到下载链接，点击，点击”请点击此链接“，打开 XPlus 下载链接，选择 OneIndex，打开”PCL版本\Fabric版本\1.17.1，选择最新的版本，下载并解压缩，打开 PCL2 启动器，点击启动，您即可进入游戏。" HorizontalAlignment="Left"/>
-            <StackPanel Margin="250,0,0,0">
-                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-find-download-link.png" />
-                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-mcbbs-go-away-safe.png" />
-                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-xplus-download-link.png" />
-                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/msedge-xplus-download-prepare.png" />
                   <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/explorer-open-folder-and-launcher.png" />
                   <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-xplus-version-launch-game.png" />
             </StackPanel>
