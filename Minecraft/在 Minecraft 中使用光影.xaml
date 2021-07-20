@@ -1,4 +1,5 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 由 WTP016 修改的部分的图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help_Shaders -->
 
 <local:MyCard Title="光影是什么？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -7,7 +8,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 OptiFine" Margin="0,0,0,15">
+<local:MyCard Title="安装 OptiFine" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="PCL2 可以为下载的 Minecraft 版本自动安装 OptiFine，使用自动安装功能时展开“OptiFine”菜单，选择需要的版本即可。" />
@@ -17,7 +18,23 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="获得光影包" Margin="0,0,0,15">
+<local:MyCard Title="安装 Iris Shaders + Sodium" Margin="0,0,0,15" CanSwap="True" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,7"
+                    Text="Iris Shaders + Sodium 支持的 Mod 加载器是 Fabric，无法使用 Forge 加载器。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="Sodium (钠) 是目前最流行的用于替代 OptiFine 进行 Minecraft 优化的 Mod，但作为 OptiFine 的替代品，Sodium 原生并没有光影功能，需要安装 Iris Shaders Mod 以使用光影。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="在 PCL 2 中打开 下载 → Mod ，在搜索栏内输入 Iris Shaders (大写)。"/>
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Shaders/pcl2-download-mod-iris-shaders.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="选择你需要安装 Iris Shaders 的版本，此处以 1.17 作为示例。选择保存 Iris Shaders + Sodium 的位置，点击保存。等待下载完毕，您的 Iris Shaders + Sodium 就已安装完成。"/>
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Shaders/pcl2-download-mod-iris-shaders.png" />
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Shaders/pcl2-explorer-choose-save-location.png" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="获得光影包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="光影包和材质包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的光影包。很多 Minecraft 交流网站(如 MCBBS)都有专门的光影版块，你可以在这些地方挑选自己喜欢的光影包。OptiFine 也提供了一个分享光影包的网站，在光影设置界面点击光影包文件夹旁的下载按钮即可打开（英文网站）。" />
@@ -26,7 +43,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="导入并启用光影包" Margin="0,0,0,15">
+<local:MyCard Title="导入并启用光影包 (OptiFine)" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="光影包下载完成后需要将其放入光影包文件夹方可在游戏中使用，这个文件夹通常是 .minecraft/shaderpacks。如果你不清楚怎么找到这个文件夹，可以在进入游戏后，点击 选项-视频设置-光影…-光影包文件夹，游戏会自动为你打开文件夹。" />
@@ -42,4 +59,18 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：Logic_530" IsWarn="False" />
+<local:MyCard Title="导入并启用光影包 (Iris Shaders + Sodium)" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="光影包下载完成后需要将其放入光影包文件夹方可在游戏中使用，这个文件夹通常是 .minecraft/shaderpacks。如果你不清楚怎么找到这个文件夹，可以在进入游戏后，点击 选项-视频设置-光影…-光影包文件夹，游戏会自动为你打开文件夹。" />
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="光影包下载完成后一般是.zip压缩文件的形式，直接放入光影包文件夹即可，不需要解压。" />
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="有时光影包的作者会依据光影包对电脑性能的需求高低制作多个版本的光影包，并打包成一个压缩包方便玩家下载，此时则需要将大压缩包中的每个光影包提取出来才能使用。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="导入完成后，在光影设置界面（选项-光影包…）可以看到已经导入的光影包，点击即可启用。" />
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Shaders/minecraft-choose-shader.png" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Logic_530、WTP016" IsWarn="False" />
