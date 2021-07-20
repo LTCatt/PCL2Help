@@ -56,7 +56,7 @@
 <local:MyCard Title="修改启动时 “你知道吗?” 的内容" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="在 PCL 文件夹下新建一个名为 hints.txt 的文件，然后每一行写入一条信息，即可修改启动时 “你知道吗?” 的内容。&#xa;PCL2 读取该文件时会忽略空行。" />
+                   Text="在 PCL 文件夹下新建一个名为 hints.txt 的文件，然后每一行写入一条信息，即可修改启动时 “你知道吗?” 的内容。&#xa;PCL2 读取该文件时会忽略空行。&#xa;若写入后出现乱码，可以尝试将编码改为 UTF-8。" />
     </StackPanel>
 </local:MyCard>
 
