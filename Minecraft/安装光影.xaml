@@ -1,0 +1,64 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+
+<local:MyCard Title="光影是什么？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="光影（Shader）是通过游戏 Mod 实现的一项画面修改功能，玩家可以通过加载光影包（Shader Pack）来修改 Minecraft 的画面渲染方式，使得游戏画面更为美观或具有风格。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders，前者支持 Forge 加载器（可以通过 OptiFabric Mod 兼容 Fabric）而后者支持 Fabric 加载器。OptiFine 几乎支持所有的 Minecraft 版本而 Iris Shaders 作为新兴的光影 Mod，目前只支持1.16.5和1.17。一般情况下，OptiFine 是使用光影的最佳选择。" />
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="虽然 Iris Shaders 支持的游戏版本较少，但其内置的 Sodium Mod 对图像性能的优化效果显著，甚至优于 OptiFine。如果你游玩的版本能够使用，不妨先尝试 Iris Shaders。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="安装 OptiFine" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="如果你选择使用 OptiFine，PCL2 可以为下载的 Minecraft 版本自动安装 OptiFine，使用自动安装功能时展开“OptiFine”菜单，选择需要的版本即可。" />
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/19/48304d59afe03.png" />
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="安装 Iris Shaders" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="如果你选择使用 Iris Shaders，PCL2 提供的 Mod 下载功能可以帮助你下载这个 Mod。在 Mod 下载界面搜索“Iris Shaders”即可找到此 Mod。" />
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="关于安装 Mod 的详细说明，请查看帮助“安装 Mod”。" />
+    </StackPanel>
+</local:MyCard>
+
+
+<local:MyCard Title="获取光影包" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="光影包和材质包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的光影包。很多 Minecraft 交流网站(如 MCBBS)都有专门的光影版块，你可以在这些地方挑选自己喜欢的光影包。OptiFine 也提供了一个分享光影包的网站，在光影设置界面点击光影包文件夹旁的下载按钮即可打开（英文网站）。" />
+        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开 MCBBS 光影板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?mod=forumdisplay&amp;fid=1357" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="导入并启用光影包" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="光影包下载完成后需要导入方可在游戏中使用，OptiFine 和 Iris Shaders 导入光影包的操作相同，只需将光影包放入 .minecraft/shaderpacks 文件夹即可。如果你不清楚怎么找到这个文件夹，可以在进入游戏后，点击 选项-视频设置-光影-光影包文件夹，游戏会自动为你打开文件夹。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="如果你使用的是 Iris Shaders，还可以在光影设置界面（选项-视频设置-光影包…）直接将光影包文件拖放到 Minecraft 窗口内完成导入。" />
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="光影包不区分 OptiFine 或 Iris Shaders，理论上任何光影包都可以在两个 Mod 中使用。" />
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="光影包下载完成后一般是.zip压缩文件的形式，直接放入光影包文件夹即可，不需要解压。" />
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="有时光影包的作者会依据光影包对电脑性能的需求高低制作多个版本的光影包，并打包成一个压缩包方便玩家下载，此时则需要将大压缩包中的每个光影包提取出来才能使用。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="导入完成后，在光影设置界面（选项-视频设置-光影…）可以看到已经导入的光影包，点击即可启用。" />
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/19/f300670c6071d.png" />
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/20/37dd43e6fcc85.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="如果使用了 OptiFine，你还可以在光影设置界面对光影的效果做进一步调整，右侧列出的是 OptiFine 提供的通用选项，点击右下角的光影设置可以打开当前光影包的专有选项，以便对光影的效果作出更多调整。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Logic_530" IsWarn="False" />
