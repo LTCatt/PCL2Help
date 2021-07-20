@@ -37,22 +37,9 @@
 
 <local:MyCard Title="对于结尾为 .zip / .rar 的压缩文件整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <Grid Margin="0,20,0,4">
-            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                       Text="解压缩此压缩文件(即结尾为 .zip / .rar 的文件)，找到启动器，登录 Mojang / Microsoft 账号，启动游戏，您即可游玩游戏。" HorizontalAlignment="Left"/>
-            <StackPanel Margin="250,0,0,0">
-                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/explorer-open-folder-and-launcher.png" />
-                  <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-xplus-version-launch-game.png" />
-            </StackPanel>
-        </Grid>
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="对于来源为 MCBBS 或 HMCL / MultiMC(MMC) 格式的整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="对于从 MCBBS 下载的或为 HMCL / MultiMC(MMC) 格式的整合包，您需打开 PCL 2 启动器，点击“导入整合包”按钮，选择您需要安装的整合包，此处以 “Example.zip” 为范例。" HorizontalAlignment="Left" />
+                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL 2 启动器，点击“导入整合包”按钮，选择您需要安装的整合包，此处以 “Example.zip” 为范例。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-modpack-mcbbs-choose-version.png" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-install-modpack-mcbbs.png" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-explorer-choose-modpack.png" />
