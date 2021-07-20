@@ -1,6 +1,6 @@
 {
 	"__author__": "Big_Cake",
 	"Title": "安装 CurseForge 整合包",
-	"Description": "下载 CurseForge 整合包并安装",
+	"Description": "下载、导入 CurseForge 整合包",
 	"Types": ["Minecraft"]
 }

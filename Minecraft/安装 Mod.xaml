@@ -1,17 +1,32 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 需要减少 MyHint 的使用，最后面一个卡片用得太多了 -->
+
 <local:MyCard Title="Mod 是什么？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Mod 是由 Minecraft 社区的部分玩家制作的游戏补丁，能够为 Minecraft 添加更多的内容，例如更多工具、方块、生物、世界以及新的玩法与机制等等。通过添加 Mod 能够极大地扩展游戏的可玩性，增加游戏的趣味。"/>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Text="Mod 是由 Minecraft 社区的部分玩家制作的游戏补丁，能够为 Minecraft 添加更多的内容，例如更多工具、方块、生物、世界以及新的玩法与机制等。"/>
     </StackPanel>  
 </local:MyCard>
 <local:MyCard Title="如何选择 Mod 加载器？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Mod 加载器是 Minecraft 安装 Mod 的必要前置条件，要想安装 Mod 必须先安装 Mod 加载器，目前高版本（1.12以上）主流的 Mod 加载器有 Forge 和 Fabric，而它们是不能同时安装的。"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="选择加载器的主要依据有加载器支持的游戏版本和加载器支持的 Mod，Forge 几乎支持所有的 Minecraft 版本而 Fabric 只支持1.14及以上。总体上 Forge 支持的 Mod 比 Fabric 多，但有部分精品 Mod 只支持 Fabric，同时也有许多 Mod 同时支持 Forge 和 Fabric。玩家需要根据自身对游戏内容的喜好妥善选择 Mod 加载器。"/>
-        <local:MyHint Margin="0,0,0,15" Text="选择 Mod 加载器是一个复杂的问题，很多时候会面临鱼和熊掌不可兼得的情况，如果你发现自己使用 Forge 加载器但有一个需要的 Mod 只支持 Fabric，不妨找找看有没有支持 Forge 的替代品。" IsWarn="False" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Mod 加载器是 Minecraft 安装 Mod 的必要前置条件，要想安装 Mod 必须先安装 Mod 加载器，目前高版本（1.12 以上）主流的 Mod 加载器有 Forge 和 Fabric 两种，而它们不能同时安装。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Forge 几乎支持所有 Minecraft 版本，而 Fabric 只支持 1.14 及以上。总体上，Forge 支持的 Mod 比 Fabric 多，但有部分精品 Mod 只支持 Fabric。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="选择 Mod 加载器在很多时候会面临鱼和熊掌不可兼得的情况，例如如果你发现自己使用 Forge 加载器但有一个需要的 Mod 只支持 Fabric，不妨找找看有没有支持 Forge 的替代品。你也可以看看自己最喜欢的 Mod 使用了哪个加载器，从而辅助自己作出决定。"/>
     </StackPanel>  
  </local:MyCard>
-<local:MyCard Title="安装 Mod 加载器（ Fabric ）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 Mod 加载器 - Forge" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Forge 作为示例）"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/d3288bc7163fc.PNG" />  
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="2. 选择适合的 Forge 版本"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/7de371fe0b088.PNG" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="3. 点击“开始安装”按钮来安装"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/397e1a37bc506.PNG" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="安装 Mod 加载器 - Fabric" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Fabric 作为示例）"/>
@@ -23,21 +38,6 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="3. 点击“开始安装”按钮来安装"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/d853c70517069.PNG" />
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/0579b07e6ae97.PNG" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="安装 Mod 加载器（ Forge ）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Forge 作为示例）"/>
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/d3288bc7163fc.PNG" />  
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 选择适合的 Forge 版本"/>
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/7de371fe0b088.PNG" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 点击“开始安装”按钮来安装"/>
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/397e1a37bc506.PNG" />
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/91a39e24bd99d.PNG" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="下载并安装 Mod" Margin="0,0,0,15">

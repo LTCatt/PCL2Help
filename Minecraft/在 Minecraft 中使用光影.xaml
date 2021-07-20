@@ -4,9 +4,6 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="光影（Shader）是 OptiFine Mod 提供的一项画面修改功能，玩家可以通过加载光影包（Shader Pack）来修改 Minecraft 的画面渲染方式，使得游戏画面更为美观或具有风格。" />
-        <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="“Shader”被称为光影的主要原因是其可以为游戏画面添加优美的光线和影子的效果（“Shader”本意为着色器）" />
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/19/c87813478409d.png" />
     </StackPanel>
 </local:MyCard>
 

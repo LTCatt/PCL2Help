@@ -1,6 +1,6 @@
 {
     "__Author__": "一闪",
-	"Title": "手动选择 Java 路径",
-	"Description": "若自动查找未找到 Java，可以手动选择 Java 路径",
+	"Title": "手动选择 Java",
+	"Description": "若 PCL2 自动查找未能找到 Java，可以手动选择 Java 路径",
 	"Types": ["启动器"]
 }

@@ -1,3 +1,4 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 
 <local:MyCard Title="导出角色的皮肤">
     <StackPanel Margin="25,40,23,15">

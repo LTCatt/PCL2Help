@@ -22,11 +22,11 @@
         <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="批处理备份脚本" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="如果你依旧没有明白上面的步骤，你可以点击下方按钮进行注册表备份。如果备份成功的话，你会在PCL文件夹内看到刚才备份的文件（“PCLRegBackup.reg”）。"/>
+                   Text="如果你依旧没有明白上面的步骤，你可以点击下方按钮进行注册表备份。若备份成功，名为 PCLRegBackup.reg 的文件会在 PCL 文件夹内生成。"/>
         <StackPanel Orientation="Horizontal">
-            <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ToolTip="会将PCL存在注册表内的信息备份到PCL文件夹里"
+            <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ToolTip="将 PCL2 的注册表信息备份到 PCL 文件夹中"
                             Text="备份注册表" EventType="打开文件" EventData="cmd.exe|/C reg export HKEY_CURRENT_USER\Software\PCL PCLRegBackup.reg" />
-            <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ToolTip="如果你之前使用过上面备份注册表功能，点击此按钮可以将PCL文件夹内的注册表备份文件还原到注册表"
+            <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ToolTip="如果你之前使用过上面备份注册表功能，点击此按钮可以将 PCL 文件夹中的备份文件还原"
                             Text="恢复注册表" EventType="打开文件" EventData="PCLRegBackup.reg"/>
         </StackPanel>
     </StackPanel>

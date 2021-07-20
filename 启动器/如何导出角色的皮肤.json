@@ -1,6 +1,6 @@
 {
     "__Author__": "DreamUniverse",
-	"Title": "角色皮肤导出",
-	"Description": "为 Minecraft 中的角色进行皮肤导出。",
+	"Title": "导出角色皮肤",
+	"Description": "导出 Minecraft 账号的角色皮肤文件",
 	"Types": ["启动器"]
 }

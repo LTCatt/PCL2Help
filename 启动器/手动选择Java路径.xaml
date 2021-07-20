@@ -1,9 +1,4 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<local:MyCard Title="注意事项">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock FontSize="15" Margin="0,0,0,0" Text="PCL2 目前仅支持设置全局 Java 路径，因此在启动不同版本的 Minecraft 时，可能需要切换 Java 路径。例如：你之前使用 Java 16 游玩 Minecraft 21w19a ，现在你想游玩 Minecraft 1.8.9 ，则需要先切换 Java 版本为 Java 8 ，否则会启动失败。"/>
-    </StackPanel>
-</local:MyCard>
 
 <!-- 图片备份https://yshs.lanzoui.com/ig6c6p5kibe -->
 
