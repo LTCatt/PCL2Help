@@ -35,7 +35,7 @@
 
 <local:MyHint Margin="0,0,0,15" Text="注意: 以下情况假设您已下载好整合包(通常是为 .zip / .rar 结尾的文件)。" IsWarn="False" />
 
-<local:MyCard Title="对于非来自 CurseForge 的整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="对于结尾为 .zip / .rar 的压缩文件整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -44,6 +44,26 @@
                   <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/explorer-open-folder-and-launcher.png" />
                   <Image HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-xplus-version-launch-game.png" />
             </StackPanel>
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="对于来源为 MCBBS 或 HMCL / MultiMC(MMC) 格式的整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="对于从 MCBBS 下载的或为 HMCL / MultiMC(MMC) 格式的整合包，您需打开 PCL 2 启动器，点击“导入整合包”按钮，选择您需要安装的整合包，此处以 “Example.zip” 为范例。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-modpack-mcbbs-choose-version.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-install-modpack-mcbbs.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-explorer-choose-modpack.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="此时 PCL2 会弹出“输入版本名”的窗口，您可自由输入，此处以“1.17.1”作为范例。点击“确定”后，PCL2 自动开始下载。下载完毕后，您即可在版本列表选择以您输入的版本名为标题的游戏，选择，点击启动，您即可进入游戏。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-mcbbs-input-version-name.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-downloading-mmc-modpack.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-mcbbs-launch-game.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>
