@@ -1,25 +1,42 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<local:MyHint Margin="0,0,0,15" Text="若并非特别需要，请勿修改游戏内存大小，以免造成不必要的麻烦"/>
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式、优化排版。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 
 <!-- 图片备份https://yshs.lanzous.com/ijlfCoodvfc -->
+<local:MyCard Title="手动设置内存大小">
+	<StackPanel Margin="25,40,23,5">
+		<TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="在某些情况下，自动分配内存可能会出现一些难以预知的问题。&#xa;因此，在自动分配无法正常工作时，手动设置内存就十分必要。&#xa;本教程针对独立版本调整和全局设定两种途径进行讨论。"/>
+    <local:MyHint Margin="0,-5,0,15" Text="请注意，错误的内存分配会造成游戏不稳定甚至不正常的内存溢出。&#xa;请在自行修改内存前务必谨慎操作！"/>
+	</StackPanel>
+</local:MyCard>
 
-<local:MyCard Title="教程">
+<local:MyCard Title="1. 针对独立的一个版本进行调整">
     <StackPanel Margin="25,40,23,15">   
-        <local:MyHint Margin="0,0,0,5" IsWarn="False"
-                   Text="图片加载会有点慢" />
-        <TextBlock FontSize="15" Margin="0,0,0,0"
-                   Text="1.点击左下方“版本选择”" />
+        <TextBlock Margin="0,4,0,4" LineHeight="20"
+                   Text="① 打开您的 PCL 2 启动器，在主页点击左下方的“版本选择”按钮。" />
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE4hj0.png" />             
-        <TextBlock FontSize="15" Margin="0,10,0,0"
-                   Text="2.右键点击需要修改内存的游戏版本" />
+        <TextBlock Margin="0,4,0,4" LineHeight="20"
+                   Text="② 在版本选择列表中，右键点击需要修改内存的游戏版本。" />
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE4oHU.png" />
-        <TextBlock FontSize="15" Margin="0,10,0,0"
-                   Text="3.点击左侧“设置”按钮" />
+        <TextBlock Margin="0,4,0,4" LineHeight="20"
+                   Text="③ 在该版本的设置中，点击左侧的“设置”选项卡。" />
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE4IBT.png" />        
-        <TextBlock FontSize="15" Margin="0,10,0,0"
-                   Text="4.滑动至下方“游戏内存”，选择“自定义”选项，然后滑动圆点即可调整" />
+        <TextBlock Margin="0,4,0,4" LineHeight="20"
+                   Text="④ 滑动至下方，找到“游戏内存”选项卡，选择“自定义”，然后滑动圆点即可手动调整。&#xa;    此时，该版本的启动内存已为固定值，不再自动变更。" />
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE45uV.png" />    
     </StackPanel>
 </local:MyCard>
+<local:MyCard Title="2. 针对启动器全局进行调整">
+    <StackPanel Margin="25,40,23,15">   
+		<local:MyHint Margin="0,-5,0,15" Text="请注意，修改 PCL 2 的全局配置将影响所有依赖 PCL 2 启动的游戏版本。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="20"
+                   Text="① 打开您的 PCL 2 启动器，在主页点击上方的“设置”选单。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/06/26/Ok9q2PcGXZYnb1r.png" />             
+        <TextBlock Margin="0,4,0,4" LineHeight="20"
+                   Text="② 点击左侧的“游戏”选项卡，向下翻找，找到“游戏内存”选项卡。" />
+        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/06/26/4Ce2ITykYu3SjVh.png" />
+        <TextBlock Margin="0,4,0,4" LineHeight="20"
+                   Text="③ 选择“自定义”，此时拖动圆点即可手动调整全局内存。" />
+    </StackPanel>
+</local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：一闪" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：一闪，DreamUniverse" IsWarn="False" />

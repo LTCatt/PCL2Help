@@ -47,7 +47,15 @@
         <TextBlock Foreground="#229922" Margin="0,0,0,10"
                    Text="    ✔  在如何安装 Mod 的帮助中教学 “右键，点击剪切”：不会安装 Mod 的人确实需要极为详细的教学" />
         <TextBlock Margin="0,0,0,4"
-                   Text="7、不要在 XAML 文件中使用嵌套的 MyCard。若有大量需要折叠的内容，请新建一个子帮助页面（例如本页）。" />
+                   Text="7、避免使用评价性、剧情性的叙述，使用说明文文体。" />
+        <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ❌  整合包里有许多好玩的 Mod，但下载之后如何安装却成了大家的一大疑惑，这篇教程会教会你如何安装" />
+        <TextBlock Foreground="#229922" Margin="0,0,0,10"
+                   Text="    ✔  在下载整合包后，还需要进行安装才能进行游戏，本教程介绍了整合包的安装方式" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="8、不要在 XAML 文件中使用嵌套的 MyCard。若有大量需要折叠的内容，请新建一个子帮助页面（例如本页）。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="9、尽量使用网络中已有的教程，添加一个指向它的链接即可。若无必要，不必重新写一遍。" />
     </StackPanel>
 </local:MyCard>
 
