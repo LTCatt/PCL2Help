@@ -1,0 +1,11 @@
+{
+    "__Author__": "Hanhan_awa",
+    "Title": "获取Minecraft正版",
+    "Description": "最详细的获取Minecraft正版教程",
+    "Keywords": "我的世界正版账号",
+    "Types": ["Minecraft"],
+    "IsEvent": true,
+    "EventType": "打开网页",
+    "EventData": "https://www.bilibili.com/read/cv12293807"
+   }
+
