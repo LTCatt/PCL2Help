@@ -1,0 +1,9 @@
+{
+    "__Author__": "WTP016",
+    "Title": "PCL2 帮助站",
+    "Description": "PCL2 帮助站: 包含 PCL2 与 Minecraft 帮助的帮助站",
+    "Types": ["百科"],
+    "IsEvent": true,
+    "EventType": "打开网页",
+    "EventData": "https://pcl2-help.gitee.io/"
+}
