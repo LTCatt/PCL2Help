@@ -1,0 +1,12 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 看起来好少啊啊啊啊啊，有人能帮忙补充吗 -->
+
+<local:MyCard Title="关于 PCL2 的多平台支持" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Text="PCL2 基于 Microsoft（微软）的 .NET Framework 编写，这导致 PCL2 不能兼容 Windows 以外的平台，如 Linux 、macOS 、Chrome OS"/>
+        <TextBlock TextWrapping="Wrap" Text="这或许能够解释为什么在 Windows 7 使用 PCL2 需要安装 .NET Framework 4.5 ，并且 PCL2 未来也没有任何计划兼容其它系统"/>
+        <TextBlock TextWrapping="Wrap" Text="如果你使用 Linux 或 macOS，请使用其它 Minecraft 启动器（如官方启动器、HMCL）"/>
+    </StackPanel>          
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake" IsWarn="False" />
