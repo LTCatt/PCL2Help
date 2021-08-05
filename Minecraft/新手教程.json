@@ -2,7 +2,7 @@
     "__Author__": "XiaoFans、龙腾猫跃",
 	"Title": "Minecraft 新手教程",
 	"Description": "最详细的 Minecraft 新手中文入门教程",
-	"Types": ["Minecraft"],
+	"Types": ["Minecraft", "百科"],
 	"IsEvent": true,
 	"Keywords": "我的世界",
 	"EventType": "打开网页",
