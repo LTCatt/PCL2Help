@@ -1,0 +1,10 @@
+{
+    "__Author__": "龙腾猫跃",
+	"Title": "解锁隐藏主题",
+	"Description": "使用 PCL2 个性化页面中的隐藏主题",
+	"Types": ["启动器","个性化"],
+	"IsEvent": true,
+	"EventType": "弹出窗口",
+	"EventData": "解锁隐藏主题|你可以在帮助页面最上方的赞助与内测指南中找到非解密的隐藏主题的解锁方式。\n至于需要解密的隐藏主题……自己加油吧！",
+	"ShowInPublic": false
+}

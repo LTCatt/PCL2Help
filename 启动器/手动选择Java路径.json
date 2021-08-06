@@ -1,6 +1,9 @@
 {
-    "__Author__": "一闪",
+    "__Author__": "龙腾猫跃",
 	"Title": "手动选择 Java",
 	"Description": "若 PCL2 自动查找未能找到 Java，可以手动选择 Java 路径",
-	"Types": ["启动器"]
+	"Types": ["启动器"],
+	"IsEvent": true,
+	"EventType": "弹出窗口",
+	"EventData": "手动选择 Java|点击设置选项卡，在 Java 选择中点击手动选择，然后选择 javaw.exe 文件即可。"
 }
