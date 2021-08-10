@@ -1,0 +1,10 @@
+{
+  "__Author__": "Doushabo",
+  "Title": "MCVersion",
+  "Description": "MCVersion：收录Minecraft原版服务器核心",
+  "Keywords": "服务器核心, MCVersion",
+  "Types": ["百科"],
+  "IsEvent": true,
+  "EventType": "打开网页",
+  "EventData": "https://mcversions.net/"
+}
