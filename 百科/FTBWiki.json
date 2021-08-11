@@ -1,0 +1,10 @@
+{
+	"__Author__": "刘约";
+	"Title": "FTB模组百科",
+	"Description": "Feed The Beast Wiki：包含大量FTB整合包使用模组的中文百科",
+	"Keywords": "我的世界FTB模组",
+	"Types": ["百科"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://ftbwiki.org/"
+}
