@@ -16,6 +16,23 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="选择帮助类别">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,12" LineHeight="17"
+                   Text="在创建新的帮助条目时，请根据情况选择链接、弹窗或新帮助页面。" />
+        <TextBlock LineHeight="17"
+                   Text="1、尽量使用网络中已有的教程帖，添加一个链接即可。若无必要，不必从头到尾重新写一遍。" />
+        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+		            EventType="打开帮助" EventData="Minecraft/新手教程.json" />
+        <TextBlock LineHeight="17"
+                   Text="2、如果教程内容可以用几句话说清，则只需使用第二类帮助，弹出窗口说明即可，无需添加 XAML 页面。" />
+        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+		            EventType="打开帮助" EventData="启动器/手动选择Java路径.json" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="3、仅在你确认网络中没有类似教程，且一个弹出窗口无法完全说明内容时，才去添加 XAML 页面。" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="帮助内容规范">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,2"
@@ -54,8 +71,6 @@
                    Text="    ✔  在下载整合包后，还需要进行安装才能进行游戏，本教程介绍了整合包的安装方式" />
         <TextBlock Margin="0,0,0,4"
                    Text="8、不要在 XAML 文件中使用嵌套的 MyCard。若有大量需要折叠的内容，请新建一个子帮助页面（例如本页）。" />
-        <TextBlock Margin="0,0,0,4"
-                   Text="9、尽量使用网络中已有的教程，添加一个指向它的链接即可。若无必要，不必重新写一遍。" />
     </StackPanel>
 </local:MyCard>
 

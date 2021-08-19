@@ -1,0 +1,41 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help_Saves (以 安装光影 教程为基础更改) -->
+
+<local:MyCard Title="世界是什么？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="世界 (Worlds) 是指由 Minecraft 玩家创造的存档。玩家的游戏中生成的世界可以被其他玩家下载并进行游玩。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="目前国内外比较知名的世界分享网站有 MCBBS(我的世界中文论坛) 和 MinecraftMaps 等。"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="获取世界" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="世界与材质包、光影类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的世界。很多 Minecraft 交流网站(如 MCBBS)都有专门的世界版块，你可以在这些地方挑选自己喜欢的世界。" />
+        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开 MCBBS 世界分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-map-1.html" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="导入并游玩世界" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="世界下载完成后需要导入方可在游戏中使用。导入世界只需将您得到的地图文件夹放入 .minecraft/saves 文件夹即可。&#xa;有些地图的文件夹根目录有 resources.zip 文件，这是地图自带的材质包，您可以参考“安装资源包”教程进行安装。" />
+                   <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Saves@main/explorer-saves-folder.png" />
+                   <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Saves@main/explorer-import-worlds.png" />
+        <local:MyHint Margin="0,0,0,15" Text="注意: 大部分地图下载下来后为压缩文件(.rar / .zip / .7z)，您需要解压后放入 saves 文件夹。" IsWarn="False"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="如果您开启了版本隔离，则您需要在 PCL2 中选中您需要安装世界的版本，点击右侧的小齿轮(或在主页点击“版本设置”)，然后点击“打开版本文件夹”，找到 .minecraft/saves 文件夹再将世界放入此文件夹。"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Saves@main/pcl2-choose-version-to-open-settings.png"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Saves@main/pcl2-find-version-settings.png"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Saves@main/pcl2-open-version-folder.png"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Saves@main/explorer-other-saves.png"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="在 PCL2 中选中您刚才导入世界的版本，点击启动，点击“单人游戏”，找到您刚刚导入的存档(一般与文件夹同名)，双击以游玩。"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help_Saves@main/minecraft-play.png"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者: WTP016" IsWarn="False"/>

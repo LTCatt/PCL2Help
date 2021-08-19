@@ -6,7 +6,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="整合包制作入门" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="整合包制作入门">
     <StackPanel Margin="25,40,23,11">
 	    <local:MyListItem Margin="-5,0,-5,8" 
 		                  Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Title="整合包使用和制作入门" Info="如何打包整合包，并清理其中的冗余文件" Type="Clickable" PaddingRight="4"

@@ -1,0 +1,10 @@
+{
+    "__Author__": "龙腾猫跃",
+	"Title": "解锁主题使用",
+	"Description": "使用 PCL2 个性化页面中的主题切换功能",
+	"Types": ["启动器","个性化"],
+	"IsEvent": true,
+	"EventType": "弹出窗口",
+	"EventData": "解锁主题切换|主题功能仅对 PCL2 的赞助者开放。\n在赞助任意金额后，下载快照版本，即可使用主题功能！\n多谢各位的支持啦……",
+	"ShowInSnapshot": false
+}

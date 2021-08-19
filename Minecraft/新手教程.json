@@ -1,10 +1,10 @@
 {
     "__Author__": "XiaoFans、龙腾猫跃",
-	"Title": "Minecraft 新手教程",
-	"Description": "最详细的 Minecraft 新手中文入门教程",
-	"Types": ["Minecraft"],
+	"Title": "Minecraft 新手指南",
+	"Description": "针对 Minecraft 新玩家的入门教程",
+	"Types": ["Minecraft", "百科", "指南"],
 	"IsEvent": true,
 	"Keywords": "我的世界",
 	"EventType": "打开网页",
-	"EventData": "https://minecraft.fandom.com/zh/wiki/%E6%95%99%E7%A8%8B"
+	"EventData": "https://minecraft.fandom.com/zh/wiki/教程#.E6.96.B0.E6.89.8B"
 }
