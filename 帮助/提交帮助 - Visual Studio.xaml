@@ -1,0 +1,45 @@
+<local:MyCard Title="准备工作">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="1. 如果你使用 Visual Studio，则无需再安装 Git 和其它工具。相较于 VSCode 来说，Visual Studio 更易于使用"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="2. 按照 Visual Studio Installer 的指引选择要安装的版本、开发环境和安装目录。如果你只需要核心 IDE ，那么选择版本与安装目录以后直接进入下一步"/>
+        <local:MyHint Text="Visual Studio 除了 Community（社区）版以外其它版本需要付费，在选择版本时请注意选择"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="3. 安装完成以后，Visual Studio 可能会要求你重新启动电脑。按照其要求进行即可"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="获取帮助库">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="1. 点击下面的按钮打开 PCL 文件夹，在其中新建一个 Help 文件夹"/>
+        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
+        </StackPanel>        
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="2. 在 Visual Studio 中选择 克隆存储库"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/08/19/80404ca8daa81.png"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="3. 将你 Fork 的仓库的地址粘贴到 Visual Studio，并将文件路径改为你 Help 文件夹的路径后点击 克隆"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/08/19/e07be9c0895e3.png"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/08/19/29c0b6f76d9bc.png"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="稍等片刻。待 Visual Studio 克隆完成后双击右侧 解决方案资源管理器 中的 文件夹视图 即可，然后就可以开始编写了"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="提交更改">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="当编写完成以后，就可以提交更改并推送到 GitHub"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="1. 点击右下角的铅笔图标，填写说明后向本地 Git 仓库提交更改"/>
+        <Image Height="50" HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/08/19/defb58a83d6aa.png"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/08/19/b98f80609d51a.png"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="2. 点击铅笔图标左边的按钮，在展开的菜单中选择 “推送” 即可推送至 GitHub 。推送成功以后提交 Pull Request 即可"/>
+    </StackPanel>
+</local:MyCard>
+
+
+        

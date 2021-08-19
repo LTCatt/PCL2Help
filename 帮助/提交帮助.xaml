@@ -26,6 +26,8 @@
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - Git.json" />
         <local:MyListItem Margin="0,0,0,10"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - GitHub Desktop.json" />
+        <local:MyListItem Margin="0,0,0,0"
+                          EventType="打开帮助" EventData="帮助/提交帮助 - Visual Studio.json" />
     </StackPanel>
 </local:MyCard>
 
