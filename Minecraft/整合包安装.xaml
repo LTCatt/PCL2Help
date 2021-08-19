@@ -2,10 +2,20 @@
 <!-- 不会XAML，在XiaoFans的帮助文档上稍作修改，可能需要根据规范重新修改表述及格式。 可能仍需继续完善。 -->
 <!-- 图片备份: https://wtp016-cn.coding.net/public/image_for_pcl2help/modpack/git/files -->
 
-<local:MyCard Title="简介" Margin="0,0,0,15">
+<local:MyCard Title="整合包是什么?" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="无论是在 CurseForge 还是 MCBBS 上，都有许多可以供玩家使用的整合包。但下载下来后，安装它们就成了最大的问题。这篇教程就可以让你学会安装整合包的方法。" />
+                   Text="整合包(Modpack, Modification Packages)是包含已经配置好的、可能包含剧情的、包含 Mod 的 Minecraft 游戏整合文件。" />
+                   <!-- 翻译可能有问题 源网页: https://ftb.fandom.com/wiki/Modpacks 有人来改一下吗救命 -->
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="获取整合包" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="整合包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的整合包。很多 Minecraft 交流网站(如 MCBBS、CurseForge)都有专门的整合包分享版块，你可以在这些地方挑选自己喜欢的整合包。" />
+        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开 MCBBS 整合包分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-modpack-1.html" />
     </StackPanel>
 </local:MyCard>
 
