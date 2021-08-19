@@ -1,3 +1,4 @@
+<local:MyHint Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮忙！" IsWarn="False"/>
 <local:MyCard Title="准备工作">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -40,6 +41,6 @@
                     Text="2. 点击铅笔图标左边的按钮，在展开的菜单中选择 “推送” 即可推送至 GitHub 。推送成功以后提交 Pull Request 即可"/>
     </StackPanel>
 </local:MyCard>
-
+<local:MyHint Text="作者：Big_Cake" IsWarn="False"/>
 
         
