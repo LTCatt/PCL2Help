@@ -16,31 +16,31 @@
 <local:MyCard Title="安装 Mod 加载器 - Forge" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Forge 作为示例）"/>
+                    Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Forge 作为示例）。"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/d3288bc7163fc.PNG" />  
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 选择适合的 Forge 版本"/>
+                    Text="2. 选择适合的 Forge 版本。"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/7de371fe0b088.PNG" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 点击“开始安装”按钮来安装"/>
+                    Text="3. 点击“开始安装”按钮来安装。"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/397e1a37bc506.PNG" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="安装 Mod 加载器 - Fabric" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Fabric 作为示例）"/>
+                    Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Fabric 作为示例）。"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/5b6f76317d8fa.PNG" />  
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 选择适合的 Fabric 版本以及 Fabric API"/>
-        <local:MyHint Margin="0,0,0,15" Text="Fabric API 是 Fabric 所必须的，如果没有 Fabric API 会导致 Minecraft 无法启动"/>
+                    Text="2. 选择适合的 Fabric 版本以及 Fabric API。"/>
+        <local:MyHint Margin="0,0,0,15" Text="Fabric API 是 Fabric 所必须的，如果没有 Fabric API 会导致 Minecraft 无法启动。"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/7d154f44915ca.PNG" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 点击“开始安装”按钮来安装"/>
+                    Text="3. 点击“开始安装”按钮以开始安装。"/>
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/d853c70517069.PNG" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="下载并安装 Mod" Margin="0,0,0,15">
+<local:MyCard Title="下载并安装 Mod (CurseForge)" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="PCL2 内置从 CurseForge 下载 Mod 的功能，可以免去从网页下载的种种麻烦。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="点击启动器顶部的“下载”按钮，再点击左侧菜单栏中的“Mod”，即可打开 Mod 下载界面。"/>
@@ -55,4 +55,17 @@
         <local:MyHint Margin="0,0,0,15" Text="如果启动器主页面选中的游戏版本不能安装 Mod 则默认下载至 此电脑-文档 目录下。" IsWarn="False" />
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake，Logic_530" IsWarn="False" />
+<local:MyCard Title="下载并安装来自外部的 Mod" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="虽然大部分 Mod 都上传于 CurseForge 平台，但还是有不少的 Mod 上传于 CurseForge 以外的平台。你需要下载后手动将其安装。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="大部分的国产原创 Mod 都上传于 MCBBS 平台，你可以在此挑选你需要的 Mod 并下载。下载完成后，你得到的应该是一个以 .jar 或 .litemod 结尾的文件。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="你可以通过以下的按钮打开 MCBBS Mod 分享板块。" />
+        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="打开 MCBBS Mod 分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-mod-1.html" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="在 PCL2 主页点击&quot;版本选择&quot;按钮，找到您需要安装 Mod 的版本，点击右侧的齿轮，点击&quot;打开版本文件夹&quot;按钮。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="找到&quot;Mods&quot;文件夹，将您刚刚得到的以 .jar (.litemod) 结尾的文件移动进去。这样，您就成功安装了一个 Mod。"/>
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@main/Mods.Folder.png" />
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@main/Mods.Installation.png"/> 
+    </StackPanel>
+</local:MyCard>
+<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake，Logic_530、WTP016" IsWarn="False" />
