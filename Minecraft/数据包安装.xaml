@@ -64,14 +64,14 @@
 
 <local:MyCard Title="对于 Minecraft Java 1.16 及以上版本的安装方法" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Text="这是 1.16 及以上版本的新的更便捷的安装方式。新的安装方式需要在创建一个世界（存档）前操作。&#xa;如果您已经创建了世界您依旧可以使用上面的方式来安装数据包。" IsWarn="False" />
+        <local:MyHint Text="这是 1.16 及以上版本的新的更便捷的安装方式。新的安装方式需要在创建一个世界前操作。&#xa;如果您已经创建了世界您依旧可以使用上面的方式来安装数据包。" IsWarn="False" />
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 参考上方内容启动您想要安装数据包的版本，点击“单人游戏”。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMsRBR.png" />        
         </Grid>
-        <local:MyHint Margin="0,15,0,0" Text="如果你还没有创建任何世界（存档）没有“创建新的世界”按钮，则直接点击右中“数据包”。" IsWarn="False" />
+        <local:MyHint Margin="0,15,0,0" Text="如果你还没有创建任何世界则无需点击“创建新的世界”按钮，则直接点击右中“数据包”。" IsWarn="False" />
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 点击下方“创建新的世界”，点击右中“数据包”" HorizontalAlignment="Left" />
@@ -84,7 +84,7 @@
         </Grid>
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="4. 此时，您应该能看到左侧 “可用” 列表中有您下载的资源包，将指针移动至图标将出现一个箭头，点击箭头，此时您应该可以看到此资源包移动到了右侧 “已选” 列表，点击 “完成” 应用资源包。" HorizontalAlignment="Left" />
+                        Text="4. 此时，您应该能看到左侧 “可用” 列表中有您下载的数据包，将指针移动至图标将出现一个箭头，点击箭头，此时您应该可以看到此数据包移动到了右侧 “已选” 列表，点击 “完成” 应用数据包。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMfDl6.png" />
         </Grid>
         <local:MyHint Margin="0,15,0,0" Text="如果点击箭头后出现“这个压缩包是为更旧的 Minecraft 版本所打造的,在此版本可能不会正常工作。”等提示，一般点击“是”，可以向他人或该数据包作者请求帮助" IsWarn="False" />
@@ -92,7 +92,7 @@
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMgrZ9.png" />        
         </Grid>
         <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                   Text="5. 设置一些你想设置的，如世界名称、游戏模式等，点击下方“创建新的世界”进入游戏"/>
+                   Text="5. 设置一些你想设置的，如世界名称、游戏模式等，点击下方“创建新的世界”进入游戏。"/>
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：jiecs_23、WTP016" IsWarn="False" />
