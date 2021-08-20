@@ -1,10 +1,9 @@
 {
 	"__Author__": "Poison",
-	"Title": "PCL帮助站",
-	"Description": "PCL的绝大多数问题汇总基地",
+	"Title": "PCL2 帮助站",
+	"Description": "Minecraft与PCL2的绝大多数问题汇总基地",
 	"Types": ["指南"],
 	"IsEvent": true,
 	"EventType": "打开网页",
 	"EventData": "https://pcl2-help.gitee.io/",
-	"ShowInPublic": true,
 }
