@@ -14,7 +14,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="数据包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的数据包。很多 Minecraft 交流网站(如 MCBBS)都有专门的数据包分享版块，你可以在这些地方挑选自己喜欢的数据包。" />
         <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="打开 MCBBS 光影板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?mod=forumdisplay&amp;fid=39&amp;filter=typeid&amp;typeid=146" />
+                   Text="打开 MCBBS 数据包分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?mod=forumdisplay&amp;fid=39&amp;filter=typeid&amp;typeid=146" />
     </StackPanel>
 </local:MyCard>
 

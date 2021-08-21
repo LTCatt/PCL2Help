@@ -33,7 +33,7 @@
 <local:MyCard Title="自定义主页" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你可以在 设置 → 个性化 → 主页 中自定义启动器的主页。&#xa;你也可以将你的主页 XAML 文件上传到服务器，并通过 “联网更新” 选项实现主页的动态更新。" />
+                   Text="你可以在 设置→个性化→主页 中自定义启动器的主页。&#xa;你也可以将你的主页 XAML 文件上传到服务器，并通过 “联网更新” 选项实现主页的动态更新。" />
     </StackPanel>
 </local:MyCard>
 
@@ -47,7 +47,7 @@
 <local:MyCard Title="关闭启动器更新与公告" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,8" LineHeight="17"
-                   Text="你可以在 设置 → 启动器 → 系统 中修改启动器的更新方式与公告推送方式。" />
+                   Text="你可以在 设置→启动器→系统 中修改启动器的更新方式与公告推送方式。" />
 	    <TextBlock Margin="0,0,0,8" LineHeight="17"
                    Text="如果你能通过 QQ 群等方式通知到所有使用你的整合包的玩家，你可以完全关闭启动器更新。&#xa;如果你无法通知到使用整合包的所有玩家，则请至少选择 “仅在有重大漏洞更新时显示提示”，以免有玩家因为无法收到重大漏洞更新而无法正常游戏。" />
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -65,7 +65,7 @@
 <local:MyCard Title="关闭 PCL2 中不需要的功能" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你可以在 设置 → 个性化 → 功能隐藏 中关闭你不需要的功能入口，例如下载、个性化设置等页面。" />
+                   Text="你可以在 设置→个性化→功能隐藏 中关闭你不需要的功能入口，例如下载、个性化设置等页面。" />
     </StackPanel>
 </local:MyCard>
 
