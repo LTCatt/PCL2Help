@@ -1,4 +1,5 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 由 WTP016 修改的部分的图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/vscode-push-changes -->
 
 <local:MyCard Title="使用 VSCode 获取帮助库">
     <StackPanel Margin="25,40,23,15">

@@ -1,5 +1,6 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 <!-- 需要减少 MyHint 的使用，最后面一个卡片用得太多了 -->
+<!-- 由 WTP016 修改的部分的图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/mods -->
 
 <local:MyCard Title="Mod 是什么？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -64,8 +65,8 @@
                         Text="打开 MCBBS Mod 分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-mod-1.html" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="在 PCL2 主页点击&quot;版本选择&quot;按钮，找到您需要安装 Mod 的版本，点击右侧的齿轮，点击&quot;打开版本文件夹&quot;按钮。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="找到&quot;Mods&quot;文件夹，将您刚刚得到的以 .jar (.litemod) 结尾的文件移动进去。这样，您就成功安装了一个 Mod。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@main/Mods.Folder.png" />
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@main/Mods.Installation.png"/> 
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@mods/Mods.Folder.png" />
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@mods/Mods.Installation.png"/> 
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake，Logic_530、WTP016" IsWarn="False" />

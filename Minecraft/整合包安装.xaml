@@ -1,6 +1,5 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<!-- 不会XAML，在XiaoFans的帮助文档上稍作修改，可能需要根据规范重新修改表述及格式。 可能仍需继续完善。 -->
-<!-- 图片备份: https://wtp016-cn.coding.net/public/image_for_pcl2help/modpack/git/files -->
+<!-- 图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/modpack -->
 
 <local:MyCard Title="整合包是什么?" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -27,9 +26,9 @@
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL 2 启动器，点击“导入整合包”按钮，选择您需要安装的整合包，此处以 “Example.zip” 为范例。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
-                <Image Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-modpack-mcbbs-choose-version.png" />
-                <Image Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-install-modpack-mcbbs.png" />
-                <Image Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-explorer-choose-modpack.png" />
+                <Image Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-modpack-mcbbs-choose-version.png" />
+                <Image Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-install-modpack-mcbbs.png" />
+                <Image Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-explorer-choose-modpack.png" />
             </StackPanel>
         </Grid>
 
@@ -37,9 +36,9 @@
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="此时 PCL2 会弹出“输入版本名”的窗口，您可自由输入。点击“确定”后，PCL2 自动开始安装。安装完毕后，您即可在版本列表选择该游戏。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
-                <Image Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-mcbbs-input-version-name.png" />
-                <Image Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-downloading-mmc-modpack.png" />
-                <Image Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-mcbbs-launch-game.png" />
+                <Image Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-mcbbs-input-version-name.png" />
+                <Image Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-downloading-mmc-modpack.png" />
+                <Image Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-mcbbs-launch-game.png" />
             </StackPanel>
         </Grid>
     </StackPanel>
@@ -50,16 +49,16 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL2 中找到”下载”按钮，在左侧菜单 CurseForge 小项中找到“整合包”选项。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-download-modpack.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-download-modpack.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 选择一个整合包。本教程使用 “RLCraft” 为范例。点击此整合包，点击最上方的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以“RLCraft”为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-choose-modpack.png" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-choose-modpack-version.png" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-input-version-name.png" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://wtp016-cn.coding.net/p/image_for_pcl2help/d/modpack/git/raw/master/pcl2-download-start" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-choose-modpack.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-choose-modpack-version.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-input-version-name.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@modpack/pcl2-download-start" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
