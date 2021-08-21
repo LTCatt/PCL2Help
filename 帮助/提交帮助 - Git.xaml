@@ -118,7 +118,7 @@
                         Text="新建合并请求" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help/compare" />
         </StackPanel>  
 
-        <local:MyHint Margin="0,15,0,0" Text="注意，在请求合并之前请先请确保你的仓库分支与原仓库是同步的，GitHub 不会自动同步你的分支仓库，请在 Pull Request 前进入你的 Fork 仓库界面，点击 ”Fetch upstream”，再点击“Fetch and merge” 以同步仓库。" />
+        <local:MyHint Margin="0,15,0,0" Text="注意，在请求合并之前请先请确保你的仓库分支与原仓库是同步的，GitHub 不会自动同步你的分支仓库，请在 Pull Request 前进入你的 Fork 仓库界面，点击 ”Fetch upstream”，再点击“Fetch and merge” 以同步上游仓库。" />
         <TextBlock Margin="0,5,0,4" LineHeight="17"
                     Text="如果你没法很好的理解上面的警告，可以跳转到下方外站教程详细学习。如果依旧无法理解，也可以使用不推荐但是方便的重新 fork 来解决。"/>
         <local:MyButton Height="35px" HorizontalAlignment="Left" ColorType="Highlight" Margin="0,0,0,15"

@@ -20,8 +20,10 @@
         <TextBlock Margin="0,10,0,4" LineHeight="17"
                     Text="最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了，修改后提交 Pull Request 即可。"/>
+        Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了，修改点击右侧的第三个按钮&quot;源代码管理&quot;，在上方输入你的修改内容，点击&quot;Changes&quot;旁边的 + 号，再点击&quot;Source Control&quot;旁边的 + 号，将你的更新暂存，再点击下方的&quot;master&quot;旁边的按钮，你的更新就被推送到你的 Fork 仓库了。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+        Text="在 Pull Request 前，你需要同步原仓库内的内容以保证你的仓库保持最新。打开你的 Fork 仓库主页，找到&quot;Fetch upstream&quot;按钮并点击，再点击&quot;Fetch and merge&quot;，你的仓库就同步了原仓库。经过了这些步骤之后，你就可以提交你的 Pull Request 了。"/>
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、XiaoFans、林小槐" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、XiaoFans、林小槐、WTP016" IsWarn="False" />
