@@ -15,16 +15,16 @@
         <local:MyHint Margin="0,0,0,5" IsWarn="False"
                    Text="图片加载会有点慢" />
         <TextBlock FontSize="15" Margin="0,0,0,0"
-                   Text="1.点击下方“版本选择”" />
+                   Text="1. 点击下方“版本选择”" />
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/26/czvzrT.png" />             
         <TextBlock FontSize="15" Margin="0,10,0,0"
-                   Text="2.右键点击需要修改的游戏版本" />
+                   Text="2. 右键点击需要修改的游戏版本" />
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/26/czvjx0.png" />
         <TextBlock FontSize="15" Margin="0,10,0,0"
-                   Text="3.点击左侧“设置”按钮" />
+                   Text="3. 点击左侧“设置”按钮" />
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/26/czvxMV.png" />        
         <TextBlock FontSize="15" Margin="0,10,0,0"
-                   Text="4.滑动至下方“服务器选项”，选择登录方式即可切换" />
+                   Text="4. 滑动至下方“服务器选项”，选择登录方式即可切换" />
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/26/czvX2q.png" />    
     </StackPanel>
 </local:MyCard>
