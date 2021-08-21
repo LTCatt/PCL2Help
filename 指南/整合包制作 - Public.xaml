@@ -31,7 +31,7 @@
 <local:MyCard Title="自定义主页" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你可以在 设置→个性化→主页 中自定义启动器的主页。&#xa;你也可以将你的主页 XAML 文件上传到服务器，并通过 “联网更新” 选项实现主页的动态更新。" />
+                   Text="你可以在 设置 → 个性化 → 主页 中自定义启动器的主页。&#xa;你也可以将你的主页 XAML 文件上传到服务器，并通过 “联网更新” 选项实现主页的动态更新。" />
     </StackPanel>
 </local:MyCard>
 
@@ -63,7 +63,7 @@
 <local:MyCard Title="关闭 PCL2 中不需要的功能" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你可以在 设置→个性化→功能隐藏 中关闭你不需要的功能入口，例如下载、个性化设置等页面。" />
+                   Text="你可以在 设置 → 个性化 → 功能隐藏 中关闭你不需要的功能入口，例如下载、个性化设置等页面。" />
     </StackPanel>
 </local:MyCard>
 
