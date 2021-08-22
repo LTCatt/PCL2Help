@@ -1,0 +1,120 @@
+<local:MyHint Margin="0,-5,0,15" Text="请注意，购买Majang的正版Minecraft正版账户需要支付宝付款，目前Mojang暂不支持微信付款。并且此方法需要科学上网，若无法科学上网，可利用火狐浏览器的插件功能进行科学上网。"/>
+
+<!-- 所需工具 -->
+<local:MyCard Title="所需工具">
+	 <StackPanel Margin="25,40,23,5">
+		<TextBlock Margin="0,0,0,4" LineHeight="17"
+            Text="1.浏览器(推荐Google浏览器) &#xa;2.科学上网的工具 &#xa;3.支付宝(微信不可以，正版需要165人民币)"/>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="注册微软账号教程 若已拥有，请无视次选项" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	
+
+		<Grid>
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+					Text="购买Minecraft之前，我们需要一个微软账号 &#xa;点击创建账号" />
+        	<local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开微软官方" EventType="打开网页" EventData="https://login.live.com/" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSLISA.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="输入一个邮箱，比如： 你的QQ号@qq.com &#xa; 然后点击下一步" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSv2jA.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="输入你要创建的密码" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSvXBq.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="输入你的姓名" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSx1KA.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="输入你的生日" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSxrbq.png" />
+		</Grid>
+		<local:MyHint Margin="0,-5,0,15" Text="注意，生日要修改成19岁以上的年份，否则将会很大几率无法正常游玩"/>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="验证邮箱" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSzQiT.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="验证机器人" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSzBWD.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="完成注册" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSzgeI.png" />
+		</Grid>
+
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="打开官方网站并注册微软账号" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+
+		<Grid>
+        	<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                	Text="打开Google浏览器 &#xa;输入www.minecraft.net &#xa;或者点击下方按钮直接打开Minecraft官方" />
+        	<local:MyButton Width="160" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+            		Text="打开 Minecraft 官方" EventType="Minecraft官方" EventData="https://www.minecraft.net/zh-hans" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hShyEn.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                	Text="点击登录&#xa;点击上方的微软账号登录&#xa;要是没有微软账号 &#xa;点击免费注册即可拥有微软账号 &#xa;注册时注意生日要是19岁以上" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hS5EJx.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="注册微软账号完成后  &#xa;就会出现右边照片的样子  &#xa;(ps：我这个有xbox玩家代码，已打码)  &#xa;点击购买 MINECRAFT : JAVA版" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hS52XF.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="上面会提示你购买正版的Minecraft &#xa;价值人民币:165元 &#xa;点击购买MINECRAFT &#xa;再次检查你微软账号的生日设置 &#xa;一定要是19岁以上 &#xa;否则很大可能无法正常游玩" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSIL80.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="点击购买后，选择国家要是China &#xa;然后选择付款方式是ALIPAY(支付宝) &#xa;然后点击用￥165.00购买" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSTpy8.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="打开支付宝，扫码进行付款 &#xa;尽量在上一步点击购买前准备好支付宝 &#xa;因为点击购买后若长时间没有付款 &#xa;那么付款后会有很长时间的延迟发货 &#xa;记录好当时的汇率，订单ID &#xa;(养成好习惯，管理自己的财政支出)" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSTc1P.png" />
+		</Grid>
+
+		<Grid Margin="0,20,0,4">
+			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+				Text="付款成功后，输入你想注册的游戏ID &#xa;注册后，页面会自动刷新 &#xa;等1分钟，再次刷新你的界面 &#xa;要是出现右边的样子 &#xa;祝贺你购买成功 &#xa;欢迎你加入正版玩家的行列 &#xa;也同时祝贺你拥有跳票红主题" />
+			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSH9aQ.png" />
+		</Grid>
+
+    </StackPanel>
+</local:MyCard>
+
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Dong_Yi_feng" IsWarn="False" />
