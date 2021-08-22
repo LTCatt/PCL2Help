@@ -109,7 +109,7 @@
 
 		<Grid Margin="0,20,0,4">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-				Text="付款成功后，输入你想注册的游戏ID &#xa;注册后，页面会自动刷新 &#xa;等1分钟，再次刷新你的界面 &#xa;要是出现右边的样子 &#xa;祝贺你购买成功 &#xa;欢迎你加入正版玩家的行列 &#xa;也同时祝贺你拥有跳票红主题" />
+				Text="付款成功后，输入你想注册的游戏ID &#xa;注册后，页面会自动刷新 &#xa;等1分钟，刷新你的界面 &#xa;要是出现右边的样子 &#xa;祝贺你购买成功 &#xa;欢迎你加入正版玩家的行列 &#xa;也同时祝贺你拥有跳票红主题" />
 			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSH9aQ.png" />
 		</Grid>
 
