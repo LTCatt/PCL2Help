@@ -2,11 +2,13 @@
 <local:MyCard Title="概述">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="帮助条目分为两类，第一类在点击后会在 PCL2 中打开一个新的帮助子页面，第二类则会触发事件（通常用于打开网页或执行程序）。&#xa;下列两项分别为第一类和第二类帮助条目的示例。" />
+                   Text="帮助条目分为两类，第一类在点击后会在 PCL2 中打开一个新的帮助子页面，第二类则会触发事件（通常用于打开网页或执行程序），第三类会弹出弹窗。&#xa;下列两项分别为第一类、第二类和第三类帮助条目的示例。" />
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
         <local:MyListItem Margin="0,0,0,10"
 		                  EventType="打开帮助" EventData="百科/Minecraft Wiki.json" />
+		<local:MyListItem Margin="0,0,0,20"
+						  EventType="打开帮助" EventData="启动器/解锁主题 - Public.json"/>
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="每个帮助条目都由对应的 JSON 文件生成，且第一类与第二类的格式要求略有不同。" />
     </StackPanel>
@@ -108,7 +110,7 @@
 		<TextBlock Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="9" Grid.Column="0" Text="EventType" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="9" Grid.Column="1" Text="第一类不填&#xa;第二类必须" />
+				   Grid.Row="9" Grid.Column="1" Text="第一类不填&#xa;第二类、第三类必须" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="9" Grid.Column="2" Text="String" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
@@ -116,7 +118,7 @@
 		<TextBlock Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="10" Grid.Column="0" Text="EventData" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="10" Grid.Column="1" Text="第一类不填&#xa;第二类可选" />
+				   Grid.Row="10" Grid.Column="1" Text="第一类不填&#xa;第二类可选&#xa;第三类必须" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="10" Grid.Column="2" Text="String" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
@@ -150,4 +152,18 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃" IsWarn="False" />
+<local:MyCard Title="第二类 JSON 范例" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyListItem Margin="0,0,0,10"
+		                  EventType="打开帮助" EventData="启动器/解锁主题 - Public.json" />
+		<Grid Margin="7,6,0,0">
+			<TextBlock Margin="0,0,0,4" LineHeight="17"
+					   Text='{}{&#xa;	"__Author__": "龙腾猫跃",&#xa;	"Title": "解锁主题使用",&#xa;	"Description": "使用 PCL2 个性化页面中的主题切换功能",&#xa;	"Types": ["启动器","个性化"],&#xa;	"IsEvent": true,&#xa;	"EventType": "弹出窗口",&#xa;	"EventData": "解锁隐藏主题|你可以在帮助页面最上方的赞助与内测指南中找到非解密的隐藏主题的解锁方式。\n至于需要解密的隐藏主题……自己加油吧！"&#xa; "ShowInSnapshot": false&#xa; }' />
+			<local:MyButton Width="80" Height="35" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="13,0,13,0" Margin="0,0,0,8"
+					   Text="复制" EventType="复制文本" EventData='{}{&#xa;	"__Author__": "龙腾猫跃",&#xa;	"Title": "解锁主题使用",&#xa;	"Description": "使用 PCL2 个性化页面中的主题切换功能",&#xa;	"Types": ["启动器","个性化"],&#xa;	"IsEvent": true,&#xa;	"EventType": "弹出窗口",&#xa;	"EventData": "解锁隐藏主题|你可以在帮助页面最上方的赞助与内测指南中找到非解密的隐藏主题的解锁方式。\n至于需要解密的隐藏主题……自己加油吧！",&#xa; "ShowInSnapshot": false&#xa; }' />
+		</Grid>
+    </StackPanel>
+</local:MyCard>
+
+
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、WTP016" IsWarn="False" />
