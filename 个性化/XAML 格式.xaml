@@ -108,6 +108,15 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="按钮教程 5: 打开弹窗">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap"
+                Text="EventType 为弹出窗口，EventData 为标题|内容，即可点击打开弹窗。在 EventData 中输入 \n 可以换行。" />
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="打开弹窗" EventType="弹出窗口" EventData="弹出窗口|你现在看到的是一个弹出窗口！" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="按钮教学 5：其他命令">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4"
@@ -239,4 +248,4 @@ local:MyCard（卡片）：
 
 -->
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、林小槐" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、林小槐、WTP016" IsWarn="False" />
