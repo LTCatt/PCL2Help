@@ -8,9 +8,9 @@
 	</StackPanel>
 </local:MyCard>
 
+<!-- 注册微软账号 -->
 <local:MyCard Title="注册微软账号教程 若已拥有，请无视次选项" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	
 
 		<Grid>
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -66,6 +66,7 @@
 	</StackPanel>
 </local:MyCard>
 
+<!-- 购买正版教学 -->
 <local:MyCard Title="打开官方网站并注册微软账号" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 
@@ -116,5 +117,5 @@
     </StackPanel>
 </local:MyCard>
 
-
+<!-- 作者 -->
 <local:MyHint Margin="0,0,0,15" Text="作者：Dong_Yi_feng" IsWarn="False" />
