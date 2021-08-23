@@ -1,24 +1,34 @@
 
-<local:MyCard Title="进入服务器提示 “无效会话” / 联机对正版、离线等登录方式有要求吗？" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="联机对正版、离线等登录方式有要求吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="如果使用 “对局域网开放” 的方式联机，房主可以使用任意登录方式，但加入者不能使用离线登录，否则在加入服务器时会提示 “无效会话”。不过，加入者可以使用第三方登录进服，第三方登录不需要正版账号。&#xa;如果使用本地服务端，则视服务端要求而定。" />
-        <local:MyListItem Margin="-5,0,-5,8"
+	    <TextBlock Margin="0,0,0,2" LineHeight="17"
+                   Text="如果使用 “对局域网开放” 的方式联机，房主可以使用任意登录方式，加入者必须使用正版或第三方登录，不能使用离线登录，否则在加入服务器时会提示无效会话。这是 MC 本身的限制。&#xa;如果使用本地服务端，则视服务端设置而定。"/>
+        <TextBlock Margin="0,10,0,2" LineHeight="17" FontWeight="Bold"
+                   Text="如果在登录方式上遇到了问题，可以尝试：" />
+        <TextBlock Margin="2,0,0,2" LineHeight="18"
+                   Text="1、让无法进服的玩家作为房主&#xa;2、自行架设服务端，并在服务端设置中关闭验证&#xa;3、让房主安装 “自定义局域网联机” 或 “简单联机” Mod（加入者无需安装）" />
+        <local:MyListItem Margin="19,-3,-5,5"
+		                  EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
+        <TextBlock Margin="2,0,0,2" LineHeight="17"
+                   Text="4、让加入者使用第三方登录" />
+        <local:MyListItem Margin="19,-1,-5,8"
 		                  EventType="打开帮助" EventData="启动器/指定登录方式.json" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="如何降低联机延迟？" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="已经完成了连接，但是游戏里进服进不了怎么办？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,10" LineHeight="17"
+                   Text="你需要根据游戏给出的提示信息判断。" />
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="联机延迟主要取决于你与对方的网络环境。&#xa;你可以尝试让延迟最低的人开房，或者联系网络运营商，要求更换公网 IP。" />
+                   Text="以 “无效会话” 开头的中文提示：你的登录方式有误，请查阅上方关于登录方式的条目。&#xa;以 “no further information” 结尾的英文提示：对方已关闭服务器。&#xa;连接超时：你或者房主的网络环境不佳或延迟过高。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="联机模块的原理是什么？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="联机模块基于类似 P2P 的技术（但不完全相同），它在启动后能够作为大家互相连接的桥梁。&#xa;也就是说，随着开启联机模块的人变多，所有使用 PCL2 的玩家的联机延迟都会降低。" />
+                   Text="联机模块基于 P2SP 技术，它在启动后能够作为大家互相连接的桥梁，不依赖于运营商设定的固有路由，而由网络内部各个节点承载数据传输任务。&#xa;也就是说，随着开启联机模块的人变多，所有使用 PCL2 的玩家的联机延迟都会降低。" />
     </StackPanel>
 </local:MyCard>
 
@@ -36,4 +46,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、猫猫" IsWarn="False" />
