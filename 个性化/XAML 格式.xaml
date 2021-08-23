@@ -222,17 +222,15 @@
 
 <local:MyCard Title="优化：变好看，能看懂" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,32,23,10">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,1" FontSize="20.5"
-                   Text="由 刘新涛-2603（980231410） 在龙猫的基础上"/>
-		<TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,1" FontSize="20.5"
-                   Text="做出的美化。"/>
-		<StackPanel Orientation="Horizontal" HorizontalAlignment="right" Margin="0,-60,0,-5">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,1" FontSize="16"
+                   Text="由 刘新涛-2603（980231410） 在原先的基础上做出的优化。"/>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="center" Margin="0,0,0,6">
 			<local:MyButton Margin="0,8,10,0" Width="104" Height="35" HorizontalAlignment="center" Padding="5,0,5,0"
                    Text="下载980的头像" EventType="下载文件" EventData="https://attachment.mcbbs.net/uc_server/data/avatar/002/91/08/02_avatar_big.jpg" />
 			<local:MyButton Margin="0,8,10,0" Width="104" Height="35" HorizontalAlignment="center" Padding="5,0,5,0"
                    Text="下载980的皮肤" EventType="下载文件" EventData="https://textures.minecraft.net/texture/7e902f4f774696d06ab980fe7f11127062a448df9f6f9084056ecd1903c8304f" />
 		</StackPanel>
-		    <local:MyHint Margin="0,5,0,0" IsWarn="False"
+		    <local:MyHint Margin="0,5,0,5" IsWarn="False"
                    Text="皮肤下载后将后缀名改为”.png“，即可正常使用。" />
 	</StackPanel>
 </local:MyCard>
