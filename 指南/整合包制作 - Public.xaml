@@ -35,6 +35,17 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="联网主页更新" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="你可以将你做的 Custom.xaml，文件上传到你的GitHub，创建一个仓库，将 Custom.xaml 文件放置该仓库。使用https://cdn.jsdelivr.net/gh/你Github的名称/你Github前面创建的仓库名称@仓库版本号/Custom.xaml" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="然后在PCL2 → 设置 → 个性化 → 自定义主页   找到联网更新 如下图所示 " />
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/PCLHOME.png" />             
+    </StackPanel>
+</local:MyCard>
+
+
 <local:MyCard Title="自定义帮助页面" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
@@ -67,4 +78,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、Dong_Yi_feng" IsWarn="False" />
