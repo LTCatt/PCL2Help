@@ -275,4 +275,4 @@ local:MyCard（卡片）：
 
 -->
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、林小槐、刘新涛 " IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、林小槐、刘新涛" IsWarn="False" />
