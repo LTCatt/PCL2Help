@@ -25,18 +25,21 @@
         <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE45uV.png" />    
     </StackPanel>
 </local:MyCard>
+
+<!-- 原图床已经无法正常加载，补充图床 -->
+<!-- 有时候能加在出来有时候不能加载，而且加载了不能同时加载，更换图床 -->
 <local:MyCard Title="2. 针对启动器全局进行调整">
     <StackPanel Margin="25,40,23,15">   
 		<local:MyHint Margin="0,-5,0,15" Text="请注意，修改 PCL 2 的全局配置将影响所有依赖 PCL 2 启动的游戏版本。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="20"
                    Text="① 打开您的 PCL 2 启动器，在主页点击上方的“设置”选单。" />
-        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/06/26/Ok9q2PcGXZYnb1r.png" />             
+        <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/23/hPtZqO.png" />             
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="② 点击左侧的“游戏”选项卡，向下翻找，找到“游戏内存”选项卡。" />
-        <Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/06/26/4Ce2ITykYu3SjVh.png" />
+        <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/23/hPtdij.png" />
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="③ 选择“自定义”，此时拖动圆点即可手动调整全局内存。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：一闪，DreamUniverse" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：一闪，DreamUniverse，Dong_Yi_feng" IsWarn="False" />

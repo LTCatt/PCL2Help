@@ -1,5 +1,5 @@
 {
-    "__Author__": "一闪、DreamUniverse",
+    "__Author__": "一闪、DreamUniverse，Dong_Yi_feng",
 	"Title": "设置游戏内存大小",
 	"Description": "为 Minecraft 手动设置游戏内存大小，在自动分配内存效果不佳时使用",
 	"Types": ["Minecraft","启动器"]
