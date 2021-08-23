@@ -1,67 +1,77 @@
-<local:MyHint Margin="0,-5,0,15" Text="请注意，购买Majang的正版Minecraft正版账户需要支付宝付款，目前Mojang暂不支持微信付款。并且此方法需要科学上网，若无法科学上网，可利用火狐浏览器的插件功能进行科学上网。"/>
+<local:MyHint Margin="0,-5,0,15" Text="请注意，购买正版Minecraft Java Edition (Minecradt Java版本 - 非基岩版) 作者已经测试，现在购买Minecraft Java Edition无需科学上网"/>
 
 <!-- 所需工具 -->
 <local:MyCard Title="所需工具">
 	 <StackPanel Margin="25,40,23,5">
-		<TextBlock Margin="0,0,0,4" LineHeight="17"
-            Text="1.浏览器(推荐Google浏览器) &#xa;2.科学上网的工具 &#xa;3.支付宝(微信不可以，正版需要165人民币)"/>
+		<TextBlock Margin="0,0,0,4" LineHeight="17" Foreground="#FF0000" FontSize="20"
+            Text="1.浏览器(推荐Google Chrome浏览器) &#xa;2.支付宝(微信不可以，正版需要165人民币)"/>
 	</StackPanel>
 </local:MyCard>
 
 <!-- 注册微软账号 -->
-<local:MyCard Title="注册微软账号教程 若已拥有，请无视次选项" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="注册微软账号教程若已拥有，请无视次选项，直接下一步" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 
+	    <local:MyHint Margin="0,15,0,0" Text="注意：我们需要一个可用邮箱，我这里以Google Mail为例" IsWarn="False" />
+
+		<!-- 第一步，打开官方网站，输入邮箱进行账号注册 -->
 		<Grid>
-			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-					Text="购买Minecraft之前，我们需要一个微软账号 &#xa;点击创建账号" />
-        	<local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="打开微软官方" EventType="打开网页" EventData="https://login.live.com/" />
-			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSLISA.png" />
+			<TextBlock TextWrapping="Wrap" Margin="20,20,20,4"
+				Text="1.购买Minecraft之前,我们需要一个微软账号,点击右边的按钮创建账号." />
+        	<local:MyButton Margin="10,10,10,4" Height="35" HorizontalAlignment="Right" Padding="13,0,13,0"
+                Text="打开微软官方" EventType="打开网页" EventData="https://login.live.com/" />
 		</Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/dongyifengs/PCLCDN@f52d6d77acd06b1e25f93a0b7ab1cecab3edbf19/Register/1.chuang-jian-zhang-hao.png"/>
 
-		<Grid Margin="0,20,0,4">
+		<!-- 输入邮箱 -->
+		<Grid Margin="20,20,20,4">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-				Text="输入一个邮箱，比如： 你的QQ号@qq.com &#xa; 然后点击下一步" />
-			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSv2jA.png" />
+				Text="2.输入一个邮箱,比如:你的QQ号@qq.com,然后点击下一步." />
 		</Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/dongyifengs/PCLCDN@f52d6d77acd06b1e25f93a0b7ab1cecab3edbf19/Register/2.shu-ru-you-xiang.png"/>
 
-		<Grid Margin="0,20,0,4">
+		<!-- 输入密码 -->
+		<Grid Margin="20,20,20,4">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-				Text="输入你要创建的密码" />
-			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSvXBq.png" />
+				Text="3.输入你要创建的密码." />
 		</Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/dongyifengs/PCLCDN@f52d6d77acd06b1e25f93a0b7ab1cecab3edbf19/Register/3.chuang-jian-mi-ma.png"/>
 
-		<Grid Margin="0,20,0,4">
+		<!-- 输入姓名 -->
+		<Grid Margin="20,20,20,4">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-				Text="输入你的姓名" />
-			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSx1KA.png" />
+				Text="4.输入你的姓名." />
 		</Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/dongyifengs/PCLCDN@f52d6d77acd06b1e25f93a0b7ab1cecab3edbf19/Register/4.shu-ru-ming-zi.png"/>
 
-		<Grid Margin="0,20,0,4">
+		<!-- 输入生日 - 提示要是19岁以上 -->
+		<local:MyHint Margin="0,15,0,0" Text="注意：填写时请把年龄设置成19岁以上，否则很大几率无法游玩 Minecraft Java Edition" IsWarn="False" />
+		<Grid Margin="20,20,20,4">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-				Text="输入你的生日" />
-			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSxrbq.png" />
+				Text="5.输入你的生日." />
 		</Grid>
-		<local:MyHint Margin="0,-5,0,15" Text="注意，生日要修改成19岁以上的年份，否则将会很大几率无法正常游玩"/>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/dongyifengs/PCLCDN@f52d6d77acd06b1e25f93a0b7ab1cecab3edbf19/Register/5.shu-ru-sheng-ri.png"/>
 
-		<Grid Margin="0,20,0,4">
+		<!-- 验证Mail -->
+		<Grid Margin="20,20,20,4">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-				Text="验证邮箱" />
-			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSzQiT.png" />
+				Text="6.验证邮箱." />
 		</Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/dongyifengs/PCLCDN@f52d6d77acd06b1e25f93a0b7ab1cecab3edbf19/Register/6.mail-yan-zheng.png"/>
 
-		<Grid Margin="0,20,0,4">
+		<!-- 验证RoBot -->
+		<Grid Margin="20,20,20,4">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-				Text="验证机器人" />
-			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSzBWD.png" />
+				Text="7.验证机器人." />
 		</Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/dongyifengs/PCLCDN@f52d6d77acd06b1e25f93a0b7ab1cecab3edbf19/Register/7.robot-yan-zheng.png"/>
 
-		<Grid Margin="0,20,0,4">
+		<!-- 完成注册 -->
+		<Grid Margin="20,20,20,4">
 			<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-				Text="完成注册" />
-			<Image Margin="255,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/08/22/hSzgeI.png" />
+				Text="8.完成注册." />
 		</Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/dongyifengs/PCLCDN@f52d6d77acd06b1e25f93a0b7ab1cecab3edbf19/Register/8.zhu-ce-wan-cheng.png"/>
 
 	</StackPanel>
 </local:MyCard>
