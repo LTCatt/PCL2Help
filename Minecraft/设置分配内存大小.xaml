@@ -42,4 +42,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：一闪，DreamUniverse" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：一闪，DreamUniverse、Dong_Yi_feng" IsWarn="False" />
