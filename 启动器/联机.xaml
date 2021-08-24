@@ -46,4 +46,11 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="联机模块显示“Access is denied”怎么办？" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="如联机模块显示“Access is denied”，请打开杀毒软件（默认为 Windows Security ），为 %temp%\PCL 目录下的“联机模块.exe”添加白名单。" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、猫猫" IsWarn="False" />
