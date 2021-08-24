@@ -41,19 +41,17 @@
             </Grid>
 
         <!-- 打开 PCL2 文件目录 -->
-        <Grid  Margin="0,20,0,4">
-            <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
-            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                Text="打开文件夹 PCL2 文件夹" EventType="打开文件夹" EventData="explorer.exe|/select,Musics" />
-            </StackPanel> 
-        </Grid>
+        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="打开PCL2文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
+        </StackPanel> 
 
         <!-- 修改下载到本地的路径 -->
         <Grid  Margin="0,20,0,4">
             <TextBlock Margin="0,-10,0,15" LineHeight="17"
                 Text="5.完成上述后，将第二步 clone 下仓库内 PCL2Help 文件夹中的内容剪切到 PCL\Help 中。"/>
             <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/PCL-Help.png" />
-            </Grid>
+        </Grid>
 
         <!-- 提醒 红字 提醒 -->
         <Grid  Margin="0,20,0,4">
