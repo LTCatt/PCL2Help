@@ -1,0 +1,90 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+
+<!-- 问题出现分类讨论 -->
+<local:MyCard Title="部分微软账号无法登录问题解决方案 分成两种，请仔细阅读下方说明来解决问题">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="19"
+                   Text="1. 一直是正在加载，等了很长时间没有反应，无论重启还是等待，始终保持正在加载页面" />
+        <TextBlock Margin="0,0,0,4" LineHeight="19"
+                   Text="2. 可以正常打开，但是登录时 “弹出发生错误，请重试” 的窗口，反复多次，依然如此或出现第一种问题。/ 弹出 “哎呀，出错了” 的提示，依旧无法解决的问题。"  />
+    </StackPanel>
+</local:MyCard>
+
+<!-- 第一种问题解决方案 -->
+<local:MyCard Title="第一种问题解决方案" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        
+        <!-- 打开开始菜单，转到设置页面 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="1. 点击左下角的 开始 菜单。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/1.Setting.png" />
+
+        <!-- 打开网络和lnternet设置 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="2. 打开 网络和Internet设置。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/2.Internet.png" />
+
+        <!-- 更改适配器设置 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="3. 转到 WLAN 页面 更改适配器设置（在右边或者下边）。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/3.WALN.png" />
+
+        <!-- 右键点击你的链接 点击属性 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="4. 右键点击你的链接，点击属性。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/4.R.png" />
+
+        <!-- 修改IPv4 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="5. 双击 Internet协议版本4(TPC/IPv4),点击使用下面的DNS服务器地址，再次按照如下图所示的“ 4.2.2.2 ”填写首选 DNS 服务器。保存退出，重启电脑再次登录账号即可。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/5.IPv4.png" />
+
+        <!-- 登录成功 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="6. 重启后即可正常登录" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/Yes.png" />
+
+
+
+
+
+
+
+
+
+
+
+    </StackPanel>
+</local:MyCard>
+
+<!-- 第二种问题解决方案 -->
+<local:MyCard Title="第二种问题解决方案" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,2" LineHeight="17"
+                   Text="如果使用 “对局域网开放” 的方式联机，房主可以使用任意登录方式，加入者必须使用正版或第三方登录，不能使用离线登录，否则在加入服务器时会提示无效会话。这是 MC 本身的限制。&#xa;如果使用本地服务端，则视服务端设置而定。"/>
+        <TextBlock Margin="0,10,0,2" LineHeight="17" FontWeight="Bold"
+                   Text="如果在登录方式上遇到了问题，可以尝试：" />
+        <TextBlock Margin="2,0,0,2" LineHeight="18"
+                   Text="1、让无法进服的玩家作为房主&#xa;2、自行架设服务端，并在服务端设置中关闭验证&#xa;3、让房主安装 “自定义局域网联机” 或 “简单联机” Mod（加入者无需安装）" />
+        <local:MyListItem Margin="19,-3,-5,5"
+		                  EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
+        <TextBlock Margin="2,0,0,2" LineHeight="17"
+                   Text="4、让加入者使用第三方登录" />
+        <local:MyListItem Margin="19,-1,-5,8"
+		                  EventType="打开帮助" EventData="启动器/指定登录方式.json" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Dong_Yi_feng" IsWarn="False" />
