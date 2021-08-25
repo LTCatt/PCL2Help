@@ -75,7 +75,7 @@
             <TextBlock Margin="0,10,0,2" LineHeight="17"
                 Text="2. Win+R，打开运行界面，输入services.msc进入服务" />
         </Grid>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/10.Service" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/10.Service.png" />
 
         <!-- 功能开启 -->
         <Grid>
