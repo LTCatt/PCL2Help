@@ -1,27 +1,112 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 
-<local:MyCard Title="使用 VSCode 获取帮助库">
+<local:MyCard Title="使用 VSCode 编写帮助库并提交">
     <StackPanel Margin="25,40,23,15">
+
+        <!-- 帮助库编写规范 -->
+        <local:MyCard Title="PCL2 帮助库编写规范">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock Margin="0,0,0,4" LineHeight="19"
+                           Text="我们对 PCL2 内置帮助库有一些格式与语法上的固定要求。在开始编辑与提交前，请仔细阅读下文并逐条进行检查，这能让你的提交更快通过。" />
+                <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+        		            EventType="打开帮助" EventData="帮助/提交帮助 - 编写规范.json" />
+            </StackPanel>
+        </local:MyCard>
+
+        <!-- 打开 VSCode 安装 Git -->
+        <Grid>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 如果你使用的是 VSCode，则依旧需要安装 Git 工具，VSCode 将在右下方的全部信息栏提示需要安装，按照 VSCode 的引导完成 git 安装。"/>
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 在主界面按下 “F1” 键打开指令输入框，输入 “Git Clone” 。"/>
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 复制你 Fork 的仓库地址，粘贴到指令输入框回车执行 Clone 操作复制仓库。"/>
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="4. 点击下方按钮，进入 PCL 文件夹，创建名称为 Help 的文件夹。"/>
+            Text="1. 使用 VSCode，则需要安装 Git 工具，VSCode 将在右下方的全部信息栏提示需要安装，按照 VSCode 的引导完成 Git 安装即可。"/>
+        </Grid>
+
+        <!-- 克隆仓库 -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-10,0,4" LineHeight="17"
+                Text="2. 打开 VSCode 在主界面按下 “F1” 键打开指令输入框，输入 “Git Clone” 回车。"/>
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/Git%20Clone.png" />
+        </Grid>
+
+        <!-- 复制分支 Fork 下载到本地 -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-10,0,4" LineHeight="17"
+                Text="3. 复制你 Fork 的仓库地址，粘贴到指令输入框回车执行 Clone 操作复制仓库。"/>
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/Copy HTTPS.png" />
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/Paste%URL.png" />
+        </Grid>
+
+        <!-- 创建 Help 文件夹 -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,0,0,4" LineHeight="17"
+                Text="4. 点击下方按钮，进入 PCL 文件夹，创建名称为 Help 的文件夹。"/>
+            </Grid>
+
+        <!-- 打开 PCL2 文件目录 -->
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                        Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
-        </StackPanel>        
-        <TextBlock Margin="0,0,0,15" LineHeight="17"
-                    Text="完成上述后，将第二步 clone 下仓库内 PCL2Help 文件夹中的内容剪切到 PCL\Help 中。"/>
-        <local:MyHint Margin="0,0,0,4" Text="在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 中" />
-        <TextBlock Margin="0,10,0,4" LineHeight="17"
-                    Text="最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。"/>
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了，修改后提交 Pull Request 即可。"/>
+                        Text="打开PCL2文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
+        </StackPanel> 
+
+        <!-- 修改下载到本地的路径 -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-10,0,15" LineHeight="17"
+                Text="5.完成上述后，将第二步 clone 下仓库内 PCL2Help 文件夹中的内容剪切到 PCL\Help 中。"/>
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/PCL-Help.png" />
+        </Grid>
+
+        <!-- 提醒 红字 提醒 -->
+        <Grid  Margin="0,20,0,4">
+            <local:MyHint Margin="0,0,0,4" Text="在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 中" />
+        </Grid>
+
+        <!-- 切换目录文件 -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-10,0,4" LineHeight="17"
+                Text="6.最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。"/>
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/Switch directory.png" />
+        </Grid>
+
+        <!-- 修改帮助库的文件 -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-10,0,4" LineHeight="17"
+                Text="7.在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了。"/>
+        </Grid>
+
+        <!-- 提交修改文件 -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-20,0,4" LineHeight="17"
+                Text="8. 修改完成后，点击右边的 “代码管理器” 在更改选项上面有一个“ + ”号 点击加号，在上面信息上面填写你要备注的文字，然后 （Ctrl+Enter）上传至暂存。 "/>
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/Code.png" />
+        </Grid>
+
+        <!-- 上传到Github 点击上传 -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-10,0,4" LineHeight="17"
+                Text="9. 点击坐下角的 “回收” 图标，登录你的Github的账号，即可完成上传"/>
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/Update.png" />
+        </Grid>
+
+        <!-- 转到Github网页版本 提交 Pull Request -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-10,0,4" LineHeight="17"
+                Text="10. 转到你 Fork 的页面，"/>
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/HOME.png" />
+        </Grid>
+
+        <!-- Open Pull Request -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-10,0,4" LineHeight="17"
+                Text="11. 你会发现多出了Contribute 点击 Contribute ，再次点击 Open Pell Request"/>
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/Open Pull Request.png" />
+        </Grid>
+
+        <!-- View Pull Request -->
+        <Grid  Margin="0,20,0,4">
+            <TextBlock Margin="0,-10,0,4" LineHeight="17"
+                Text="12. 点击 View Pull Request 即可上传至 Pull Reques 待管理员审核通过，即可正式上传至PCL2 Help 帮助库"/>
+            <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/VSCode/View Pull Request.png" />
+        </Grid>
+
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、XiaoFans、林小槐" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、XiaoFans、林小槐、Dong_Yi_feng" IsWarn="False" />
