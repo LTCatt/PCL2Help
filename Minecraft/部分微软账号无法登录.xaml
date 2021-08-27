@@ -1,0 +1,133 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+
+<!-- 问题出现分类讨论 -->
+<local:MyCard Title="部分微软账号无法登录问题解决方案，分成两种，请仔细阅读下方说明来解决问题">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="19"
+                   Text="1. 一直是正在加载,等了很长时间没有反应,无论重启还是等待，始终保持正在加载页面" />
+        <TextBlock Margin="0,0,0,4" LineHeight="19"
+                   Text="2. 可以正常打开，但是登录时 “弹出发生错误,请重试” 的窗口,反复多次，依然如此或出现第一种问题。/ 弹出 “哎呀，出错了” 的提示，依旧无法解决的问题。"  />
+    </StackPanel>
+</local:MyCard>
+
+<!-- 第一种问题解决方案 -->
+<local:MyCard Title="第一种问题解决方案" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+
+        <!-- 打开开始菜单,转到设置页面 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="1. 点击左下角的 开始 菜单。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/1.Setting.png" />
+
+        <!-- 打开网络和lnternet设置 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="2. 打开 网络和 Internet 设置。" />
+                        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/2.Internet.png" />
+
+        <!-- 更改适配器设置 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="3. 转到 WLAN 页面 更改适配器设置（在右边或者下边）。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/3.WALN.png" />
+
+        <!-- 右键点击你的链接 点击属性 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="4. 右键点击你的链接,点击属性。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/4.R.png" />
+
+        <!-- 修改IPv4 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="5. 双击“Internet 协议版本 4 (TPC/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“4.2.2.2”，在“备用 DNS 服务器”内填写“4.2.2.1”，保存后按住键盘上的 Windows 键 + R 键，输入“cmd”，进入命令提示符窗口后，输入 ipconfig -flushdns 以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可。" />
+                        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/5.IPv4.png" />
+
+        <!-- 登录成功 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="6. 重启后即可正常登录。" />
+                        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/Yes.png" />
+
+    </StackPanel>
+</local:MyCard>
+
+
+<!-- 第二种问题解决方案 -->
+<local:MyCard Title="第二种问题解决方案" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+
+        <!-- 手机打开热点 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="1. 打开手机的热点，电脑连接热点。" />
+        </Grid>
+
+        <!-- win+R，打开运行界面，输入services.msc进入服务 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="2. Win+R，打开运行界面，输入 services.msc 进入服务" />
+                        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/10.Service.png" />
+
+        <!-- 功能开启 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="3. 右键点击属性，改成手动，开启服务。" />
+                        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/11.Microsoft(R).png" />
+
+        <!-- 重述第一种问题解决方案 -->
+        <!-- 打开开始菜单,转到设置页面 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="4. 点击左下角的 开始 菜单。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/1.Setting.png" />
+
+        <!-- 打开网络和lnternet设置 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="5. 打开 网络和Internet设置。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/2.Internet.png" />
+
+        <!-- 更改适配器设置 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="6. 转到 WLAN 页面 更改适配器设置（在右边或者下边）。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/3.WALN.png" />
+
+        <!-- 右键点击你的链接 点击属性 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="7. 右键点击你的链，点击属性。" />
+        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/4.R.png" />
+
+        <!-- 修改IPv4 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="8. 双击“Internet 协议版本 4 (TPC/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“4.2.2.2”，在“备用 DNS 服务器”内填写“4.2.2.1”，保存后按住键盘上的 Windows 键 + R 键，输入“cmd”，进入命令提示符窗口后，输入 ipconfig -flushdns 以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可。" />
+                        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/5.IPv4.png" />
+
+        <!-- 登录成功 -->
+        <Grid>
+            <TextBlock Margin="0,10,0,2" LineHeight="17"
+                Text="9. 重启后即可正常登录。" />
+                        </Grid>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/Yes.png" />
+
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：Dong_Yi_feng" IsWarn="False" />
