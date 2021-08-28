@@ -108,7 +108,7 @@
 		<TextBlock Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="9" Grid.Column="0" Text="EventType" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="9" Grid.Column="1" Text="第一类不填&#xa;第二类、第三类必须" />
+				   Grid.Row="9" Grid.Column="1" Text="第一类不填&#xa;第二类必须" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="9" Grid.Column="2" Text="String" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
