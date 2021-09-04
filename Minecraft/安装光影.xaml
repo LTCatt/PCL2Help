@@ -17,7 +17,7 @@
                    Text="如果你选择使用 OptiFine，PCL2 可以为下载的 Minecraft 版本自动安装 OptiFine，使用自动安装功能时展开“OptiFine”菜单，选择需要的版本即可。" />
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/19/48304d59afe03.png" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器。" />
+                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器。关于安装 OptiFabric 的详细说明，请查看帮助&quot;安装 Mod&quot;。" />
     </StackPanel>
 </local:MyCard>
 
@@ -36,7 +36,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="光影包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的光影包。很多 Minecraft 交流网站(如 MCBBS)都有专门的光影版块，你可以在这些地方挑选自己喜欢的光影包。OptiFine 也提供了一个分享光影包的网站，在光影设置界面点击光影包文件夹旁的下载按钮即可打开（英文网站）。" />
         <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="打开 MCBBS 光影板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?mod=forumdisplay&amp;fid=1357" />
+                   Text="打开 MCBBS 光影分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?mod=forumdisplay&amp;fid=1357" />
     </StackPanel>
 </local:MyCard>
 

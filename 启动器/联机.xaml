@@ -42,7 +42,7 @@
 <local:MyCard Title="PCL2 的联机功能可以用于其他游戏的联机吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="可以。" />
+                   Text="联机功能本质上提供了对外开放的端口，因此可以用于其他联机方式相似的游戏。" />
     </StackPanel>
 </local:MyCard>
 
