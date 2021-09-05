@@ -6,7 +6,7 @@
         <TextBlock Margin="0,10,0,2" LineHeight="17" FontWeight="Bold"
                    Text="如果在登录方式上遇到了问题，可以尝试：" />
         <TextBlock Margin="2,0,0,2" LineHeight="18"
-                   Text="1、让无法进服的玩家作为房主&#xa;2、自行架设服务端，并在服务端设置中关闭验证&#xa;3、让房主安装 “自定义局域网联机” 、 “简单联机” 或 “Minecraft WLAN Plug-u-Play(mcwifipnp)” Mod（加入者无需安装）" />
+                   Text="1、让无法进服的玩家作为房主&#xa;2、自行架设服务端，并在服务端设置中关闭验证&#xa;3、让房主安装 “自定义局域网联机” 、 “简单联机” 或 “Minecraft WLAN Plug-u-Play” Mod（加入者无需安装）" />
         <local:MyListItem Margin="19,-3,-5,5"
 		                  EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
         <TextBlock Margin="2,0,0,2" LineHeight="17"
