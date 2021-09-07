@@ -2,19 +2,20 @@
 <!-- 由 WTP016 修改的部分的图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/vscode-push-changes -->
 <!-- 由 Dong_Yi_feng 提供的图片: https://github.com/Dongyifengs/PCLCDN -->
 <local:MyCard Title="获取 VSCode 并更改语言">
-    <StackPanel>
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="Visual Studio Code，简称 VSCode，是一款由微软开发的开源跨平台编辑器。你可以通过下面的按钮获取 VSCode 的 Windows 版本。" />
+        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+                            Text="点击下载 VSCode(64位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeSetup-x64-1.59.1.exe" />
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="点击下载 VSCode(32位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeSetup-ia32-1.59.1.exe" />
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="访问官网" EventType="打开网页" EventData="https://code.visualstudio.com" />
+        </StackPanel>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-        Text="Visual Studio Code，简称 VSCode，是一款由微软开发的开源跨平台编辑器。你可以通过下面的按钮获取 VSCode 的 Windows 版本。" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                        Text="点击下载 VSCode(32位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeSetup-ia32-1.59.1.exe" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="点击下载 VSCode(64位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeSetup-x64-1.59.1.exe" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="访问官网" EventType="打开网页" EventData="https://code.visualstudio.com" />
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-        Text="VSCode 安装后默认的语言为英语。你可以通过点击以下按钮查看 VSCode 设置语言为中文的方法。以下内容均使用 VSCode 中文语言包内译文书写。" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-        Text="查看教程" EventType="打开网页" EventData="https://blog.csdn.net/sinat_34104446/article/details/83033510" />
+                Text="VSCode 安装后默认的语言为英语。你可以通过点击以下按钮查看 VSCode 设置语言为中文的方法。以下内容均使用 VSCode 中文语言包内译文书写。" />
+        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" Height="35"
+                Text="查看教程" EventType="打开网页" EventData="https://blog.csdn.net/sinat_34104446/article/details/83033510" />
     </StackPanel>
 </local:MyCard>
 
@@ -46,4 +47,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、XiaoFans、林小槐、WTP016、Dong_Yi_feng IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、XiaoFans、林小槐、WTP016、Dong_Yi_feng" IsWarn="False" />
