@@ -1,0 +1,11 @@
+<StackPanel Margin="25,40,23,15">
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Forge 作为示例）。"/>
+    <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/d3288bc7163fc.PNG" />  
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="2. 选择适合的 Forge 版本。"/>
+    <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/7de371fe0b088.PNG" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="3. 点击“开始安装”按钮来安装。"/>
+    <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/397e1a37bc506.PNG" />
+</StackPanel>

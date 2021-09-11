@@ -1,0 +1,12 @@
+<StackPanel Margin="25,40,23,15">
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Fabric 作为示例）。"/>
+    <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/5b6f76317d8fa.PNG" />  
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="2. 选择适合的 Fabric 版本以及 Fabric API。"/>
+    <local:MyHint Margin="0,0,0,15" Text="Fabric API 是 Fabric 所必须的，如果没有 Fabric API 可能会导致 Minecraft 无法启动。"/>
+    <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/7d154f44915ca.PNG" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="3. 点击“开始安装”按钮以开始安装。"/>
+    <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/d853c70517069.PNG" />
+</StackPanel>

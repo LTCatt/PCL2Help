@@ -1,0 +1,13 @@
+<local:MyHint Margin="0,0,0,15" Text="图片加载可能较慢" IsWarn="False" />
+<StackPanel Margin="25,40,23,15">
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="1. 打开 PCL2 的下载页面，选择一个 Minecraft 版本（这里以 Minecraft 1.12.2 + LiteLoader 作为示例）。"/>
+    <Image HorizontalAlignment="Center" Source="https://static01.imgkr.com/temp/916150991df84b5383d8c103b1cc916c.png" />  
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="2. 选择 LiteLoader。"/>
+    <Image HorizontalAlignment="Center" Source="https://static01.imgkr.com/temp/116320adef6d4c74a714128280281cfb.png" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="3. 点击“开始安装”按钮以开始安装。"/>
+    <Image HorizontalAlignment="Center" Source="https://static01.imgkr.com/temp/677dfc8f220f406ebd869fb01d2b5544.png" />
+    <Image HorizontalAlignment="Center" Source="https://static01.imgkr.com/temp/9906e8bf473a4085bab1ac91ccf56331.png" />
+</StackPanel>
