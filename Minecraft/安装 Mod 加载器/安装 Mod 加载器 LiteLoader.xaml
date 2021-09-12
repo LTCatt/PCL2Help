@@ -3,40 +3,74 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,0,0,15" Text="若自动安装出现问题或某些版本无法使用 PCL2 自动安装功能安装，请尝试手动安装 Mod 加载器（参见下文“手动安装 Mod 加载器”）"/>
         <TextBlock TextWrapping="Wrap" LineHeight="17" Text="PCL2 自带了自动安装功能，可以更加方便地安装 Mod 加载器。"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-            Text="1. 打开 PCL2 的下载页面，点击左侧“自动安装”以切换到该菜单项，选择一个 Minecraft 版本（这里以 Minecraft 1.12.2 + LiteLoader 作为示例）。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-0.png"/>  
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-            Text="2. 选择 LiteLoader， LiteLoader 的版本号与安装到的 Minecraft 版本号一致。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-1.png"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-            Text="3. 点击“开始安装”按钮以开始安装。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-2.png"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-3.png"/>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Left"
+                Text="1. 打开 PCL2 的下载页面，点击左侧“自动安装”以切换到该菜单项，选择一个 Minecraft 版本（这里以 Minecraft 1.12.2 + LiteLoader 作为示例）。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-0.png"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Left"
+                Text="2. 选择 LiteLoader， LiteLoader 的版本号与安装到的 Minecraft 版本号一致。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-1.png"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Left"
+                Text="3. 点击“开始安装”按钮以开始安装。"/>
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-2.png" Grid.Row="0" Grid.Column="0"/>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-3.png" Grid.Row="1" Grid.Column="0"/>
+            </Grid>
+        </Grid>
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="手动安装 Mod 加载器" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Margin="0,0,0,15" Text="若无特殊情况，建议使用自动安装功能安装 Mod 加载器" IsWarn="False"/>
+        <local:MyHint Margin="0,0,0,15" Text="若非特殊情况，建议使用自动安装功能安装 Mod 加载器" IsWarn="False"/>
         <local:MyHint Margin="0,0,0,15" Text="请先下载对应版本的原版 Minecraft 作为前置版本"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="1. 打开 PCL2 的下载页面，点击左侧“手动安装包”以开启手动安装（若弹出提示请点击确定）。"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="2. 点击左侧“LiteLoader”以切换到该菜单项，点击一个 LiteLoader 版本（这里以 LiteLoader 1.12.2 作为示例， LiteLoader 的版本号与安装到的 Minecraft 版本号一致）。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-17.png"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-18.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="3. 选择路径开始下载 LiteLoader 安装器。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-19.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="4. 运行 LiteLoader 安装器，选择“Install LiteLoader (recommended)”并定位到 .minecraft 文件夹。"/>
-        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-            Text="打开 .minecraft 文件夹" EventType="打开文件" EventData="{path}/.minecraft"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-20.png"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-21.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="5. 点击“安装”按钮以开始安装。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-22.png"/>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="1. 打开 PCL2 的下载页面，点击左侧“手动安装包”以开启手动安装（若弹出提示请点击“确定”按钮）。"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="2. 点击左侧“LiteLoader”以切换到该菜单项，点击一个 LiteLoader 版本（这里以 LiteLoader 1.12.2 作为示例， LiteLoader 的版本号与安装到的 Minecraft 版本号一致）。"/>
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-17.png" Grid.Row="0" Grid.Column="0"/>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-18.png" Grid.Row="1" Grid.Column="0"/>
+            </Grid>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="3. 选择路径开始下载 LiteLoader 安装器。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-19.png"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="4. 运行 LiteLoader 安装器，选择“Install LiteLoader (recommended)”并定位到 .minecraft 文件夹。"/>
+            <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                Text="打开 .minecraft 文件夹" EventType="打开文件" EventData="{path}/.minecraft"/>
+                <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-20.png" Grid.Row="0" Grid.Column="0"/>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-21.png" Grid.Row="1" Grid.Column="0"/>
+            </Grid>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="5. 点击“安装”按钮以开始安装。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-22.png"/>
+        </Grid>
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、Logic_530、WTP016、tjw123hh" IsWarn="False"/>

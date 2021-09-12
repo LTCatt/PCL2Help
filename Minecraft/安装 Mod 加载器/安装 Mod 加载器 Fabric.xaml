@@ -3,42 +3,83 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,0,0,15" Text="若自动安装出现问题或某些版本无法使用 PCL2 自动安装功能安装，请尝试手动安装 Mod 加载器（参见下文“手动安装 Mod 加载器”）"/>
         <TextBlock TextWrapping="Wrap" LineHeight="17" Text="PCL2 自带了自动安装功能，可以更加方便地安装 Mod 加载器。"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-            Text="1. 打开 PCL2 的下载页面，点击左侧“自动安装”以切换到该菜单项，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Fabric 作为示例）。"/>
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/5b6f76317d8fa.PNG" />  
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-            Text="2. 选择适合的 Fabric 版本以及 Fabric API，建议安装稳定版/推荐版，出现错误可以尝试最新版"/>
-        <local:MyHint Margin="0,0,0,15" Text="Fabric API 是 Fabric 所必须的，如果没有 Fabric API 可能会导致 Minecraft 无法启动。"/>
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/7d154f44915ca.PNG" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-            Text="3. 点击“开始安装”按钮以开始安装。"/>
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/04/d853c70517069.PNG" />
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Left"
+                Text="1. 打开 PCL2 的下载页面，点击左侧“自动安装”以切换到该菜单项，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Fabric 作为示例）。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://pic.liesio.com/2021/07/04/5b6f76317d8fa.PNG"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Width="240" TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Left"
+                    Text="2. 选择适合的 Fabric 版本以及 Fabric API，建议安装稳定版/推荐版，出现错误可以尝试最新版" Grid.Row="0" Grid.Column="0"/>
+                <local:MyHint Width="240" HorizontalAlignment="Left" Text="Fabric 的许多 Mod 都依赖 Fabric API，如果没有 Fabric API 可能会导致 Minecraft 无法启动。" Grid.Row="1" Grid.Column="0"/>
+            </Grid>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://pic.liesio.com/2021/07/04/7d154f44915ca.PNG" Grid.Row="0" Grid.Column="1"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Left"
+                Text="3. 点击“开始安装”按钮以开始安装。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://pic.liesio.com/2021/07/04/d853c70517069.PNG"/>
+        </Grid>
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="手动安装 Mod 加载器" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Margin="0,0,0,15" Text="若无特殊情况，建议使用自动安装功能安装 Mod 加载器" IsWarn="False"/>
+        <local:MyHint Margin="0,0,0,15" Text="若非特殊情况，建议使用自动安装功能安装 Mod 加载器" IsWarn="False"/>
         <local:MyHint Margin="0,0,0,15" Text="请先下载对应版本的原版 Minecraft 作为前置版本"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="1. 打开 PCL2 的下载页面，点击左侧“手动安装包”以开启手动安装（若弹出提示请点击确定）。"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="2. 点击左侧“Fabric”以切换到该菜单项，点击一个 Fabric 版本（这里以 Fabric 0.7.4 作为示例，建议安装稳定版/推荐版，出现错误可以尝试最新版）。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-4.png"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-5.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="3. 选择路径开始下载 Fabric 安装器。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-6.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="4. 运行 Fabric 安装器，选择游戏版本（可能需要勾选“显示快照版本”）与加载器版本并定位到 .minecraft 文件夹。"/>
-        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-            Text="打开 .minecraft 文件夹" EventType="打开文件" EventData="{path}/.minecraft"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-7.png"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-8.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="5. 点击“安装”按钮以开始安装。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-9.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="6. 按照“安装 Mod（模组）”中的“下载并安装 Mod （内置）”里的方法安装 Fabric API。"/>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="1. 打开 PCL2 的下载页面，点击左侧“手动安装包”以开启手动安装（若弹出提示请点击“确定”按钮）。"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="2. 点击左侧“Fabric”以切换到该菜单项，点击一个 Fabric 版本（这里以 Fabric 0.7.4 作为示例，建议安装稳定版/推荐版，出现错误可以尝试最新版）。"/>
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-4.png" Grid.Row="0" Grid.Column="0"/>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-5.png" Grid.Row="1" Grid.Column="0"/>
+            </Grid>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="3. 选择路径开始下载 Fabric 安装器。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-6.png"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="4. 运行 Fabric 安装器，选择游戏版本（可能需要勾选“显示快照版本”）与加载器版本并定位到 .minecraft 文件夹。"/>
+            <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                Text="打开 .minecraft 文件夹" EventType="打开文件" EventData="{path}/.minecraft"/>
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-7.png" Grid.Row="0" Grid.Column="0"/>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-8.png" Grid.Row="1" Grid.Column="0"/>
+            </Grid>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="5. 点击“安装”按钮以开始安装。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-9.png"/>
+        </Grid>
+        <Grid Margin="0,20,0,4" Grid.Row="1" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+               Text="6. 按照“安装 Mod（模组）”中的“下载并安装 Mod （内置）”里的方法安装 Fabric API。" Grid.Row="0" Grid.Column="0"/>
+            <local:MyHint HorizontalAlignment="Right" Text="Fabric 的许多 Mod 都依赖 Fabric API，如果没有 Fabric API 可能会导致 Minecraft 无法启动。" Grid.Row="0" Grid.Column="1"/>
+        </Grid>
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、Logic_530、WTP016、tjw123hh" IsWarn="False"/>

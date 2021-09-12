@@ -3,41 +3,69 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,0,0,15" Text="若自动安装出现问题或某些版本无法使用 PCL2 自动安装功能安装，请尝试手动安装 Mod 加载器（参见下文“手动安装 Mod 加载器”）"/>
         <TextBlock TextWrapping="Wrap" LineHeight="17" Text="PCL2 自带了自动安装功能，可以更加方便地安装 Mod 加载器。"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-            Text="1. 打开 PCL2 的下载页面，点击左侧“自动安装”以切换到该菜单项，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Forge 作为示例）。"/>
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/d3288bc7163fc.PNG" />  
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-            Text="2. 选择适合的 Forge 版本，建议安装稳定版/推荐版，出现错误可以尝试最新版"/>
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/7de371fe0b088.PNG" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-            Text="3. 点击“开始安装”按钮来安装。"/>
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/397e1a37bc506.PNG" />
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Left"
+                Text="1. 打开 PCL2 的下载页面，点击左侧“自动安装”以切换到该菜单项，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Forge 作为示例）。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://pic.liesio.com/2021/07/13/d3288bc7163fc.PNG"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Left"
+                Text="2. 选择适合的 Forge 版本，建议安装稳定版/推荐版，出现错误可以尝试最新版"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://pic.liesio.com/2021/07/13/7de371fe0b088.PNG"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Left"
+                Text="3. 点击“开始安装”按钮来安装。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://pic.liesio.com/2021/07/13/397e1a37bc506.PNG"/>
+        </Grid>
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="手动安装 Mod 加载器" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Margin="0,0,0,15" Text="若无特殊情况，建议使用自动安装功能安装 Mod 加载器" IsWarn="False"/>
+        <local:MyHint Margin="0,0,0,15" Text="若非特殊情况，建议使用自动安装功能安装 Mod 加载器" IsWarn="False"/>
         <local:MyHint Margin="0,0,0,15" Text="请先下载对应版本的原版 Minecraft 作为前置版本"/>
-        <local:MyHint Margin="0,0,0,15" Text="由于 Forge 官方提供的安装器的使用了 Google 下载一些必要文件，可能需要科学上网才能正常安装。"/> 
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="1. 打开 PCL2 的下载页面，点击左侧“手动安装包”以开启手动安装（若弹出提示请点击确定）。"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="2. 点击左侧“Forge”以切换到该菜单项，点击一个 Forge 版本（点击“打开官网”可以查看匹配的游戏版本，这里以 Forge 37.0.58 作为示例，建议安装稳定版/推荐版，出现错误可以尝试最新版）。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-10.png"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-11.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="3. 选择路径开始下载 Forge 安装器。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-12.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="4. 运行 Forge 安装器，选择“Install client”并定位到 .minecraft 文件夹。"/>
-        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-            Text="打开 .minecraft 文件夹" EventType="打开文件" EventData="{path}/.minecraft"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-13.png"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-14.png"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17"
-            Text="5. 点击“确定”按钮以开始安装。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-15.png"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-16.png"/>
+        <local:MyHint Margin="0,0,0,15" Text="由于 Forge 官方提供的安装器的使用了 Google 下载一些必要文件，可能需要科学上网才能正常安装。"/>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="1. 打开 PCL2 的下载页面，点击左侧“手动安装包”以开启手动安装（若弹出提示请点击“确定”按钮）。"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="2. 点击左侧“Forge”以切换到该菜单项，点击一个 Forge 版本（点击“打开官网”可以查看匹配的游戏版本，这里以 Forge 37.0.58 作为示例，建议安装稳定版/推荐版，出现错误可以尝试最新版）。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-10.png"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-11.png"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="3. 选择路径开始下载 Forge 安装器。"/>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-12.png"/>
+        </Grid>
+        <Grid Margin="0,20,0,4">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="4. 运行 Forge 安装器，选择“Install client”并定位到 .minecraft 文件夹。"/>
+            <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                Text="打开 .minecraft 文件夹" EventType="打开文件" EventData="{path}/.minecraft"/>
+            <Grid Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-13.png" Grid.Row="0" Grid.Column="0"/>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-14.png" Grid.Row="1" Grid.Column="0"/>
+            </Grid>
+        </Grid>
+        <Grid Margin="0,20,0,4" HorizontalAlignment="Right">
+            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+                Text="5. 点击“确定”按钮以开始安装。"/>
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-15.png" Grid.Row="0" Grid.Column="0"/>
+                <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-16.png" Grid.Row="1" Grid.Column="0"/>
+            </Grid>
+        </Grid>
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、Logic_530、WTP016、tjw123hh" IsWarn="False"/>
