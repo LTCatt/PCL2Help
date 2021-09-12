@@ -28,6 +28,7 @@
         <Grid Margin="0,20,0,4">
             <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
                 Text="1. 打开 PCL2 的下载页面，点击左侧“手动安装包”以开启手动安装（若弹出提示请点击“确定”按钮）。"/>
+            <Image Margin="250,0,0,0" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-23.png" Grid.Row="1" Grid.Column="0"/>
         </Grid>
         <Grid Margin="0,20,0,4">
             <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
