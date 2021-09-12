@@ -41,4 +41,4 @@
             Text="6. 按照“安装 Mod（模组）”中的“下载并安装 Mod （内置）”里的方法安装 Fabric API。"/>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、 Logic_530、 WTP016、 tjw123hh" IsWarn="False"/>
+<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、Logic_530、WTP016、tjw123hh" IsWarn="False"/>

@@ -39,4 +39,4 @@
         <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-22.png"/>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、 Logic_530、 WTP016、 tjw123hh" IsWarn="False"/>
+<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、Logic_530、WTP016、tjw123hh" IsWarn="False"/>
