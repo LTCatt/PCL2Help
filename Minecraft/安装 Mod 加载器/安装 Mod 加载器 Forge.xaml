@@ -1,0 +1,17 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False"/>
+<local:MyCard Title="自动安装 Mod 加载器">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,15" Text="若自动安装出现问题或某些版本无法使用 PCL2 自动安装功能安装，请尝试手动安装 Mod 加载器（参阅下文“手动安装 Mod 加载器”）"/>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Text="PCL2 自带了自动安装功能，可以更加方便地安装 Mod 加载器。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+            Text="1. 打开 PCL2 的下载页面，点击左侧“自动安装”以切换到该菜单项，选择一个 Minecraft 版本（这里以 Minecraft 1.16.5 + Forge 作为示例）。"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/d3288bc7163fc.PNG" />  
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+            Text="2. 选择适合的 Forge 版本。"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/7de371fe0b088.PNG" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+            Text="3. 点击“开始安装”按钮来安装。"/>
+        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/13/397e1a37bc506.PNG" />
+    </StackPanel>
+</local:MyCard>
+<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、 Logic_530、 WTP016、 tjw123hh" IsWarn="False"/>

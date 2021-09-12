@@ -194,7 +194,7 @@
                    Text="在需要更详细的列出内容时，你可以使用列表项来替代按钮。在列表项中，点击操作的使用方式与按钮相同。"/>
         <local:MyListItem Margin="-5,15,-5,0" 
 		                  Logo="https://www.baidu.com/favicon.ico" Title="百度" Info="百度一下，你就知道！" 
-		                  EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable" />
+		                  EventType="打开网站" EventData="https://www.baidu.com" Type="Clickable" />
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" Type="Clickable" />
     </StackPanel>

@@ -1,0 +1,14 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False"/>
+<StackPanel Margin="25,40,23,15">
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="1. 打开 PCL2 的下载页面，点击左侧“自动安装”以切换到该菜单项，选择一个 Minecraft 版本（这里以 Minecraft 1.12.2 + LiteLoader 作为示例）。"/>
+    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-0.png"/>  
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="2. 选择 LiteLoader。"/>
+    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-1.png"/>
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+        Text="3. 点击“开始安装”按钮以开始安装。"/>
+    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-2.png"/>
+    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-3.png"/>
+</StackPanel>
+<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、 Logic_530、 WTP016、 tjw123hh" IsWarn="False"/>
