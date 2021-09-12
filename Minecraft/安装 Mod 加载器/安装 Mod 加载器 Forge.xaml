@@ -17,7 +17,7 @@
 <local:MyCard Title="手动安装 Mod 加载器" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,0,0,15" Text="若无特殊情况，建议使用自动安装功能安装 Mod 加载器" IsWarn="False"/>
-        <local:MyHint Margin="0,0,0,15" Text="请先下载对应版本的原版 Minecraft 作为前置版本">
+        <local:MyHint Margin="0,0,0,15" Text="请先下载对应版本的原版 Minecraft 作为前置版本"/>
         <local:MyHint Margin="0,0,0,15" Text="由于 Forge 官方提供的安装器的使用了 Google 下载一些必要文件，可能需要科学上网才能正常安装。"/> 
         <TextBlock TextWrapping="Wrap" LineHeight="17"
             Text="1. 打开 PCL2 的下载页面，点击左侧“手动安装包”以开启手动安装（若弹出提示请点击确定）。"/>
