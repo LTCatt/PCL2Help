@@ -72,14 +72,10 @@
                 Text="5. 点击“安装”按钮以开始安装。"/>
             <Image Margin="250,0,0,0" HorizontalAlignment="Right" Source="https://cdn.jsdelivr.net/gh/tjw123hh/imgs@main/PCL2Help-9.png"/>
         </Grid>
-        <Grid Margin="0,20,0,4" Grid.Row="1" Grid.Column="2">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"></ColumnDefinition>
-                <ColumnDefinition Width="auto"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <TextBlock Width="240" TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
-               Text="6. 按照“安装 Mod（模组）”中的“下载并安装 Mod （内置）”里的方法安装 Fabric API。" Grid.Row="0" Grid.Column="0"/>
-            <local:MyHint HorizontalAlignment="Right" Text="Fabric 的许多 Mod 都依赖 Fabric API，如果没有 Fabric API 可能会导致 Minecraft 无法启动。" Grid.Row="0" Grid.Column="1"/>
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" HorizontalAlignment="Left"
+               Text="6. 按照“安装 Mod（模组）”中的“下载并安装 Mod （内置）”里的方法安装 Fabric API。"/>
+            <local:MyHint Margin="0,20,0,0" Text="Fabric 的许多 Mod 都依赖 Fabric API，如果没有 Fabric API 可能会导致 Minecraft 无法启动。"/>
         </Grid>
     </StackPanel>
 </local:MyCard>
