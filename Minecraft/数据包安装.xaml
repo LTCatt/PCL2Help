@@ -36,8 +36,6 @@
         <Grid Margin="0,20,0,4">
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RMFxfA.png" />        
         </Grid>
-
-        <local:MyHint Margin="0,15,0,0" Text="如果您不能直接在世界文件夹看见 datapacks 文件夹则手动创建。&#xa;右键，点击新建 → 文件夹，输入datapacks。" IsWarn="False" />
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 打开 datapacks 文件夹，并将光标移动到您准备的数据包上右键，点击复制。移动光标至 datapacks 文件夹空白区域，右键，点击粘贴。" HorizontalAlignment="Left" />
@@ -55,7 +53,7 @@
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="一般情况下，您只需重新打开存档即可加载数据包&#xa;您也可以在开启作弊的存档中按 T 输入 /reload 回车，来加载数据包" HorizontalAlignment="Left" />
+                        Text="一般情况下，您只需重新打开存档即可加载数据包。&#xa;您也可以在开启作弊的存档中按 T 输入 /reload 回车，来加载数据包。如果您加载的数据包包含了自定义维度等内容，您必须通过重新进入存档以重新加载数据包。" HorizontalAlignment="Left" />
             <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
                         Text="复制 /reload 文本" EventType="复制文本" EventData="/reload" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RM1SUI.png" />
@@ -96,4 +94,4 @@
                    Text="5. 设置一些你想设置的，如世界名称、游戏模式等，点击下方“创建新的世界”进入游戏。"/>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：jiecs_23、WTP016" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：jiecs_23、WTP016、CheloverC60" IsWarn="False" />
