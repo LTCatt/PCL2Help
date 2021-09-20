@@ -8,6 +8,7 @@
                    Text="数据包（Data Pack）是 Minecraft 内置的、可用于覆盖或添加新的进度、维度、函数、战利品表、谓词、配方、结构和标签，而不进行任何代码修改的功能。" />
     </StackPanel>
 </local:MyCard>
+<local:MyHint Margin="0,0,0,15" Text="注意: 数据包功能仅适用于 Minecraft 1.13 以上版本。" />
 
 <local:MyCard Title="获取数据包" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
