@@ -1,5 +1,6 @@
 <local:MyHint Margin="0,0,0,20" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 <!-- 需要根据规范重新整理格式、标点、空格等。部分语句不太通顺，需要再改改。 -->
+<!-- 图片备份https://yshs.lanzoui.com/iy67tueab6b -->
 
 <local:MyCard Title="简介">
     <StackPanel Margin="25,40,23,15">
@@ -42,10 +43,6 @@
         <TextBlock Background="#f1b8f1" Padding="5,5,5,5" Margin="0,10,0,0" Text="   服务器名称 任意" />
         <TextBlock Background="#f1ccb8" Padding="5,5,5,5" Margin="0,10,0,0" Text="   自动进入服务器 留空" />
         <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Center" Source ="https://z3.ax1x.com/2021/09/23/4dQ7vR.png" />
-
-
-        <!-- <TextBlock Margin="0,20,0,0" Text="7. 认证服务器输入 https://mcskin.littleservice.cn/api/yggdrasil&#xA;注册链接输入 https://mcskin.littleservice.cn/auth/register&#xA;服务器名称可以随便填&#xA;自动进入服务器留空" />
-        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Center" Source ="https://z3.ax1x.com/2021/09/23/4dQ7vR.png" /> -->
 
         <TextBlock Margin="0,50,0,0" Text="8.填写完成后返回 PCL2 启动界面，输入 LittleSkin 网站的账号以及密码，启动游戏后即可登录" />
         <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Center" Source ="https://z3.ax1x.com/2021/09/23/4dQbK1.png" />
