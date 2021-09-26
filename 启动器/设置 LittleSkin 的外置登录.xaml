@@ -12,8 +12,10 @@
 
 <local:MyCard Title="教程">
     <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,0" Text="本教程部分内容涉及到对 PCL2 启动器的设置，大家可以打开下方的网页版教程边看边做" IsWarn="False" />
+        <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开网页版教程" EventType="打开网页" EventData="https://note.youdao.com/s/fHxFNnq" />
 
-        <TextBlock Margin="0,10,0,0" Text="1. 前往 https://mcskin.littleservice.cn/auth/register 注册一个 LittleSkin 账号" />
+        <TextBlock Margin="0,30,0,0" Text="1. 前往 https://mcskin.littleservice.cn/auth/register 注册一个 LittleSkin 账号" />
         <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开 LittleSkin 注册界面" EventType="打开网页" EventData="https://mcskin.littleservice.cn/auth/register" />
         <Image Margin="0,10,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img1.png" />
 
