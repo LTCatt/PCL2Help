@@ -19,7 +19,9 @@
                             Text="如何为 Git 设置代理" EventType="打开网页" EventData="https://www.jianshu.com/p/290152303598" />
         </StackPanel>
         <TextBlock Margin="0,0,0,4" LineHeight="19"
-                   Text="Fork 完成后，使用以下介绍的任意软件提交帮助。下方条目为使用 VSCode、Git 命令行与 GitHub Desktop 提交帮助的详细过程。&#xa;我们推荐使用 VSCode 进行操作。" />
+                   Text="Fork 完成后，使用以下介绍的任意软件提交帮助。下方条目为使用 VSCode、Git 命令行、 GitHub Desktop 与 Sublime Text 提交帮助的详细过程。&#xa;我们推荐使用 VSCode 进行操作。" />
+        <local:MyListItem Margin="0,0,0,0"
+                          EventType="打开帮助" EventData="帮助/提交帮助 - Sublime Text.json" />
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - VSCode.json" />
         <local:MyListItem Margin="0,0,0,0"

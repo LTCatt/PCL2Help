@@ -1,0 +1,46 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+
+<local:MyCard Title="获取 Sublime Text 并更改语言">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="Sublime Text，简称 Subl，是一款由Sublime HQ Pty公司开发的跨平台编辑器。你可以通过下面的按钮获取 Sublime Text 的 Windows 版本。" />
+        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+                            Text="点击下载 Subl(64位)" EventType="下载文件" EventData="https://download.sublimetext.com/sublime_text_build_4113_x64_setup.exe" />
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="访问官网" EventType="打开网页" EventData="https://www.sublimetext.com/" />
+        </StackPanel>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                Text="Subl 安装后默认的语言为英语。你可以通过点击以下按钮查看 Subl 设置语言为中文的方法。" />
+        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" Height="35"
+                Text="查看教程" EventType="打开网页" EventData="https://blog.csdn.net/qq_43722079/article/details/97777585" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="使用 Subl 获取帮助库并提交">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="1. 即使你使用 Subl 依旧需要安装 Git 工具，请参照下方教程。"/>
+        <local:MyListItem Margin="0,0,0,0"
+		                  EventType="打开帮助" EventData="帮助/提交帮助 - Git.json" />
+		 <local:MyHint Margin="0,0,0,15"
+		                Text="注意：Subl本身并不支持git提交和拉取，请自行使用Sublime Merger以及git命令配合Subl"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="2. 用git命令拉取储蓄库"/>
+        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
+        </StackPanel>        
+        <TextBlock Margin="0,0,0,15" LineHeight="17"
+                    Text="完成上述后，将第二步 clone 下仓库内 PCL2Help 文件夹中的内容剪切到 PCL\Help 中。在资源管理器中，在查看 → 显示下方选中&quot;隐藏的项目&quot;并将该文件夹内所有文件剪切至 PCL\Help 文件夹。"/>
+        <local:MyHint Margin="0,0,0,4" Text="在剪切后 .git 文件夹必须位于 PCL\Help，而不能在 PCL\Help\PCL2Help 中" />
+        <TextBlock Margin="0,10,0,4" LineHeight="17"
+                    Text="最后，点击菜单 → 文件 → 打开文件夹... ，选择 Help 文件夹即可。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+        Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了。完成后，用Sublime Merger或者git命令完成提交。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+        Text="在 Pull Request 前，你需要同步原仓库内的内容以保证你的仓库保持最新。打开你的 Fork 仓库主页，找到&quot;Fetch upstream (从上游获取)&quot;按钮并点击，再点击&quot;Fetch and merge (获取并合并)&quot;，你的仓库就同步了原仓库。经过了这些步骤之后，你就可以提交你的 Pull Request 了。"/>
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@vvscode-push-changes/Github.Fetch.upstream.png" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Poison" IsWarn="False" />
