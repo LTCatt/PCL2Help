@@ -13,16 +13,16 @@
     <StackPanel Margin="25,40,23,15">   
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="1. 打开您的 PCL 2 启动器，在主页点击左下方的“版本选择”按钮。" />
-        <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE4hj0.png" />             
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Fangshing87/Image_for_PCL2Help@main/Minecraft/Setting_RAM/Method1/1.png" />             
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="2. 在版本选择列表中，右键点击需要修改内存的游戏版本。" />
-        <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE4oHU.png" />
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Fangshing87/Image_for_PCL2Help@main/Minecraft/Setting_RAM/Method1/2.png" />
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="3. 在该版本的设置中，点击左侧的“设置”选项卡。" />
-        <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE4IBT.png" />        
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Fangshing87/Image_for_PCL2Help@main/Minecraft/Setting_RAM/Method1/3.png" />        
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="4. 滑动至下方，找到“游戏内存”选项卡，选择“自定义”，然后滑动圆点即可手动调整。&#xa;此时，该版本的启动内存已为固定值，不再自动变更。" />
-        <Image HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/04/30/gE45uV.png" />    
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Fangshing87/Image_for_PCL2Help@main/Minecraft/Setting_RAM/Method1/4.png" />    
     </StackPanel>
 </local:MyCard>
 

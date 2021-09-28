@@ -15,7 +15,7 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="如果你选择使用 OptiFine，PCL2 可以为下载的 Minecraft 版本自动安装 OptiFine，使用自动安装功能时展开“OptiFine”菜单，选择需要的版本即可。" />
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/19/48304d59afe03.png" />
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Fangshing87/Image_for_PCL2Help@main/Minecraft/Shader_Install/OptiFine.png" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
                    Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器。关于安装 OptiFabric 的详细说明，请查看帮助&quot;安装 Mod&quot;。" />
     </StackPanel>
@@ -54,8 +54,8 @@
                    Text="有时光影包的作者会依据光影包对电脑性能的需求高低制作多个版本的光影包，并打包成一个压缩包方便玩家下载，此时则需要将大压缩包中的每个光影包提取出来才能使用。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="导入完成后，在光影设置界面（选项-视频设置-光影…）可以看到已经导入的光影包，点击即可启用。" />
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/19/f300670c6071d.png" />
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/20/37dd43e6fcc85.png" />
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Fangshing87/Image_for_PCL2Help@main/Minecraft/Shader_Install/Import_and_Enable/1.png" />
+        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Fangshing87/Image_for_PCL2Help@main/Minecraft/Shader_Install/Import_and_Enable/2.png" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="如果使用了 OptiFine，你还可以在光影设置界面对光影的效果做进一步调整，右侧列出的是 OptiFine 提供的通用选项，点击右下角的光影设置可以打开当前光影包的专有选项，以便对光影的效果作出更多调整。" />
     </StackPanel>
