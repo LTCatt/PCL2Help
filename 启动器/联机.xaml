@@ -11,11 +11,11 @@
 		                  EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="复制MOD名称1" EventType="复制文本" EventData="自定义局域网联机" />
+                   Text="复制MOD名称(1)" EventType="复制文本" EventData="自定义局域网联机" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="复制MOD名称2" EventType="复制文本" EventData="简单联机" />
+                   Text="复制MOD名称(2)" EventType="复制文本" EventData="简单联机" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="复制MOD名称3" EventType="复制文本" EventData="mcwifipnp" />
+                   Text="复制MOD名称(3)" EventType="复制文本" EventData="mcwifipnp" />
         </StackPanel>
         <TextBlock Margin="2,0,0,2" LineHeight="17"
                    Text="4、让加入者使用第三方登录" />
@@ -54,4 +54,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、猫猫" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、猫猫、Poison" IsWarn="False" />
