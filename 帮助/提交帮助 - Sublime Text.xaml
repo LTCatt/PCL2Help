@@ -2,7 +2,7 @@
 
 <local:MyCard Title="获取 Sublime Text 并更改语言">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="Sublime Text，简称 Subl，是一款由Sublime HQ Pty公司开发的跨平台编辑器。你可以通过下面的按钮获取 Sublime Text 的 Windows 版本。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="Sublime Text(下文使用该软件的简称 Subl)，是一款由Sublime HQ Pty公司开发的跨平台编辑器。你可以通过下面的按钮获取 Sublime Text 的 Windows 版本。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                             Text="点击下载 Subl(64位)" EventType="下载文件" EventData="https://download.sublimetext.com/sublime_text_build_4113_x64_setup.exe" />
@@ -23,9 +23,9 @@
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - Git.json" />
 		 <local:MyHint Margin="0,0,0,15"
-		                Text="注意：Subl本身并不支持git提交和拉取，请自行使用Sublime Merger以及git命令配合Subl"/>
+		                Text="注意：Subl本身并不支持git提交和拉取，请使用Sublime Merger以及git命令配合Subl"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 用git命令拉取储蓄库"/>
+                    Text="2. 用Git命令拉取存储库"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
