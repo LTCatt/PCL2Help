@@ -23,9 +23,9 @@
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - Git.json" />
 		 <local:MyHint Margin="0,0,0,15"
-		                Text="注意：Subl本身并不支持git提交和拉取，请使用Sublime Merger以及git命令配合Subl"/>
+		                Text="注意：Subl本身并不支持git提交和拉取，请使用 Sublime Merger 以及 git 命令配合 Subl"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 用Git命令拉取存储库"/>
+                    Text="2. 用 Git 命令拉取存储库"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
