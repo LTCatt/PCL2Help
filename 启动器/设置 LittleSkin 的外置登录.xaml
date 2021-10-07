@@ -15,6 +15,8 @@
         <local:MyHint Margin="0,0,0,0" Text="本教程部分内容涉及到对 PCL2 启动器的设置，大家可以打开下方的网页版教程边看边做" IsWarn="False" />
         <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开网页版教程" EventType="打开网页" EventData="https://note.youdao.com/s/fHxFNnq" />
 
+        <local:MyHint Margin="0,10,0,0" Text="填写的所有邮箱应全部小写,否则将会出现UUID为null的情况导致无法进入服务器!" IsWarn="True" />
+        
         <TextBlock Margin="0,30,0,0" Text="1. 前往 https://mcskin.littleservice.cn/auth/register 注册一个 LittleSkin 账号" />
         <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开 LittleSkin 注册界面" EventType="打开网页" EventData="https://mcskin.littleservice.cn/auth/register" />
         <Image Margin="0,10,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img1.png" />
@@ -46,6 +48,7 @@
 
         <TextBlock Margin="0,50,0,0" Text="8.填写完成后返回 PCL2 启动界面，输入 LittleSkin 网站的账号以及密码，启动游戏后即可登录" />
         <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img8.png" />
+        <local:MyHint Margin="0,20,0,0" Text="使用外置登录后仍然无法进入正版服务器!您只能进入离线模式服务器,仅支持使用外置登录的服务器以及局域网联机!" IsWarn="True" />
     </StackPanel>
 </local:MyCard>
 
