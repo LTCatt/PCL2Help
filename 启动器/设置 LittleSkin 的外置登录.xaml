@@ -15,12 +15,12 @@
         <local:MyHint Margin="0,0,0,0" Text="本教程部分内容涉及到对 PCL2 启动器的设置，大家可以打开下方的网页版教程边看边做" IsWarn="False" />
         <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开网页版教程" EventType="打开网页" EventData="https://note.youdao.com/s/fHxFNnq" />
 
-        <TextBlock Margin="0,30,0,0" Text="1. 前往 https://mcskin.littleservice.cn/auth/register 注册一个 LittleSkin 账号" />
-        <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开 LittleSkin 注册界面" EventType="打开网页" EventData="https://mcskin.littleservice.cn/auth/register" />
+        <TextBlock Margin="0,30,0,0" Text="1. 前往 https://littleskin.cn/auth/register 注册一个 LittleSkin 账号" />
+        <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开 LittleSkin 注册界面" EventType="打开网页" EventData="https://littleskin.cn/auth/register" />
         <Image Margin="0,10,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img1.png" />
 
-        <TextBlock Margin="0,50,0,0" Text="2. 注册完以后，进入 https://mcskin.littleservice.cn/user 点击左侧“角色管理”，再点击“添加新角色”" />
-        <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开 LittleSkin 用户中心" EventType="打开网页" EventData="https://mcskin.littleservice.cn/user" />
+        <TextBlock Margin="0,50,0,0" Text="2. 注册完以后，进入 https://littleskin.cn/user 点击左侧“角色管理”，再点击“添加新角色”" />
+        <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开 LittleSkin 用户中心" EventType="打开网页" EventData="https://littleskin.cn/user" />
         <Image Margin="0,10,0,0" Height="360" HorizontalAlignment="Left" Source="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img2.png" />
 
         <TextBlock Margin="0,50,0,0" Text="3. 在弹出的窗口内输入角色名(这将会成为联机时的ID)，填写完成后点击“确定”" />
@@ -36,10 +36,10 @@
         <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img6.png" />
 
         <TextBlock Margin="0,50,0,0" Text="7. 按要求填写信息" />
-        <TextBlock Background="#ddff95" Padding="5,5,5,5" Margin="0,10,0,0" Text="   认证服务器 https://mcskin.littleservice.cn/api/yggdrasil" />
-        <local:MyButton Margin="0,10,0,0" Width="160" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制“认证服务器”网址" EventType="复制文本" EventData="https://mcskin.littleservice.cn/api/yggdrasil" />
-        <TextBlock Background="#ff9b6a" Padding="5,5,5,5" Margin="0,10,0,0" Text="   注册链接 https://mcskin.littleservice.cn/auth/register" />
-        <local:MyButton Margin="0,10,0,0" Width="160" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制“注册链接”网址" EventType="复制文本" EventData="https://mcskin.littleservice.cn/auth/register" />
+        <TextBlock Background="#ddff95" Padding="5,5,5,5" Margin="0,10,0,0" Text="   认证服务器 https://littleskin.cn/api/yggdrasil" />
+        <local:MyButton Margin="0,10,0,0" Width="160" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制“认证服务器”网址" EventType="复制文本" EventData="https://littleskin.cn/api/yggdrasil" />
+        <TextBlock Background="#ff9b6a" Padding="5,5,5,5" Margin="0,10,0,0" Text="   注册链接 https://littleskin.cn/auth/register" />
+        <local:MyButton Margin="0,10,0,0" Width="160" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制“注册链接”网址" EventType="复制文本" EventData="https://littleskin.cn/auth/register" />
         <TextBlock Background="#f1b8f1" Padding="5,5,5,5" Margin="0,10,0,0" Text="   服务器名称 任意" />
         <TextBlock Background="#f1ccb8" Padding="5,5,5,5" Margin="0,10,0,0" Text="   自动进入服务器 留空" />
         <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img7.png" />
