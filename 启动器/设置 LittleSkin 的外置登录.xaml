@@ -48,7 +48,7 @@
 
         <TextBlock Margin="0,50,0,0" Text="8.填写完成后返回 PCL2 启动界面，输入 LittleSkin 网站的账号以及密码，启动游戏后即可登录" />
         <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img8.png" />
-        <local:MyHint Margin="0,20,0,0" Text="使用外置登录后仍然无法进入正版服务器!您只能进入离线模式服务器,仅支持使用外置登录的服务器以及局域网联机!" IsWarn="True" />
+        <local:MyHint Margin="0,20,0,0" Text="使用 LittleSkin 外置登录后仍无法进入正版服务器。您只能进入离线模式服务器、使用外置登录的服务器和局域网联机。" IsWarn="True" />
     </StackPanel>
 </local:MyCard>
 
