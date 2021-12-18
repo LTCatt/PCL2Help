@@ -4,8 +4,8 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="电脑蓝屏、死机重启等情况下，游戏存档可能会损坏，如果损坏请按照以下步骤操作："/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 打开损坏存档的文件夹，在对应版本的“版本设置”->“打开版本文件夹”后找到 saves 文件夹并进入  "/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="1. 打开损坏存档的文件夹，在对应版本的“版本设置” → “打开版本文件夹”后找到 saves 文件夹并进入  "/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
                     Text="2. 进入损坏存档，删除“level.dat”文件"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="3. 找到“level.dat_old”，并重命名，将后缀 “_old”删除 "/>

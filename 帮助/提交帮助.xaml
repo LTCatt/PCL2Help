@@ -12,11 +12,15 @@
         <local:MyHint Margin="0,2,0,10" Text="GitHub 目前在国内的访问不太通畅。如果遇到网络问题，请自行使用科学上网工具，然后为 Git 设置代理。" IsWarn="false" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="你需要先注册并登录 GitHub 账号。此后，点击下方 GitHub 存储库 ，然后点击页面右上角的 Fork 建立一个分支。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="你也可以使用 CODING 等国内代码托管平台的自动构建功能创建与你的 Fork 同步的代码仓库以加快访问。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                             Text="GitHub 存储库" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help" />
             <local:MyButton MinWidth="170" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                             Text="如何为 Git 设置代理" EventType="打开网页" EventData="https://www.jianshu.com/p/290152303598" />
+            <local:MyButton MinWidth="170" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="CODING 仓库与 GitHub 仓库同步教程" EventType="打开网页" EventData="https://blog.csdn.net/wherelse/article/details/107667365"/>
         </StackPanel>
         <TextBlock Margin="0,0,0,4" LineHeight="19"
                    Text="Fork 完成后，使用以下介绍的任意软件提交帮助。下方条目为使用 VSCode、Git 命令行与 GitHub Desktop 提交帮助的详细过程。&#xa;我们推荐使用 VSCode 进行操作。" />
@@ -32,7 +36,7 @@
 <local:MyCard Title="编写规范">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="19"
-                   Text="我们对 PCL2 内置帮助库有一些格式与语法上的固定要求。&#xa;在开始编辑与提交前，请仔细阅读下文并逐条进行检查，这能让你的提交更快通过。" />
+                   Text="我们对 PCL2 内置帮助库有格式与语法上的固定要求。&#xa;在开始编辑与提交前，请仔细阅读下文并逐条进行检查，这能让你的提交更快通过。" />
         <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
 		            EventType="打开帮助" EventData="帮助/提交帮助 - 编写规范.json" />
     </StackPanel>
