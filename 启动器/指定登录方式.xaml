@@ -4,7 +4,7 @@
 
 <local:MyCard Title="简介">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,0" LineHeight="17" Text="PCL2 支持多种登录方式，可以单独为某一版本指定登录方式。支持 离线登录、正版登录、统一通行证 和 Authlib-Injector 登录，此界面将提供简单的教程。" />
+        <TextBlock Margin="0,0,0,0" LineHeight="17" Text="PCL2 支持 离线登录、正版登录、统一通行证 和 Authlib-Injector 登录，可以单独为某一版本指定登录方式。此帮助将提供简单的指定登录方式的教程。" />
     </StackPanel>
 </local:MyCard>
 
