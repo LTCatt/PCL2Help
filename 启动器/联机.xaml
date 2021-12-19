@@ -46,4 +46,18 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、猫猫" IsWarn="False" />
+<local:MyCard Title="联机界面左上角的网络状态评级是什么意思？" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="网络状态评级主要分为以下几种：&#xa; S+ ：你的网络状态良好，并且拥有独立的公网 IP ，可以与他人低延迟联机。&#xa; S ：你的网络状态良好， NAT 环境为完全圆锥（ FullCone ），可以与他人低延迟联机。&#xa; C ：你的网络状态较差， NAT 环境为端口受限圆锥（ PortRestrictedCone ），联机延迟可能较高。&#xa; D ：你的网络状态较差， NAT 环境为对称（ Symmetric ），联机延迟可能较高，并且有很大概率无法连接。&#xa; F ：你的网络状态极差， PCL2 检测到你的网络禁止了 Minecraft 局域网房间广播所使用的 UDP 包，有可能无法使用联机功能。&#xa;？： PCL2 检测不到你的 NAT ，或 NAT 类型未知。若需要，建议使用专业的 NAT 检测工具手动检测。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我需要达到什么条件才能使用联机？" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="就现阶段而言，除了部分网络状态评级为 D 及以下的用户不可用以外，其他用户都可以使用联机服务。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、猫猫、天选之子" IsWarn="False" />
