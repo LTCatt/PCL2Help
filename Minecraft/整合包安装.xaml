@@ -4,7 +4,7 @@
 <local:MyCard Title="整合包是什么?" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="整合包(Modpack, Modification Packages)是包含已经配置好的、可能包含剧情的、包含 Mod 的 Minecraft 游戏整合文件。" />
+                   Text="整合包(Modpack, Modification Packages)是包含已经配置好的、可能包含剧情的、包含 Mod 的 Minecraft 游戏整合文件。&#xa;目前国内用户能够接触到的整合包文件一共有三种：包含启动器的整合包；使用 MCBBS 格式的整合包；使用 CurseForge 托管的整合包。&#xa;这三种整合包的安装方式不相同。" />
                    <!-- 翻译可能有问题 源网页: https://ftb.fandom.com/wiki/Modpacks 有人来改一下吗救命 -->
     </StackPanel>
 </local:MyCard>
@@ -18,7 +18,14 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装已经下载好的压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="如何使用含有启动器的整合包进行游玩？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                   Text="根据需要，有两种方法供选择。&#xa;第一种：直接使用压缩软件（如 WinRAR 或 360 压缩）解压，打开内含的启动器即可游玩。&#xa;如果你需要替换为 PCL2 启动器，则可直接替换原启动器。&#xa;第二种：解压压缩包以后，前往 PCL2 - 启动 - 版本选择 - 添加已有文件夹 - 定位到你整合包的 .minecraft 目录即可。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="安装已经下载好的 MCBBS 或 CurseForge 整合包压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         
         <local:MyHint Margin="0,0,0,15" Text="注意: 以下情况假设您已下载好整合包(通常是为 .zip / .rar 结尾的文件)。" IsWarn="False" />
