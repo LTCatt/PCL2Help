@@ -77,7 +77,7 @@
 <local:MyCard Title="提交与审核">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4"
-                   Text="1、打开 PCL2，刷新并检查文档排版是否美观，按钮是否正常工作，文中是否存在错别字。" />
+                   Text="1、打开 PCL2，刷新并检查文档是否可正常查看，排版是否美观，按钮是否正常工作，文中是否存在错别字。" />
         <TextBlock Margin="0,0,0,4"
                    Text="2、在 Json 文件开头与 XAML 文件末尾留下作者信息。但如果你仅是修改已有文件中的个别措辞，没有大幅修改，那就不必添加了。" />
         <TextBlock Margin="0,0,0,15"
