@@ -29,7 +29,7 @@
             <local:MyButton MinWidth="170" Height="35" Padding="13,0" Margin="0,5,20,8" HorizontalAlignment="Left" ToolTip="如果你之前使用过备份 PCL 注册表功能，点击此按钮可以将 PCL 文件夹中的备份文件还原。"
                             Text="恢复注册表" EventType="打开文件" EventData="PCLRegBackup.reg"/>
         </StackPanel>
-        <local:MyHint Margin="0,0,0,15" Text="使用恢复注册表功能后需要重启PCL2" IsWarn="True"/>
+        <local:MyHint Margin="0,0,0,15" Text="使用恢复注册表功能后需要重启 PCL2。" IsWarn="True"/>
     </StackPanel>
 </local:MyCard>
 
