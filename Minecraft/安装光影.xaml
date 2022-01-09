@@ -9,7 +9,7 @@
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
                    Text="虽然 Iris Shaders 支持的游戏版本较少，但其支持的 Sodium Mod 对图像性能的优化效果显著，甚至优于 OptiFine。如果你游玩的版本能够使用，不妨先尝试 Iris Shaders。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="Iris Shaders 现在不再自带 Sodium Mod，你需要手动下载。" />
+                   Text="Iris Shaders 现在不再自带 Sodium Mod，你需要额外下载 Sodium Mod。" />
     </StackPanel>
 </local:MyCard>
 
