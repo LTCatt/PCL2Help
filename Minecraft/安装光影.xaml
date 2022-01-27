@@ -5,11 +5,11 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="光影（Shader）是通过游戏 Mod 实现的一项画面修改功能，玩家可以通过加载光影包（Shader Pack）来修改 Minecraft 的画面渲染方式，使得游戏画面更为美观或具有风格。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders，前者支持 Forge 加载器（可以通过 OptiFabric Mod 兼容 Fabric）而后者支持 Fabric 加载器。OptiFine 几乎支持所有的 Minecraft 版本而 Iris Shaders 作为新兴的光影 Mod，目前只支持1.16.5及更高版本。一般情况下，OptiFine 是使用光影的最佳选择。" />
+                   Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders，前者支持 Forge 加载器（可以通过 OptiFabric Mod 兼容 Fabric）而后者支持 Fabric 加载器。OptiFine 几乎支持所有的 Minecraft 版本而 Iris Shaders 作为新兴的光影 Mod，目前只支持 1.16.5 及更高版本。一般情况下，OptiFine 是使用光影的最佳选择。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
                    Text="虽然 Iris Shaders 支持的游戏版本较少，但其支持的 Sodium Mod 对图像性能的优化效果显著，甚至优于 OptiFine。如果你游玩的版本能够使用，不妨先尝试 Iris Shaders。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="从1.1.3版本开始，Iris Shaders 现在不再自带 Sodium Mod，你需要额外下载 Sodium Mod。" />
+                   Text="从1.1.3版本开始，Iris Shaders 不再自带 Sodium Mod，你需要额外下载 Sodium Mod。" />
     </StackPanel>
 </local:MyCard>
 
