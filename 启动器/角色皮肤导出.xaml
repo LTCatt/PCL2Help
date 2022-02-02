@@ -1,19 +1,21 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 
-<local:MyCard Title="导出角色的皮肤">
+<local:MyCard Title="导出角色皮肤">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="综述，PCL 2 的皮肤加载渠道分为下述三种：&#xa;1. 登录验证获取皮肤（Mojang/微软正版、Authlib-injector 外置登录、统一通行证）；&#xa;2. 直接加载正版用户的皮肤；&#xa;3. 本地加载。&#xa;由于本地加载依赖于自有皮肤文件，本教程仅针对前述两种处理情况分别讨论如何导出角色皮肤。"/>
+                   Text="PCL 2 的皮肤加载渠道分为下述三种：&#xa;1. 登录验证获取皮肤（Mojang/微软正版、Authlib-injector 外置登录、统一通行证）；&#xa;2. 直接加载正版用户的皮肤；&#xa;3. 本地加载。&#xa;由于本地加载依赖于自有皮肤文件，本教程仅针对前述两种处理情况分别讨论如何导出角色皮肤。"/>
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="登录验证方法获取皮肤的解决方案">
     <StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,-5,0,15" Text="对于外置登录用户，请先确定您的登录配置正确。&#xa;如有必要，请先参考帮助内的“设置外置登录”。"/>
+        <local:MyListItem Margin="0,0,0,0"
+		                  EventType="打开帮助" EventData="启动器/指定登陆方式.json" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="① 打开您的 PCL 2 启动器，在如图所示的角色界面右键角色头像。"/>
+                   Text="1. 打开您的 PCL 2 启动器，在如图所示的角色界面右键角色头像。"/>
 		<Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/06/26/9IKCYT5HUWa43Me.png" />   
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="② 在弹出的对话框中选择导出路径，此时您应已导出皮肤文件。"/>
+                   Text="2. 在弹出的对话框中选择导出路径，此时您应已导出皮肤文件。"/>
     </StackPanel>
 </local:MyCard>
 
