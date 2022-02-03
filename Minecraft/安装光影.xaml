@@ -57,7 +57,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="导入完成后，在光影设置界面（选项-视频设置-光影…）可以看到已经导入的光影包，点击即可启用。" />
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/19/f300670c6071d.png" />
-        <Image HorizontalAlignment="Center" Source="https://attachment.mcbbs.net/data/myattachment/forum/202201/27/210719rqouu2cogeur5qzl.png" />
+        <Image HorizontalAlignment="Center" Source="https://s4.ax1x.com/2022/02/03/HVq7jJ.png" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="你还可以在光影设置界面对光影的效果做进一步调整，右侧列出的是 OptiFine 提供的通用选项，点击右下角的光影设置可以打开当前光影包的专有选项，以便对光影的效果作出更多调整。" />
     </StackPanel>
