@@ -5,9 +5,11 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="光影（Shader）是通过游戏 Mod 实现的一项画面修改功能，玩家可以通过加载光影包（Shader Pack）来修改 Minecraft 的画面渲染方式，使得游戏画面更为美观或具有风格。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders，前者支持 Forge 加载器（可以通过 OptiFabric Mod 兼容 Fabric）而后者支持 Fabric 加载器。OptiFine 几乎支持所有的 Minecraft 版本而 Iris Shaders 作为新兴的光影 Mod，目前只支持1.16.5和1.17。一般情况下，OptiFine 是使用光影的最佳选择。" />
+                   Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders，前者支持 Forge 加载器（可以通过 OptiFabric Mod 兼容 Fabric）而后者支持 Fabric 加载器。OptiFine 几乎支持所有的 Minecraft 版本而 Iris Shaders 作为新兴的光影 Mod，目前只支持 1.16.5 及更高版本。一般情况下，OptiFine 是使用光影的最佳选择。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="虽然 Iris Shaders 支持的游戏版本较少，但其内置的 Sodium Mod 对图像性能的优化效果显著，甚至优于 OptiFine。如果你游玩的版本能够使用，不妨先尝试 Iris Shaders。" />
+                   Text="虽然 Iris Shaders 支持的游戏版本较少，但其支持的 Sodium Mod 对图像性能的优化效果显著，甚至优于 OptiFine。如果你游玩的版本能够使用，不妨先尝试 Iris Shaders。" />
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="从1.1.3版本开始，Iris Shaders 不再自带 Sodium Mod，你需要额外下载 Sodium Mod。" />
     </StackPanel>
 </local:MyCard>
 
@@ -17,7 +19,7 @@
                    Text="如果你选择使用 OptiFine，PCL2 可以为下载的 Minecraft 版本自动安装 OptiFine，使用自动安装功能时展开“OptiFine”菜单，选择需要的版本即可。" />
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/19/48304d59afe03.png" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器。关于安装 OptiFabric 的详细说明，请查看帮助&quot;安装 Mod&quot;。" />
+                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器。关于安装 OptiFabric 的详细说明，请查看请查看帮助“安装 Mod”。" />
     </StackPanel>
 </local:MyCard>
 
@@ -55,9 +57,9 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="导入完成后，在光影设置界面（选项-视频设置-光影…）可以看到已经导入的光影包，点击即可启用。" />
         <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/19/f300670c6071d.png" />
-        <Image HorizontalAlignment="Center" Source="https://pic.liesio.com/2021/07/20/37dd43e6fcc85.png" />
+        <Image HorizontalAlignment="Center" Source="https://s4.ax1x.com/2022/02/03/HVq7jJ.png" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="如果使用了 OptiFine，你还可以在光影设置界面对光影的效果做进一步调整，右侧列出的是 OptiFine 提供的通用选项，点击右下角的光影设置可以打开当前光影包的专有选项，以便对光影的效果作出更多调整。" />
+                   Text="你还可以在光影设置界面对光影的效果做进一步调整，右侧列出的是 OptiFine 提供的通用选项，点击右下角的光影设置可以打开当前光影包的专有选项，以便对光影的效果作出更多调整。" />
     </StackPanel>
 </local:MyCard>
 
