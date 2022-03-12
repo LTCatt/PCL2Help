@@ -13,9 +13,9 @@
 <local:MyCard Title="获取数据包" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="数据包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的数据包。很多 Minecraft 交流网站(如 MCBBS)都有专门的数据包分享版块，你可以在这些地方挑选自己喜欢的数据包。" />
+                   Text="数据包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的数据包。很多 Minecraft 交流网站(如 MCBBS)都有专门的数据包版块，你可以在这些地方挑选自己喜欢的数据包。" />
         <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="打开 MCBBS 数据包分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?mod=forumdisplay&amp;fid=39&amp;filter=typeid&amp;typeid=146" />
+                   Text="打开 MCBBS 数据包板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-datapack-1.html" />
     </StackPanel>
 </local:MyCard>
 
@@ -94,4 +94,4 @@
                    Text="5. 设置一些你想设置的，如世界名称、游戏模式等，点击下方“创建新的世界”进入游戏。"/>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：jiecs_23、WTP016、CheloverC60" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：jiecs_23、WTP016、CheloverC60、Thehrz" IsWarn="False" />
