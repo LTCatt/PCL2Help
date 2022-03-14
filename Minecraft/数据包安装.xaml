@@ -102,4 +102,4 @@
                    Text="5. 设置一些你想设置的，如世界名称、游戏模式等，点击下方“创建新的世界”进入游戏。"/>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：jiecs_23、WTP016、CheloverC60、Thehrz" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：jiecs_23、WTP016、CheloverC60" IsWarn="False" />
