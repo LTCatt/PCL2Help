@@ -50,15 +50,23 @@
 </local:MyCard>
 
 <local:MyCard Title="加载数据包" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <Grid>
-            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="一般情况下，您只需重新打开存档即可加载数据包。&#xa;您也可以在开启作弊的存档中按 T 输入 /reload 回车，来加载数据包。如果您加载的数据包包含了自定义维度等内容，您必须通过重新进入存档以重新加载数据包。" HorizontalAlignment="Left" />
-            <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
-                        Text="复制 /reload 文本" EventType="复制文本" EventData="/reload" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RM1SUI.png" />
-        </Grid>
-    </StackPanel>
+    <Grid Margin="25,40,23,15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Grid.Column="0"
+                    Text="一般情况下，您只需重新打开存档即可加载数据包。&#xa;您也可以在开启作弊的存档中按 T 输入 /reload 回车，来加载数据包。如果您加载的数据包包含了自定义维度等内容，您必须通过重新进入存档以重新加载数据包。" HorizontalAlignment="Left" />
+        <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left" Grid.Row="1"
+                    Text="复制 /reload 文本" EventType="复制文本" EventData="/reload" />
+        <Image Grid.Column="2" Grid.RowSpan="3" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/24/RM1SUI.png" />
+    </Grid>
 </local:MyCard>
 
 <local:MyCard Title="对于 Minecraft Java 1.16 及以上版本的安装方法" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
