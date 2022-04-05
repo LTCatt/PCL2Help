@@ -23,18 +23,18 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="世界下载完成后需要导入方可在游戏中使用。导入世界只需将您得到的地图文件夹放入 .minecraft/saves 文件夹即可。&#xa;有些地图的文件夹根目录有 resources.zip 文件，这是地图自带的材质包，您可以参考“安装资源包”教程进行安装。" />
-                   <Image HorizontalAlignment="Center" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/saves/explorer-saves-folder.png" />
-                   <Image HorizontalAlignment="Center" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/saves/explorer-import-worlds.png" />
+                   <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@saves/explorer-saves-folder.png" />
+                   <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@saves/explorer-import-worlds.png" />
         <local:MyHint Margin="0,0,0,15" Text="注意: 大部分地图下载下来后为压缩文件(.rar / .zip / .7z)，您需要解压后放入 saves 文件夹。" IsWarn="False"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="如果您开启了版本隔离，则您需要在 PCL2 中选中您需要安装世界的版本，点击右侧的小齿轮(或在主页点击“版本设置”)，然后点击“打开版本文件夹”，找到 .minecraft/saves 文件夹再将世界放入此文件夹。"/>
-                    <Image HorizontalAlignment="Center" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/saves/pcl2-choose-version-to-open-settings.png"/>
-                    <Image HorizontalAlignment="Center" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/saves/pcl2-find-version-settings.png"/>
-                    <Image HorizontalAlignment="Center" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/saves/pcl2-open-version-folder.png"/>
-                    <Image HorizontalAlignment="Center" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/saves/explorer-other-saves.png"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@saves/pcl2-choose-version-to-open-settings.png"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@saves/pcl2-find-version-settings.png"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@saves/pcl2-open-version-folder.png"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@saves/explorer-other-saves.png"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="在 PCL2 中选中您刚才导入世界的版本，点击启动，点击“单人游戏”，找到您刚刚导入的存档(一般与文件夹同名)，双击以游玩。"/>
-                    <Image HorizontalAlignment="Center" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/saves/minecraft-play.png"/>
+                    <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@saves/minecraft-play.png"/>
     </StackPanel>
 </local:MyCard>
 

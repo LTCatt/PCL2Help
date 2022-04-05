@@ -21,9 +21,9 @@
 
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                        Text="点击下载 Git(32位)" EventType="下载文件" EventData="https://npm.taobao.org/mirrors/git-for-windows/v2.34.1.windows.1/Git-2.34.1-32-bit.exe" />
+                        Text="点击下载 Git(32位)" EventType="下载文件" EventData="https://registry.npmmirror.com/-/binary/git-for-windows/v2.35.1.windows.2/Git-2.35.1.2-32-bit.exe" />
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="点击下载 Git(64位)" EventType="下载文件" EventData="https://npm.taobao.org/mirrors/git-for-windows/v2.34.1.windows.1/Git-2.34.1-64-bit.exe" />
+                        Text="点击下载 Git(64位)" EventType="下载文件" EventData="https://registry.npmmirror.com/-/binary/git-for-windows/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe" />
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="访问官网" EventType="打开网页" EventData="https://git-scm.com/" />
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"

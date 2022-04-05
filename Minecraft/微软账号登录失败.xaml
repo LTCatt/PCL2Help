@@ -20,7 +20,7 @@
             <TextBlock Margin="0,10,0,2" LineHeight="17"
                 Text="1. 在任务栏上找到对应网络状态的图标，右键点击此图标后点击&quot;网络和 Internet 设置&quot;。" />
         </Grid>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/MSA-Login/Taskbar.NI.Settings.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@MSA-Login/Taskbar.NI.Settings.png" />
 
         <!-- 更改适配器设置 -->
         <Grid>
@@ -28,7 +28,7 @@
                 Text="2. Win10: 转到 WLAN 页面并点击&quot;更改适配器设置&quot;（在右边或者下边）。&#xA; Win11: 点击&quot;高级网络设置&quot;后点击下方的&quot;更多网络适配器选项&quot;。" />
         </Grid>
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/3.WALN.png" />
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/MSA-Login/Win11.Settings.NW.SPQ.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@MSA-Login/Win11.Settings.NW.SPQ.png" />
 
         <!-- 右键点击你的连接 点击属性 -->
         <Grid>
@@ -42,7 +42,7 @@
                 Text="4. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”，您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。保存后按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" />
         </Grid>
         <!-- 此处原 DNS 为微软公用 DNS，鉴于此 DNS 在中国大陆内使用情况不佳，更改为阿里云 DNS -->
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/MSA-Login/ControlPanel.DNS.Settings.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@MSA-Login/ControlPanel.DNS.Settings.png" />
         <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
         Text="复制 ipconfig /flushdns 命令" EventType="复制文本" EventData="ipconfig /flushdns" />
 
@@ -80,7 +80,7 @@
             <TextBlock Margin="0,10,0,2" LineHeight="17"
                 Text="4. 在任务栏上找到对应网络状态的图标，右键点击此图标后&quot;网络和 Internet 设置&quot;。" />
         </Grid>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/MSA-Login/Taskbar.NI.Settings.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@MSA-Login/Taskbar.NI.Settings.png" />
 
         <!-- 更改适配器设置 -->
         <Grid>
@@ -88,7 +88,7 @@
                 Text="5. Win10: 转到 WLAN 页面并点击&quot;更改适配器设置&quot;（在右边或者下边）。&#xA; Win11: 点击&quot;高级网络设置&quot;后点击下方的&quot;更多网络适配器选项&quot;。" />
         </Grid>
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/3.WALN.png" />
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/MSA-Login/Win11.Settings.NW.SPQ.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@MSA-Login/Win11.Settings.NW.SPQ.png" />
 
         <!-- 右键点击你的连接 点击属性 -->
         <Grid>
@@ -102,7 +102,7 @@
                 Text="4. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”，您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。保存后按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" />
         </Grid>
         <!-- 此处原 DNS 为微软公用 DNS，鉴于此 DNS 在中国大陆内使用情况不佳，更改为阿里云 DNS -->
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://wtp016-image-1302365763.cos.ap-shanghai.myqcloud.com/Image_for_PCL2Help/MSA-Login/ControlPanel.DNS.Settings.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@MSA-Login/ControlPanel.DNS.Settings.png" />
         <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
         Text="复制 ipconfig /flushdns 命令" EventType="复制文本" EventData="ipconfig /flushdns" />
 
