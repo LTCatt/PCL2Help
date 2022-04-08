@@ -6,9 +6,9 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17" Text="Visual Studio Code，简称 VSCode，是一款由微软开发的开源跨平台编辑器。你可以通过下面的按钮获取 VSCode 的 Windows 版本。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                            Text="点击下载 VSCode(64位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/e18005f0f1b33c29e81d732535d8c0e47cafb0b5/VSCodeSetup-x64-1.66.0.exe" />
+                            Text="点击下载 VSCode(64位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/8dfae7a5cd50421d10cd99cb873990460525a898/VSCodeSetup-x64-1.66.1.exe" />
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                            Text="点击下载 VSCode(32位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/e18005f0f1b33c29e81d732535d8c0e47cafb0b5/VSCodeSetup-ia32-1.66.0.exe" />
+                            Text="点击下载 VSCode(32位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/8dfae7a5cd50421d10cd99cb873990460525a898/VSCodeSetup-ia32-1.66.1.exe" />
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                             Text="访问官网" EventType="打开网页" EventData="https://code.visualstudio.com" />
         </StackPanel>
@@ -40,10 +40,10 @@
                     Text="最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
         Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了。修改完成后，点击右侧的第三个按钮&quot;源代码管理&quot;或按下键盘上的 Ctrl 键 + Shit 键 + G 键，在上方输入你的修改内容，点击&quot;更改&quot;旁边的 + 号，再点击&quot;源代码管理&quot;旁边的 + 号，将你的更新暂存，再点击下方的&quot;master&quot;旁边的按钮，你的更新就被推送到你的 Fork 仓库了。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@vvscode-push-changes/VSCode.Pull.Changes.png" />
+        <Image HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/vscode-push-changes/VSCode.Pull.Changes.png" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
         Text="在 Pull Request 前，你需要同步原仓库内的内容以保证你的仓库保持最新。打开你的 Fork 仓库主页，找到&quot;Fetch upstream (从上游获取)&quot;按钮并点击，再点击&quot;Fetch and merge (获取并合并)&quot;，你的仓库就同步了原仓库。经过了这些步骤之后，你就可以提交你的 Pull Request 了。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/WTP016-CN/Image_for_PCL2Help@vvscode-push-changes/Github.Fetch.upstream.png" />
+        <Image HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/vscode-push-changes/Github.Fetch.upstream.png" />
     </StackPanel>
 </local:MyCard>
 
