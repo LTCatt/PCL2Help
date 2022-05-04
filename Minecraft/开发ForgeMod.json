@@ -1,0 +1,9 @@
+{
+    "__Author__": "mxdyzmx",
+	"Title": "开发基于Forge的Mod",
+	"Description": "开发一个属于自己的Mod!",
+	"Types": ["Minecraft"],
+    "IsEvent": true,
+    "EventType": "打开网页",
+	"EventData": "https://mcforge-cn.readthedocs.io/zh/latest/"
+}
