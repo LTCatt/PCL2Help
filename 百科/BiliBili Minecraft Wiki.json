@@ -1,0 +1,10 @@
+{
+	"__Author__": "mxdyzmx",
+	"Title": "国内百科",
+	"Description": "BiliBili Minecraft Wiki：国内由BiliBili假设的镜像百科",
+	"Keywords": "我的世界wikipedia",
+	"Types": ["百科"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://wiki.biligame.com/mc/Minecraft_Wiki"
+}
