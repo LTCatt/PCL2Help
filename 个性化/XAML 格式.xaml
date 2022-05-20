@@ -118,6 +118,27 @@
                    Text="EventType 为下载文件，会在点击时要求选择文件保存位置，并且下载 EventData 的链接中的文件。" />
         <local:MyButton Margin="0,8,0,0" Width="250" Height="35"
                    Text="下载 MCBBS 的 Logo" EventType="下载文件" EventData="https://www.mcbbs.net/template/mcbbs/image/logo_sc.png" />
+        <TextBlock Margin="0,4,0,0"
+                   Text="EventType 为打开帮助，在 EventData 中输入（帮助文件所在路径）/（帮助文件名.json）后即可通过点击按钮来快速打开帮助页面。"/>
+        <TextBlock Margin="0,4,0,0"
+                   Text="以下面的按钮为例，当点击这个按钮时会跳转到相应的帮助，EventType 为打开帮助，EventData 为 帮助/自定义帮助.json"/>
+        <local:MyButton Margin="0,8,0,0" Width="250" Height="35"
+                   Text="自定义帮助教程" EventType="打开帮助" EventData="帮助/自定义帮助.json"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="高级：列表教学" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="在需要更详细的列出内容时，你可以使用列表项“local:MyListItem”来替代按钮。在列表项中，点击操作的使用方式与按钮相同。" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="其中，Logo 指的是列表项目的图标，所指定的可以是链接也可以是文件路径，Title 则是列表项的大标题，Info 指详细信息，它将会以灰色显示在大标题下方，同时 Info 是可选属性；Type 如果省略，所列的列表仅单纯展示信息，只有在 Type 属性里输入 Clickable 才能够触发相应活动。"/>
+        <local:MyListItem  Margin="-5,15,-5,0" 
+		                  Logo="https://www.baidu.com/favicon.ico" Title="百度" Info="百度一下，你就知道！" 
+		                  EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable" />
+        <local:MyListItem Margin="-5,0,-5,8"
+                          Logo="pack://application:,,,/images/Blocks/Grass.png"
+		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" Type="Clickable" />
     </StackPanel>
 </local:MyCard>
 
@@ -239,4 +260,4 @@ local:MyCard（卡片）：
 
 -->
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、林小槐" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、林小槐、TCJ" IsWarn="False" />
