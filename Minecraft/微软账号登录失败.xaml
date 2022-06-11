@@ -27,7 +27,7 @@
             <TextBlock Margin="0,10,0,2" LineHeight="17"
                 Text="2. Win10: 转到 WLAN 页面并点击&quot;更改适配器设置&quot;（在右边或者下边）。&#xA; Win11: 点击&quot;高级网络设置&quot;后点击下方的&quot;更多网络适配器选项&quot;。" />
         </Grid>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/3.WALN.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://fastly.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/3.WALN.png" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="http://image-pcl2help.test.upcdn.net/MSA-Login/Win11.Settings.NW.SPQ.png" />
 
         <!-- 右键点击你的连接 点击属性 -->
@@ -35,7 +35,7 @@
             <TextBlock Margin="0,10,0,2" LineHeight="17"
                 Text="3. 右键点击你的连接，点击属性。" />
         </Grid>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/4.R.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://fastly.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/4.R.png" />
 
         <Grid>
             <TextBlock Margin="0,10,0,2" LineHeight="17"
@@ -65,7 +65,7 @@
             <TextBlock Margin="0,10,0,2" LineHeight="17"
                 Text="2. 按下键盘上的 Windows + R 键，打开运行界面，输入 services.msc 打开服务管理程序。" />
                         </Grid>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/10.Service.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://fastly.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/10.Service.png" />
         <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
         Text="复制 services.msc 命令" EventType="复制文本" EventData="services.msc" />
 
@@ -74,7 +74,7 @@
             <TextBlock Margin="0,10,0,2" LineHeight="17"
                 Text="3. 找到&quot;Microsoft (R) 诊断中心标准收集器服务&quot;，右键点击属性，改成手动，开启服务。" />
                         </Grid>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/11.Microsoft(R).png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://fastly.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/11.Microsoft(R).png" />
 
         <Grid>
             <TextBlock Margin="0,10,0,2" LineHeight="17"
@@ -87,7 +87,7 @@
             <TextBlock Margin="0,10,0,2" LineHeight="17"
                 Text="5. Win10: 转到 WLAN 页面并点击&quot;更改适配器设置&quot;（在右边或者下边）。&#xA; Win11: 点击&quot;高级网络设置&quot;后点击下方的&quot;更多网络适配器选项&quot;。" />
         </Grid>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/3.WALN.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://fastly.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/3.WALN.png" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="http://image-pcl2help.test.upcdn.net/MSA-Login/Win11.Settings.NW.SPQ.png" />
 
         <!-- 右键点击你的连接 点击属性 -->
@@ -95,7 +95,7 @@
             <TextBlock Margin="0,10,0,2" LineHeight="17"
                 Text="6. 右键选择你的连接，点击属性。" />
         </Grid>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/4.R.png" />
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://fastly.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Minecraft/4.R.png" />
 
         <Grid>
             <TextBlock Margin="0,10,0,2" LineHeight="17"

@@ -19,23 +19,23 @@
         <TextBlock Margin="0,30,0,0" Text="1. 前往 https://littleskin.cn/auth/register 注册一个 LittleSkin 账号。" />
         <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开 LittleSkin 注册界面" EventType="打开网页" EventData="https://littleskin.cn/auth/register" />
 
-        <Image Margin="0,10,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img1.png" />
+        <Image Margin="0,10,0,0" Height="360" HorizontalAlignment="Left" Source ="https://fastly.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img1.png" />
 
         <TextBlock Margin="0,50,0,0" Text="2. 注册完以后，进入 https://littleskin.cn/user 点击左侧“角色管理”，再点击“添加新角色。”" />
         <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开 LittleSkin 用户中心" EventType="打开网页" EventData="https://littleskin.cn/user" />
-        <Image Margin="0,10,0,0" Height="360" HorizontalAlignment="Left" Source="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img2.png" />
+        <Image Margin="0,10,0,0" Height="360" HorizontalAlignment="Left" Source="https://fastly.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img2.png" />
 
         <TextBlock Margin="0,50,0,0" Text="3. 在弹出的窗口内输入角色名(这将会成为联机时的ID)，填写完成后点击“确定”。" />
-        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img3.png" />
+        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source="https://fastly.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img3.png" />
 
         <TextBlock Margin="0,50,0,0" Text="4. 打开 PCL2 启动器，点击左下角的“版本选择”。" />
-        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img4.png" />
+        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source="https://fastly.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img4.png" />
 
         <TextBlock Margin="0,50,0,0" Text="5. 右键点击将要联机的游戏版本。" />
-        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left"  Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img5.png" />
+        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left"  Source ="https://fastly.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img5.png" />
 
         <TextBlock Margin="0,50,0,0" Text="6. 点击左侧“设置”选项，并滑动到页面底部，登录方式选择“第三方登录：Authlib-Injector”。" />
-        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img6.png" />
+        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://fastly.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img6.png" />
 
         <TextBlock Margin="0,50,0,0" Text="7. 按要求填写信息。" />
         <TextBlock Background="#ddff95" Padding="5,5,5,5" Margin="0,10,0,0" Text="   认证服务器 https://littleskin.cn/api/yggdrasil" />
@@ -44,10 +44,10 @@
         <local:MyButton Margin="0,10,0,0" Width="160" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制“注册链接”网址" EventType="复制文本" EventData="https://littleskin.cn/auth/register" />
         <TextBlock Background="#f1b8f1" Padding="5,5,5,5" Margin="0,10,0,0" Text="   服务器名称 任意" />
         <TextBlock Background="#f1ccb8" Padding="5,5,5,5" Margin="0,10,0,0" Text="   自动进入服务器 留空" />
-        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img7.png" />
+        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://fastly.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img7.png" />
 
         <TextBlock Margin="0,50,0,0" Text="8.填写完成后返回 PCL2 启动界面，输入 LittleSkin 网站的账号以及密码，启动游戏后即可登录。" />
-        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img8.png" />
+        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://fastly.jsdelivr.net/gh/bling-yshs/ys_tuchuang@main//img8.png" />
         <local:MyHint Margin="0,20,0,0" Text="使用 LittleSkin 外置登录后仍无法进入正版服务器。您只能进入离线模式服务器、使用外置登录的服务器和局域网联机。" IsWarn="True" />
     </StackPanel>
 </local:MyCard>

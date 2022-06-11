@@ -33,10 +33,10 @@
 		<local:MyHint Margin="0,-5,0,15" Text="请注意，修改 PCL 2 的全局配置将影响所有依赖 PCL 2 启动的游戏版本。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="20"
                    Text="1. 打开您的 PCL 2 启动器，在主页点击上方的“设置”选单。" />
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Setting.png" />             
+        <Image HorizontalAlignment="Center" Source="https://fastly.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Setting.png" />             
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="2. 点击左侧的“游戏”选项卡，向下翻找，找到“游戏内存”选项卡。" />
-        <Image HorizontalAlignment="Center" Source="https://cdn.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Storage.png" />
+        <Image HorizontalAlignment="Center" Source="https://fastly.jsdelivr.net/gh/Dongyifengs/PCLCDN@main/Storage.png" />
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="3. 选择“自定义”，此时拖动圆点即可手动调整全局内存。" />
     </StackPanel>
