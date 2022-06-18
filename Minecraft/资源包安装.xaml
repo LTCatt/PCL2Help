@@ -22,30 +22,30 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL2 启动器中找到您想要安装资源包的版本，如教程内选择 1.16.5 作为演示。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/main/pcl2-find-version-add-mosaic.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/main/pcl2-find-version-add-mosaic.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 点击最右侧的齿轮打开 “版本设置”，点击下方 “打开版本文件夹” 按钮。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/main/pcl2-open-folder-regular.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/main/pcl2-open-folder-regular.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 此时，您应该能在弹出的资源管理器界面中看见 “resourcepacks” 文件夹。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/main/explorer-resource-pack-folder-find.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/main/explorer-resource-pack-folder-find.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="4. 打开 “resourcepacks” 文件夹，并将您的资源包拖入 ”resourcepacks“ 文件夹。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/main/explorer-prepared-put-into-resourcepack-folder.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/main/explorer-prepared-put-into-resourcepack-folder.png" />
         </Grid>
 
         <local:MyHint Margin="0,15,0,0" Text="注意：部分资源包压缩包主体内套入了一个文件夹，此时你可以直接将此文件夹解压至 “resourcepacks” 文件夹使用。（如下图）" IsWarn="False" />
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="http://image-pcl2help.test.upcdn.net/main/bandizip-zip-folder.png"/>
-        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="http://image-pcl2help.test.upcdn.net/main/explorer-resourcepack-folder-resourcepack.png"/>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://resources.cakeskin.tk/file/pcl2-image/main/bandizip-zip-folder.png"/>
+        <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://resources.cakeskin.tk/file/pcl2-image/main/explorer-resourcepack-folder-resourcepack.png"/>
     </StackPanel>
 </local:MyCard>
 
@@ -55,8 +55,8 @@
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 启动您的游戏，打开 “选项 > 资源包”。" HorizontalAlignment="Left" />
                 <StackPanel Margin="250,0,0,0">
-                    <Image HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/main/minecraft-settings.png" />
-                    <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="http://image-pcl2help.test.upcdn.net/main/minecraft-settings-resourcepack.png" />
+                    <Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/main/minecraft-settings.png" />
+                    <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="https://resources.cakeskin.tk/file/pcl2-image/main/minecraft-settings-resourcepack.png" />
                 </StackPanel>
         </Grid>
 
@@ -64,8 +64,8 @@
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 此时，您应该能看到左侧 “可用” 列表中有您下载的资源包名称，将指针移动至图标上方，将出现一个箭头，点击箭头，此时您应该可以看到此资源包移动到了右侧 “已选” 列表，点击 “完成” 应用资源包。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
-                <Image HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/main/minecraft-resourcepack-choose.png" />
-                <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="http://image-pcl2help.test.upcdn.net/main/minecraft-resourcepack-left.png" />
+                <Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/main/minecraft-resourcepack-choose.png" />
+                <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="https://resources.cakeskin.tk/file/pcl2-image/main/minecraft-resourcepack-left.png" />
             </StackPanel>
         </Grid>
 
@@ -82,15 +82,15 @@
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 启动您的游戏，打开选项——资源包。" HorizontalAlignment="Left" />
                 <StackPanel Margin="250,0,0,0">
-                  <Image HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/main/minecraft-settings.png" />
-                  <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="http://image-pcl2help.test.upcdn.net/main/minecraft-settings-resourcepack.png" />
+                  <Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/main/minecraft-settings.png" />
+                  <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="https://resources.cakeskin.tk/file/pcl2-image/main/minecraft-settings-resourcepack.png" />
                 </StackPanel>
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 找到您下载的资源包，将其文件直接拖至 Minecraft 窗口内。此时会弹出一个提示询问安装，点击 “是”。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://image-pcl2help.test.upcdn.net/main/minecraft-1.16+-resourcepack-true.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/main/minecraft-1.16+-resourcepack-true.png" />
         </Grid>
 
         <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
