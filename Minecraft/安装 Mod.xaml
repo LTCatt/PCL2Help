@@ -1,5 +1,4 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<!-- 需要减少 MyHint 的使用，最后面一个卡片用得太多了 -->
 <!-- 由 WTP016 修改的部分的图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/mods -->
 
 <local:MyCard Title="Mod 是什么？" Margin="0,0,0,15">
@@ -69,4 +68,4 @@
         <local:MyHint Margin="0,0,0,15" Text="在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。" IsWarn="False" />
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake，Logic_530、WTP016" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake，Logic_530、WTP016、lvjiajjjlzy" IsWarn="False" />
