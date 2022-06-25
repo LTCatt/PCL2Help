@@ -1,0 +1,10 @@
+{
+    "__Author__": "lvjiajjjlzy",
+	"Title": "运行内存清理",
+	"Description": "如果你的设备的运行内存较小，可以尝试下这个软件，用来清理出更多的运行内存安装Mod，并且软件本身十分小巧，自带汉化",
+	"Keywords": "运行内存清理",
+	"Types": ["指南"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://www.henrypp.org/product/memreduct"
+}
