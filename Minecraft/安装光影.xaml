@@ -49,7 +49,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="如果你使用的是 Iris Shaders，还可以在光影设置界面（选项-视频设置-光影包…）直接将光影包文件拖放到 Minecraft 窗口内完成导入。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="部分光影包在Iris Shaders中无法正常运行。大部分主流光影在OptiFine 和 Iris Shaders都可以运行。" />
+                   Text="虽然光影包是不区分Iris Shaders和OptiFine的，但是部分光影包在Iris Shaders中无法正常运行。大部分主流光影在OptiFine 和 Iris Shaders都可以运行。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
                    Text="光影包下载完成后一般是.zip压缩文件的形式，直接放入光影包文件夹即可，不需要解压。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
