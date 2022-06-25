@@ -11,7 +11,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Mod 加载器是 Minecraft 安装绝大部分 Mod 的必要前置条件，因为有些Mod采取的是文件覆盖，无需加载器，最常见例子就是高清修复。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="要想安装 Mod 必须先安装 Mod 加载器，目前高版本（1.12 以上）主流的 Mod 加载器有 Forge 和 Fabric 两种，而它们不能同时安装。在1.7-1.12.2版本中，Liteloader加载器也是一个选择。1.13版本期间还有一个短命的Rift加载器，Quilt支持1.14以上版本，使用人数正在逐渐变多。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Forge 几乎支持所有 Minecraft 版本，而 Fabric 只支持 1.14 及以上。总体上，Forge 支持的 Mod 比 Fabric 多，但有部分精品 Mod 只支持 Fabric。"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="一些Mod仅支持其中一种加载器，因此你需要试着去搜索其它加载器的替代品。Quilt与Fabric兼容，且Quilt兼容Fabric的Mod，但是Fabric不兼容Quilt的Mod。Forge与Fabric不兼容，Liteloader与Forge兼容。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="一些Mod仅支持其中一种加载器，因此你需要试着去搜索其它加载器下有没有类似的Mod可以当作替代品。Quilt与Fabric兼容，且Quilt兼容Fabric的Mod，但是Fabric不兼容Quilt的Mod。Forge与Fabric不兼容，Liteloader与Forge兼容。"/>
     </StackPanel>  
  </local:MyCard>
 <local:MyCard Title="安装 Mod 加载器 - Forge" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
