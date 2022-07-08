@@ -6,7 +6,7 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17" Text="Visual Studio Code，简称 VSCode，是一款由微软开发的开源跨平台编辑器。你可以通过下面的按钮获取 VSCode 的 Windows 版本。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                            Text="点击下载 VSCode（若下载慢，可使用PCL2中的“更多”->“百宝箱”->“下载自定义文件”来下载" EventType="打开网页" EventData="https://code.visualstudio.com/docs/?dv=win" />
+                            Text="点击下载 VSCode" EventType="打开网页" EventData="https://code.visualstudio.com/docs/?dv=win" />
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                             Text="访问官网" EventType="打开网页" EventData="https://code.visualstudio.com" />
         </StackPanel>
