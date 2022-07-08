@@ -1,10 +1,10 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<!-- 图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/saves (以 安装光影 教程为基础更改) -->
+<!-- 图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/saves -->
 
 <local:MyCard Title="世界是什么？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="世界 (Worlds) 是指由 Minecraft 玩家创造的存档。玩家的游戏中生成的世界可以被其他玩家下载并进行游玩。" />
+                   Text="世界 (Worlds, 亦称为地图、存档) 是指由 Minecraft 玩家创造的存档。玩家的游戏中生成的世界可以被其他玩家下载并进行游玩。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="目前国内外比较知名的世界分享网站有 MCBBS(我的世界中文论坛) 和 MinecraftMaps 等。"/>
     </StackPanel>

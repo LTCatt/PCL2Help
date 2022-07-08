@@ -6,9 +6,9 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17" Text="Visual Studio Code，简称 VSCode，是一款由微软开发的开源跨平台编辑器。你可以通过下面的按钮获取 VSCode 的 Windows 版本。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                            Text="点击下载 VSCode(64位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/8dfae7a5cd50421d10cd99cb873990460525a898/VSCodeSetup-x64-1.66.1.exe" />
+                            Text="点击下载 VSCode(64位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/VSCodeSetup-x64-1.69.0.exe" />
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                            Text="点击下载 VSCode(32位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/8dfae7a5cd50421d10cd99cb873990460525a898/VSCodeSetup-ia32-1.66.1.exe" />
+                            Text="点击下载 VSCode(32位)" EventType="下载文件" EventData="https://az764295.vo.msecnd.net/stable/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/VSCodeSetup-ia32-1.69.0.exe" />
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                             Text="访问官网" EventType="打开网页" EventData="https://code.visualstudio.com" />
         </StackPanel>
