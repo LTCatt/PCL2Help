@@ -9,7 +9,7 @@
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
                    Text="虽然 Iris Shaders 支持的游戏版本较少，但其支持的 Sodium Mod 对图像性能的优化效果显著，甚至优于 OptiFine。如果你游玩的版本能够使用，不妨先尝试 Iris Shaders。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="从1.1.3版本开始，Iris Shaders 不再自带 Sodium Mod，你需要额外下载 Sodium Mod。" />
+                   Text="从 1.1.3 版本开始，Iris Shaders 不再自带 Sodium Mod，你需要额外下载 Sodium Mod。" />
     </StackPanel>
 </local:MyCard>
 
@@ -19,7 +19,7 @@
                    Text="如果你选择使用 OptiFine，PCL2 可以为下载的 Minecraft 版本自动安装 OptiFine，使用自动安装功能时展开“OptiFine”菜单，选择需要的版本即可。" />
         <Image HorizontalAlignment="Center" Source="hhttps://resources.cakeskin.tk/file/pcl2-image/Install-Shaders/Install-OptiFine.png" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器。关于安装 OptiFabric 的详细说明，请查看请查看帮助“安装 Mod”。" />
+                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器，在 PCL2 最新版本中使用自动安装功能时同时选择&quot;OptiFine&quot;、&quot;OptiFabric&quot;、&quot;Fabric&quot;和&quot;Fabric API&quot;即可。" />
     </StackPanel>
 </local:MyCard>
 
@@ -45,13 +45,13 @@
 <local:MyCard Title="导入并启用光影包" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="光影包下载完成后需要导入方可在游戏中使用，OptiFine 和 Iris Shaders 导入光影包的操作相同，只需将光影包放入 .minecraft/shaderpacks 文件夹即可。如果你不清楚怎么找到这个文件夹，可以在进入游戏后，点击 选项-视频设置-光影-光影包文件夹，游戏会自动为你打开文件夹。" />
+                   Text="光影包下载完成后需要导入方可在游戏中使用，OptiFine 和 Iris Shaders 导入光影包的操作相同，只需将光影包放入 .minecraft/shaderpacks 文件夹即可。如果你不清楚怎么找到这个文件夹，可以在进入游戏后，点击 选项-视频设置-光影-光影包 文件夹，游戏会自动为你打开文件夹。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="如果你使用的是 Iris Shaders，还可以在光影设置界面（选项-视频设置-光影包…）直接将光影包文件拖放到 Minecraft 窗口内完成导入。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
                    Text="光影包不区分 OptiFine 或 Iris Shaders，理论上任何光影包都可以在两个 Mod 中使用。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="光影包下载完成后一般是.zip压缩文件的形式，直接放入光影包文件夹即可，不需要解压。" />
+                   Text="光影包下载完成后一般是 .zip 压缩文件的形式，直接放入光影包文件夹即可，不需要解压。" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
                    Text="有时光影包的作者会依据光影包对电脑性能的需求高低制作多个版本的光影包，并打包成一个压缩包方便玩家下载，此时则需要将大压缩包中的每个光影包提取出来才能使用。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
