@@ -60,7 +60,7 @@
                         Text="打开资源管理器" EventType="打开文件" EventData="explorer.exe|%homepath%\.ssh\id_rsa.pub" />
 
         <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="③ 进入网页版 Github 的设置中，打开 SSH and GPG keys 项，点击 NEW ssh key ，标题任意，内容粘贴打开文件的内容。"/>
+                    Text="③ 进入网页版 Github 的设置中，打开 SSH and GPG keys 项，点击 New SSH Key ，标题任意，内容粘贴打开文件的内容。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">            
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="访问设置" EventType="打开网页" EventData="https://github.com/settings/keys" />
