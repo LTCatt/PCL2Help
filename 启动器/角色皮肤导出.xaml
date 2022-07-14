@@ -10,7 +10,7 @@
     <StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,-5,0,15" Text="对于外置登录用户，请先确定您的登录配置正确。&#xa;如有必要，请先参考帮助内的“设置外置登录”。"/>
         <local:MyListItem Margin="0,0,0,0"
-		                  EventType="打开帮助" EventData="启动器/指定登陆方式.json" />
+		                  EventType="打开帮助" EventData="启动器/指定登录方式.json" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="1. 打开您的 PCL2 启动器，在如图所示的角色界面右键角色头像。"/>
 		<Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/06/26/9IKCYT5HUWa43Me.png" />   
