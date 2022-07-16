@@ -1,0 +1,7 @@
+{
+    "__Author" : "GBC034",
+    "Title" : "Mojang 账户迁移",
+    "Description" : "将 Mojang 账户迁移至 Microsoft 账户以确保账户的安全",
+    "Types" : ["Minecraft"],
+    "Keywords" : "Account Migration"
+}
