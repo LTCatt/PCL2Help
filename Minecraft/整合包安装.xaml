@@ -24,7 +24,7 @@
         <local:MyHint Margin="0,0,0,15" Text="注意: 以下情况假设您已下载好整合包(通常是为 .zip / .rar 结尾的文件)。" IsWarn="False" />
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL 2 启动器，点击“导入整合包”按钮，选择您需要安装的整合包，此处以 “Example.zip” 为范例。" HorizontalAlignment="Left" />
+                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL2 启动器，点击“导入整合包”按钮，选择您需要安装的整合包，此处以 “Example.zip” 为范例。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/10/1/pcl2-modpack-mcbbs-choose-version.png" />
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/10/1/pcl2-install-modpack-mcbbs.png" />

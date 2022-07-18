@@ -1,6 +1,6 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式、优化排版。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-
 <!-- 图片备份https://yshs.lanzous.com/ijlfCoodvfc -->
+
 <local:MyCard Title="手动设置内存大小">
 	<StackPanel Margin="25,40,23,5">
 		<TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -12,8 +12,13 @@
 <local:MyCard Title="1. 针对独立的一个版本进行调整">
     <StackPanel Margin="25,40,23,15">   
         <TextBlock Margin="0,4,0,4" LineHeight="20"
+<<<<<<< HEAD
                    Text="1. 打开您的 PCL 2 启动器，在主页点击左下方的“版本选择”按钮。" />
         <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Choose-Version.png" />             
+=======
+                   Text="1. 打开您的 PCL2 启动器，在主页点击左下方的“版本选择”按钮。" />
+        <Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/set-game-memory/Choose-Version.png" />             
+>>>>>>> upstream/master
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="2. 在版本选择列表中，右键点击需要修改内存的游戏版本。" />
         <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Version-Lists.png" />
@@ -30,10 +35,15 @@
 <!-- 有时候能加在出来有时候不能加载，而且加载了不能同时加载，更换图床 -->
 <local:MyCard Title="2. 针对启动器所有游戏内存进行调整">
     <StackPanel Margin="25,40,23,15">   
-		<local:MyHint Margin="0,-5,0,15" Text="请注意，修改 PCL 2 的全局配置将影响所有依赖 PCL 2 启动的游戏版本。"/>
+		<local:MyHint Margin="0,-5,0,15" Text="请注意，修改 PCL2 的全局配置将影响所有依赖 PCL2 启动的游戏版本。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="20"
+<<<<<<< HEAD
                    Text="1. 打开您的 PCL 2 启动器，在主页点击上方的“设置”选单。" />
         <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Setting.png" />             
+=======
+                   Text="1. 打开您的 PCL2 启动器，在主页点击上方的“设置”选单。" />
+        <Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/set-game-memory/Setting.png" />             
+>>>>>>> upstream/master
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="2. 点击左侧的“游戏”选项卡，向下翻找，找到“游戏内存”选项卡。" />
         <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Storage.png" />
