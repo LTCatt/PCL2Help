@@ -8,7 +8,7 @@
                    Text="启动 gpedit.msc" EventType="打开文件" EventData="gpedit.msc" />
         <Image  Source="https://s1.328888.xyz/2022/07/20/l7BHw.png" />
         <TextBlock TextWrapping="Wrap"
-                   Text="然后点击“排除项”，双击“路径排除项”和“进程排除项”，改为“已启用”，并点击“显示”按钮。在值名称处添加你的PCL启动器路径，并将值设为0。这样就可以避免误报了。如果你在其他路径也有PCL启动器，那么你还要添加，否则仍然可能被误杀。最后，不要忘记确定修改。" />
+                   Text="然后点击“排除项”，双击“路径排除项”和“进程排除项”，改为“已启用”，并点击“显示”按钮。在值名称处添加你的PCL启动器的完整路径，并将值设为0。这样就可以避免误报了。如果你在其他路径也有PCL启动器，那么你还要添加，否则仍然可能被误杀。最后，不要忘记确定修改。" />
         <Image  Source="https://s1.328888.xyz/2022/07/20/l7Mzy.png" />
         <Image  Source="https://s1.328888.xyz/2022/07/20/l7fEC.png" />
     </StackPanel>
