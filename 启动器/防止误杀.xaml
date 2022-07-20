@@ -1,0 +1,17 @@
+<local:MyCard Title="防止Windows 安全中心误报">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap"
+                   Text="首先，你需要打开gpedit.msc这个程序，你可以按下win+r来启动这个程序，也可以在下面启动。" />
+        <TextBlock TextWrapping="Wrap"
+                   Text="依次点击“管理模板”、“Windows 组件“、“Microsoft Defender 防病毒”" />
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                   Text="启动gpedit.msc" EventType="打开文件" EventData="gpedit.msc" />
+        <Image  Source="https://s1.328888.xyz/2022/07/20/l7BHw.png" />
+        <TextBlock TextWrapping="Wrap"
+                   Text="然后点击“排除项”，双击“路径排除项”和“进程排除项”，改为“已启用”，并点击“显示”按钮。在值名称处添加你的PCL启动器路径，并将值设为0。这样就可以避免误报了。如果你在其他路径也有PCL启动器，那么你还要添加，否则仍然可能被误杀。最后，不要忘记确定修改。" />
+        <Image  Source="https://s1.328888.xyz/2022/07/20/l7Mzy.png" />
+        <Image  Source="https://s1.328888.xyz/2022/07/20/l7fEC.png" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：lvjiajjj" IsWarn="False" />
