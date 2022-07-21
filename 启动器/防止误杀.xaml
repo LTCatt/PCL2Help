@@ -1,7 +1,7 @@
 <local:MyCard Title="防止 Windows 安全中心误报">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap"
-                   Text="首先，你需要打开 gpedit.msc 这个程序，你可以按 下win+r 来启动这个程序，也可以在下面启动。" />
+                   Text="首先，你需要打开 gpedit.msc 这个程序，你可以按下 win+r 来启动这个程序，也可以在下面启动。" />
         <TextBlock TextWrapping="Wrap"
                    Text="依次点击“管理模板”、“Windows 组件“、“Microsoft Defender 防病毒”" />
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
