@@ -5,7 +5,7 @@
         <TextBlock TextWrapping="Wrap"
                    Text="点击“病毒威胁和防护”。" />
         <TextBlock TextWrapping="Wrap"
-                   Text="然后点击”’病毒和威胁防护‘设置 “下的“管理设置”。" />
+                   Text="然后点击“病毒和威胁防护设置” 下的 “管理设置”。" />
         <Image  Source="https://s1.328888.xyz/2022/07/21/mE5U7.png" />
         <TextBlock TextWrapping="Wrap"
                    Text="找到并点击“添加或删除排除项”，并添加排除项。分别在“文件”和“进程”中添加启动器路径。" />
