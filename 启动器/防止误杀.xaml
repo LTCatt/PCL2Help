@@ -1,4 +1,4 @@
-<local:MyCard Title="防止Windows 安全中心误报">
+<local:MyCard Title="防止 Windows 安全中心误报">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap"
                    Text="首先，你需要打开 Windows 安全中心。" />
@@ -8,7 +8,7 @@
                    Text="然后点击”’病毒和威胁防护‘设置 “下的“管理设置”。" />
         <Image  Source="https://s1.328888.xyz/2022/07/21/mE5U7.png" />
         <TextBlock TextWrapping="Wrap"
-                   Text="找到并点击“添加或删除排除项”，并添加排除项。分别在“文件”和“进程”中添加启动器路径。如图所示" />
+                   Text="找到并点击“添加或删除排除项”，并添加排除项。分别在“文件”和“进程”中添加启动器路径。" />
         <Image  Source="https://s1.328888.xyz/2022/07/21/mE9Zk.png" />
     </StackPanel>
 </local:MyCard>
