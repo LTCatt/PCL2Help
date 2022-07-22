@@ -23,13 +23,11 @@
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-<<<<<<< HEAD
+
                         Text="1. 在 PCL2 启动器中启动您想要安装数据包的版本，教程内选择 1.17 作为演示。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Launch-Game.png" />        
-=======
                         Text="1. 在 PCL2 中启动您想要安装数据包的版本，教程内选择 1.17 作为演示。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/datapack/Launch-Game.png" />        
->>>>>>> upstream/master
         </Grid>
         <local:MyHint Margin="0,15,0,0" Text="在 Minecraft Java 1.16 版本以下，您需要一个已经创建的世界（存档）才能对这个世界添加数据包" IsWarn="False" />
         <Grid Margin="0,20,0,4">
