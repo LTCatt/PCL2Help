@@ -74,6 +74,41 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="帮助图片规范">
+    <StackPanel Margin="25,40,23,15">
+    <TextBlock Margin="0,0,0,4"
+                    Text="请移步图床帮助" />
+        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+		            EventType="打开帮助" EventData="帮助/图床帮助.json" />
+    <StackPanel Margin="25,40,23,15">
+</local:MyCard>
+
+<local:MyCard Title="帮助图片规范">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="建议撰写者们添加图片时使用可访问、高速的图床。" />
+        <TextBlock Margin="0,5,0,2" LineHeight="17"
+                   Text="不建议用 GitHub 图床、SM.MS，速度慢且对个别 DNS 污染严重地区支持极差。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="应该尽量根据实际情况，为图片调整合适的分辨率，以优化用户体验和减少宽带消耗。" />
+        <TextBlock Margin="0,5,0,2" LineHeight="17"
+                   Text="以下为推荐列表，欢迎补充" />
+        
+        <local:MyListItem  Margin="0,0,0,4"
+		                  Logo="https://q1.qlogo.cn/g?b=qq&amp;nk=3531890582&amp;s=640" Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床 注：非 PCL2HELP 用途或故障 请咨询 QQ 3531890582" 
+		                  EventType="打开网页" EventData="https://img.z0z0r4.top/" Type="Clickable" />
+        
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="Tips" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text=" 1: 添加图床最好是公开且符合以上要求，若私人则应该获取站长的许可" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="  2: 添加您自己的图床则意味着已经做好防范恶意攻击的准备及承担相应的费用" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="当前的图片由 z0z0r4 全部替换为 z0z0r4 自建的国内图床" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="提交与审核">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4"
