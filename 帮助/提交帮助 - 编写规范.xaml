@@ -76,15 +76,6 @@
 
 <local:MyCard Title="帮助图片规范">
     <StackPanel Margin="25,40,23,15">
-    <TextBlock Margin="0,0,0,4"
-                    Text="请移步图床帮助" />
-        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
-		            EventType="打开帮助" EventData="帮助/图床帮助.json" />
-    <StackPanel Margin="25,40,23,15">
-</local:MyCard>
-
-<local:MyCard Title="帮助图片规范">
-    <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="建议撰写者们添加图片时使用可访问、高速的图床。" />
         <TextBlock Margin="0,5,0,2" LineHeight="17"
