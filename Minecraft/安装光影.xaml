@@ -19,7 +19,7 @@
                    Text="如果你选择使用 OptiFine，PCL2 可以为下载的 Minecraft 版本自动安装 OptiFine，使用自动安装功能时展开“OptiFine”菜单，选择需要的版本即可。" />
         <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/OptiFine_Install_with_Game.png" />
         <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器，在 PCL2 最新版本中使用自动安装功能时同时选择&quot;OptiFine&quot;、&quot;OptiFabric&quot;、&quot;Fabric&quot;和&quot;Fabric API&quot;即可。" />
+                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器，在 PCL2 最新版本中使用自动安装功能时同时选择“OptiFine“、“OptiFabric“、“Fabric“和“Fabric API“即可。" />
     </StackPanel>
 </local:MyCard>
 

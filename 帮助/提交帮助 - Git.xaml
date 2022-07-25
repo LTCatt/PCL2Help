@@ -37,7 +37,7 @@
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
         </StackPanel>
         <TextBlock Margin="0,10,0,4" LineHeight="17"
-                    Text="2.进入 Help 文件夹，右键鼠标，单击&quot;Git Bash Here&quot;。你也可以使用其他命令行工具。"/>
+                    Text="2.进入 Help 文件夹，右键鼠标，单击“Git Bash Here“。你也可以使用其他命令行工具。"/>
         <TextBlock Margin="0,5,0,4" LineHeight="17"
                     Text="3.在启动的命令行窗口中，逐行执行以下指令 （点击按钮即可复制文本）。"/>
 

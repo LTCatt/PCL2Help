@@ -29,7 +29,7 @@
         <local:MyHint Margin="0,15,0,0" Text="在 Minecraft Java 1.16 版本以下，您需要一个已经创建的世界（存档）才能对这个世界添加数据包" IsWarn="False" />
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 点击“单人游戏”，单击选择您想要安装数据包的世界(不是进入世界)，点击下方&quot;编辑&quot; → &quot;打开世界文件夹&quot;" HorizontalAlignment="Left" />
+                        Text="2. 点击“单人游戏”，单击选择您想要安装数据包的世界(不是进入世界)，点击下方“编辑“ → “打开世界文件夹“" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/datapack/Edit-World.png" />        
         </Grid>
 
