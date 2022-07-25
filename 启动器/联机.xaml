@@ -17,9 +17,9 @@
         <local:MyListItem Margin="19,-3,-5,5"
 		                  EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                          Text="复制“简单联机“Mod 名称" EventType="复制文本" EventData="Server.Properties for LAN" />
+                          Text="复制&quot;简单联机&quot;Mod 名称" EventType="复制文本" EventData="Server.Properties for LAN" />
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                          Text="复制“自定义局域网联机“Mod 名称" EventType="复制文本" EventData="LanServerProperties" />
+                          Text="复制&quot;自定义局域网联机&quot;Mod 名称" EventType="复制文本" EventData="LanServerProperties" />
         <TextBlock Margin="2,0,0,2" LineHeight="17"
                    Text="4、让加入者使用第三方登录。" />
         <local:MyListItem Margin="19,-1,-5,8"
