@@ -33,6 +33,8 @@
     </StackPanel>
 </local:MyCard>
 
+
+<!-- 问图片链接没地方给个注释，LTCatt 说怪话：https://a.com/1.jpg?comment=dafchsuihius 不管了 -->
 <local:MyCard Title="帮助内容规范">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,2"
@@ -86,6 +88,14 @@
                    Text="3. 在使用到 PCL2 时应使用&quot;龙猫蓝&quot;主题以确保公开版和快照版用户均可以跟随图片步骤完全准确地操作，且对应图片应随 PCL2 版本更新新版操作逻辑而随时更新。" />
 	<TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="4. 请勿在图中添加影响阅读性的大型水印，您可以在图片右下/左下等位置添加水印以防止他人使用该图片。" />
+    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="5. 如果有条件，请勿使用 img1 之类名称，应该使用简短明了的名称！" />
+    <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ❌  img1.png" />
+    <TextBlock Foreground="#229922" Margin="0,0,0,10"
+                   Text="    ✔   fabric_installer.png" />
+    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="6. 尽量使用常见的图片格式，如 png jpg。" />
         <TextBlock Margin="0,5,0,2" LineHeight="17"
                    Text="以下为非官方的推荐列表。" />
         <local:MyListItem  Margin="0,0,0,4"
@@ -96,7 +106,7 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text=" 1. 添加图床为公开图床且符合上述要求，如该图床为私人自建图床，则应获取该图床管理者的许可。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="  2. 如您欲将您自建的图床添加至上述列表，请您确保您有足够的资金以应对 PCL2 帮助内每日巨额请求且您已做好了防范 DDoS 等恶意攻击的措施。" />
+                   Text="  2. 如您欲将您自建的图床添加至上述列表，请您确保您有足够的资金以应对 PCL2 帮助内每日高额请求且您已做好了防范 DDoS 等恶意攻击的措施。" />
     </StackPanel>
 </local:MyCard>
 
