@@ -5,6 +5,6 @@
     "Types" : ["Minecraft"],
     "Keywords" : "Account Migration",
     "IsEvent": true,
-	"EventType": "打开网页",
-	"EventData": "https://www.minecraft.net/zh-hans/mojang-account-move"
+    "EventType": "打开网页",
+    "EventData": "https://www.minecraft.net/zh-hans/mojang-account-move"
 }
