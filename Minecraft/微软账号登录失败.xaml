@@ -32,7 +32,7 @@
         <!-- 右键点击你的连接 点击属性 -->
         <Grid>
             <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="3. 右键点击您目前正在连接的网络(一般为&quot;以太网&quot;或&quot;WLAN&quot;)，点击属性。" />
+                Text="3. 右键点击您目前正在连接的网络（一般为&quot;以太网&quot;或&quot;WLAN&quot;），点击属性。" />
         </Grid>
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/Network_Settings.png" />
 
