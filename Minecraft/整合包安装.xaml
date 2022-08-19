@@ -4,7 +4,7 @@
 <local:MyCard Title="整合包是什么?" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="整合包(Modpack)是包含已经配置好的、可能包含剧情的、包含 Mod 的 Minecraft 游戏整合文件。" />
+                   Text="整合包（Modpack）是包含已经配置好的、可能包含剧情的、包含 Mod 的 Minecraft 游戏整合文件。" />
                    <!-- 翻译可能有问题 源网页: https://ftb.fandom.com/wiki/Modpacks 有人来改一下吗救命 -->
     </StackPanel>
 </local:MyCard>
