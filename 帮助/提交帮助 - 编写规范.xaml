@@ -34,7 +34,7 @@
 </local:MyCard>
 
 
-<!-- 问图片链接没地方给个注释，LTCatt 说怪话：https://a.com/1.jpg?comment=dafchsuihius 不管了 -->
+
 <local:MyCard Title="帮助内容规范">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,2"
@@ -89,13 +89,17 @@
 	<TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="4. 请勿在图中添加影响阅读性的大型水印，您可以在图片右下/左下等位置添加水印以防止他人使用该图片。" />
     <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="5. 如果有条件，请勿使用 img1 之类名称，应该使用简短明了的名称！" />
+                   Text="5. 请勿使用 img1、1等名字，请使用拼音或英文在图片名称中简要描述图片的用途。" />
     <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
                    Text="    ❌  img1.png" />
     <TextBlock Foreground="#229922" Margin="0,0,0,10"
-                   Text="    ✔   fabric_installer.png" />
+                   Text="    ✔  anzhuang_fabric.png" />
+    <TextBlock Foreground="#229922" Margin="0,0,0,10"
+                   Text="    ✔  fabric_installer.png" />
     <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="6. 尽量使用常见的图片格式，如 png jpg。" />
+                   Text="6. 使用常见的图片格式，如 png、jpg、webp 等。" />
+    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="7. 如图片需要详细注释，可以在图片链接末尾以参数 comment=注释 为格式添加。" />
         <TextBlock Margin="0,5,0,2" LineHeight="17"
                    Text="以下为非官方的推荐列表。" />
         <local:MyListItem  Margin="0,0,0,4"
