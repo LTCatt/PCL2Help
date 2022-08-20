@@ -92,14 +92,14 @@
                    Text="5. 请勿使用 img1、1等名字，请使用拼音或英文在图片名称中简要描述图片的用途。" />
     <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
                    Text="    ❌  img1.png" />
-    <TextBlock Foreground="#229922" Margin="0,0,0,10"
+    <TextBlock Foreground="#229922" Margin="0,0,0,2"
                    Text="    ✔  anzhuang_fabric.png" />
     <TextBlock Foreground="#229922" Margin="0,0,0,10"
                    Text="    ✔  fabric_installer.png" />
     <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="6. 使用常见的图片格式，如 png、jpg、webp 等。" />
     <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="7. 如图片需要详细注释，可以在图片链接末尾以参数 comment=注释 为格式添加。" />
+                   Text="7. 如图片需要详细注释，可以在图片链接末尾以参数 &quot;comment=注释&quot; 为格式添加。" />
         <TextBlock Margin="0,5,0,2" LineHeight="17"
                    Text="以下为非官方的推荐列表。" />
         <local:MyListItem  Margin="0,0,0,4"
