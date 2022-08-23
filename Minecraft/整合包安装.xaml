@@ -4,7 +4,7 @@
 <local:MyCard Title="整合包是什么?" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="整合包(Modpack, Modification Packages)是包含已经配置好的、可能包含剧情的、包含 Mod 的 Minecraft 游戏整合文件。" />
+                   Text="整合包（Modpack）是包含已经配置好的、可能包含剧情的、包含 Mod 的 Minecraft 游戏整合文件。" />
                    <!-- 翻译可能有问题 源网页: https://ftb.fandom.com/wiki/Modpacks 有人来改一下吗救命 -->
     </StackPanel>
 </local:MyCard>
@@ -24,21 +24,20 @@
         <local:MyHint Margin="0,0,0,15" Text="注意: 以下情况假设您已下载好整合包(通常是为 .zip / .rar 结尾的文件)。" IsWarn="False" />
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL2 启动器，点击“导入整合包”按钮，选择您需要安装的整合包，此处以 “Example.zip” 为范例。" HorizontalAlignment="Left" />
+                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL2 启动器，点击“下载”按钮后点击 CurseForge 项下的整合包按钮，点击“安装整合包”按钮并选择你下载好的本地整合包。此处以“Example.zip”为案例。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
-                <Image Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-modpack-mcbbs-choose-version.png" />
-                <Image Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-install-modpack-mcbbs.png" />
-                <Image Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-explorer-choose-modpack.png" />
+                <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Modpack_Install_Directio.png" />
+                <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Modpack_Choose.png" />
             </StackPanel>
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="此时 PCL2 会弹出“输入版本名”的窗口，您可自由输入。点击“确定”后，PCL2 自动开始安装。安装完毕后，您即可在版本列表选择该游戏。" HorizontalAlignment="Left" />
+                        Text="此时 PCL2 会弹出“输入版本名”的窗口，您可自由输入。点击“确定”后，PCL2 自动开始安装。安装完毕后，您即可在版本列表选择以您输入的版本名为标题的整合包以开始游玩。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
-                <Image Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-mcbbs-input-version-name.png" />
-                <Image Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-downloading-mmc-modpack.png" />
-                <Image Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-mcbbs-launch-game.png" />
+                <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Input_Game_Name.png" />
+                <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Game_Launch.png" />
+                <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Game_Launch_Home.png" />
             </StackPanel>
         </Grid>
     </StackPanel>
@@ -54,11 +53,9 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 选择一个整合包。本教程使用&quot;RLCraft&quot; 为范例。点击此整合包，点击最上方的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以“RLCraft”为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-choose-modpack.png" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-choose-modpack-version.png" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-input-version-name.png" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-download-start" />
+                        Text="2. 选择一个整合包。本教程使用&quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以“RLCraft”为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_dl_directio.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_name_input.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">

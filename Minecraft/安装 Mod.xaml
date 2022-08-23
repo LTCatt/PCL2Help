@@ -44,10 +44,10 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="PCL2 内置从 CurseForge 下载 Mod 的功能，可以免去从网页下载的种种麻烦。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="点击启动器顶部的&quot;下载&quot;按钮，再点击左侧菜单栏中的&quot;Mod&quot;，即可打开 Mod 下载界面。"/>
-        <Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/search%20mod.png" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="CurseForge 提供了多种搜索 Mod 的方式，玩家可以根据名称、标签或游戏版本搜索 Mod。"/>
+        <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/mod_search.png" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="CurseForge 提供了多种搜索 Mod 的方式，玩家可以根据名称、类型或游戏版本搜索 Mod。"/>
         <local:MyHint Margin="0,0,0,15" Text="由于 CurseForge 是一个英文网站，搜索时请尽量使用 Mod 的英文名称。" IsWarn="False" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="搜索完成后，点击想要下载的 Mod 可以打开此 Mod 的页面，玩家可以在此选择需要下载的版本。当前 Mod 需要的前置 Mod 也会在此显示（如果有）。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="搜索完成后，点击想要下载的 Mod 可以打开此 Mod 的页面，玩家可以在此选择需要下载的版本。如当前 Mod 有需要的前置 Mod ，PCL2 也会在此显示。"/>
         <Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/mod%20version.png" />
         <local:MyHint Margin="0,0,0,15" Text="选择版本时，请注意选择与 Minecraft 版本匹配的 Mod 版本，PCL2 会在 Mod 版本名称下显示对应的 Minecraft 版本。" IsWarn="False" />
         <local:MyHint Margin="0,0,0,15" Text="分为 Forge 版和 Fabric 版的 Mod，一般会在版本名称中用&quot;forge&quot;或&quot;fabric&quot;进行标注，下载时注意选择对应自己加载器的版本。" IsWarn="False" />
@@ -69,4 +69,4 @@
         <local:MyHint Margin="0,0,0,15" Text="在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。" IsWarn="False" />
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake，Logic_530、WTP016" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：Big_Cake、Logic_530、WTP016" IsWarn="False" />
