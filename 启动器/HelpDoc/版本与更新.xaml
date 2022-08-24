@@ -1,0 +1,105 @@
+<local:MyCard Title="PCL2 的正式版与快照版有什么区别？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="正式版无需赞助，但不能更改主题。快照版需要赞助，可以更改主题。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="快照版也有可能包含部分新功能以作尝鲜，这些功能会在稳定后更新至正式版。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我应该使用正式版还是快照版？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock LineHeight="17" Margin="0,0,0,15"
+                    Text="如果没有赞助过，或追求绝对的稳定性，或需要用于 " />
+            <local:MyTextButton Text="制作整合包" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Public和Snapshot控制-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="，请使用正式版。" />
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="如果已经赞助过了，那就用快照版啦。毕竟快照版有新功能，并且能换主题……" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我要如何获取最新快照版？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="先在群文件中下载任意快照版，打开后点击 设置 → 启动器 → 检查更新，根据提示操作即可。" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="6.66 档位的赞助不能获取快照版更新，需要 " />
+            <local:MyTextButton Text="升级到更高档位" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="，或者 " />
+            <local:MyTextButton Text="使用正式版" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我要如何获取最新正式版？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="如果你赞助过了，推荐使用快照版而不是正式版。想要正式版的话也可以在 " />
+            <local:MyTextButton Text="这里" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/p/0164034c016c11ebafcb52540025c377"/>
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text=" 下载！" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="为什么 PCL2 提示我“当前启动器已为最新版”？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="你目前使用的已经是最新版了，真的不需要更新了……真的！" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="有人在发更新命令是因为他不是最新版，但你的已经是最新版了啊！你管他干啥……除非 PCL2 要求，否则就别跟风发更新命令了……" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我要如何更新 PCL2？如何获得更新密钥？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="如果你使用的是正式版：" FontWeight="SemiBold" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="直接 " />
+            <local:MyTextButton Text="点击这里" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text=" 即可下载最新正式版。" />
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="如果你使用的是快照版：" FontWeight="SemiBold" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="在 PCL2 内群中公屏发送“.更新”，并按提示操作即可。如果发送命令后没有反应，请继续看 " />
+            <local:MyTextButton Text="下一条" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="。如果在资源群中，则将更新命令私聊发给管理员中的伯特。" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="6.66 档位的赞助不能获取快照版更新，需要 " />
+            <local:MyTextButton Text="升级到更高档位" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="，或者使用正式版。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我要如何更新 PCL2？如何获得更新密钥？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="命令“.更新 XXXX-XXXX-XXXX-XXXX”的更新两个字的" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="前面有一个小数点，后面有一个空格" Background="{DynamicResource ColorBrush5}"/>
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                   Text="，缺少小数点或空格都会导致命令无效。" />
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="如果确认格式正确，可能是机器人卡了……这个真的没办法……" />
+    </StackPanel>
+</local:MyCard>

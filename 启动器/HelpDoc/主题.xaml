@@ -1,0 +1,38 @@
+<local:MyCard Title="为什么 PCL2 提示需要赞助才能换主题？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="这是因为你使用的是 PCL2 的正式版。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                Text="如果已经赞助了，你需要重新下载一个快照版的 PCL2，只有快照版才能换主题。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="隐藏主题怎么解锁？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="隐藏主题很多都是一些小解密，鼠标悬浮在上面就有提示了，请自己多多尝试 =w=！" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="如果你需要解锁赞助者主题，可以看 " />
+            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 的说明。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我换了电脑或重装了系统，隐藏主题没了怎么办？怎样备份、迁移隐藏主题？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap"
+                    Text="秋仪金、活跃橙可以将相关的证明发给管理员来重新解锁（找管理的细节详见 " />
+            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap"
+                    Text="），其他隐藏主题如果忘了备份就没" />
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap"
+        Text="法恢复啦……" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                Text="在 PCL2 的自带帮助中搜索“备份启动器设置”，其中有备份相关信息的方法，但备份主题只适用于重装电脑，换新电脑没法迁移主题。如果主题能跨电脑迁移，那所有人就都解锁了……" />
+    </StackPanel>
+</local:MyCard>
