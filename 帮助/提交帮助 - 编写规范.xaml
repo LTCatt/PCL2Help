@@ -33,8 +33,6 @@
     </StackPanel>
 </local:MyCard>
 
-
-
 <local:MyCard Title="帮助内容规范">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,2"
@@ -85,7 +83,7 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="2. 应该尽量根据实际情况，为图片调整合适的分辨率，以优化用户体验和减少宽带消耗。" />
 	<TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="3. 在使用到 PCL2 时应使用&quot;龙猫蓝&quot;主题以确保公开版和快照版用户均可以跟随图片步骤完全准确地操作，且对应图片应随 PCL2 版本更新新版操作逻辑而随时更新。" />
+                   Text="3. 在添加 PCL2 截图时应使用龙猫蓝主题颜色，且不要使用自定义背景图片。" />
 	<TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="4. 请勿在图中添加影响阅读性的大型水印，您可以在图片右下/左下等位置添加水印以防止他人使用该图片。" />
     <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -105,12 +103,12 @@
         <local:MyListItem  Margin="0,0,0,4"
 		                  Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床。" 
 		                  EventType="打开网页" EventData="https://img.z0z0r4.top/" Type="Clickable" />
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
+        <!-- <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="Tips" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text=" 1. 添加图床为公开图床且符合上述要求，如该图床为私人自建图床，则应获取该图床管理者的许可。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="  2. 如您欲将您自建的图床添加至上述列表，请您确保您有足够的资金以应对 PCL2 帮助内每日高额请求且您已做好了防范 DDoS 等恶意攻击的措施。" />
+                   Text="  2. 如您欲将您自建的图床添加至上述列表，请您确保您有足够的资金以应对 PCL2 帮助内每日高额请求且您已做好了防范 DDoS 等恶意攻击的措施。" /> -->
     </StackPanel>
 </local:MyCard>
 
@@ -128,4 +126,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、z0z0r4" IsWarn="False" />

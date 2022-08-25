@@ -14,32 +14,21 @@
 
 <local:MyCard Title="问题解决方案" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="1. 在任务栏上找到对应网络状态的图标，右键点击此图标后点击&quot;网络和 Internet 设置&quot;。" />
-        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="1. 在任务栏上找到对应网络状态的图标，右键点击此图标后点击&quot;网络和 Internet 设置&quot;。" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Taskbar.NI.Settings.png" />
-
         <!-- 更改适配器设置 -->
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="2. Win10: 转到&quot;状态&quot;页面并点击&quot;更改适配器设置&quot;。&#xA; Win11: 点击&quot;高级网络设置&quot;后点击下方的&quot;更多网络适配器选项&quot;。" />
-        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="2. Win10: 转到&quot;状态&quot;页面并点击&quot;更改适配器设置&quot;。&#xA; Win11: 点击&quot;高级网络设置&quot;后点击下方的&quot;更多网络适配器选项&quot;。" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/Adopt_Settings.png" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Win11.Settings.NW.SPQ.png" />
-
         <!-- 右键点击你的连接 点击属性 -->
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="3. 右键点击您目前正在连接的网络（一般为&quot;以太网&quot;或&quot;WLAN&quot;），点击属性。" />
-        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="3. 右键点击您目前正在连接的网络（一般为&quot;以太网&quot;或&quot;WLAN&quot;），点击属性。" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/4R.png" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/Network_Settings.png" />
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="4. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”，您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。保存后按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" />
-        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="4. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”，您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。保存后按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" />
         <!-- 此处原 DNS 为微软公用 DNS，鉴于此 DNS 在中国大陆内使用情况不佳，更改为阿里云 DNS -->
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/ControlPanel.DNS.Settings.png" />
         <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
@@ -50,59 +39,38 @@
 <!-- 第二种问题解决方案 -->
 <local:MyCard Title="第二种问题解决方案" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-
         <!-- 此处我存疑，部分台式电脑无无线局域网功能 -->
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="1. 打开手机的移动热点功能，电脑连接热点。" />
-        </Grid>
-
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="1. 打开手机的移动热点功能，电脑连接热点。" />
         <!-- win+R，打开运行界面，输入services.msc进入服务 -->
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="2. 按下键盘上的 Windows + R 键，打开运行界面，输入 services.msc 打开服务管理程序。" />
-                        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="2. 按下键盘上的 Windows + R 键，打开运行界面，输入 services.msc 打开服务管理程序。" />            
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/10.Service.png" />
         <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
         Text="复制 services.msc 命令" EventType="复制文本" EventData="services.msc" />
 
         <!-- 功能开启 -->
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="3. 找到&quot;Microsoft (R) 诊断中心标准收集器服务&quot;，右键点击属性，改成手动，开启服务。" />
-                        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="3. 找到&quot;Microsoft (R) 诊断中心标准收集器服务&quot;，右键点击属性，改成手动，开启服务。" />    
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/11.Microsoft(R).png" />
-
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="4. 在任务栏上找到对应网络状态的图标，右键点击此图标后&quot;网络和 Internet 设置&quot;。" />
-        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="4. 在任务栏上找到对应网络状态的图标，右键点击此图标后&quot;网络和 Internet 设置&quot;。" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Taskbar.NI.Settings.png" />
-
         <!-- 更改适配器设置 -->
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="5. Win10: 转到 WLAN 页面并点击&quot;更改适配器设置&quot;（在右边或者下边）。&#xA; Win11: 点击&quot;高级网络设置&quot;后点击下方的&quot;更多网络适配器选项&quot;。" />
-        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="5. Win10: 转到 WLAN 页面并点击&quot;更改适配器设置&quot;（在右边或者下边）。&#xA; Win11: 点击&quot;高级网络设置&quot;后点击下方的&quot;更多网络适配器选项&quot;。" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/3.WALN.png" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Win11.Settings.NW.SPQ.png" />
-
         <!-- 右键点击你的连接 点击属性 -->
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="6. 右键选择你的连接，点击属性。" />
-        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="6. 右键选择你的连接，点击属性。" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/4R.png" />
-
-        <Grid>
-            <TextBlock Margin="0,10,0,2" LineHeight="17"
-                Text="4. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”，您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。保存后按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" />
-        </Grid>
+        <TextBlock Margin="0,10,0,2" LineHeight="17"
+            Text="7. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”，您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。保存后按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" />
         <!-- 此处原 DNS 为微软公用 DNS，鉴于此 DNS 在中国大陆内使用情况不佳，更改为阿里云 DNS -->
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/ControlPanel.DNS.Settings.png" />
         <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
         Text="复制 ipconfig /flushdns 命令" EventType="复制文本" EventData="ipconfig /flushdns" />
-
     </StackPanel>
 </local:MyCard>
 
