@@ -1,0 +1,19 @@
+<local:MyCard Title="PCL2 要怎样设置外置登录（第三方登录、统一通行证、皮肤站）？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                   Text="请点击下方进入“外置登录”帮助。" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" Title="赞助" EventType="打开帮助" EventData="启动器/指定登录方式.json" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="微软账号登录打开之后白屏或一直加载不出来怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="这是由于网络环境不佳，详见 " />
+            <local:MyTextButton Text="网络环境问题的解答" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>

@@ -1,6 +1,6 @@
 <local:MyCard Title="为什么 PCL2 提示需要赞助才能换主题？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                 Text="这是因为你使用的是 PCL2 的正式版。" />
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                 Text="如果已经赞助了，你需要重新下载一个快照版的 PCL2，只有快照版才能换主题。" />
@@ -31,8 +31,64 @@
                     Text="），其他隐藏主题如果忘了备份就没" />
         </StackPanel>
         <TextBlock TextWrapping="Wrap"
-        Text="法恢复啦……" />
+                Text="法恢复啦……" />
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
-                Text="在 PCL2 的自带帮助中搜索“备份启动器设置”，其中有备份相关信息的方法，但备份主题只适用于重装电脑，换新电脑没法迁移主题。如果主题能跨电脑迁移，那所有人就都解锁了……" />
+                Text="在下方点击进入“备份启动器设置”，其中有备份相关信息的方法，但备份主题只适用于重装电脑，换新电脑没法迁移主题。如果主题能跨电脑迁移，那所有人就都解锁了……" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="启动器/备份设置.json" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="如何解锁赞助者主题（秋仪金），或是隐藏主页的快照版提示？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="秋仪金与隐藏主页提示均需要赞助 23.33 元及以上档位，赞助档位不足无法解锁。" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="请将 " />
+            <local:MyTextButton Text="PCL2 识别码" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 通过 " />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}"
+                    Text="爱发电私信" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 发给龙猫，然后等待回复。龙猫会在 " />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}"
+                    Text="两天内" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 回复私信。别催，因为就算催龙猫也看不" />
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="到……" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="如果爱发电提示赞助过期无法发送私信，请私聊管理员处理，不要 QQ 私聊龙猫。找管理的细节详见 " />
+            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 的说明。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="如何解锁活跃橙？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="通过反馈解锁：" FontWeight="SemiBold" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="反馈一个 " />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}"
+                    Text="Bug" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="，且需要被采纳并实际制作（Issue 标签为“已处理”），然后将截图发给管理员解锁。" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                    Text="通过提交帮助库解锁：" FontWeight="SemiBold" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                    Text="在 GitHub 的 " />
+            <local:MyTextButton Text="PCL2 帮助库" Margin="0,15,0,0" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                    Text=" 中发起一个 Pull Request，在它被 Merged 后，将截图发给管理员解锁。" />
+        </StackPanel>
     </StackPanel>
 </local:MyCard>

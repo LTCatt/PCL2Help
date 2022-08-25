@@ -1,0 +1,62 @@
+<local:MyCard Title="PCL2 的某个下载页面加载不出来或是报错怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="如果是 Mod、整合包下载提示“远程服务器返回错误”，请更新 PCL2 至最新版。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="例如“远程主机强迫关闭了一个现有的连接”、“连接超时”、“网络环境不佳”等其余所有情况均是由于网络环境不佳，详见 " />
+        <StackPanel Orientation="Horizontal">
+            <local:MyTextButton Text="网络环境问题的解答" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="PCL2 安装整合包或 Forge 失败，报错中包含“文件 MD5 应为 XXXXXX”怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="你使用的 PCL2 版本过老，请在 " />
+            <local:MyTextButton Text="更新 PCL2" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 后再试。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="PCL2 的 Mod 下载中找不到某个 Mod 怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="请先尝试搜索其英文名，并用空格分割单词再试试吧……" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="如果依然搜索不到，那我也没有办法……Mod 搜索服务并非由 PCL2 提供，是直接用的 " />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                Text="CurseForge 提供的服务，所以我也没办法去添加某个 Mod……" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关于网络环境问题的解答……" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="绝大多数此类问题都是由于国内的网络环境“不佳”，连接国外的服务器非常不稳定。" />
+            <TextBlock Text="这不是 PCL2 的 Bug" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="，启动器也无力解决这一问题。" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                    Text="之所以你能上百度、上 QQ，那是因为这些是" />
+            <TextBlock Text="国内" Margin="0,15,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                    Text="的服务，这不代表你能连上" />
+            <TextBlock Text="国外" Margin="0,15,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                    Text="的服务器。" />
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="请不要因此在 PCL2 处提交反馈。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                Text="挂加速器或者 VPN 一般能解决这些问题，请自行想办法解决。" />
+    </StackPanel>
+</local:MyCard>
