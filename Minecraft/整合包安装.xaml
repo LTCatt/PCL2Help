@@ -48,7 +48,7 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL2 中找到”下载”按钮，在左侧菜单 CurseForge 小项中找到“整合包”选项。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/modpack/pcl2-download-modpack.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/pcl2-download-modpack.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">

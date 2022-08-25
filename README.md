@@ -1,7 +1,7 @@
-<div align="center"><img src="https://i.loli.net/2021/04/27/ia7zksgDwZfm5Pt.png" alt="PCL2 内置帮助库"/></div>
+<div align="center"><img src="https://cdn.img.z0z0r4.top/2022/07/10/1/PCL2HELP.png" alt="PCL2 内置帮助库"/></div>
 <div align="center"><img src="https://img.shields.io/github/stars/LTCatt/PCL2Help">&nbsp; <img src="https://img.shields.io/github/forks/LTCatt/PCL2Help?color=%23f8e71c">&nbsp;<img src="https://img.shields.io/github/issues/LTCatt/PCL2Help?color=%237ed321"></div>
 
-  
+
 
 ## 💎 简介
 

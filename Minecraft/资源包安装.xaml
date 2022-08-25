@@ -42,7 +42,6 @@
                         Text="4. 打开 “resourcepacks” 文件夹，并将您的资源包拖入 ”resourcepacks“ 文件夹。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/explorer-prepared-put-into-resourcepack-folder.png" />
         </Grid>
-
         <local:MyHint Margin="0,15,0,0" Text="注意：部分资源包压缩包主体内套入了一个文件夹，此时你可以直接将此文件夹解压至 “resourcepacks” 文件夹使用。（如下图）" IsWarn="False" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/bandizip-zip-folder.png"/>
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/explorer-resourcepack-folder-resourcepack.png"/>

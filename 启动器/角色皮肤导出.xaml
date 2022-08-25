@@ -13,7 +13,7 @@
 		                  EventType="打开帮助" EventData="启动器/指定登录方式.json" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="1. 打开您的 PCL2 启动器，在如图所示的角色界面右键角色头像。"/>
-		<Image HorizontalAlignment="Center" Source="https://i.loli.net/2021/06/26/9IKCYT5HUWa43Me.png" />   
+		<Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/9IKCYT5HUWa43Me.png" />     
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="2. 在弹出的对话框中选择导出路径，此时您应已导出皮肤文件。"/>
     </StackPanel>
