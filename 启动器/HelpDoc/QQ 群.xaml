@@ -1,0 +1,68 @@
+<local:MyCard Title="我要如何加入内群？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="加群需要至少累计赞助 12.34 元，请在赞助后查看你的爱发电私信，其中有加群的信息。" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="如果 " />
+            <TextBlock Text="等待 24 小时后" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 申请依然未通过，可能是由于你的 QQ 被标记为可疑账号，因此申请会被傻逼腾讯过滤……那么先试试" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="用 " />
+            <TextBlock Text="手机以及电脑" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 各自重新发送一次申请，如果一天后还是没有通过，那你可能得换个 QQ 号了……" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我可以同时进多个内群吗？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="可以，但不推荐。因为开多个群的本来目的就是为了装下更多人……" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                Text="如果非要进的话，需要重新赞助 12.34 档位，然后凭赞助截图去 " />
+            <local:MyTextButton Text="找管理员" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我可以发广告吗？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="可以，但你的广告必须与 MC 相关，且两次广告必须间隔至少 5 天。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                Text="如果超过了“五天一次”的频率，你会被禁言或警告的！" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="夹子、要夹子是什么意思？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="夹子指禁言，要夹子指主动请求管理禁言自己。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="不建议找管理要夹子， 这会增加管理的工作负担，因此管理通常会数十倍延长主动要夹子的禁言时间。因为主动要夹子而被禁言的，管理不会解除，求也没用。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="如果你尝试要 30 天以上的夹子会被直接踢出，请自行等到时间到了再加回来。嗯。" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                Text="人类真是神奇的生物……" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="夹子、要夹子是什么意思？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="通常来说，如果你觉得你要做的事情是需要进行确认是否违规的，那你可以选择直接不这么做，何况很多东西你发之前真的没人知道合不合适。" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="你认为" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="可以做的事情不代表其他人认为可以做，具体违规与否由管理员判定为准。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
