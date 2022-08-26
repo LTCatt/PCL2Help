@@ -74,6 +74,44 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="帮助图片规范">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="建议帮助编写者们添加图片时使用在中国大陆地区可访问且可快速访问的图床。以下是图片和图床选择注意事项。" />
+        <TextBlock Margin="0,5,0,2" LineHeight="17"
+                   Text="1. 不建议用 GitHub 图床、SM.MS 等速度慢且对个别 DNS 污染严重地区支持极差的图床。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="2. 应该尽量根据实际情况，为图片调整合适的分辨率，以优化用户体验和减少宽带消耗。" />
+	<TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="3. 在添加 PCL2 截图时应使用龙猫蓝主题颜色，且不要使用自定义背景图片。" />
+	<TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="4. 请勿在图中添加影响阅读性的大型水印，您可以在图片右下/左下等位置添加水印以防止他人使用该图片。" />
+    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="5. 请勿使用 img1、1等名字，请使用拼音或英文在图片名称中简要描述图片的用途。" />
+    <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
+                   Text="    ❌  img1.png" />
+    <TextBlock Foreground="#229922" Margin="0,0,0,2"
+                   Text="    ✔  anzhuang_fabric.png" />
+    <TextBlock Foreground="#229922" Margin="0,0,0,10"
+                   Text="    ✔  fabric_installer.png" />
+    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="6. 使用常见的图片格式，如 png、jpg、webp 等。" />
+    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="7. 如图片需要详细注释，可以在图片链接末尾以参数 &quot;comment=注释&quot; 为格式添加。" />
+        <TextBlock Margin="0,5,0,2" LineHeight="17"
+                   Text="以下为非官方的推荐列表。" />
+        <local:MyListItem  Margin="0,0,0,4"
+		                  Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床。" 
+		                  EventType="打开网页" EventData="https://img.z0z0r4.top/" Type="Clickable" />
+        <!-- <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="Tips" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text=" 1. 添加图床为公开图床且符合上述要求，如该图床为私人自建图床，则应获取该图床管理者的许可。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="  2. 如您欲将您自建的图床添加至上述列表，请您确保您有足够的资金以应对 PCL2 帮助内每日高额请求且您已做好了防范 DDoS 等恶意攻击的措施。" /> -->
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="提交与审核">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4"
@@ -88,4 +126,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、z0z0r4" IsWarn="False" />
