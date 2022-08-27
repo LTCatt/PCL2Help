@@ -1,0 +1,45 @@
+<local:MyCard Title="什么是识别码？什么是解锁码?" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="识别码" Margin="0,0,0,15" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="是 PCL2 根据电脑硬件信息生成的编号，每个人均不相同，你可以理解为你的 QQ 号。" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="如果发电了 23.33 元或更高档位，可以通过识别码换取" />
+            <TextBlock Text="解锁码" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="，" />
+            <local:MyTextButton Text="解锁秋仪金隐藏主题、隐藏主页的快照版提示" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="如何查看自己的识别码？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="在 PCL2 的“更多 → 关于与鸣谢”中往下滑便可找到一个叫“复制识别码”的按钮，点击后你的识别码会自动复制到剪贴板，然后你就可以在任意地方右键粘贴了。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="如何获取、使用解锁码？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="获取、使用解锁码的方式与解锁赞助者主题一致，详见 " />
+            <local:MyTextButton Text="本节" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 的内容。" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="如何查看自己的识别码？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="识别码中不包含你的个人信息，而解锁码是根据每个人的识别码生成的，所以不小心让别人看到了也没关系，其他人也没法使用你的解锁码的。" />
+    </StackPanel>
+</local:MyCard>
