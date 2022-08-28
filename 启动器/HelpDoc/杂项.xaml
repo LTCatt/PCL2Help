@@ -55,7 +55,8 @@
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
             Text="在解锁赞助者主题后，你的回声洞卡片上就会增加一个投稿按钮。"/>
          <local:MyListItem Margin="-5,0,-5,0" Type="Clickable" Info="查看如何解锁赞助者主题" Logo="" Title="主题"
-                EventType="打开帮助" EventData="HelpDoc\主题.json"/>
+                EventType="打开帮助" EventData="启动器\HelpDoc\主题.json"/>
     </StackPanel>
 </local:MyCard>
+
         
