@@ -1,0 +1,20 @@
+<local:MyCard Title="我要如何加入内群？" Margin="0,0,0,15" >
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="加群需要至少累计赞助 12.34 元，请在赞助后查看你的爱发电私信，其中有加群的信息。" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="如果 " />
+            <TextBlock Text="等待 24 小时后" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 申请依然未通过，可能是由于你的 QQ 被标记为可疑账号，因此申请会被傻逼腾讯过滤……那么先试试" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="用 " />
+            <TextBlock Text="手机以及电脑" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 各自重新发送一次申请，如果一天后还是没有通过，那你可能得换个 QQ 号了……" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>

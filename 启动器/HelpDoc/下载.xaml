@@ -5,7 +5,7 @@
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="例如“远程主机强迫关闭了一个现有的连接”、“连接超时”、“网络环境不佳”等其余所有情况均是由于网络环境不佳，详见 " />
         <StackPanel Orientation="Horizontal">
-            <local:MyTextButton Text="网络环境问题的解答" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <local:MyTextButton Text="网络环境问题的解答" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="。" />
         </StackPanel>
@@ -17,7 +17,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="你使用的 PCL2 版本过老，请在 " />
-            <local:MyTextButton Text="更新 PCL2" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <local:MyTextButton Text="更新 PCL2" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 后再试。" />
         </StackPanel>

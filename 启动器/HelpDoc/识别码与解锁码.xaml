@@ -30,7 +30,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="获取、使用解锁码的方式与解锁赞助者主题一致，详见 " />
-            <local:MyTextButton Text="本节" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <local:MyTextButton Text="本节" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 的内容。" />
         </StackPanel>

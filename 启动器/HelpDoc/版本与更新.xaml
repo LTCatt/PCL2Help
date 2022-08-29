@@ -28,10 +28,10 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                    Text="6.66 档位的赞助不能获取快照版更新，需要 " />
-            <local:MyTextButton Text="升级到更高档位" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <local:MyTextButton Text="升级到更高档位" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/Dxel.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                    Text="，或者 " />
-            <local:MyTextButton Text="使用正式版" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <local:MyTextButton Text="使用正式版" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/rtt0.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                    Text="。" />
         </StackPanel>
@@ -75,7 +75,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap"
                    Text="在 PCL2 内群中公屏发送“.更新”，并按提示操作即可。如果发送命令后没有反应，请继续看 " />
-            <local:MyTextButton Text="下一条" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <local:MyTextButton Text="下一条" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
             <TextBlock TextWrapping="Wrap"
                    Text="。如果在资源群中，则" />
         </StackPanel>
@@ -84,7 +84,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
                    Text="6.66 档位的赞助不能获取快照版更新，需要 " />
-            <local:MyTextButton Margin="0,15,0,0" Text="升级到更高档位" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <local:MyTextButton Margin="0,15,0,0" Text="升级到更高档位" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
                    Text="，或者使用正式版。" />
         </StackPanel>

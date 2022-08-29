@@ -26,7 +26,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                 Text="如果非要进的话，需要重新赞助 12.34 档位，然后凭赞助截图去 " />
-            <local:MyTextButton Text="找管理员" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <local:MyTextButton Text="找管理员" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="。" />
         </StackPanel>
@@ -72,7 +72,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                     Text="如果多次被警告将会被移进 " />
-            <local:MyTextButton Margin="0,0,0,15" Text="PCL2 资源群" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" /> <!--Event-->
+            <local:MyTextButton Margin="0,0,0,15" Text="PCL2 资源群" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                     Text="，并且将被取消服务器白名单。" />
         </StackPanel>
