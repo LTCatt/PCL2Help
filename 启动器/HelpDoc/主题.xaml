@@ -14,7 +14,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="如果你需要解锁赞助者主题，可以看 " />
-            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
+            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/RvCa.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 的说明。" />
         </StackPanel>
@@ -26,7 +26,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap"
                     Text="秋仪金、活跃橙可以将相关的证明发给管理员来重新解锁（找管理的细节详见 " />
-            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
+            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/ceFU.json"/>
             <TextBlock TextWrapping="Wrap"
                     Text="），其他隐藏主题如果忘了备份就没" />
         </StackPanel>
@@ -45,7 +45,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="请将 " />
-            <local:MyTextButton Text="PCL2 识别码" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
+            <local:MyTextButton Text="PCL2 识别码" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/ZvAa.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 通过 " />
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}"
@@ -62,7 +62,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="如果爱发电提示赞助过期无法发送私信，请私聊管理员处理，不要 QQ 私聊龙猫。找管理的细节详见 " />
-            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
+            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/ceFU.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 的说明。" />
         </StackPanel>
