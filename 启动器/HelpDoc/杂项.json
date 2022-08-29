@@ -1,5 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
 	"Title": "杂项",
-    "Logo": "pack://application:,,,/images/Blocks/Egg.png"
+    "Logo": "pack://application:,,,/images/Blocks/Egg.png",
+    "Description": "一些关于PCL2的其他信息",
+    "Keywords": "其他"
 }

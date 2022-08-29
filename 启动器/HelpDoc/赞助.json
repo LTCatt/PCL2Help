@@ -1,5 +1,7 @@
 {
-    "__Author__": "GBC034",
+    "__Author__": "GBC034,Fiorest",
 	"Title": "赞助",
-    "Logo": "pack://application:,,,/images/Blocks/GoldBlock.png"
+    "Logo": "pack://application:,,,/images/Blocks/GoldBlock.png",
+    "Description":"我该如何赞助？赞助过程中遇到的问题",
+    "Keywords":"赞助"
 }

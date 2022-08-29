@@ -1,5 +1,7 @@
 {
-    "__Author__": "GBC034",
+    "__Author__": "GBC034,Fiorest",
 	"Title": "反馈",
-    "Logo": "pack://application:,,,/images/Blocks/RedstoneBlock.png"
+    "Logo": "pack://application:,,,/images/Blocks/RedstoneBlock.png",
+    "Description":"反馈并尝试解决在使用PCL2过程中遇见的问题",
+    "Keywords":"问题与反馈"
 }

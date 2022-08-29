@@ -1,5 +1,7 @@
 {
-    "__Author__": "GBC034",
+    "__Author__": "GBC034,Fiorest",
 	"Title": "登录",
-    "Logo": "pack://application:,,,/images/Blocks/Anvil.png"
+    "Logo": "pack://application:,,,/images/Blocks/Anvil.png",
+    "Description":"在PCL2中登录Minecraft账号常见的问题",
+    "Keywords":"账号登录"
 }

@@ -11,7 +11,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="你使用的 PCL2 版本过老，请在 " />
-            <local:MyTextButton Text="更新 PCL2" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold"EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
+            <local:MyTextButton Text="更新 PCL2" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 后再试。" />
         </StackPanel>
@@ -27,7 +27,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="如果你认为 PCL2 分析的崩溃原因有误（导致崩溃的不是这个原因），请向 PCL2 " />
-            <local:MyTextButton Text="提交反馈" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold"EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
+            <local:MyTextButton Text="提交反馈" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="。" />
         </StackPanel>
