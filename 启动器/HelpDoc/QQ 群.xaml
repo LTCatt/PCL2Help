@@ -72,7 +72,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                     Text="如果多次被警告将会被移进 " />
-            <local:MyTextButton Margin="0,0,0,15" Text="PCL2 资源群" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
+            <local:MyTextButton Margin="0,0,0,15" Text="PCL2 资源群" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/L4RJ.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                     Text="，并且将被取消服务器白名单。" />
         </StackPanel>
@@ -80,12 +80,5 @@
                 Text="一般来说，禁言≠警告，但如果故意作死或在管理劝阻以后依旧继续相关话题，则可能被警告。" />
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                 Text="要注意的是，群公告的群规只是一个衡量规则，就算某些行为群规中并没提到，但如果引人不适的话，依旧会被警告并处以相应惩罚。" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="什么是资源群？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="若在 PCL2 内群中被多次警告或严重违反群规，你会被踢出所有内群，然后要求自行加入资源群。资源群内全体禁言，一旦进入将无法再回到内群。" />
     </StackPanel>
 </local:MyCard>
