@@ -4,7 +4,5 @@
             Text="在 PCL2 中点击 更多 → 百宝箱 即可找到回声洞，其中包含各位网友的神秘留言。"/>
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
             Text="在解锁赞助者主题后，你的回声洞卡片上就会增加一个投稿按钮。"/>
-         <local:MyListItem Margin="-5,0,-5,0" Type="Clickable" Info="查看如何解锁赞助者主题" Logo="" Title="主题"
-                EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\主题.json"/>
     </StackPanel>
 </local:MyCard>

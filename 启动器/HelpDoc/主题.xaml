@@ -24,14 +24,23 @@
 <local:MyCard Title="我换了电脑或重装了系统，隐藏主题没了怎么办？怎样备份、迁移隐藏主题？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal">
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="秋仪金：" FontWeight="SemiBold" />
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="按照" />
+                <local:MyTextButton Text="常规方式" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/RvCa.json"/>
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="获取就行（把新的识别码发到爱发电私信）。" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="活跃橙：" FontWeight="SemiBold" />
             <TextBlock TextWrapping="Wrap"
-                    Text="秋仪金、活跃橙可以将相关的证明发给管理员来重新解锁（找管理的细节详见 " />
+                    Text="将相关的证明发给管理员来重新解锁（找管理的细节详见 " />
             <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/ceFU.json"/>
             <TextBlock TextWrapping="Wrap"
-                    Text="），其他隐藏主题如果忘了备份就没" />
+                    Text="），其他隐藏主题如果忘了备份就没法恢复啦......" />
         </StackPanel>
-        <TextBlock TextWrapping="Wrap"
-                Text="法恢复啦……" />
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
                 Text="在下方点击进入“备份启动器设置”，其中有备份相关信息的方法，但备份主题只适用于重装电脑，换新电脑没法迁移主题。如果主题能跨电脑迁移，那所有人就都解锁了……" />
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="启动器/备份设置.json" />
@@ -42,30 +51,22 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                 Text="秋仪金与隐藏主页提示均需要赞助 23.33 元及以上档位，赞助档位不足无法解锁。" />
-        <StackPanel Orientation="Horizontal">
+        
+            <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="请将 " />
             <local:MyTextButton Text="PCL2 识别码" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/ZvAa.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 通过 " />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}"
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15" Background="{DynamicResource ColorBrush5}"
                     Text="爱发电私信" />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text=" 发给龙猫，然后等待回复。龙猫会在 " />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}"
-                    Text="两天内" />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text=" 回复私信。别催，因为就算催龙猫也看不" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text=" 发给龙猫，然后等待回复。发送的格式为： " />
         </StackPanel>
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="到……" />
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="如果爱发电提示赞助过期无法发送私信，请私聊管理员处理，不要 QQ 私聊龙猫。找管理的细节详见 " />
-            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/ceFU.json"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text=" 的说明。" />
-        </StackPanel>
+        <local:MyHint Margin="0,0,0,15" IsWarn="False"
+                        Text="更新0000-1111-2222-3333"/>
+            <local:MyHint Margin="0,0,0,15" IsWarn="False"
+                        Text="注意，要在同一条信息中同时包含“更新”两个字和你的识别码哦。"/>
     </StackPanel>
 </local:MyCard>
 
