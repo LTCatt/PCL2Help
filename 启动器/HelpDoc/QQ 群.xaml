@@ -1,84 +1,86 @@
-<local:MyCard Title="我要如何加入内群？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="加群需要至少累计赞助 12.34 元，请在赞助后查看你的爱发电私信，其中有加群的信息。" />
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="如果 " />
-            <TextBlock Text="等待 24 小时后" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text=" 申请依然未通过，可能是由于你的 QQ 被标记为可疑账号，因此申请会被傻逼腾讯过滤……那么先试试" />
+<local:MyCard Title="我要怎样进群？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+        <StackPanel Margin="25,40,23,15">
+                <StackPanel Orientation="Horizontal">
+                        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                                Text="在"/>
+                        <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
+                        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                                Text="发送【加群】，然后按照回复操作即可。"/>
+                </StackPanel>
         </StackPanel>
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="用 " />
-            <TextBlock Text="手机以及电脑" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text=" 各自重新发送一次申请，如果一天后还是没有通过，那你可能得换个 QQ 号了……" />
-        </StackPanel>
-    </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我可以同时进多个内群吗？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="可以，但不推荐。因为开多个群的本来目的就是为了装下更多人……" />
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="如果非要进的话，需要重新赞助 12.34 档位，然后凭赞助截图去 " />
-            <local:MyTextButton Text="找管理员" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="。" />
+<local:MyCard Title="我需要换一个号进群，应该怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+        <StackPanel Margin="25,40,23,15">
+                <StackPanel Orientation="Horizontal">
+                        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                                Text="在"/>
+                        <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
+                        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                                Text="发送【换号加群】，然后按照回复操作即可。"/>
+                </StackPanel>
         </StackPanel>
-    </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我可以发广告吗？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="可以，但你的广告必须与 MC 相关，且两次广告必须间隔至少 5 天。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="如果超过了“五天一次”的频率，你会被禁言或警告的！" />
-    </StackPanel>
+<local:MyCard Title="我发了加群申请，但是没有通过，我该怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+        <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                        Text="如果申请在发送 24 小时后 依然没有被同意或拒绝，可能是由于你的 QQ 被标记为可疑账号，因此申请会被傻逼腾讯过滤……那么先试试用 手机以及电脑 各自重新发送一次申请，如果一天后还是没有通过，那你可能得换个 QQ 号了……"/>
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                        Text="如果申请被管理拒绝，请检查你填写的入群验证码：验证码一般是一段 20~25 位的乱码，不要错填成识别码、解锁码或是更新密钥。也请注意不要打错字（例如把小写 L 打成了大写 i），最好直接复制粘贴。"/>
+        </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我发了加群申请，但是没有通过，我该怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+        <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                        Text="如果你通过爱发电私信的链接直接跳转到了这段话，那就代表着我们 并没有收到 使用这个验证码的加群申请。这有可能是因为："/>
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                        Text="· 你输入的验证码里有错字（例如把小写 L 打成了大写 i），最好直接复制粘贴"/>
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                        Text="· 你的 QQ 被标记为可疑账号，因此你的申请被傻逼 QQ 过滤了……那么只能先试试用 手机以及电脑 各自重新发送一次申请，如果还是这样，那你可能得换个 QQ 号了……"/>
+        </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我或者我邀请的朋友可以同时进多个群吗？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+        <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                        Text="可以，但非常不推荐。因为开多个群的目的本来就是为了装下更多人……"/>
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                        Text="如果非要进的话，你需要先累计赞助够 54.32 元，在这个基础上，总赞助额 每额外多出 12.34 元，就可以多进一个群。例如，赞助 100 元可以总计进入四个群。（100-54.32=45.68，45.68/12.34≈3.7，算上 12.34 档位原本的一个群，一共能进入四个群）"/>
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                        Text="以此获得的额外加群验证码可以发给你的朋友，或者自己使用。"/>
+                <StackPanel Orientation="Horizontal">
+                        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                                Text="满足条件后，在"/>
+                        <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
+                        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                                Text="发送【加群】即可。"/>
+                </StackPanel>
+        </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="夹子、要夹子是什么意思？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="夹子指禁言，要夹子指主动请求管理禁言自己。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="不建议找管理要夹子， 这会增加管理的工作负担，因此管理通常会数十倍延长主动要夹子的禁言时间。因为主动要夹子而被禁言的，管理不会解除，求也没用。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="如果你尝试要 30 天以上的夹子会被直接踢出，请自行等到时间到了再加回来。嗯。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="人类真是神奇的生物……" />
-    </StackPanel>
+        <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                        Text="夹子指禁言，要夹子指主动请求管理禁言自己。"/>
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                        Text="不建议找管理要夹子， 这会增加管理的工作负担，因此管理通常会数十倍延长主动要夹子的禁言时间。因为主动要夹子而被禁言的，管理不会解除，求也没用。"/>
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                        Text="如果你尝试要 30 天以上的夹子会被直接踢出，请自行等到时间到了再加回来。嗯。"/>
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                        Text="(人类真是神奇的生物……)"/>    
+        </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我可以在群里 XXX 吗？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="通常来说，如果你觉得你要做的事情是需要进行确认是否违规的，那你可以选择直接不这么做，何况很多东西你发之前真的没人知道合不合适。" />
-        <StackPanel Orientation="Horizontal">
-            <TextBlock Text="你认为" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="可以做的事情不代表其他人认为可以做，具体违规与否由管理员判定为准。" />
+<local:MyCard Title="如果违反群规，或被管理员警告会发生什么事情？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+        <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                        Text="如果违反群规、故意作死或在管理劝阻以后依旧继续不适宜的话题，则可能被警告。如果多次被警告将会被移进PCL2资源群。"/>
+                <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                        Text="要注意的是，群公告的群规只是一个衡量规则，就算某些行为群规中并没提到，但如果引人不适的话，依旧会被警告并处以相应惩罚。"/>
+                <local:MyHint Margin="0,8,0,2"
+                        Text="在你被警告时，大概率也会一起被禁言，禁言时间视恶劣程度不定。"/>
         </StackPanel>
-    </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="在群里被管理员警告或禁言会怎样？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="如果多次被警告将会被移进 " />
-            <local:MyTextButton Margin="0,0,0,15" Text="PCL2 资源群" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/L4RJ.json"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="，并且将被取消服务器白名单。" />
-        </StackPanel>
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="一般来说，禁言≠警告，但如果故意作死或在管理劝阻以后依旧继续相关话题，则可能被警告。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="要注意的是，群公告的群规只是一个衡量规则，就算某些行为群规中并没提到，但如果引人不适的话，依旧会被警告并处以相应惩罚。" />
-    </StackPanel>
-</local:MyCard>

@@ -1,25 +1,25 @@
 <local:MyCard Title="PCL2 的爱发电地址是？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyTextButton Margin="0,0,0,15" Text="点此进入爱发电页面。" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/@LTCat"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                    Text="因为爱发电方便统计和管理，所以不接受其他的赞助渠道……抱歉啦。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="如何通过补差价提升自己的档位？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
+    <StackPanel Margin="25,40,23,0">
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                     Text="在 " />
             <local:MyTextButton Text="这个页面" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/order/create?user_id=df2dfad2960911e89c5252540025c377"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 补足差价就行啦。如果有多次赞助，金额是可以叠加的！" />
         </StackPanel>
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="我要如何领取各项赞助福利？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
+    <StackPanel Margin="25,40,23,0">
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                     Text="6.66 档位：" FontWeight="SemiBold" />
@@ -46,7 +46,7 @@
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                     Text="54.32 档位：" FontWeight="SemiBold" />
             <local:MyTextButton Text="分享 23.33 档位给他人" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/VjP2.json"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="、" />
             <local:MyTextButton Text="加入赞助者鸣谢列表" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/JMaR.json"/>
         </StackPanel>
@@ -61,7 +61,7 @@
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                         Text="使用你的账号在"/>
                 <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
-                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                         Text="发送【邀请加群】即可。无论如何也不要将你自己的加群验证码发给其他人，这会导致你被警告甚至被踢出！"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
@@ -79,7 +79,7 @@
                 Text="只要你的爱发电用户名不是默认名称（爱发电用户_XXXX），就会自动列入鸣谢列表的！" />
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                 Text="此外，鸣谢列表不是实时更新的，而是在每个月 PCL2 首次更新时修改为上一个月的赞助者。例如，6 月的赞助者需要等到 7 月 PCL2 首次更新后才会列入列表。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                 Text="因为爱发电的憨憨技术问题，通过补差价达到 54.32 档位的没法被列进去……抱歉……" />
     </StackPanel>
 </local:MyCard>

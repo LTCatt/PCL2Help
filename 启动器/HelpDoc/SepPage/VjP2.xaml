@@ -10,7 +10,7 @@
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                     Text="请参见 " />
             <local:MyTextButton Margin="0,0,0,15" Text="解锁赞助者主题" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/order/create?user_id=df2dfad2960911e89c5252540025c377"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 的说明。" />
         </StackPanel>
     </StackPanel>

@@ -15,7 +15,7 @@
         </StackPanel>
         <local:MyHint Margin="0,0,0,15" IsWarn="False"
                         Text="更新0000-1111-2222-3333"/>
-            <local:MyHint Margin="0,0,0,15" IsWarn="False"
+            <local:MyHint Margin="0,0,0,0" IsWarn="False"
                         Text="注意，要在同一条信息中同时包含“更新”两个字和你的识别码哦。"/>
     </StackPanel>
 </local:MyCard>

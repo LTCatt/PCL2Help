@@ -52,14 +52,12 @@
 
 <local:MyCard Title="为什么 PCL2 提示我“当前启动器已为最新版”？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                   Text="你目前使用的已经是最新版了，真的不需要更新了……真的！" />
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                   Text="有人在发更新命令是因为他不是最新版，但你的已经是最新版了啊！你管他干啥……除非 PCL2 要求，否则就别跟风发更新命令了……" />
+                   Text="你目前使用的已经是最新版了，真的不需要更新了……真的！" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我要如何更新 PCL2？如何获得更新密钥？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="我要如何更新 PCL2 ？如何获得更新密钥？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
@@ -79,25 +77,8 @@
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                         Text="如果只是想获取最新的正式版而非快照版，直接"/>
             <local:MyTextButton Text="点击这里" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/p/0164034c016c11ebafcb52540025c377"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                        Text="，即可直接下载："/>
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                        Text="，即可直接下载。"/>
         </StackPanel>
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="为什么我发了更新命令但是机器人没有反应？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap"
-                   Text="命令“.更新 XXXX-XXXX-XXXX-XXXX”的更新两个字的" />
-            <TextBlock TextWrapping="Wrap"
-                   Text="前面有一个小数点，后面有一个空格" Background="{DynamicResource ColorBrush5}"/>
-            <TextBlock TextWrapping="Wrap"
-                   Text="，缺少小数点或空格都会导致命" />
-        </StackPanel>
-        <TextBlock TextWrapping="Wrap"
-                   Text="令无效。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
-                   Text="如果确认格式正确，可能是机器人卡了……这个真的没办法……" />
     </StackPanel>
 </local:MyCard>
