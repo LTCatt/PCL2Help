@@ -2,5 +2,6 @@
     "__Author__": "龙腾猫跃,GBC034,Fiorest",
     "Title": "PCL2 常见问题",
     "Description": "PCL2 帮助文档",
-    "Types": ["PCL2 常见问题"]
+    "Types": ["启动器"],
+    "Logo" : "pack://application:,,,/images/Blocks/RedstoneBlock.png"
 }
