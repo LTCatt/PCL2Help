@@ -59,10 +59,10 @@
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                         Text="加入QQ群：" FontWeight="SemiBold"/>
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                        Text="使用你的账号在"/>
+                        Text="使用你的账号在 "/>
                 <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                        Text="发送【邀请加群】即可。无论如何也不要将你自己的加群验证码发给其他人，这会导致你被警告甚至被踢出！"/>
+                        Text=" 发送【邀请加群】即可。无论如何也不要将你自己的加群验证码发给其他人，这会导致你被警告甚至被踢出！"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"

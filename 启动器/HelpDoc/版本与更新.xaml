@@ -79,8 +79,6 @@
             <local:MyTextButton Text="点击这里" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/p/0164034c016c11ebafcb52540025c377"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                         Text="，即可直接下载。"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                        Text=" ，即可直接下载："/>
         </StackPanel>
     </StackPanel>
 </local:MyCard>

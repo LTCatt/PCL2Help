@@ -2,10 +2,10 @@
         <StackPanel Margin="25,40,23,15">
                 <StackPanel Orientation="Horizontal">
                         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                                Text="在"/>
+                                Text="在 "/>
                         <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
                         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                                Text="发送【加群】，然后按照回复操作即可。"/>
+                                Text=" 发送【加群】，然后按照回复操作即可。"/>
                 </StackPanel>
         </StackPanel>
 </local:MyCard>
@@ -14,10 +14,10 @@
         <StackPanel Margin="25,40,23,15">
                 <StackPanel Orientation="Horizontal">
                         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                                Text="在"/>
+                                Text="在 "/>
                         <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
                         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                                Text="发送【换号加群】，然后按照回复操作即可。"/>
+                                Text=" 发送【换号加群】，然后按照回复操作即可。"/>
                 </StackPanel>
         </StackPanel>
 </local:MyCard>
@@ -52,10 +52,10 @@
                         Text="以此获得的额外加群验证码可以发给你的朋友，或者自己使用。"/>
                 <StackPanel Orientation="Horizontal">
                         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                                Text="满足条件后，在"/>
+                                Text="满足条件后，在 "/>
                         <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
                         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                                Text="发送【加群】即可。"/>
+                                Text=" 发送【加群】即可。"/>
                 </StackPanel>
         </StackPanel>
 </local:MyCard>
@@ -76,7 +76,7 @@
 <local:MyCard Title="如果违反群规，或被管理员警告会发生什么事情？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
         <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                        Text="如果违反群规、故意作死或在管理劝阻以后依旧继续不适宜的话题，则可能被警告。如果多次被警告将会被移进PCL2资源群。"/>
+                        Text="如果违反群规、故意作死或在管理劝阻以后依旧继续不适宜的话题，则可能被警告。如果多次被警告将会被移进 PCL2 资源群。"/>
                 <local:MyHint Margin="0,8,0,2" IsWarn="False"
                         Text="要注意的是，群公告的群规只是一个衡量规则，就算某些行为群规中并没提到，但如果引人不适的话，依旧会被警告并处以相应惩罚。"/>
                 <local:MyHint Margin="0,8,0,2"
