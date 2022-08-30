@@ -8,7 +8,7 @@
 </Border>
 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
         Text="" />
-<local:MyCard Title="PCL2 常见问题 兼 脑溢血急救中心" CanSwap="False">
+<local:MyCard Title="PCL2 常见问题" CanSwap="False">
     <StackPanel Margin="25,40,23,15">
         <local:MyListItem Margin="-5,0,-5,8" Type="Clickable" Title="赞助" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/赞助.json" />
         <local:MyListItem Margin="-5,0,-5,8" Type="Clickable" Title="主题" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/主题.json" />
