@@ -1,16 +1,34 @@
-<local:MyCard Title="我要如何获取最新快照版？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                   Text="先在群文件中下载任意快照版，打开后点击 设置 → 启动器 → 检查更新，根据提示操作即可。" />
+<local:MyCard Title="我要如何领取各项赞助福利？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,0">
         <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="6.66 档位：" FontWeight="SemiBold" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="请查看爱发电的私信……" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="12.34 档位：" FontWeight="SemiBold" />
+            <local:MyTextButton Text="加入 QQ 群" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/加入内群.json"/>
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="、" />
+            <local:MyTextButton Text="获取快照版" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/获取快照版.json"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="23.33 档位：" FontWeight="SemiBold" />
+            <local:MyTextButton Text="解锁赞助者主题、隐藏快照版提示" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/解锁赞助.json"/>
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="、" />
+            <local:MyTextButton Text="投稿回声洞" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/投稿回声洞.json"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="54.32 档位：" FontWeight="SemiBold" />
+            <local:MyTextButton Text="分享 23.33 档位给他人" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/分享档位.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                   Text="6.66 档位的赞助不能获取快照版更新，需要 " />
-            <local:MyTextButton Text="升级到更高档位" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/升级档位.json"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                   Text="，或者 " />
-            <local:MyTextButton Text="使用正式版" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/获取正式版.json"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                   Text="。" />
+                    Text="、" />
+            <local:MyTextButton Text="加入赞助者鸣谢列表" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/加入赞助者列表.json"/>
         </StackPanel>
     </StackPanel>
 </local:MyCard>

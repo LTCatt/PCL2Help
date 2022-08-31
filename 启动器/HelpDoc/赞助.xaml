@@ -1,86 +1,9 @@
-<local:MyCard Title="PCL2 的爱发电地址是？" Margin="0,0,0,15">
+<local:MyCard Title="赞助" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <local:MyTextButton Margin="0,0,0,15" Text="点此进入爱发电页面。" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/@LTCat"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                   Text="因为爱发电方便统计和管理，所以不接受其他的赞助渠道……抱歉啦。" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\赞助\Para1.json" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\赞助\Para2.json" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\赞助\Para3.json" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\赞助\Para4.json" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\赞助\Para5.json" />
     </StackPanel>
 </local:MyCard>
-
-<local:MyCard Title="如何通过补差价提升自己的档位？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,0">
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="在 " />
-            <local:MyTextButton Text="这个页面" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/order/create?user_id=df2dfad2960911e89c5252540025c377"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text=" 补足差价就行啦。如果有多次赞助，金额是可以叠加的！" />
-        </StackPanel>
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="我要如何领取各项赞助福利？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,0">
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="6.66 档位：" FontWeight="SemiBold" />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="请查看爱发电的私信……" />
-        </StackPanel>
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="12.34 档位：" FontWeight="SemiBold" />
-            <local:MyTextButton Text="加入 QQ 群" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/加入内群.json"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="、" />
-            <local:MyTextButton Text="获取快照版" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/获取快照版.json"/>
-        </StackPanel>
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="23.33 档位：" FontWeight="SemiBold" />
-            <local:MyTextButton Text="解锁赞助者主题、隐藏快照版提示" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/解锁赞助.json"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="、" />
-            <local:MyTextButton Text="投稿回声洞" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/投稿回声洞.json"/>
-        </StackPanel>
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="54.32 档位：" FontWeight="SemiBold" />
-            <local:MyTextButton Text="分享 23.33 档位给他人" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/分享档位.json"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="、" />
-            <local:MyTextButton Text="加入赞助者鸣谢列表" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/加入赞助者列表.json"/>
-        </StackPanel>
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="在赞助 54.32 档位后，要如何分享 23.33 档位给他人？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <StackPanel Orientation="Horizontal">
-                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                        Text="加入QQ群：" FontWeight="SemiBold"/>
-                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                        Text="使用你的账号在 "/>
-                <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
-                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                        Text=" 发送【邀请加群】即可。无论如何也不要将你自己的加群验证码发给其他人，这会导致你被警告甚至被踢出！"/>
-        </StackPanel>
-        <StackPanel Orientation="Horizontal">
-                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                        Text="获取快照版、更新密钥、解锁码：" FontWeight="SemiBold"/>
-                <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                        Text="与你自己获取的步骤是一样的，依然使用你的账号在爱发电私信发送对应命令即可（赞助到 54.32 档位实际上会多允许你使用一个不同的识别码）。"/>        
-        </StackPanel>
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="在赞助 54.32 档位后，要如何加入赞助者鸣谢列表？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="只要你的爱发电用户名不是默认名称（爱发电用户_XXXX），就会自动列入鸣谢列表的！" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="此外，鸣谢列表不是实时更新的，而是在每个月 PCL2 首次更新时修改为上一个月的赞助者。例如，6 月的赞助者需要等到 7 月 PCL2 首次更新后才会列入列表。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="因为爱发电的憨憨技术问题，通过补差价达到 54.32 档位的没法被列进去……抱歉……" />
-    </StackPanel>
-</local:MyCard>
-

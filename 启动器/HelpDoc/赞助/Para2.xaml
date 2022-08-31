@@ -1,13 +1,11 @@
-<local:MyCard Title="我应该使用正式版还是快照版？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
+<local:MyCard Title="如何通过补差价提升自己的档位？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,0">
         <StackPanel Orientation="Horizontal">
-            <TextBlock LineHeight="17" Margin="0,0,0,15"
-                    Text="如果没有赞助过，或追求绝对的稳定性，或需要用于 " />
-            <local:MyTextButton Text="制作整合包" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="指南\整合包制作 - Public.json"/> <!--Public和Snapshot控制-->
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                    Text="，请使用正式版。" />
+                    Text="在 " />
+            <local:MyTextButton Text="这个页面" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/order/create?user_id=df2dfad2960911e89c5252540025c377"/>
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text=" 补足差价就行啦。如果有多次赞助，金额是可以叠加的！" />
         </StackPanel>
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                   Text="如果已经赞助过了，那就用快照版啦。毕竟快照版有新功能，并且能换主题……" />
     </StackPanel>
 </local:MyCard>
