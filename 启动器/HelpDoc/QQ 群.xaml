@@ -1,4 +1,4 @@
-<local:MyCard Title="我要怎样进群？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="我要怎样进群？" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15">
                 <StackPanel Orientation="Horizontal">
            投稿回声洞             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
@@ -10,7 +10,7 @@
         </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我需要换一个号进群，应该怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="我需要换一个号进群，应该怎么办？" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15">
                 <StackPanel Orientation="Horizontal">
                         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
@@ -22,7 +22,7 @@
         </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我发了加群申请，但是没有通过，我该怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="我发了加群申请，但是没有通过，我该怎么办？" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                         Text="如果申请在发送 24 小时后 依然没有被同意或拒绝，可能是由于你的 QQ 被标记为可疑账号，因此申请会被傻逼腾讯过滤……那么先试试用 手机以及电脑 各自重新发送一次申请，如果一天后还是没有通过，那你可能得换个 QQ 号了……"/>
@@ -31,7 +31,7 @@
         </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我发了加群申请，但是没有通过，我该怎么办？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="我发了加群申请，但是没有通过，我该怎么办？" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                         Text="如果你通过爱发电私信的链接直接跳转到了这段话，那就代表着我们 并没有收到 使用这个验证码的加群申请。这有可能是因为："/>
@@ -42,7 +42,7 @@
         </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我或者我邀请的朋友可以同时进多个群吗？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="我或者我邀请的朋友可以同时进多个群吗？" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                         Text="可以，但非常不推荐。因为开多个群的目的本来就是为了装下更多人……"/>
@@ -60,7 +60,7 @@
         </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="夹子、要夹子是什么意思？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="夹子、要夹子是什么意思？" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                         Text="夹子指禁言，要夹子指主动请求管理禁言自己。"/>
@@ -73,7 +73,7 @@
         </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="如果违反群规，或被管理员警告会发生什么事情？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="如果违反群规，或被管理员警告会发生什么事情？" Margin="0,0,0,15">
         <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                         Text="如果违反群规、故意作死或在管理劝阻以后依旧继续不适宜的话题，则可能被警告。如果多次被警告将会被移进 PCL2 资源群。"/>

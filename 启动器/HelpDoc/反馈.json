@@ -3,5 +3,6 @@
 	"Title": "反馈",
     "Logo": "pack://application:,,,/images/Blocks/RedstoneBlock.png",
     "Description":"反馈并尝试解决在使用 PCL2 过程中遇见的问题",
-    "Keywords":"问题与反馈"
+    "Keywords":"问题与反馈",
+    "Types" : ["PCL2 常见问题"]
 }

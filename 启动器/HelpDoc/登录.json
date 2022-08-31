@@ -3,5 +3,6 @@
 	"Title": "登录",
     "Logo": "pack://application:,,,/images/Blocks/Anvil.png",
     "Description":"在 PCL2 中登录 Minecraft 账号常见的问题",
-    "Keywords":"账号登录"
+    "Keywords":"账号登录",
+    "Types" : ["PCL2 常见问题"]
 }

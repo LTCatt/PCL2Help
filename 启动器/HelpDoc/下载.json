@@ -3,5 +3,6 @@
 	"Title": "下载",
     "Logo": "pack://application:,,,/images/Blocks/RedstoneLampOn.png",
     "Description":"尝试解决下载中遇到的错误",
-    "Keywords":"下载报错"
+    "Keywords":"下载报错",
+    "Types" : ["PCL2 常见问题"]
 }

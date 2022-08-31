@@ -1,0 +1,9 @@
+{
+    "__Author__": "GBC034,Fiorest",
+	"Title": "PCL2 帮助文档",
+    "Description":"PCL2 常见问题 兼 脑溢血急救中心",
+    "IsEvent":true,
+    "EventType":"打开网页",
+    "EventData":"https://shimo.im/docs/qKPttVvXKqPD8YDC",
+    "Types" : ["PCL2 常见问题"]
+}

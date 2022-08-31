@@ -3,5 +3,6 @@
 	"Title": "版本与更新",
     "Logo": "pack://application:,,,/images/Blocks/CommandBlock.png",
     "Description":"了解 PCL2 的版本与更新的内容",
-    "Keywords":"启动器"
+    "Keywords":"启动器",
+    "Types" : ["PCL2 常见问题"]
 }

@@ -2,6 +2,7 @@
     "__Author__": "GBC034,Fiorest",
 	"Title": "QQ 群",
     "Logo": "pack://application:,,,/images/Blocks/GrassPath.png",
-    "Description":"PCL2 QQ群的信息",
-    "Keywords":"QQ群内测群"
+    "Description":"PCL2 QQ 群的信息",
+    "Keywords":"QQ群内测群",
+    "Types" : ["PCL2 常见问题"]
 }

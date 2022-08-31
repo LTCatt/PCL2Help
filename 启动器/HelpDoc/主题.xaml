@@ -1,4 +1,4 @@
-<local:MyCard Title="为什么 PCL2 提示需要赞助才能换主题？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="为什么 PCL2 提示需要赞助才能换主题？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                 Text="这是因为你使用的是 PCL2 的正式版。" />
@@ -7,7 +7,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="隐藏主题怎么解锁？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="隐藏主题怎么解锁？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                 Text="隐藏主题很多都是一些小解密，鼠标悬浮在上面就有提示了，请自己多多尝试 =w=！" />
@@ -21,7 +21,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我换了电脑或重装了系统，隐藏主题没了怎么办？怎样备份、迁移隐藏主题？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="我换了电脑或重装了系统，隐藏主题没了怎么办？怎样备份、迁移隐藏主题？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal">
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
@@ -47,7 +47,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="如何解锁赞助者主题（秋仪金），或是隐藏主页的快照版提示？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="如何解锁赞助者主题（秋仪金），或是隐藏主页的快照版提示？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                 Text="秋仪金与隐藏主页提示均需要赞助 23.33 元及以上档位，赞助档位不足无法解锁。" />
@@ -70,7 +70,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="如何解锁活跃橙？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="如何解锁活跃橙？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"

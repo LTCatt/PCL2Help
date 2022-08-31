@@ -1,4 +1,4 @@
-<local:MyCard Title="PCL2 的爱发电地址是？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="PCL2 的爱发电地址是？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <local:MyTextButton Margin="0,0,0,15" Text="点此进入爱发电页面。" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/@LTCat"/>
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
@@ -6,7 +6,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="如何通过补差价提升自己的档位？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="如何通过补差价提升自己的档位？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,0">
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
@@ -18,7 +18,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="我要如何领取各项赞助福利？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="我要如何领取各项赞助福利？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,0">
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
@@ -53,7 +53,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="在赞助 54.32 档位后，要如何分享 23.33 档位给他人？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="在赞助 54.32 档位后，要如何分享 23.33 档位给他人？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal">
                 <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
@@ -73,7 +73,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="在赞助 54.32 档位后，要如何加入赞助者鸣谢列表？" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="在赞助 54.32 档位后，要如何加入赞助者鸣谢列表？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                 Text="只要你的爱发电用户名不是默认名称（爱发电用户_XXXX），就会自动列入鸣谢列表的！" />
