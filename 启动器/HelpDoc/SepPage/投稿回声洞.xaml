@@ -1,0 +1,8 @@
+<local:MyCard Title="回声洞是什么？我要如何投稿？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+            Text="在 PCL2 中点击 更多 → 百宝箱 即可找到回声洞，其中包含各位网友的神秘留言。"/>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+            Text="在解锁赞助者主题后，你的回声洞卡片上就会增加一个投稿按钮。"/>
+    </StackPanel>
+</local:MyCard>
