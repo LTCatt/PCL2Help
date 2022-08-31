@@ -37,7 +37,7 @@
                     Text="活跃橙：" FontWeight="SemiBold" />
             <TextBlock TextWrapping="Wrap"
                     Text="将相关的证明发给管理员来重新解锁（找管理的细节详见 " />
-            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/ceFU.json"/>
+            <local:MyTextButton Text="这一段" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/获取活跃橙.json"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,15"
                     Text="），其他隐藏主题如果忘了备份就没法恢复啦......" />
         </StackPanel>

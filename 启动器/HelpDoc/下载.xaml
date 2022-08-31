@@ -17,7 +17,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text="你使用的 PCL2 版本过老，请在 " />
-            <local:MyTextButton Text="更新 PCL2" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/oTgb.json"/>
+            <local:MyTextButton Text="更新 PCL2" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/更新 PCL2.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                     Text=" 后再试。" />
         </StackPanel>
