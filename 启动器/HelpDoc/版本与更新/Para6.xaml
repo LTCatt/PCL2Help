@@ -3,7 +3,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                         Text="请将你的 "/>
-            <local:MyTextButton Text="PCL2 识别码" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/ZvAa.json"/>
+            <local:MyTextButton Text="PCL2 识别码" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/识别码与解锁码.json"/>
             <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                         Text=" 发送到 "/>
             <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>

@@ -1,49 +1,7 @@
-<local:MyCard Title="我碰到了 Bug，我应该怎么反馈？" Margin="0,0,0,15">
+<local:MyCard Title="反馈" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="请点击 PCL2 内的 更多 → 反馈 提交反馈。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="如果是方块竞技场的 Bug，那就直接私聊龙猫吧……" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="PCL2 的日志在哪里？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="在启动 PCL2 后，它所在的文件夹中会生成一个名为 PCL 的文件夹。打开它，其中的 Log1.txt 至 Log5.txt 即为日志文件。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="推荐你在提交日志前，先在“设置 → 启动器 → 调试选项”中打开调试模式，并重现 Bug。" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="在找管理的时候要注意什么？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="为了让你的问题能尽快得到解决，节省彼此的时间，请注意：" />
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="1. 除非你必须发图片或者发文件，否则 " />
-            <TextBlock Text="尽量通过" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text=" " />
-            <local:MyTextButton Text="爱发电私信" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/message/df2dfad2960911e89c5252540025c377"/>
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text=" 而不是 QQ 来联系" />
-        </StackPanel>
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="2. 不要在 QQ 上找龙猫（龙腾猫跃）……" />
-        <StackPanel Orientation="Horizontal">
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="3. " />
-            <TextBlock Text="只找一个管理" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
-            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="，然后请耐心等待（如果你把每个人都挨个烦一遍可能会被揍一顿）" />
-        </StackPanel>
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="4. 不要加好友，不要问“在吗”，请直接私聊说事情" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="5. 如果与赞助相关，请一并附带赞助证明截图" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="6. 管理会处理私聊的，但大家没法去立即回复。还请多多理解，别一直催……" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\反馈\Para1.json" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\反馈\Para2.json" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\反馈\Para3.json" />
     </StackPanel>
 </local:MyCard>
