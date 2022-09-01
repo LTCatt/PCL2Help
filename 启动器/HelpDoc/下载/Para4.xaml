@@ -1,6 +1,25 @@
-<local:MyCard Title="如何查看自己的识别码？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
+<local:MyCard Title="关于网络环境问题的解答……" Margin="0,0,0,15">
+        <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="绝大多数此类问题都是由于国内的网络环境“不佳”，连接国外的服务器非常不稳定。" />
+            <TextBlock Text="这不是 PCL2 的 Bug" Margin="0,0,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="，启动器也无力解决这一问题。" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                    Text="之所以你能上百度、上 QQ，那是因为这些是" />
+            <TextBlock Text="国内" Margin="0,15,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                    Text="的服务，这不代表你能连上" />
+            <TextBlock Text="国外" Margin="0,15,0,0" Background="{DynamicResource ColorBrush5}" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                    Text="的服务器。" />
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="请不要因此在 PCL2 处提交反馈。" />
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="识别码中不包含你的个人信息，而解锁码是根据每个人的识别码生成的，所以不小心让别人看到了也没关系，其他人也没法使用你的解锁码的。" />
+                Text="挂加速器或者 VPN 一般能解决这些问题，请自行想办法解决。" />
     </StackPanel>
 </local:MyCard>
