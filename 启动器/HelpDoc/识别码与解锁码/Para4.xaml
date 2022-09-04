@@ -1,6 +1,0 @@
-<local:MyCard Title="如何查看自己的识别码？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                    Text="识别码中不包含你的个人信息，而解锁码是根据每个人的识别码生成的，所以不小心让别人看到了也没关系，其他人也没法使用你的解锁码的。" />
-    </StackPanel>
-</local:MyCard>

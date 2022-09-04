@@ -1,5 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
     "Title": "如何查看自己的识别码？",
-    "Logo": ""
+    "Logo": "pack://application:,,,/images/Blocks/CommandBlock.png",
+    "Description":"找到识别码来获取更多的功能",
+    "keywords":"识别码"
 }

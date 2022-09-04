@@ -1,6 +1,0 @@
-<local:MyCard Title="为什么 PCL2 提示我“当前启动器已为最新版”？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                   Text="你目前使用的已经是最新版了，真的不需要更新了……真的！" />
-    </StackPanel>
-</local:MyCard>

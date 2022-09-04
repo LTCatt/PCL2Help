@@ -1,7 +1,8 @@
-<local:MyCard Title="PCL2 的爱发电地址是？" Margin="0,0,0,15">
+<local:MyCard Title="如何通过补差价提升自己的档位？" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <local:MyTextButton Margin="0,0,0,15" Text="点此进入爱发电页面。" Foreground="{DynamicResource ColorBrush5}" FontWeight="SemiBold" EventType="打开网页" EventData="https://afdian.net/@LTCat"/>
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                   Text="因为爱发电方便统计和管理，所以不接受其他的赞助渠道……抱歉啦。" />
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="在下方按钮所链接的界面补足差价就行啦。如果有多次赞助，金额是可以叠加的！" />
+            <local:MyButton Width="200" Height="35" HorizontalAlignment="Left" Padding="0,0,0,0"
+                   Text="补足差价页面" EventType="打开网页" EventData="https://afdian.net/order/create?user_id=df2dfad2960911e89c5252540025c377"/>
     </StackPanel>
 </local:MyCard>

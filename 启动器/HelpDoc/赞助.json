@@ -4,5 +4,6 @@
     "Logo": "pack://application:,,,/images/Blocks/GoldBlock.png",
     "Description":"我该如何赞助？赞助过程中遇到的问题",
     "Keywords":"赞助",
+    "ShowInPublic": false,
     "Types" : ["PCL2 常见问题"]
 }

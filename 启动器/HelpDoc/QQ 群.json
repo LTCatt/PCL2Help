@@ -5,6 +5,6 @@
     "Description":"PCL2 QQ 群的信息",
     "Keywords":"QQ群内测群",
     "Types" : ["PCL2 常见问题"],
-    "ShowInPublic":"False",
-    "ShowInSnapshot":"False"
+    "ShowInPublic": false,
+    "ShowInSnapshot": false
 }

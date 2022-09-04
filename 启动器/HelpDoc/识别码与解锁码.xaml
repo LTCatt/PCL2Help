@@ -3,6 +3,5 @@
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\识别码与解锁码\Para1.json" />
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\识别码与解锁码\Para2.json" />
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\识别码与解锁码\Para3.json" />
-        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\识别码与解锁码\Para4.json" /> 
     </StackPanel>
 </local:MyCard>
