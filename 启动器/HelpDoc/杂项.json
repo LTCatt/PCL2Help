@@ -1,8 +1,0 @@
-{
-    "__Author__": "GBC034, Fiorest",
-	"Title": "杂项",
-    "Logo": "pack://application:,,,/images/Blocks/Egg.png",
-    "Description": "一些关于 PCL2 的其他信息",
-    "Keywords": "其他",
-    "Types" : ["PCL2 常见问题"]
-}

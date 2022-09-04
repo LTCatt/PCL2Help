@@ -1,8 +1,0 @@
-<local:MyCard Title="PCL2 的日志在哪里？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="在启动 PCL2 后，它所在的文件夹中会生成一个名为 PCL 的文件夹。打开它，其中的 Log1.txt 至 Log5.txt 即为日志文件。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="推荐你在提交日志前，先在“设置 → 启动器 → 调试选项”中打开调试模式，并重现 Bug。" />
-    </StackPanel>
-</local:MyCard>

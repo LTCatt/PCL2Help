@@ -1,8 +1,0 @@
-<local:MyCard Title="我碰到了 Bug，我应该怎么反馈？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                Text="请点击 PCL2 内的 更多 → 反馈 提交反馈。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                Text="如果是方块竞技场的 Bug，那就直接私聊龙猫吧……" />
-    </StackPanel>
-</local:MyCard>

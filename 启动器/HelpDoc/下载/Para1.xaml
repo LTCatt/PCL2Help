@@ -2,6 +2,7 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                 Text="如果是 Mod、整合包下载提示“远程服务器返回错误”，请更新 PCL2 至最新版。" />
+<<<<<<< HEAD
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                     Text="例如“远程主机强迫关闭了一个现有的连接”、“连接超时”、“网络环境不佳”等其余所有情况均是由于网络环境不佳，请点击下面的链接查找帮助 " />
         <local:MyListItem Margin="15,0,0,15" Type="Clickable" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/网络环境问题的解答.json" />
@@ -9,5 +10,11 @@
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
                 Text="你使用的 PCL2 版本过老，请在更新 PCL2 后再试。点击下方链接更新" />
         <local:MyListItem Margin="15,0,0,15" Type="Clickable" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/更新 PCL2.json" />
+=======
+        <StackPanel Orientation="Horizontal">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                    Text="例如“远程主机强迫关闭了一个现有的连接”、“连接超时”、“网络环境不佳”等其余所有情况均是由于网络环境不佳，详见网络环境问题的解答。" />
+        </StackPanel>
+>>>>>>> 849112f93d914a6aee893ce99a4afbbd133745c9
     </StackPanel>
 </local:MyCard>

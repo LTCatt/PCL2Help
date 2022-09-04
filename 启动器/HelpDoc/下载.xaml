@@ -1,7 +1,14 @@
 <local:MyCard Title="下载" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
+<<<<<<< HEAD
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\下载\Para1.json" />
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\下载\Para2.json" />
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\下载\Para3.json" /> 
+=======
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="启动器\HelpDoc\下载\Para1.json" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="启动器\HelpDoc\下载\Para2.json" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="启动器\HelpDoc\下载\Para3.json" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="启动器\HelpDoc\下载\Para4.json" /> 
+>>>>>>> 849112f93d914a6aee893ce99a4afbbd133745c9
     </StackPanel>
 </local:MyCard>

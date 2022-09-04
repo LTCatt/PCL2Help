@@ -1,0 +1,9 @@
+{
+    "__Author__": "GBC034, Fiorest",
+    "Title": "获取最新正式版",
+    "Description": "获取最新正式版的快捷链接",
+    "Keywords": "更新",
+    "IsEvent": true,
+    "EventType": "打开网页",
+    "EventData": "https://afdian.net/p/0164034c016c11ebafcb52540025c377"
+}

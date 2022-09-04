@@ -1,8 +1,0 @@
-<local:MyCard Title="PCL2 的正式版与快照版有什么区别？" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
-                   Text="正式版无需赞助，但不能更改主题。快照版需要赞助，可以更改主题。" />
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
-                   Text="快照版也有可能包含部分新功能以作尝鲜，这些功能会在稳定后更新至正式版。" />
-    </StackPanel>
-</local:MyCard>

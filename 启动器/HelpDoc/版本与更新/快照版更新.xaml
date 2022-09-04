@@ -1,0 +1,10 @@
+<local:MyCard Title="我要如何更新 PCL2 ？如何获得更新密钥？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                        Text="请将你的 PCL2 识别码发送到爱发电私信，发送格式为：”更新 0000-1111-2222-3333“。注意，要在同一条信息中同时包含“更新”两个字和你的识别码哦。如果只是想获取最新的正式版而非快照版，直接点击下方按钮即可下载。"/>
+        </StackPanel>
+        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                        Text="正式版下载链接" EventType="打开网页" EventData="https://afdian.net/p/0164034c016c11ebafcb52540025c377" />
+    </StackPanel>
+</local:MyCard>
