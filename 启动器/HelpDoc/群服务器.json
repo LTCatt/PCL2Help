@@ -1,9 +1,0 @@
-{
-    "__Author__": "GBC034,Fiorest",
-	"Title": "群服务器",
-    "Logo": "pack://application:,,,/images/Blocks/Cobblestone.png",
-    "Description":"如何加入群 生存/小游戏 服务器",
-    "Keywords":"小游戏服务器",
-    "ShowInPublic": false,
-    "Types" : ["PCL2 常见问题"]
-}
