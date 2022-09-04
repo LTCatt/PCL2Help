@@ -1,0 +1,17 @@
+<local:MyCard Title="我换了电脑或重装了系统，隐藏主题没了怎么办？怎样备份、迁移隐藏主题？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                Text="秋仪金：" FontWeight="SemiBold" />
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                Text="按照如下方式获取即可（把新的识别码发到爱发电私信）：" />
+        <local:MyListItem Margin="-5,8,-5,15" Type="Clickable" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/解锁赞助.json"/>
+            <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+                    Text="活跃橙：" FontWeight="SemiBold" />
+            <TextBlock TextWrapping="Wrap"
+                    Text="将相关的证明发给管理员来重新解锁（找管理的细节参考下文按钮），其他隐藏主题如果忘了备份就没法恢复啦......" />
+            <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}/PCL/Help/PCL2Help/启动器/HelpDoc/SepPage/获取活跃橙.json"/>
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,15,0,0"
+                Text="在下方点击进入“备份启动器设置”，其中有备份相关信息的方法，但备份主题只适用于重装电脑，换新电脑没法迁移主题。如果主题能跨电脑迁移，那所有人就都解锁了……" />
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="启动器/备份设置.json" />
+    </StackPanel>
+</local:MyCard>

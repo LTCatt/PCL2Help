@@ -1,5 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
     "Title": "有关 PCL2 识别码的说明",
-    "Logo": ""
+    "Logo": "pack://application:,,,/images/Blocks/Grass.png",
+    "Description":"识别码和解锁码的相关问题",
+    "keywords":"识别码和解锁码"
 }

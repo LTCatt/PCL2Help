@@ -1,5 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
     "Title": "找管理员获取活跃橙的方式",
-    "Logo": ""
+    "Logo": "pack://application:,,,/images/Blocks/CommandBlock.png",
+    "Description":"解锁主题活跃橙",
+    "keywords":"活跃橙"
 }
