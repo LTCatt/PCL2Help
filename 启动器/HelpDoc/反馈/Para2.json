@@ -1,5 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
     "Title": "PCL2 的日志在哪里？",
-    "Logo": ""
+    "Logo": "pack://application:,,,/images/Blocks/Fabric.png",
+    "Description":"通过日志文件来解决 PCL2的一些问题",
+    "keywords":"查看日志"
 }

@@ -1,13 +1,13 @@
 <local:MyCard Title="正式版" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                    Text="点击 设置 → 启动器 → 检查更新，根据提示操作即可。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="快照版" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
+        <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
                    Text="在爱发电中回复 “更新” 即可获得更新代码，输入更新代码即可" />
     </StackPanel>
 </local:MyCard>

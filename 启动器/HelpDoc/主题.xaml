@@ -3,7 +3,6 @@
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\主题\Para1.json" />
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\主题\Para2.json" />
         <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\主题\Para3.json" /> 
-        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\主题\Para4.json" /> 
-        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\主题\Para5.json" /> 
+        <local:MyListItem Margin="-5,8,-5,0" Type="Clickable" EventType="打开帮助" EventData="{path}\PCL\Help\PCL2Help\启动器\HelpDoc\主题\Para4.json" />  
     </StackPanel>
 </local:MyCard>

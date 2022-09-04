@@ -1,5 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
     "Title": "我碰到了 Bug，我应该怎么反馈？",
-    "Logo": ""
+    "Logo": "pack://application:,,,/images/Blocks/RedstoneBlock.png",
+    "Description":"反馈遇到的问题",
+    "keywords":"反馈 Bug"
 }
