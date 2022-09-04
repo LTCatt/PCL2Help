@@ -1,5 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
     "Title": "PCL2 的某个下载页面加载不出来或是报错怎么办？",
-    "Logo": ""
+    "Logo": "pack://application:,,,/images/Blocks/CommandBlock.png",
+    "Description":"下载问题",
+    "keywords":"下载"
 }

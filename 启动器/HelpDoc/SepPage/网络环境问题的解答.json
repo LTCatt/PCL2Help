@@ -1,5 +1,7 @@
 {
         "__Author__": "GBC034, Fiorest",
         "Title": "网络环境问题的解答",
-        "Logo": ""
+        "Logo": "pack://application:,,,/images/Blocks/Fabric.png",
+        "Description":"解决下载和启动中遇到的网络问题",
+        "Keywords":"网络"
 }

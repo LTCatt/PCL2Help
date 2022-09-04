@@ -1,5 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
-    "Title": "PCL2 安装整合包或 Forge 失败，报错中包含“文件 MD5 应为 XXXXXX”怎么办？",
-    "Logo": ""
+    "Title": "PCL2 的 Mod 下载中找不到某个 Mod 怎么办？",
+    "Logo": "pack://application:,,,/images/Blocks/RedstoneLampOn.png",
+    "Description":"下载问题",
+    "Keywords":"下载Mod"
 }

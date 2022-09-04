@@ -1,5 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
     "Title": "有关更新 PCL2 的说明",
-    "Logo": ""
+    "Logo": "pack://application:,,,/images/Blocks/Anvil.png",
+    "Description":"如何更新 PCL2",
+    "Keywords":"启动器"
 }
