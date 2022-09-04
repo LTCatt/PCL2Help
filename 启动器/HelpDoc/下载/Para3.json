@@ -1,15 +1,7 @@
 {
     "__Author__": "GBC034, Fiorest",
-<<<<<<< HEAD
     "Title": "关于网络环境问题的解答……",
     "Logo": "pack://application:,,,/images/Blocks/Fabric.png",
     "Description":"网络问题",
     "Keywords":"网络"
-=======
-    "Title": "如何解决 Mod 面板内搜索不到 Mod",
-    "Types": ["启动器"],
-    "IsEvent": true,
-    "EventType": "弹出窗口",
-    "EventData": "PCL2 的 Mod 下载中找不到某个 Mod 怎么办？|请先尝试搜索其英文名，并用空格分割单词再试试吧……\n如果依然搜索不到，那我也没有办法……Mod 搜索服务并非由 PCL2 提供，是直接用的CurseForge 提供的服务，所以我也没办法去添加某个 Mod……"
->>>>>>> 849112f93d914a6aee893ce99a4afbbd133745c9
 }

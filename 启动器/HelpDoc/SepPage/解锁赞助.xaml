@@ -13,14 +13,4 @@
         <local:MyHint Margin="0,0,0,0" IsWarn="False"
                 Text="注意，要在同一条信息中同时包含“更新”两个字和你的识别码哦。"/>
     </StackPanel>
-<<<<<<< HEAD
-=======
-</local:MyCard>
-
-<local:MyCard Title="更多详情请看：">
-        <StackPanel Margin="25,40,23,25">
-                <local:MyListItem Margin="-5,0,-5,0" Type="Clickable" Info="关于赞助者主题等内容" Logo="" Title="主题"
-                EventType="打开帮助" EventData="启动器\HelpDoc\主题.json"/>
-        </StackPanel>
->>>>>>> 849112f93d914a6aee893ce99a4afbbd133745c9
 </local:MyCard>
