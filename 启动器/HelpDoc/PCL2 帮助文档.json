@@ -1,9 +1,0 @@
-{
-    "__Author__": "GBC034,Fiorest",
-	"Title": "PCL2 帮助文档（网页端）",
-    "Description":"在网页中打开 PCL2 常见问题帮助文档",
-    "IsEvent":true,
-    "EventType":"打开网页",
-    "EventData":"https://shimo.im/docs/qKPttVvXKqPD8YDC",
-    "Types" : ["PCL2 常见问题"]
-}
