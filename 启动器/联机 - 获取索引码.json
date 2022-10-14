@@ -1,0 +1,10 @@
+{
+    "__Author__": "龙腾猫跃",
+	"Title": "获取 HiPer 索引码",
+	"Description": "介绍如何获取使用 HiPer 联机时需要的索引码/密钥/凭证",
+	"Keywords": "密码",
+	"Types": ["启动器"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://shimo.im/docs/KrkEVXz1K0frowAJ"
+}

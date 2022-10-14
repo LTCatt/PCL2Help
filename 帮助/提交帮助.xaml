@@ -41,7 +41,7 @@
 <local:MyCard Title="下一步的计划……">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="目前我们需要将 PCL2 常见问题文档与帮助站中的内容搬运到帮助库中，以及补充 MC 游戏过程中常见问题的解决方法。&#xa;此外，我们也需要补充提升联机 NAT 方法的相关帮助。&#xa;你可以添加上述的帮助项，或者继续修改、完善目前已有的页面。&#xa;非常感谢你的参与！" />
+                   Text="目前我们还需要补充 MC 游戏过程中常见问题的解决方法。&#xa;你可以添加上述的帮助项，或者继续修改、完善目前已有的页面。&#xa;非常感谢你的参与！" />
         <StackPanel Height="35" Margin="0,4,0,4" Orientation="Horizontal">
             <local:MyButton MinWidth="200" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                             Text="打开 PCL2 常见问题文档" EventType="打开网页" EventData="https://shimo.im/docs/qKPttVvXKqPD8YDC" />

@@ -1,59 +1,71 @@
 
-<local:MyCard Title="我网络明明很好，为什么连接不上/说我网络环境差？" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="如何获取 HiPer 的索引码？" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <local:MyListItem Margin="0,0,0,4"
+		                  EventType="打开帮助" EventData="启动器/联机 - 获取索引码.json" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="我的网明明很好，为什么连接不上/说我网络环境差？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="能连上网、能上 QQ，或者说你的网络延迟（Ping）低、下载速度快，这些都和 网络环境 的好坏无关，这是两个不同的概念。&#xa;网络环境取决于你的宽带运营商、路由器设置、是否使用 Wifi、热点等。&#xa;此外，联机连接不上也可能有对方的网络环境差的原因。" />
+                   Text="能上网、能上 QQ，或者说你的网络延迟（Ping）低、下载速度快，但这和网络环境的好坏无关，这是两个不同的概念。&#xa;网络环境取决于你的运营商、路由器、防火墙等。&#xa;此外，连接不上也可能是因为对方的网络环境差。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="联机对正版、离线等登录方式有要求吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" FontSize="15" Foreground="{DynamicResource ColorBrush3}"
+                   Text="使用 HiPer：" />
 	    <TextBlock Margin="0,0,0,2" LineHeight="17"
-                   Text="如果使用 “对局域网开放” 的方式联机，房主可以使用任意登录方式，加入者必须使用正版或第三方登录，不能使用离线登录，否则在加入服务器时会提示无效会话。这是 MC 本身的限制。&#xa;如果使用本地服务端，则视服务端设置而定。"/>
-        <TextBlock Margin="0,10,0,2" LineHeight="17" FontWeight="Bold"
+                   Text="对登录方式没有要求。"/>
+        <TextBlock Margin="0,25,0,4" FontSize="15" Foreground="{DynamicResource ColorBrush3}"
+                   Text="使用 IOI："/>
+	    <TextBlock Margin="0,0,0,2" LineHeight="17"
+                   Text="如果是 “对局域网开放”，房主可以使用任意登录方式，加入者必须使用正版或第三方登录，不能使用离线登录，否则在加入服务器时会提示无效会话。如果使用服务端，则视服务端设置而定。"/>
+        <TextBlock Margin="0,5,0,4" LineHeight="17" FontWeight="Bold"
                    Text="如果在登录方式上遇到了问题，可以尝试：" />
         <TextBlock Margin="2,0,0,2" LineHeight="18"
-                   Text="1、让无法进服的玩家作为房主&#xa;2、自行架设服务端，并在服务端设置中关闭验证&#xa;3、让房主安装 “自定义局域网联机(LanServerProperties, 1.12 及以上)” 或 “简单联机(Server.Properties for LAN, 1.7.2-1.12.2)” Mod（加入者无需安装）" />
-        <local:MyListItem Margin="19,-3,-5,5"
-		                  EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                          Text="复制&quot;简单联机&quot;Mod 名称" EventType="复制文本" EventData="Server.Properties for LAN" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                          Text="复制&quot;自定义局域网联机&quot;Mod 名称" EventType="复制文本" EventData="LanServerProperties" />
-        <TextBlock Margin="2,0,0,2" LineHeight="17"
-                   Text="4、让加入者使用第三方登录。" />
+                   Text="1、让无法进服的玩家作为房主&#xa;2、自行架设服务端，并在服务端设置中关闭验证&#xa;3、让房主安装 “自定义局域网联机 (LanServerProperties, 1.12 及以上)” Mod（加入者无需安装）&#xa;4、让加入者使用第三方登录。" />
         <local:MyListItem Margin="19,-1,-5,8"
 		                  EventType="打开帮助" EventData="启动器/指定登录方式.json" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="已经完成了连接，但是游戏里进服进不了怎么办？" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="PCL2 已经提示连上了，但为什么 MC 里还进不了服务器？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,10" LineHeight="17"
                    Text="你需要根据游戏给出的提示信息判断。" />
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="以 “无效会话” 开头的中文提示：你的登录方式有误，请查阅上方关于登录方式的条目。&#xa;以 “no further information” 结尾的英文提示：对方已关闭服务器。&#xa;连接超时：你或者房主的网络环境不佳或延迟过高。" />
+                   Text="以 “无效会话” 开头的提示：你的登录方式有误，请查阅上方关于登录方式的条目。&#xa;以 “no further information” 结尾的提示：对方已关闭服务器或联机失败。&#xa;连接超时：你或者房主的网络环境不佳或延迟过高。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="联机模块的原理是什么？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="联机模块基于 P2SP 技术，它在启动后能够作为大家互相连接的桥梁，不依赖于运营商设定的固有路由，而由网络内部各个节点承载数据传输任务。&#xa;也就是说，随着开启联机模块的人变多，所有使用 PCL2 的玩家的联机延迟都会降低。" />
+                   Text="联机模块在启动后能够作为大家互相连接的桥梁，不依赖于运营商设定的固有路由，而由网络内部各个节点承载数据传输任务。&#xa;也就是说，随着开启联机模块的人变多，所有玩家的联机延迟都可能会降低。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="陌生人可以进入我的房间吗？" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="陌生人能进入我的房间吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="不能。只有使用你的连接码与你连接的人才可以进入你的房间。" />
+                   Text="不能。只有使用你的联机码与你连接的人才可以进入你的房间。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="PCL2 的联机功能可以用于其他游戏的联机吗？" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="HiPer 索引码为什么要收费？和 PCL2 的赞助有关吗？" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="HiPer 的付费与 PCL2 的赞助完全无关，PCL2 的作者也不会从 HiPer 的付费里获得任何分成、奖金什么的。&#xa;HiPer 是第三方提供的支持，我也无权干涉对方的商业策略，只能尽量让 HiPer 多提供一点免费的使用时长……&#xa;当然，你可以使用 IOI 进行联机，IOI 会一直免费的！" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="联机功能可以用于其他游戏吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="联机功能本质上提供了对外开放的端口，因此可以用于其他联机方式相似的游戏。" />
+                   Text="联机功能本质上提供了对外开放的端口，因此可以用于其他游戏！" />
     </StackPanel>
 </local:MyCard>
 
