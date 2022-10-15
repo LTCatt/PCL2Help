@@ -17,7 +17,7 @@
 <local:MyCard Title="删除自己的账号信息" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="PCL2 将你的账号、密码等重要信息加密存储在注册表中，而不是文件中。&#xa;因此，你无需刻意删除你的账号信息，它们不会随着你的整合包被发放给其他人。" />
+                   Text="PCL2 将你的账号、密码等重要信息加密存储在注册表中，而不是文件中。&#xa;你仅需删除PCL目录下的LatestLaunch.bat，因为该文件中含有您的账号Token。" />
     </StackPanel>
 </local:MyCard>
 
