@@ -13,6 +13,13 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="双方能否使用用同一个凭证？" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="索引码需一人一码（各自不同的），因为索引码代表一个网络IP，若一个设备已经用了这个IP，网络已经有了这个IP，那么其他设备就不能用这个IP，因为他已经被占用了。" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="联机对正版、离线等登录方式有要求吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" FontSize="15" Foreground="{DynamicResource ColorBrush3}"
