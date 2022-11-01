@@ -13,6 +13,15 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="双方能否使用用同一个索引码？" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="索引码需一人一码（且各自不同）。&#xa;因为索引码代表一个网络IP地址，若一个设备已经使用这个地址，那么其他设备就由于地址占用而不能再使用这个 IP。&#xa;如果你的朋友需要，强烈建议让你的朋友自己获取，而不是帮他获取，因为每天第二次获取授权会变得更贵，详见请见链接" />
+        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Right"
+                        Text="详细内容链接" EventType="打开网页" EventData="https://shimo.im/docs/KrkEVXz1K0frowAJ#anchor-lHcB" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="联机对正版、离线等登录方式有要求吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" FontSize="15" Foreground="{DynamicResource ColorBrush3}"
