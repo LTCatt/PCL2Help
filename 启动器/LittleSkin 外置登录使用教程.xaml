@@ -34,21 +34,14 @@
         <TextBlock Margin="0,50,0,0" Text="5. 右键点击将要联机的游戏版本。" />
         <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left"  Source ="https://cdn.img.z0z0r4.top/2022/07/10/1/img5.png" />
 
-        <TextBlock Margin="0,50,0,0" Text="6. 点击左侧“设置”选项，并滑动到页面底部，登录方式选择“第三方登录：Authlib-Injector”。" />
+        <TextBlock Margin="0,50,0,0" Text="6. 点击左侧“设置”选项，并滑动到页面底部，登录方式选择“第三方登录：Authlib-Injector 或 LittleSkin”。" />
         <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.img.z0z0r4.top/2022/07/10/1/img6.png" />
 
-        <TextBlock Margin="0,50,0,0" Text="7. 按要求填写信息。" />
-        <TextBlock Background="#ddff95" Padding="5,5,5,5" Margin="0,10,0,0" Text="   认证服务器 https://littleskin.cn/api/yggdrasil" />
-        <local:MyButton Margin="0,10,0,0" Width="160" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制“认证服务器”网址" EventType="复制文本" EventData="https://littleskin.cn/api/yggdrasil" />
-        <TextBlock Background="#ff9b6a" Padding="5,5,5,5" Margin="0,10,0,0" Text="   注册链接 https://littleskin.cn/auth/register" />
-        <local:MyButton Margin="0,10,0,0" Width="160" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制“注册链接”网址" EventType="复制文本" EventData="https://littleskin.cn/auth/register" />
-        <TextBlock Background="#f1b8f1" Padding="5,5,5,5" Margin="0,10,0,0" Text="   服务器名称 任意" />
-        <TextBlock Background="#f1ccb8" Padding="5,5,5,5" Margin="0,10,0,0" Text="   自动进入服务器 留空" />
-        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.img.z0z0r4.top/2022/07/10/1/img7.png" />
+        <TextBlock Margin="0,50,0,0" Text="7. 点击下方“设置为 LittleSkin”按钮，并点击“确定”。" />   
+        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.img.z0z0r4.top/2022/11/19/6/1668859331782.png" />
 
-        <TextBlock Margin="0,50,0,0" Text="8.填写完成后返回 PCL2 启动界面，输入 LittleSkin 网站的账号以及密码，启动游戏后即可登录。" />
-        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.img.z0z0r4.top/2022/07/10/1/img8.png" />
-        <local:MyHint Margin="0,20,0,0" Text="使用 LittleSkin 外置登录后仍无法进入正版服务器。您只能进入离线模式服务器、使用外置登录的服务器和局域网联机。" IsWarn="True" />
+        <TextBlock Margin="0,50,0,0" Text="8. 返回主菜单并输入你的 LiitleSkin 账号，点击“启动游戏”即可。" />   
+        <Image Margin="0,20,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.img.z0z0r4.top/2022/11/19/6/littleskin-login.png" />
     </StackPanel>
 </local:MyCard>
 
