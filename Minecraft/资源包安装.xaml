@@ -89,7 +89,7 @@
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 找到您下载的资源包，将其文件直接拖至 Minecraft 窗口内。此时会弹出一个提示询问安装，点击 “是”。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/minecraft-1.16+-resourcepack-true.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/11/19/6/old-version-resourcepack-true.png" />
         </Grid>
 
         <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
