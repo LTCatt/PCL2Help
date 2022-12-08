@@ -4,7 +4,7 @@
 <local:MyCard Title="整合包是什么?" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="整合包（Modpack）是包含已经配置好的、可能包含剧情的、包含 Mod 的 Minecraft 游戏整合文件。" />
+                   Text="整合包（Modpack）是包含已经配置好的、可能包含剧情和/或 Mod 的 Minecraft 游戏整合文件。" />
                    <!-- 翻译可能有问题 源网页: https://ftb.fandom.com/wiki/Modpacks 有人来改一下吗救命 -->
     </StackPanel>
 </local:MyCard>
@@ -18,7 +18,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装已经下载好的压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装已经下载好的整合包压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         
         <local:MyHint Margin="0,0,0,15" Text="注意: 以下情况假设您已下载好整合包(通常是为 .zip / .rar 结尾的文件)。" IsWarn="False" />
@@ -43,7 +43,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="下载 CurseForge 整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="下载并安装 CurseForge 整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -53,7 +53,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 选择一个整合包。本教程使用&quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以“RLCraft”为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
+                        Text="2. 选择一个整合包。本教程使用&quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以“RLCraft”为范例，点击确定，PCL2 会自动开始下载，下载完成后会自动安装。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_dl_directio.png" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_name_input.png" />
         </Grid>
@@ -65,4 +65,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：WTP016、龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：HaiHome、WTP016、龙腾猫跃" IsWarn="False" />

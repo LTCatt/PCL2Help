@@ -103,6 +103,9 @@
         <local:MyListItem  Margin="0,0,0,4"
 		                  Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床。" 
 		                  EventType="打开网页" EventData="https://img.z0z0r4.top/" Type="Clickable" />
+        <local:MyListItem  Margin="0,0,0,4"
+		                  Title="路过图床" Info="路过图床为公开图床。" 
+		                  EventType="打开网页" EventData="https://imgse.com" Type="Clickable" />
         <!-- <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="Tips" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -126,4 +129,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、z0z0r4" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、z0z0r4、HaiHome" IsWarn="False" />
