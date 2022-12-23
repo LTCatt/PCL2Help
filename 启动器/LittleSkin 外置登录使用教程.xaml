@@ -3,7 +3,7 @@
         <TextBlock Margin="0,0,0,0" LineHeight="17" Text="PCL2 支持外置登录，设置 LittleSkin 的外置登录可以用于非正版联机，或者使用 LittleSkin 网站的皮肤" />
         <local:MyHint Margin="0,20,0,0" Text="另请注意：LittleSkin 外置登录本质上仍然是离线登录，不能用于进入正版服务器" IsWarn="True" />
         <local:MyHint Margin="0,10,0,0" Text="如果您想用于联机，那么请再次注意，联机仅对加入者有要求(加入者必须是正版登录或外置登录)，对房主无任何要求" IsWarn="True" />
-        <local:MyHint Margin="0,10,0,0" Text="如果您想在多人游戏中展示您的皮肤，请保证所有参与联机的成员均使用 LittleSkin 外置登录，或搭配 CustomSkinLoader 模组并添加ExtraList文件（仅当皮肤显示不正常时）以达到相同的效果" IsWarn="True" />
+        <local:MyHint Margin="0,10,0,0" Text="如果您想在多人游戏中展示您的皮肤，请保证所有参与联机的成员均使用 LittleSkin 外置登录，或搭配 CustomSkinLoader 模组并添加 ExtraList 文件（仅当皮肤显示不正常时）以达到相同的效果" IsWarn="True" />
         <local:MyButton Margin="0,10,0,0" MinWidth="280" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="获取配置文件（须登录LittleSkin）" EventType="打开网页" EventData="https://littleskin.cn/user/config" />
     </StackPanel>
 </local:MyCard>
