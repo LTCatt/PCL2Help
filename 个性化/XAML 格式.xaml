@@ -227,39 +227,44 @@
  - ToolTip：设置鼠标指向时的提示文本
  - Background：调整背景颜色（使用类似 Background="{DynamicResource ColorBrush5}" 的格式以调用 PCL2 当前的主题颜色，修改末尾的数字编号以改变颜色浓度）
  - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
- - HorizontalAlignment：设置对齐方式（Left、Center、Right）
 
 TextBlock（纯文本）：
  - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
  - TextWrapping：开启自动换行
  - FontSize：设置字号
  - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
  
 Image（图片）：
  - Source：要显示的图片的网址
  - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
 
 local:MyHint（提示条）：
  - Text：设置显示的文本（&#xA; 代表换行）
  - IsWarn：设置为 True 代表警告样式，False 代表提示样式
  - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
  
 local:MyButton（按钮）：
  - Text：设置显示的文本
  - Padding：设置内边距，格式与 Margin 一致
  - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
  - EventType、EventData：触发特定事件
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
  
 local:MyTextButton（文本按钮）：
  - Text：设置显示的文本
  - EventType、EventData：触发特定事件
  - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
  
 local:MyCard（卡片）：
  - Title：设置显示的标题文本
  - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
  - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
  - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）
 
 -->
 
