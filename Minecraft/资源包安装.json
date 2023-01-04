@@ -1,7 +1,7 @@
 {
     "__Author__": "WTP016、林小槐",
 	"Title": "安装资源包",
-	"Description": "导入 Minecraft 资源包（材质包）",
+	"Description": "导入 Minecraft 资源包（纹理包）",
 	"Types": ["Minecraft"],
 	"Keywords": "Texture Packs Resource"
 }

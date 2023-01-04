@@ -13,7 +13,7 @@
 <local:MyCard Title="获取世界" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="世界与材质包、光影类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的世界。很多 Minecraft 交流网站(如 MCBBS)都有专门的世界版块，你可以在这些地方挑选自己喜欢的世界。" />
+                   Text="世界与纹理包、光影类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的世界。很多 Minecraft 交流网站(如 MCBBS)都有专门的世界版块，你可以在这些地方挑选自己喜欢的世界。" />
         <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="打开 MCBBS 世界分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-map-1.html" />
     </StackPanel>
@@ -22,7 +22,7 @@
 <local:MyCard Title="导入并游玩世界" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="世界下载完成后需要导入方可在游戏中使用。导入世界只需将您得到的地图文件夹放入 .minecraft/saves 文件夹即可。&#xa;有些地图的文件夹根目录有 resources.zip 文件，这是地图自带的材质包，您可以参考“安装资源包”教程进行安装。" />
+                   Text="世界下载完成后需要导入方可在游戏中使用。导入世界只需将您得到的地图文件夹放入 .minecraft/saves 文件夹即可。&#xa;有些地图的文件夹根目录有 resources.zip 文件，这是地图自带的纹理包，您可以参考“安装资源包”教程进行安装。" />
                    <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/explorer-saves-folder.png" />
                    <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/explorer-import-worlds.png" />
         <local:MyHint Margin="0,0,0,15" Text="注意: 大部分地图下载下来后为压缩文件(.rar / .zip / .7z)，您需要解压后放入 saves 文件夹。" IsWarn="False"/>

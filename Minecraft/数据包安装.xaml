@@ -44,7 +44,7 @@
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/View-Folder.png" />        
         </Grid>
 
-        <local:MyHint Margin="0,15,0,0" Text="部分数据包压缩包主体内套入了一个文件夹，且包含资源包（材质包），此时您只需要将数据包文件夹移入，并通过以下帮助内的方法安装资源包。&#xa;此外，也可以通过将 zip 格式的资源包重命名为 resources.zip 并放入存档文件夹下以对该存档自动加载特定资源包。" IsWarn="False" />
+        <local:MyHint Margin="0,15,0,0" Text="部分数据包压缩包主体内套入了一个文件夹，且包含资源包（纹理包），此时您只需要将数据包文件夹移入，并通过以下帮助内的方法安装资源包。&#xa;此外，也可以通过将 zip 格式的资源包重命名为 resources.zip 并放入存档文件夹下以对该存档自动加载特定资源包。" IsWarn="False" />
         <local:MyListItem Margin="0,0,0,0"
 		            EventType="打开帮助" EventData="Minecraft/资源包安装.json" />
         <Image HorizontalAlignment="Center" Margin="50,15,50,0" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Unzip-Datapack.png"/>
