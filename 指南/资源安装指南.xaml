@@ -34,7 +34,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装资源包 / 材质包" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装资源包 / 纹理包（材质包）" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="Minecraft/资源包安装.json" />
