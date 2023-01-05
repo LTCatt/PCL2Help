@@ -48,7 +48,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="启用纹理包" Margin="0,0,0,15">
+<local:MyCard Title="启用纹理包（材质包）" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -93,7 +93,7 @@
         </Grid>
 
         <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                   Text="3. 最后，按照上一卡片的方式启用纹理包即可。"/>
+                   Text="3. 最后，按照上一卡片的方式启用纹理包（材质包）即可。"/>
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：WTP016、林小槐" IsWarn="False" />
