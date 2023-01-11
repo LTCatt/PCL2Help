@@ -1,10 +1,10 @@
 {
-	"__Author__": "NotKiller233、龙腾猫跃",
+	"__Author__": "NotKiller233、龙腾猫跃、huangminzhe",
 	"Title": "原版百科",
 	"Description": "Minecraft Wiki：包含原版游戏过程中所需大多数知识的中文百科",
 	"Keywords": "我的世界wikipedia",
 	"Types": ["百科"],
 	"IsEvent": true,
 	"EventType": "打开网页",
-	"EventData": "https://wiki.biligame.com/mc/Minecraft_Wiki"
+	"EventData": "https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki"
 }
