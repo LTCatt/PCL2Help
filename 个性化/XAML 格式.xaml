@@ -131,7 +131,7 @@
         <TextBlock Margin="0,0,0,4"
                    Text="在需要更详细的列出内容时，你可以使用列表项“local:MyListItem”来替代按钮。在列表项中，点击操作的使用方式与按钮相同。" />
         <TextBlock Margin="0,0,0,4"
-                   Text="其中，Logo 指的是列表项目的图标，所指定的可以是链接也可以是文件路径，Title 则是列表项的大标题，Info 指详细信息，它将会以灰色显示在大标题下方，同时 Info 是可选属性；Type 如果省略，所列的列表仅单纯展示信息，只有在 Type 属性里输入 Clickable 才能够触发相应活动。"/>
+                   Text="其中，Logo 指的是列表项的图标，所指定的可以是链接也可以是文件路径，Title 则是列表项的大标题，Info 指详细信息，它将会以灰色显示在大标题下方，同时 Info 是可选属性；Type 如果省略，所列的列表仅单纯展示信息，只有在 Type 属性里输入 Clickable 才能够触发相应活动。"/>
         <local:MyListItem  Margin="-5,15,-5,0" 
 		                  Logo="https://www.baidu.com/favicon.ico" Title="百度" Info="百度一下，你就知道！" 
 		                  EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable" />
@@ -240,6 +240,13 @@ Image（图片）：
  - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
  - HorizontalAlignment：设置对齐方式（Left、Center、Right）
 
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）
+
 local:MyHint（提示条）：
  - Text：设置显示的文本（&#xA; 代表换行）
  - IsWarn：设置为 True 代表警告样式，False 代表提示样式
@@ -258,13 +265,12 @@ local:MyTextButton（文本按钮）：
  - EventType、EventData：触发特定事件
  - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
  - HorizontalAlignment：设置对齐方式（Left、Center、Right）
- 
-local:MyCard（卡片）：
- - Title：设置显示的标题文本
- - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
- - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
- - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
- - HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）
+
+local:MyListItem（列表项）：
+ - Logo：列表项的图标（所指定的可以是链接也可以是文件路径）
+ - Title：列表项的大标题
+ - Info：列表项的详细信息，它将会以灰色显示在大标题下方
+ - Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动
 
 -->
 
