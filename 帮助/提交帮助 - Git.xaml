@@ -7,12 +7,12 @@
         <TextBlock Margin="0,0,0,4"
                    Text="因 Git GUI 版本不普及，将不编写进此帮助条目内，如果你正在寻找它，可以跳转到下方外站教程。" />
         <local:MyButton MinWidth="140" Height="35px" HorizontalAlignment="Left" ColorType="Highlight"
-                        Text="Git 可视化极简易教程" EventType="打开网页" EventData="https://www.runoob.com/w3cnote/git-gui-window.html" />
+                    Text="Git 可视化极简易教程" EventType="打开网页" EventData="https://www.runoob.com/w3cnote/git-gui-window.html" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="获取并配置 Git 工具" CanSwap="true" IsSwaped="false">
     <StackPanel Margin="25,40,23,15">
-    <local:MyHint Margin="0,0,0,15" Text="如果你已经在之前使用过 Git，可以直接跳过此步骤。" IsWarn="False" />
+        <local:MyHint Margin="0,0,0,15" Text="如果你已经在之前使用过 Git，可以直接跳过此步骤。" IsWarn="False" />
 
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="在开始之前请确保已经根据“参与完善 PCL2 帮助库”条目下的“获取帮助库”的指引，注册了 GitHub 并 Fork 了仓库。"/>
@@ -20,20 +20,20 @@
                     Text="在开始获取 PCL2 帮助库之前不可缺少的是安装 Git 工具，你可以直接通过下面的按钮下载，或访问网页下载。"/>
 
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="点击下载 Git(32位)" EventType="下载文件" EventData="https://registry.npmmirror.com/-/binary/git-for-windows/v2.37.0.windows.1/Git-2.37.0-32-bit.exe" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="点击下载 Git(64位)" EventType="下载文件" EventData="https://registry.npmmirror.com/-/binary/git-for-windows/v2.37.0.windows.1/Git-2.37.0-64-bit.exe" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="访问官网" EventType="打开网页" EventData="https://git-scm.com/" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="访问镜像" EventType="打开网页" EventData="https://npm.taobao.org/mirrors/git-for-windows/" />
         </StackPanel>
 
         <TextBlock Margin="0,10,0,4" LineHeight="17"
                     Text="1.点击下方按钮，进入 PCL 文件夹，创建名称为 Help 的文件夹。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
         </StackPanel>
         <TextBlock Margin="0,10,0,4" LineHeight="17"
@@ -42,44 +42,44 @@
                     Text="3.在启动的命令行窗口中，逐行执行以下指令 （点击按钮即可复制文本）。"/>
 
         <StackPanel Margin="25,0,0,0">
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="① 生成公钥和私钥，与你的 GitHub 账号建立连接。"/>
+            <TextBlock Margin="0,5,0,4" LineHeight="17"
+                        Text="① 生成公钥和私钥，与你的 GitHub 账号建立连接。"/>
 
-        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="ssh-keygen -t rsa -C '此处填写邮箱'" EventType="复制文本" EventData="ssh-keygen -t rsa -C '此处填写邮箱'" />
-        </StackPanel>
+            <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+                <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="ssh-keygen -t rsa -C '此处填写邮箱'" EventType="复制文本" EventData="ssh-keygen -t rsa -C '此处填写邮箱'" />
+            </StackPanel>
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="在建立过程中可以需要进行确认操作，请按照提示回车确认。"/>
+            <TextBlock Margin="0,5,0,4" LineHeight="17"
+                        Text="在建立过程中可以需要进行确认操作，请按照提示回车确认。"/>
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="② 点击下方按钮打开生成的密钥文件。"/>
+            <TextBlock Margin="0,5,0,4" LineHeight="17"
+                        Text="② 点击下方按钮打开生成的密钥文件。"/>
 
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" Height="35px"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" Height="35px"
                         Text="打开资源管理器" EventType="打开文件" EventData="explorer.exe|%homepath%\.ssh\id_rsa.pub" />
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="③ 进入网页版 Github 的设置中，打开 SSH and GPG keys 项，点击 New SSH Key ，标题任意，内容粘贴打开文件的内容。"/>
-        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">            
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="访问设置" EventType="打开网页" EventData="https://github.com/settings/keys" />
-        </StackPanel>
-
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="④ 设置用户信息（填写和上述操作一致的邮箱）。"/>
-
-        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="git config --global user.name '此处填写名称'" EventType="复制文本" EventData="git config --global user.name '此处填写名称'" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="git config --global user.email '此处填写邮箱'" EventType="复制文本" EventData="git config --global user.email '此处填写邮箱'" />
-        </StackPanel>
-
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="如果你不想设置为全局用户，可以将上述命令中的 --global 部分删去，这样用户信息只在此库有效。"/>
-
+            <TextBlock Margin="0,5,0,4" LineHeight="17"
+                        Text="③ 进入网页版 Github 的设置中，打开 SSH and GPG keys 项，点击 New SSH Key ，标题任意，内容粘贴打开文件的内容。"/>
+            <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">            
+                <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="访问设置" EventType="打开网页" EventData="https://github.com/settings/keys" />
             </StackPanel>
+
+            <TextBlock Margin="0,5,0,4" LineHeight="17"
+                        Text="④ 设置用户信息（填写和上述操作一致的邮箱）。"/>
+
+            <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+                <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="git config --global user.name '此处填写名称'" EventType="复制文本" EventData="git config --global user.name '此处填写名称'" />
+                <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+                            Text="git config --global user.email '此处填写邮箱'" EventType="复制文本" EventData="git config --global user.email '此处填写邮箱'" />
+            </StackPanel>
+
+            <TextBlock Margin="0,5,0,4" LineHeight="17"
+                        Text="如果你不想设置为全局用户，可以将上述命令中的 --global 部分删去，这样用户信息只在此库有效。"/>
+
+        </StackPanel>
     </StackPanel>
 </local:MyCard>
 
@@ -91,7 +91,7 @@
                     Text="1. 克隆仓库到本地。"/>
 
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="git clone https://github.com/LTCatt/PCL2Help.git" EventType="复制文本" EventData="git clone https://github.com/LTCatt/PCL2Help.git" />
         </StackPanel>
 
@@ -100,11 +100,11 @@
                     Text="2. 开始在克隆到本地的仓库中使用本地代码编辑器编写代码，编写完成后推送编写的文件到远程仓库。"/>
         
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="git add ." EventType="复制文本" EventData="git add ." />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="git commit -m '此处填写修改记录'" EventType="复制文本" EventData="git commit -m '此处填写修改记录'" />
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="git push" EventType="复制文本" EventData="git push" />
         </StackPanel>
 
@@ -114,7 +114,7 @@
         <TextBlock Margin="0,5,0,4" LineHeight="17"
                     Text="3. 最后回到原仓库中，新建合并请求，提交代码审核。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">            
-        <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="新建合并请求" EventType="打开网页" EventData="https://github.com/LTCatt/PCL2Help/compare" />
         </StackPanel>  
 
@@ -122,7 +122,7 @@
         <TextBlock Margin="0,5,0,4" LineHeight="17"
                     Text="如果你没法很好的理解上面的警告，可以跳转到下方外站教程详细学习。如果依旧无法理解，也可以使用不推荐但是方便的重新 Fork 来解决。"/>
         <local:MyButton Height="35px" HorizontalAlignment="Left" ColorType="Highlight" Margin="0,0,0,15"
-                        Text="GitHub 进行 Fork 后如何与原仓库同步" EventType="打开网页" EventData="https://github.com/selfteaching/the-craft-of-selfteaching/issues/67" />
+                    Text="GitHub 进行 Fork 后如何与原仓库同步" EventType="打开网页" EventData="https://github.com/selfteaching/the-craft-of-selfteaching/issues/67" />
 
         <TextBlock Margin="0,5,0,4" LineHeight="17" Padding="15,0,0,15"
                     Text="以上内容为详细的 Git 提交帮助,如果还是无法理解，可以通过搜索引擎进一步学习。"/>
