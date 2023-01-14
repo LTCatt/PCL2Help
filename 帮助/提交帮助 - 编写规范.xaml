@@ -100,9 +100,6 @@
                    Text="7. 如图片需要详细注释，可以在图片链接末尾以参数 &quot;comment=注释&quot; 为格式添加。" />
         <TextBlock Margin="0,5,0,2" LineHeight="17"
                    Text="以下为非官方的推荐列表。" />
-        <local:MyListItem  Margin="0,0,0,4"
-		                  Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床。" 
-		                  EventType="打开网页" EventData="https://img.z0z0r4.top/" Type="Clickable" />
         <!-- <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="Tips" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
