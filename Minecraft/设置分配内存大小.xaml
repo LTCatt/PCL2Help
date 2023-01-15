@@ -1,5 +1,5 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式、优化排版。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<!-- 图片备份https://yshs.lanzous.com/ijlfCoodvfc -->
+<!-- 图片备份https://wwcq.lanzouy.com/iJkmX0l2iisd -->
 
 <local:MyCard Title="手动设置内存大小">
 	<StackPanel Margin="25,40,23,5">
@@ -13,30 +13,31 @@
     <StackPanel Margin="25,40,23,15">   
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="1. 打开您的 PCL2 启动器，在主页点击左下方的“版本选择”按钮。" />
-        <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Choose-Version.png" />                   
+        <Image HorizontalAlignment="Center" Source="https://pic.imgdb.cn/item/63c3db12be43e0d30eb64326.jpg" />                   
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="2. 在版本选择列表中，右键点击需要修改内存的游戏版本。" />
-        <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Version-Lists.png" />
+        <Image HorizontalAlignment="Center" Source="https://pic.imgdb.cn/item/63c3db48be43e0d30eb684c7.jpg" />
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="3. 在该版本的设置中，点击左侧的“设置”选项卡。" />
-        <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Version-Settings.png" />        
+        <Image HorizontalAlignment="Center" Source="https://pic.imgdb.cn/item/63c3db7bbe43e0d30eb6c37b.jpg" />        
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="4. 滑动至下方，找到“游戏内存”选项卡，选择“自定义”，然后滑动圆点即可手动调整。&#xa;此时，该版本的启动内存已为固定值，不再自动变更。" />
-        <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Set-Memory.png" />    
+        <Image HorizontalAlignment="Center" Source="https://pic.imgdb.cn/item/63c3db8fbe43e0d30eb6dae2.jpg" />    
     </StackPanel>
 </local:MyCard>
 
 <!-- 原图床已经无法正常加载，补充图床 -->
 <!-- 有时候能加在出来有时候不能加载，而且加载了不能同时加载，更换图床 -->
+<!-- 已更改图床，并根据规范修改图片，by ITfool（Github）2023.1.15-->
 <local:MyCard Title="2. 针对启动器所有游戏内存进行调整">
     <StackPanel Margin="25,40,23,15">   
 		<local:MyHint Margin="0,-5,0,15" Text="请注意，修改 PCL2 的全局配置将影响所有依赖 PCL2 启动的游戏版本。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="20"
                    Text="1. 打开您的 PCL2 启动器，在主页点击上方的“设置”选单。" />
-        <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Setting.png" />                   
+        <Image HorizontalAlignment="Center" Source="https://pic.imgdb.cn/item/63c3dba7be43e0d30eb6fbaa.jpg" />                   
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="2. 点击左侧的“游戏”选项卡，向下翻找，找到“游戏内存”选项卡。" />
-        <Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Storage.png" />
+        <Image HorizontalAlignment="Center" Source="https://pic.imgdb.cn/item/63c3dbc5be43e0d30eb72007.jpg" />
         <TextBlock Margin="0,4,0,4" LineHeight="20"
                    Text="3. 选择“自定义”，此时拖动圆点即可手动调整全局内存。" />
     </StackPanel>
