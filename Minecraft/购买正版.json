@@ -1,10 +1,10 @@
 {
 	"__Author__": "Wind_64",
 	"Title": "购买 Minecraft 正版",
-	"Description": "购买 Minecraft Java Edition & Bedrock Edition（For PC）",
+	"Description": "前往 Mojang 官网购买正版《我的世界》",
 	"Types": [ "Minecraft" ],
 	"IsEvent": true,
-	"Keywords": "我的世界",
+	"Keywords": "入正",
 	"EventType": "打开网页",
-	"EventData": "https://www.minecraft.net/zh-hans/store/minecraft-java-bedrock-edition-pc"
+	"EventData": "https://www.minecraft.net/store/checkout/minecraft-java-bedrock-edition-pc"
 }
