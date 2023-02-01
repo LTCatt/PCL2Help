@@ -34,7 +34,7 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="3. 在主界面按下 “F1” 键打开指令输入框，输入 “Git Clone” 并回车。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="4. 复制你 Fork 的仓库地址，粘贴到指令输入框回车执行 Clone 操作复制仓库。"/>
+                    Text="4. 打开 Github Fork 仓库，点击右上角 Code 后复制仓库的 Git 链接，在 VSCode 主界面按下 F1（对于部分笔记本应按 Fn + F1）打开指令输入框，输入“Git Clone”并回车。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="5. 点击下方按钮，进入 PCL 文件夹，创建名称为 Help 的文件夹。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
