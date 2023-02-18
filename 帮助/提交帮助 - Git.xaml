@@ -107,4 +107,4 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans、龙腾猫跃、林小槐、WTP016、RawDiamondMC" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans、龙腾猫跃、林小槐、WTP016" IsWarn="False" />
