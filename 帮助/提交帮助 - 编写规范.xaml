@@ -52,7 +52,7 @@
         <TextBlock Foreground="#229922" Margin="0,0,0,10"
                     Text="    ✔  进入 PCL2 的设置页，如果没有安装 64 位 Java，最多就只能分配 1G 内存。" />
         <TextBlock Margin="0,0,0,4"
-                    Text="5. 用客观详实的说明文文体，尽量避免时效性叙述与主观评价。" />
+                    Text="5. 使用客观详实的说明文文体，尽量避免时效性叙述与主观评价。" />
         <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
                     Text="    ❌  mj在今年4月更新了1.14，更新内容很多" />
         <TextBlock Foreground="#229922" Margin="0,0,0,10"
