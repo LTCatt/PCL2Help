@@ -32,9 +32,9 @@
         <Image Margin="0,0,0,8" HorizontalAlignment="Center" Source="https://cdn.newfei.top/image/2023/01/13/oE4T.jpg" />
         <Image Margin="0,0,0,4" HorizontalAlignment="Center" Source="https://cdn.newfei.top/image/2023/01/13/oPqS.png" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 在主界面按下 “F1” 键打开指令输入框，输入 “Git Clone” 并回车。"/>
+                    Text="3. 在主界面按下 “F1” 键打开指令输入框，输入 “git clone” 并回车。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="4. 打开 Github Fork 仓库，点击右上角 Code 后复制仓库的 Git 链接，在 VSCode 主界面按下 F1（对于部分笔记本应按 Fn + F1）打开指令输入框，输入“Git Clone”并回车。"/>
+                    Text="4. 打开 GitHub Fork 仓库，点击右上角 Code 后复制仓库的 Git 链接，在 VSCode 主界面按下 F1（对于部分笔记本应按 Fn + F1）打开指令输入框，输入“Git Clone”并回车。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="5. 点击下方按钮，进入 PCL 文件夹，创建名称为 Help 的文件夹。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
