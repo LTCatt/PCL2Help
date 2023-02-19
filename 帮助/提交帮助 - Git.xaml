@@ -20,10 +20,10 @@
                     Text="在开始获取 PCL2 帮助库之前不可缺少的是安装 Git 工具，你可以直接通过下面的按钮下载，或访问网页下载。"/>
 
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
-            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                        Text="点击下载 Git(32位)" EventType="下载文件" EventData="https://registry.npmmirror.com/-/binary/git-for-windows/v2.37.0.windows.1/Git-2.37.0-32-bit.exe" />
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="点击下载 Git(64位)" EventType="下载文件" EventData="https://registry.npmmirror.com/-/binary/git-for-windows/v2.37.0.windows.1/Git-2.37.0-64-bit.exe" />
+                        Text="下载 Git (32 位)" EventType="下载文件" EventData="https://registry.npmmirror.com/-/binary/git-for-windows/v2.37.0.windows.1/Git-2.37.0-32-bit.exe" />
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
+                        Text="下载 Git (64 位)" EventType="下载文件" EventData="https://registry.npmmirror.com/-/binary/git-for-windows/v2.37.0.windows.1/Git-2.37.0-64-bit.exe" />
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="访问官网" EventType="打开网页" EventData="https://git-scm.com/" />
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
@@ -34,7 +34,7 @@
                     Text="1.点击下方按钮，进入 PCL 文件夹，创建名称为 Help 的文件夹。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                        Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
+                        Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Help" />
         </StackPanel>
         <TextBlock Margin="0,10,0,4" LineHeight="17"
                     Text="2.进入 Help 文件夹，右键鼠标，单击&quot;Git Bash Here&quot;。你也可以使用其他命令行工具。"/>
