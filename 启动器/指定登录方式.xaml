@@ -1,30 +1,32 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+
 <!-- 需要根据规范重新整理格式、标点、空格等。部分语句不太通顺，需要再改改。 -->
-<!-- 图片备份https://yshs.lanzoui.com/iIquToi85kf -->
+<!-- 图片备份 https://yshs.lanzoui.com/iIquToi85kf -->
+<!-- 2023/02/20 添加的图片 https://wwou.lanzoub.com/ijvOW0o1xrne 目前没有加箭头，可以加一下 -->
 
 <local:MyCard Title="简介">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,0" LineHeight="17" Text="PCL2 支持多种登录方式，可以单独为某一版本指定登录方式。支持 离线登录、正版登录、统一通行证 和 Authlib-Injector 登录，此界面将提供简单的教程。" />
+        <TextBlock Margin="0,0,0,0" LineHeight="17" Text="PCL2 支持多种登录方式，例如正版登录、离线登录、统一通行证和 Authlib-Injector 登录，也可以单独为某一版本指定登录方式。此界面将提供简单的教程。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="教程">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,10,0,0" Text="1. 点击下方“版本选择”。" />
-        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/imgdl1.png" />
+        <TextBlock Margin="0,10,0,0" Text="1. 点击启动页面下方的“版本选择”。" />
+        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230b5136.png" />
 
         <TextBlock Margin="0,50,0,0" Text="2. 右键点击需要修改的游戏版本。" />
-        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/imgdl2.png" />
+        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230bedd5.png" />
 
         <TextBlock Margin="0,50,0,0" Text="3. 点击左侧“设置”按钮。" />
-        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/imgdl3.png" />
+        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230c9e9b.png" />
         
-        <TextBlock Margin="0,50,0,0" Text="4. 滑动至下方“服务器选项”，选择登录方式即可切换。" />
-        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/imgdl4.png" />
+        <TextBlock Margin="0,50,0,0" Text="4. 滑动至下方，在“服务器”中选择登录方式即可切换。" />
+        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f2023198b0c.png" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="具体应用">
+<local:MyCard Title="设置 LittleSkin 登录">
     <StackPanel Margin="25,40,23,15">
         <local:MyListItem Margin="0,0,0,0" EventType="打开帮助" EventData="启动器/LittleSkin 外置登录使用教程.json" />
     </StackPanel>
