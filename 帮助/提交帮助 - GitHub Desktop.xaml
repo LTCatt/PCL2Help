@@ -10,7 +10,7 @@
                     Text="点击下方按钮，进入 PCL 文件夹，创建名称为 Help 的文件夹。"/>
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
         <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                        Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Musics" />
+                        Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Help" />
         </StackPanel>        
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="打开你 Clone 的仓库的本地文件夹，在文件浏览器中，开启“显示隐藏的项目”选项以选中 .git 文件夹。&#xa;此后，将整个 PCL2Help 内的内容剪切到 PCL/Help 文件夹下。"/>
@@ -20,7 +20,7 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="在 GitHub Desktop 仓库界面左侧栏，找到你修改的文件，并在文件左侧的方框中选中(仅选中一个文件，如要选中多个文件，请在 Commit to main 按钮上方的文本框输入消息)。&#xa;在右侧的文件预览中确认无误后，单击“Commit to main”(位于左侧栏的下方) "/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="在所有文件均提交完毕后，按下“Ctrl+P”以推送至 Github 。"/>
+                    Text="在所有文件均提交完毕后，按下“Ctrl+P”以推送至 GitHub。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="在窗口标题栏下方，选中“Current branch”,再在子栏底部选择“Choose a branch to merge into master”以新建拉取请求。&#xa;选中 master 分支，并单击子窗口下方的蓝色按钮确认。"/>
     </StackPanel>
