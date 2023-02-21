@@ -13,15 +13,11 @@
 
 <local:MyCard Title="教程">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Margin="0,0,0,0" Text="本教程部分内容涉及到对 PCL2 启动器的设置，建议对照网页版教程操作。" IsWarn="False" />
-        <!-- 这个网页有点问题，建议修改一下 -->
-        <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开网页版教程" EventType="打开网页" EventData="https://note.youdao.com/s/fHxFNnq" />
-
         <local:MyHint Margin="0,10,0,0" Text="以下填写的所有邮箱地址应全部为英文小写字母，否则将会出现 UUID 为 null 的情况导致无法进入服务器！" IsWarn="True" />
+        
         <TextBlock Margin="0,10,0,0" Text="1. 前往 LittleSkin 注册一个账号。" />
         <local:MyHint Margin="0,10,0,0" Text="在注册 LittleSkin 账号时不要使用第三方登录，可能会导致账号无法设置密码，从而无法继续操作！" IsWarn="False" />
         <local:MyButton Margin="0,10,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="打开 LittleSkin 注册界面" EventType="打开网页" EventData="https://littleskin.cn/auth/register" />
-
         <Image Margin="0,10,0,0" Height="360" HorizontalAlignment="Left" Source ="https://cdn.img.z0z0r4.top/2022/07/10/1/img1.png" />
 
         <TextBlock Margin="0,50,0,0" Text="2. 进入“仪表盘”，点击左侧“角色管理”，再点击“添加新角色”。" />
