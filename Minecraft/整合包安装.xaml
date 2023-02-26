@@ -53,6 +53,7 @@
         </Grid>
 
         <Grid Margin="0,20,0,4">
+            <local:MyHint Margin="0,0,0,15" Text="由于 Curseforge 和 Modrinth 为英文网站，搜索时请尽量使用 Mod 的英文名称。" IsWarn="False" />
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 在左侧页面中通过选择或输入您所需整合包的名称、类型、游戏版本和来源筛选并搜索整合包。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="" />
