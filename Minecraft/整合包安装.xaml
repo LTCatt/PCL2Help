@@ -52,23 +52,24 @@
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/pcl2-download-modpack.png" />
         </Grid>
 
-        <Grid Margin="0,20,0,4">
-            <local:MyHint Margin="0,0,0,15" Text="由于 Curseforge 和 Modrinth 为英文网站，搜索时请尽量使用 Mod 的英文名称。" IsWarn="False" />
+        <local:MyHint Margin="0,20,0,0" Text="由于 Curseforge 和 Modrinth 为英文网站，搜索时请尽量使用 Mod 的英文名称。" IsWarn="False" />
+        <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 在左侧页面中通过选择或输入您所需整合包的名称、类型、游戏版本和来源筛选并搜索整合包。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="" />
+            <!--临时调试用，后续更换-->
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_dl_directio.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 选择一个整合包。本教程使用&quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以“RLCraft”为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
+                        Text="3. 选择一个整合包。本教程使用&quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以“RLCraft”为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_dl_directio.png" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_name_input.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                        Text="3. 回到主页面，点击版本选择，您会看到以您刚刚输入的版本名命名的游戏。点击选择，启动即可进入游戏。"/>
+                        Text="4. 回到主页面，点击版本选择，您会看到以您刚刚输入的版本名命名的游戏。点击选择，启动即可进入游戏。"/>
         </Grid>
     </StackPanel>
 </local:MyCard>
