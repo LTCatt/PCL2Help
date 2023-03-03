@@ -1,13 +1,7 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 <!-- 注册 GitHub 账号的部分可以再加点图片，还需要修改部分措辞
     原来图片是从网上下载的，可以重新截几张 -->
-<!--
-4用户名：https://cdn.img.z0z0r4.top/2023/03/03/6401e78f08db2.png
-3密码：https://cdn.img.z0z0r4.top/2023/03/03/6401e78f2198e.png
-2邮箱：https://cdn.img.z0z0r4.top/2023/03/03/6401e7905000b.png
-1注册：https://cdn.img.z0z0r4.top/2023/03/03/6401e79037102.png
-5是否接受广告：https://cdn.img.z0z0r4.top/2023/03/03/6401e7907b392.png
--->
+<!-- 图片备份：https://wwou.lanzoub.com/ipO490p5pete -->
 
 <local:MyCard Title="简介">
     <StackPanel Margin="25,40,23,15">
