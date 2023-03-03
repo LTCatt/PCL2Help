@@ -1,0 +1,91 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!-- 注册 GitHub 账号的部分可以再加点图片，还需要修改部分措辞
+    原来图片是从网上下载的，可以重新截几张 -->
+<!--
+4用户名：https://cdn.img.z0z0r4.top/2023/03/03/6401e78f08db2.png
+3密码：https://cdn.img.z0z0r4.top/2023/03/03/6401e78f2198e.png
+2邮箱：https://cdn.img.z0z0r4.top/2023/03/03/6401e7905000b.png
+1注册：https://cdn.img.z0z0r4.top/2023/03/03/6401e79037102.png
+5是否接受广告：https://cdn.img.z0z0r4.top/2023/03/03/6401e7907b392.png
+-->
+
+<local:MyCard Title="简介">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="你可以在 GitHub 为 PCL2 提交反馈。反馈内容主要包括：Bug 反馈、优化建议与新功能提案。&#xa;点击下方按钮即可进入反馈页面。"/>
+        <local:MyListItem Margin="-5,0,-5,0" 
+                    Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Title="反馈页面" Info="提交反馈，或者查看已有反馈；若无法访问，请使用加速器或 VPN" Type="Clickable" PaddingRight="4"
+                    EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/issues/" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="注册 GitHub 账号" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="在提交反馈前，请先通过以下方式注册 GitHub 账号。如果已有账号，可以跳过该步骤。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="1. 打开 GitHub，点击右上角的“Sign up”。"/>
+        <Image Margin="0,0,0,8" Height="200" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/03/03/6401e79037102.png" />
+        
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="2. 输入你的邮箱，并点击 Continue。"/>
+        <Image Margin="0,0,0,8" Height="200" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/03/03/6401e7905000b.png" />
+        
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="3. 输入账号密码，并点击 Continue。"/>
+        <Image Margin="0,0,0,8" Height="200" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/03/03/6401e78f2198e.png" />
+        
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="4. 输入用户名（仅包含字母、数字、连字符“-”），并点击 Continue。"/>
+        <Image Margin="0,0,0,8" Height="200" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/03/03/6401e78f08db2.png" />
+        <local:MyHint Margin="0,0,0,4" Text="如果用户名被占用，会提示 Username XXX is not available，请更换用户名。" IsWarn="False" />
+        
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="5. 选择是否接受广告（接受输 y，不接受输 n），并点击 Continue。"/>
+        <Image Margin="0,0,0,8" Height="200" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/03/03/6401e7907b392.png" />
+        
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="6. 通过人机验证后，点击 Create Account。"/>
+        
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="7. 查收第 2 步填写的邮箱，会收到一封邮件，复制邮件中的验证码，到 GitHub 中粘贴即可。"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="提交反馈" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="1. 打开反馈页面；"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="2. 根据反馈类型，点击右侧的“Get Started”；"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="3. 填写正文内容；"/>
+        <TextBlock Margin="0,0,0,10" LineHeight="17" Text="4. 点击“Submit new issue”。"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="如果被要求补充信息，请及时进行补充；3 周内未补充信息的 Issue 将会被关闭。"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="反馈注意事项" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="1. Issue 标题应该概括其内容，或者是报错的第一行。"/>
+        <TextBlock Foreground="#229922" Margin="0,0,0,2"
+                    Text="    ✔  允许拖拽添加自定义主页" />
+        <TextBlock Foreground="#229922" Margin="0,0,0,2"
+                    Text="    ✔  可视化 Mod 列表出错：已添加具有相同键的项。" />
+        <TextBlock Foreground="#DD4411" Margin="0,0,0,10"
+                    Text="    ❌  快照版的问题，不知道正式版有没有" />
+
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="2. 描述应当尽可能详细，避免多次沟通。"/>
+        <TextBlock Foreground="#229922" Margin="0,0,0,2"
+                    Text="    ✔  晚上 7:00 打开 PCL2，凌晨 2:00 无法使用 Chrome 110.0.5481.177 访问网页，提示网络未连接；关闭 PCL2 后正常。" />
+        <TextBlock Foreground="#DD4411" Margin="0,0,0,10"
+                    Text="    ❌  PCL2 有概率炸掉本地网络" />
+
+        <TextBlock Margin="0,0,0,10" LineHeight="17"
+                    Text="3. 提交新 Issue 前，请先在 Issues 页面进行搜索；如有相似反馈，请勿提交新 Issue。"/>
+
+        <TextBlock Margin="0,0,0,10" LineHeight="17"
+                    Text="4. 若你认为这不是 PCL2 的问题，请不要提交反馈。"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子" IsWarn="False" />
