@@ -12,19 +12,19 @@
 <local:MyCard Title="获取整合包" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="整合包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的整合包。很多 Minecraft 交流网站(如 MCBBS、CurseForge)都有专门的整合包分享版块，你可以在这些地方挑选自己喜欢的整合包。" />
+                   Text="整合包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的整合包。很多 Minecraft 交流网站(如 MCBBS、CurseForge、Modrinth)都有专门的整合包分享版块，你可以在这些地方挑选自己喜欢的整合包。" />
         <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="打开 MCBBS 整合包分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-modpack-1.html" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装已经下载好的压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装已有的压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         
         <local:MyHint Margin="0,0,0,15" Text="注意: 以下情况假设您已下载好整合包(通常是为 .zip / .rar 结尾的文件)。" IsWarn="False" />
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL2 启动器，点击“下载”按钮后点击 CurseForge 项下的整合包按钮，点击“安装整合包”按钮并选择你下载好的本地整合包。此处以“Example.zip”为案例。" HorizontalAlignment="Left" />
+                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL2 启动器，点击 “下载” 按钮后选择左侧菜单 “资源” 分类下的 “整合包” 选项，点击 “安装整合包” 按钮并选择你下载好的本地整合包。此处以 “Example.zip” 为案例。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Modpack_Install_Directio.png" />
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Modpack_Choose.png" />
@@ -33,7 +33,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="此时 PCL2 会弹出“输入版本名”的窗口，您可自由输入。点击“确定”后，PCL2 自动开始安装。安装完毕后，您即可在版本列表选择以您输入的版本名为标题的整合包以开始游玩。" HorizontalAlignment="Left" />
+                        Text="此时 PCL2 会弹出 “输入版本名” 的窗口，您可自由输入。点击 “确定” 后，PCL2 自动开始安装。安装完毕后，您即可在版本列表选择以您输入的版本名为标题的整合包以开始游玩。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Input_Game_Name.png" />
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Game_Launch.png" />
@@ -43,26 +43,32 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="下载 CurseForge 整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="下载并安装 CurseForge 或 Modrinth 整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="1. 在 PCL2 中找到”下载”按钮，在左侧菜单 CurseForge 小项中找到“整合包”选项。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/pcl2-download-modpack.png" />
+                        Text="1. 在 PCL2 中点击 “下载” 按钮，并选择左侧菜单 “资源” 分类下的 “整合包” 选项。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/64107046172b1.png?comment=打开整合包页面" />
+        </Grid>
+
+        <local:MyHint Margin="0,20,0,0" Text="搜索时请尽量使用 Mod 的英文名称。" IsWarn="False" />
+        <Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 在左侧页面中通过选择或输入您所需整合包的名称、类型、游戏版本以筛选并搜索整合包。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/6410705905d6e.png?comment=整合包搜索筛选选项" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 选择一个整合包。本教程使用&quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以“RLCraft”为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_dl_directio.png" />
+                        Text="3. 选择一个整合包。本教程使用&quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以 “RLCraft” 为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_name_input.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                        Text="3. 回到主页面，点击版本选择，您会看到以您刚刚输入的版本名命名的游戏。点击选择，启动即可进入游戏。"/>
+                        Text="4. 回到主页面，点击版本选择，您会看到以您刚刚输入的版本名命名的游戏。点击选择，启动即可进入游戏。"/>
         </Grid>
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：WTP016、龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：WTP016、龙腾猫跃、风释清然SC" IsWarn="False" />
