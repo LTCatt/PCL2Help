@@ -49,22 +49,21 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL2 中点击”下载”按钮，并选择左侧菜单“资源”分类下的“Mod”选项。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/641066a603419.png?comment=Mod下载页面" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/6410706bdaaba.png?comment=Mod下载页面" />
         </Grid>
 
         <local:MyHint Margin="0,20,0,0" Text="由于 Curseforge 和 Modrinth 为英文网站，搜索时请尽量使用 Mod 的英文名称。" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 在左侧页面中通过选择或输入您所需 Mod 的名称、类型、游戏版本及其需要的加载器类型以筛选并搜索整合包。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/6410675ee486d.png?comment=Mod搜索筛选选项" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/641070863f2fe.png?comment=Mod搜索筛选选项" />
         </Grid>
 
-        <Grid Margin="0,20,0,4">
-		    <local:MyHint Margin="0,0,0,15" Text="PCL2 现在会尝试根据您下载的 Mod 自动选择与其兼容的游戏及 Mod 加载器版本。" IsWarn="False" />
+        <local:MyHint Margin="0,20,0,0" Text="PCL2 现在会尝试根据您下载的 Mod 自动选择与其兼容的游戏及 Mod 加载器版本。" IsWarn="False" />
+        <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 选择一个 Mod 。本教程使用&quot;Waystones&quot; 为范例。当您想要安装 Mod 需要安装前置时，点击“前置 Mod”字样下方列出的 Mod，并下载与您游戏版本和模组加载器版本兼容的前置 Mod 版本。完成后，点击返回按钮，并下载与您游戏版本和模组加载器版本兼容的 Mod 版本。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/641067d60b3dc.png?comment=下载Mod前置" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/641068397e2d4.png?comment=下载Mod本体" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/64107093a0333.png?comment=下载含前置的Mod" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
