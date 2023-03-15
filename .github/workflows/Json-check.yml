@@ -1,11 +1,6 @@
 name: JSON check
 run-name: JSON check
-on:
-  push:
-    paths:
-      - '**.json'
-  pull_request:
-    branches: master
+on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
