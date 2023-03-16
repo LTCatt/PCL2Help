@@ -67,7 +67,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                        Text="4. 回到主页面，点击“版本设置”，选择左侧菜单栏中的 “Mod 管理” 选项，您会看到以您刚刚下载的 Mod。"/>
+                        Text="4. 回到主页面，点击“版本设置”，选择左侧菜单栏中的 “Mod 管理” 选项，您会看到您刚刚下载的 Mod。"/>
         </Grid>
     </StackPanel>
 </local:MyCard>
