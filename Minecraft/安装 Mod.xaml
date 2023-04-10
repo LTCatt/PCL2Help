@@ -61,7 +61,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 选择一个 Mod。本教程使用&quot;Waystones&quot; 为范例。当您想要安装 Mod 需要安装前置时，点击 “前置 Mod” 字样下方列出的 Mod，并下载与您游戏版本和模组加载器版本兼容的前置 Mod 版本。完成后，点击返回按钮，并下载与您游戏版本和模组加载器版本兼容的 Mod 版本。" HorizontalAlignment="Left" />
+                        Text="3. 选择一个 Mod。本教程使用 &quot;Waystones&quot; 为范例。当您想要安装 Mod 需要安装前置时，点击 “前置 Mod” 字样下方列出的 Mod，并下载与您游戏版本和模组加载器版本兼容的前置 Mod 版本。完成后，点击返回按钮，并下载与您游戏版本和模组加载器版本兼容的 Mod 版本。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/04/09/6432ac1f0507d.png?comment=下载含前置的Mod" />
         </Grid>
 
