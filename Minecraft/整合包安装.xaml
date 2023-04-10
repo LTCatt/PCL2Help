@@ -48,19 +48,19 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL2 中点击 “下载” 按钮，并选择左侧菜单 “资源” 分类下的 “整合包” 选项。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/64107046172b1.png?comment=打开整合包页面" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/04/09/6432ac7454dd1.png?comment=打开整合包页面" />
         </Grid>
 
         <local:MyHint Margin="0,20,0,0" Text="搜索时请尽量使用 Mod 的英文名称。" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 在左侧页面中通过选择或输入您所需整合包的名称、类型、游戏版本以筛选并搜索整合包。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/03/14/6410705905d6e.png?comment=整合包搜索筛选选项" />
+                        Text="2. 在左侧页面中通过选择或输入您所需整合包的名称、类型、来源、游戏版本以筛选并搜索整合包。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/04/09/6432ac6568fa6.png?comment=整合包搜索筛选选项" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 选择一个整合包。本教程使用&quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以 “RLCraft” 为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
+                        Text="3. 选择一个整合包。本教程使用 &quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以 “RLCraft” 为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_name_input.png" />
         </Grid>
 
