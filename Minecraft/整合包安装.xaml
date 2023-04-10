@@ -60,7 +60,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 选择一个整合包。本教程使用 “RLCraft” 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以 “RLCraft” 为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
+                        Text="3. 选择一个整合包。本教程使用 &quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以 “RLCraft” 为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_name_input.png" />
         </Grid>
 
