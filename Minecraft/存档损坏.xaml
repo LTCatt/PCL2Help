@@ -4,11 +4,11 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="电脑蓝屏、死机重启等情况下，游戏存档可能会损坏，如果损坏请按照以下步骤操作："/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 打开损坏存档所在的 .minecraft 文件夹，在对应版本的“版本设置” → “打开版本文件夹”后找到 saves 文件夹并进入。"/>
+                    Text="1. 打开损坏存档的文件夹，在对应版本的“版本设置” → “存档文件夹”后打开 saves 文件夹。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="2. 进入损坏存档，删除“level.dat”文件。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 找到“level.dat_old”，并在右键重命名时将后缀 “_old”部分删除。 "/>
+                    Text="3. 找到“level.dat_old”，并右键重命名，将后缀 “_old” 部分删除。 "/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="此时进入游戏将恢复存档，但注意的是：每次进入游戏都会自动备份存档为 level.dat_old 文件，所以使用此文档会回档到未损坏之前的存档 。"/>
         <local:MyHint Text="如果没有显示后缀，请将显示文件扩展名打开即可 &#xA; Win7：资源管理器(我的电脑) → 组织 → 文件夹和搜索选项 → 查看 → 勾选“显示已知文件的扩展名” &#xA; Win10、Win11：资源管理器(此电脑) → 查看 → 勾选“文件扩展名” &#xA;如果损坏版本的版本隔离是生效的，那么你需要在 .minecraft/versions/[游戏对应版本]/saves 文件夹里找到损坏存档并执行上述操作" IsWarn="False" />
