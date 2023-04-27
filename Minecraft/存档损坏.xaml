@@ -11,7 +11,7 @@
                     Text="3. 找到“level.dat_old”，并右键重命名，将后缀 “_old” 部分删除。 "/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="此时进入游戏将恢复存档，但注意的是：每次进入游戏都会自动备份存档为 level.dat_old 文件，所以使用此文档会回档到未损坏之前的存档 。"/>
-        <local:MyHint Text="如果没有显示后缀，请将显示文件扩展名打开即可 &#xA; Win7：资源管理器(我的电脑) → 组织 → 文件夹和搜索选项 → 查看 → 勾选“显示已知文件的扩展名” &#xA; Win10、Win11：资源管理器(此电脑) → 查看 → 勾选“文件扩展名” &#xA;如果损坏版本的版本隔离是生效的，那么你需要在 .minecraft/versions/[游戏对应版本]/saves 文件夹里找到损坏存档并执行上述操作" IsWarn="False" />
+        <local:MyHint Text="如果没有显示后缀，请将显示文件扩展名打开即可 &#xA; Win7：资源管理器(我的电脑) → 组织 → 文件夹和搜索选项 → 查看 → 勾选“显示已知文件的扩展名” &#xA; Win10、Win11：资源管理器(此电脑) → 查看 → 勾选“文件扩展名” &#xA;如果所损坏版本的版本隔离是生效的，那么你需要在 .minecraft/versions/[游戏对应版本]/saves 文件夹里找到损坏存档并执行上述操作" IsWarn="False" />
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans" IsWarn="False" />
