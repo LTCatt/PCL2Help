@@ -20,7 +20,7 @@
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Taskbar.NI.Settings.png" />
         </Grid>
         <!-- 更改适配器设置 -->
-        <Grid Margin="0,10,0,0">
+        <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. Win10: 转到&quot;状态&quot;页面并点击&quot;更改适配器设置&quot;。&#xA; Win11: 点击&quot;高级网络设置&quot;后点击下方的&quot;更多网络适配器选项&quot;。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/Adopt_Settings.png" />
@@ -34,13 +34,19 @@
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/Network_Settings.png" />
         </Grid>
 
-        <Grid Margin="0,20,0,4">
+        <local:MyHint Margin="0,20,0,0" Text="您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。" IsWarn="False" />
+        <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="4. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”，您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。保存后按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" HorizontalAlignment="Left" />
+                        Text="4. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”并保存。" HorizontalAlignment="Left" />
             <!-- 此处原 DNS 为微软公用 DNS，鉴于此 DNS 在中国大陆内使用情况不佳，更改为阿里云 DNS -->
             <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
                         Text="复制 ipconfig /flushdns 命令" EventType="复制文本" EventData="ipconfig /flushdns" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/ControlPanel.DNS.Settings.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
+                        Text="5. 按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" />
         </Grid>
     </StackPanel>
 </local:MyCard>
@@ -50,11 +56,11 @@
 	<StackPanel Margin="25,40,23,15">
         <!-- 此处我存疑，部分台式电脑无无线局域网功能 -->
         <Grid>
-            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
                         Text="1. 打开手机的移动热点功能，电脑连接热点。"/>
         </Grid>
         <!-- win+R，打开运行界面，输入services.msc进入服务 -->
-        <Grid Margin="0,10,0,0">
+        <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 按下键盘上的 Windows + R 键，打开运行界面，输入 services.msc 打开服务管理程序。" HorizontalAlignment="Left" />
             <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
@@ -87,13 +93,19 @@
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/4R.png" />
         </Grid>
 
-        <Grid Margin="0,20,0,4">
+        <local:MyHint Margin="0,20,0,0" Text="您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。" IsWarn="False" />
+        <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="4. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”，您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。保存后按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" HorizontalAlignment="Left" />
+                        Text="4. 双击“Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在“备用 DNS 服务器”内填写“223.6.6.6”并保存。" HorizontalAlignment="Left" />
             <!-- 此处原 DNS 为微软公用 DNS，鉴于此 DNS 在中国大陆内使用情况不佳，更改为阿里云 DNS -->
             <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
                         Text="复制 ipconfig /flushdns 命令" EventType="复制文本" EventData="ipconfig /flushdns" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/ControlPanel.DNS.Settings.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
+                        Text="5. 按住键盘上的 Windows 键 + R 键，输入“ipconfig /flushdns”以刷新 DNS 缓存，接着再次进入 PCL2 启动游戏即可正常登录。" />
         </Grid>
     </StackPanel>
 </local:MyCard>
