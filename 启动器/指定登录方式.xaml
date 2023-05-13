@@ -20,7 +20,7 @@
         <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230bedd5.png" />
         
         <TextBlock Margin="0,50,0,0" Text="4. 滑动至下方，在“服务器”中选择登录方式即可切换。" />
-        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f2023198b0c.png" />
+        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/05/13/645f36c487851.png" />
     </StackPanel>
 </local:MyCard>
 
