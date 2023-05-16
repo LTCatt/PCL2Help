@@ -4,7 +4,7 @@
 <local:MyCard Title="手动设置内存大小">
 	<StackPanel Margin="25,40,23,5">
     <local:MyHint Margin="0,-3,0,10" Text="请注意，错误的内存分配会造成游戏不稳定甚至不正常的内存溢出。请在自行修改内存前务必谨慎操作！"/>
-		<TextBlock Margin="0,0,0,4" LineHeight="17"
+		<TextBlock Margin="0,0,0,10" LineHeight="17"
                    Text="在某些情况下，自动分配内存可能会出现一些难以预知的问题。&#xa;因此，在自动分配无法正常工作时，手动设置内存就十分必要。&#xa;本教程针对独立版本调整和全局设定两种途径进行讨论。"/>
 	</StackPanel>
 </local:MyCard>
@@ -48,7 +48,7 @@
 <!-- 已更改图床，并根据规范修改图片，by ITfool（Github）2023.1.15-->
 <local:MyCard Title="针对独立版本进行调整" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
-        <local:MyHint Margin="0,-3,0,10" Text="请注意，修改 PCL2 的全局配置将影响所有依赖 PCL2 启动的游戏版本。"/>
+        <local:MyHint Margin="0,0,0,10" Text="请注意，修改 PCL2 的全局配置将影响所有依赖 PCL2 启动的游戏版本。"/>
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 打开您的 PCL2 启动器，在主页点击上方的“设置”选单。" HorizontalAlignment="Left" />

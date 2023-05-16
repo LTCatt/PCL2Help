@@ -7,15 +7,18 @@
         <TextBlock Margin="0,10,0,0" Text="如果您想用于联机，那么联机加入者必须是正版或外置登录，对房主则无要求。" />
         <TextBlock Margin="0,10,0,0" Text="如果您想在多人游戏中展示您的皮肤，请保证所有参与联机的成员均使用 LittleSkin 外置登录。皮肤显示不正常时，也可以搭配 CustomSkinLoader 模组并添加 ExtraList 文件以达到相同的效果。" />
         <local:MyHint Margin="0,10,0,0" Text="请注意：LittleSkin 外置登录不能用于进入正版服务器。" IsWarn="False" />
-        <local:MyButton Margin="0,10,0,0" MinWidth="280" Padding="13,0" HorizontalAlignment="Left" Height="35" Text="获取配置文件（须登录 LittleSkin）" EventType="打开网页" EventData="https://littleskin.cn/user/config" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,10,10,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" 
+                            Text="打开 LittleSkin" EventType="打开网页" EventData="https://littleskin.cn" />
+            <local:MyButton Margin="0,10,10,0" MinWidth="280" Padding="13,0" HorizontalAlignment="Left" Height="35" 
+                            Text="获取配置文件（须登录 LittleSkin）" EventType="打开网页" EventData="https://littleskin.cn/user/config" />
+        </StackPanel>
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="设置 Little Skin 外置登录" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
-        <local:MyHint Margin="0,-3,0,0" Text="以下填写的所有邮箱地址应全部为英文小写字母，否则将会出现 UUID 为 null 的情况导致无法进入服务器！"/>
-        <local:MyButton Margin="0,15,0,0" MinWidth="140" Padding="13,0" HorizontalAlignment="Left" Height="35" 
-                        Text="打开 LittleSkin" EventType="打开网页" EventData="https://littleskin.cn" />
+        <local:MyHint Margin="0,0,0,0" Text="以下填写的所有邮箱地址应全部为英文小写字母，否则将会出现 UUID 为 null 的情况导致无法进入服务器！"/>
         <local:MyHint Margin="0,10,0,0" Text="在注册 LittleSkin 账号时不要使用第三方登录，可能会导致账号无法设置密码，从而无法继续操作！" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -74,4 +77,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：一闪、呇星、EggPixel" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：一闪、呇星、EggPixel、风释清然SC" IsWarn="False" />

@@ -1,14 +1,15 @@
 <!-- 需要根据规范重新整理格式、标点、空格等。部分语句不太通顺，需要再改改。 -->
 <!-- 图片备份 https://yshs.lanzoui.com/iIquToi85kf -->
 <!-- 2023/02/20 添加的图片 https://wwou.lanzoub.com/ijvOW0o1xrne 目前没有加箭头，可以加一下 -->
-<!--
+
 <local:MyCard Title="简介">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,0" LineHeight="17" Text="PCL2 支持多种登录方式，例如正版登录、离线登录、统一通行证和 Authlib-Injector 登录，也可以单独为某一版本指定登录方式。此界面将提供简单的教程。" />
+        <TextBlock Margin="0,0,0,0" LineHeight="17" 
+                    Text="PCL2 目前支持正版登录、离线登录、统一通行证和 Authlib-Injector 登录，也可以单独为某一版本指定登录方式。本篇将对此提供简单的教程。" />
     </StackPanel>
 </local:MyCard>
--->
-<local:MyCard Title="步骤" Margin="0,0,0,15">
+
+<local:MyCard Title="指定登录方式" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -36,7 +37,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="设置 LittleSkin 登录">
+<local:MyCard Title="设置外置登录">
     <StackPanel Margin="25,40,23,15">
         <local:MyListItem Margin="0,0,0,0" EventType="打开帮助" EventData="启动器/LittleSkin 外置登录使用教程.json" />
     </StackPanel>
