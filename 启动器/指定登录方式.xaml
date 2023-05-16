@@ -8,19 +8,31 @@
     </StackPanel>
 </local:MyCard>
 -->
-<local:MyCard Title="教程">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,10,0,0" Text="1. 点击启动页面下方的“版本选择”。" />
-        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230b5136.png" />
+<local:MyCard Title="步骤" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 点击启动页面下方的“版本选择”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230b5136.png" />
+        </Grid>
 
-        <TextBlock Margin="0,50,0,0" Text="2. 右键点击需要修改的游戏版本。" />
-        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230c9e9b.png" />
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 右键点击需要修改的游戏版本。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230c9e9b.png" />
+        </Grid>
 
-        <TextBlock Margin="0,50,0,0" Text="3. 点击左侧“设置”按钮。" />
-        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230bedd5.png" />
-        
-        <TextBlock Margin="0,50,0,0" Text="4. 滑动至下方，在“服务器”中选择登录方式即可切换。" />
-        <Image Height="360" Margin="0,20,0,0" HorizontalAlignment="Left" Source="https://cdn.img.z0z0r4.top/2023/05/13/645f36c487851.png" />
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 点击左侧“设置”按钮。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230bedd5.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="4. 滑动至下方，在“服务器”中选择登录方式即可切换。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/05/13/645f36c487851.png" />
+        </Grid>
     </StackPanel>
 </local:MyCard>
 
