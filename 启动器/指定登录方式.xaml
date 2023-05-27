@@ -37,8 +37,8 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="设置外置登录">
-    <StackPanel Margin="25,40,23,15">
+<local:MyCard Title="扩展阅读">
+    <StackPanel Margin="20,40,23,15">
         <local:MyListItem Margin="0,0,0,0" EventType="打开帮助" EventData="启动器/LittleSkin 外置登录使用教程.json" />
     </StackPanel>
 </local:MyCard>

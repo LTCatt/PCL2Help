@@ -21,7 +21,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="设置外置登录、限制登录方式" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="设置第三方登录、限制登录方式" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="启动器/指定登录方式.json" />

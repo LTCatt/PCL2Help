@@ -1,6 +1,6 @@
 {
-    "__Author__": "一闪、呇星、EggPixel、风释清然SC",
-    "Title": "设置 LittleSkin 的外置登录",
-    "Description": "用于非正版联机，或者用于使用 LittleSkin 网站的皮肤",
+    "__Author__": "一闪、呇星、EggPixel、风释清然SC、龙腾猫跃",
+    "Title": "设置 LittleSkin 登录",
+    "Description": "使用 LittleSkin 进行第三方登录验证的设置方法",
     "Types": ["启动器"]
 }
