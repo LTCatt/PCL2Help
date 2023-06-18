@@ -80,7 +80,7 @@
                         Text="1. 参考上方内容启动您想要安装数据包的版本，点击“单人游戏”。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/World-List.png" />        
         </Grid>
-        <local:MyHint Margin="0,15,0,0" Text="如果你还没有创建任何世界则无需点击“创建新的世界”按钮，则直接点击右中“数据包”。" IsWarn="False" />
+        <local:MyHint Margin="0,15,0,0" Text="如果你还没有创建任何世界则无需点击“创建新的世界”按钮，则直接点击右中“数据包”。&#xa;对于 1.20 及以上版本，你需要在创建世界页面上方单击 “更多” 选项卡以找到 “数据包” 按钮。" IsWarn="False" />
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 点击下方“创建新的世界”，点击右中“数据包”" HorizontalAlignment="Left" />
