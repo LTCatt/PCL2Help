@@ -4,7 +4,7 @@
 <local:MyCard Title="资源包是什么?" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="资源包 (Resource Pack) 是 Minecraft 内置的、允许玩家自定义材质、模型、音乐、声音、语言，终末之诗、闪烁标语、鸣谢名单等文本和字体，而不用修改任何代码的功能。" />
+                   Text="资源包（Resource Pack）系统，为 1.13 版本后材质包系统的 API 替代品，允许玩家更深度地自定义自己的 Minecraft 体验。资源包允许玩家自定义材质、模型、音乐、声音、语言文件、终末之诗、菜单界面 UI、闪烁标语的显示文本和字体，而不用修改任何代码。本质上是一个可以不用大动干戈地去改游戏代码而达到修改游戏目的的一个便捷的工具。" />
     </StackPanel>
 </local:MyCard>
 
