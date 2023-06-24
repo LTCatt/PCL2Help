@@ -1,13 +1,6 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 <!-- 不会XAML，在XiaoFans的帮助文档上稍作修改，可能需要根据规范重新修改表述及格式。 可能仍需继续完善。 -->
 
-<local:MyCard Title="资源包是什么?" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="资源包 (Resource Pack) 是 Minecraft 内置的、允许玩家自定义材质、模型、音乐、声音、语言，终末之诗、闪烁标语、鸣谢名单等文本和字体，而不用修改任何代码的功能。" />
-    </StackPanel>
-</local:MyCard>
-
 <local:MyCard Title="获取资源包" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
