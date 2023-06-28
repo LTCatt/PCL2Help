@@ -1,0 +1,60 @@
+<local:MyCard Title="简介">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,0" LineHeight="17" 
+                    Text="MSDerfender有时是你保护电脑的得力助手，有时又会抽风误删你的PCL2。本教程将详细的讲述你应该怎么避免此情况。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="添加排除项" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 找到你任务栏上MSDerfender的图标，点击它。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s3.bmp.ovh/imgs/2023/06/28/659e774fdf60a61b.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 进入主界面，点击“病毒和威胁防护”选项卡。（侧栏与中心均可点击！）" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s3.bmp.ovh/imgs/2023/06/28/cd3e5026b51e6490.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 找到“病毒和威胁防护设置”，单击“管理设置”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s3.bmp.ovh/imgs/2023/06/28/8f8f6fd24798e92a.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="4. 进入二级页面，使用鼠标滚轮向下滑动，找到“排除项”，单击“添加或删除排除项”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s3.bmp.ovh/imgs/2023/06/28/fc5514927f6687a2.png" />
+        </Grid>
+        
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="5. 进入三级页面，点击“添加排除项”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s3.bmp.ovh/imgs/2023/06/28/dfa9b4403091c938.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="6.在跳出来的选项卡中，点击“文件夹”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s3.bmp.ovh/imgs/2023/06/28/f491f9c6ff42cb86.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="7.确保你的PCL2启动器主程序（Plain Craft Launcher 2.exe）在你的MC文件夹中，在跳出来的资源管理器窗口中选择你的MC文件夹。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s3.bmp.ovh/imgs/2023/06/28/0c5d05f684474d32.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="8.完成！以后PCL2就不会被误删了。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s3.bmp.ovh/imgs/2023/06/28/14549109098b51f4.png" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：SuoHouDaiShi" IsWarn="False" />

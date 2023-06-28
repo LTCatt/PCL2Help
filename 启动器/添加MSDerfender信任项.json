@@ -1,0 +1,6 @@
+{
+    "__Author__": "SuoHouDaiShi",
+	"Title": "添加MSDerfender信任项",
+	"Description": "如果PCL2启动器频繁被MSDerfender删除，即可尝试添加信任项。",
+	"Types": ["启动器"]
+}
