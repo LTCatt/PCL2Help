@@ -1,6 +1,6 @@
 <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善，优化排版与文案。如果您感兴趣也可以来帮帮忙！" IsWarn="False" />
 
-<local:MyCard Title="概述：为什么会被静默删除？">
+<local:MyCard Title="PCL2 为什么会被静默删除？">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="19"
                    Text="您现在正在使用快照版 PCL2，由于快照版版本未向 Microsoft 提交误报反馈，因此 PCL2 快照版可能被 Microsoft Defender 在不做任何提醒的情况下静默删除。" />
