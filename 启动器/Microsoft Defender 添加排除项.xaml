@@ -18,7 +18,7 @@
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="2. 进入左侧菜单中的 “Windows 安全中心” 选项，单击右侧的 “打开 Windows 安全中心” 按钮。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d8f71c75ae.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d962150f5d.png" />
         </Grid>
 
         <local:MyHint Margin="0,20,0,0" Text="若打开 Windows 安全中心后未找到 “病毒和威胁防护” 字样，请直接选择左侧菜单栏中有盾牌图标的选项即可。" IsWarn="False" />
@@ -37,7 +37,7 @@
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="5. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL2 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d937ed6a50.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d963b7c37a.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>
@@ -66,7 +66,7 @@
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="4. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL2 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d937ed6a50.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d963b7c37a.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>
