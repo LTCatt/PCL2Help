@@ -1,9 +1,9 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善，优化排版与文案。如果您感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!--图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/Help_image3 -->
 
 <local:MyCard Title="PCL2 为什么会被静默删除？">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="19"
-                   Text="您现在正在使用快照版 PCL2，由于快照版版本未向 Microsoft 提交误报反馈，因此 PCL2 快照版可能被 Microsoft Defender 在不做任何提醒的情况下静默删除。" />
+                   Text="由于 PCL2 会联网下载程序并且运行，经常被杀毒软件和 Microsoft Defender 误判为病毒，这是正常现象。如遇到报毒等情况，也可以尝试参考本教程进行处理。&#xA;您现在正在使用快照版 PCL2，由于未向 Microsoft 提交误报反馈，因此 PCL2 快照版可能被 Microsoft Defender 在不做任何提醒的情况下静默删除。" />
     </StackPanel>
 </local:MyCard>
 
