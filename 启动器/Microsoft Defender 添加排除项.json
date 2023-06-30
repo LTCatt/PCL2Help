@@ -3,5 +3,5 @@
     "Title": "将 PCL2 添加到 Windows 安全中心白名单",
     "Description": "PCL2 被静默删除时可能的解决方案",
     "Types": ["启动器"],
-	"ShowInPublic": false
+    "ShowInPublic": false
 }
