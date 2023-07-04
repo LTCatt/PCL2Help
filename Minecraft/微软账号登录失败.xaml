@@ -22,14 +22,14 @@
         <!-- 更改适配器设置 -->
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. Win10: 转到“状态”页面并点击“更改适配器设置”。&#xA; Win11: 点击“高级网络设置“后点击下方的“更多网络适配器选项“。" HorizontalAlignment="Left" />
+                        Text="2. Win10: 转到“状态”页面并点击“更改适配器设置”。&#xA; Win11: 点击“高级网络设置”后点击下方的“更多网络适配器选项”。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/Adopt_Settings.png" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Win11.Settings.NW.SPQ.png" />
         </Grid>
         <!-- 右键点击你的连接 点击属性 -->
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 右键点击您目前正在连接的网络（一般为“以太网“或“WLAN“），点击属性。" HorizontalAlignment="Left" />
+                        Text="3. 右键点击您目前正在连接的网络（一般为“以太网”或“WLAN”），点击属性。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/4R.png" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/Network_Settings.png" />
         </Grid>
@@ -70,26 +70,26 @@
         <!-- 功能开启 -->
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 找到“Microsoft (R) 诊断中心标准收集器服务“，右键点击属性，改成手动，开启服务。" HorizontalAlignment="Left" />
+                        Text="3. 找到“Microsoft (R) 诊断中心标准收集器服务”，右键点击属性，改成手动，开启服务。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/11.Microsoft(R).png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="4. 在任务栏上找到对应网络状态的图标，右键点击此图标后“网络和 Internet 设置“。" HorizontalAlignment="Left" />
+                        Text="4. 在任务栏上找到对应网络状态的图标，右键点击此图标后“网络和 Internet 设置”。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/Taskbar.NI.Settings.png" />
         </Grid>
         <!-- 更改适配器设置 -->
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. Win10: 转到“状态“页面并点击“更改适配器设置“。&#xA; Win11: 点击“高级网络设置“后点击下方的更多网络适配器选项“。" HorizontalAlignment="Left" />
+                        Text="2. Win10: 转到“状态”页面并点击“更改适配器设置”。&#xA; Win11: 点击“高级网络设置”后点击下方的更多网络适配器选项”。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/Adopt_Settings.png" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Win11.Settings.NW.SPQ.png" />
         </Grid>
         <!-- 右键点击你的连接 点击属性 -->
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 右键点击您目前正在连接的网络（一般为“以太网“或“WLAN“），点击属性。" HorizontalAlignment="Left" />
+                        Text="3. 右键点击您目前正在连接的网络（一般为“以太网”或“WLAN”），点击属性。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/4R.png" />
         </Grid>
 
