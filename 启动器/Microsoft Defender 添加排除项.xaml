@@ -1,0 +1,74 @@
+<!--图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/Help_image3 -->
+
+<local:MyCard Title="PCL2 为什么会被静默删除？">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="19"
+                   Text="由于 PCL2 会联网下载程序并且运行，经常被杀毒软件和 Microsoft Defender 误判为病毒，这是正常现象。如遇到报毒等情况，也可以尝试参考本教程进行处理。&#xA;您现在正在使用快照版 PCL2，由于未向 Microsoft 提交误报反馈，因此 PCL2 快照版可能被 Microsoft Defender 在不做任何提醒的情况下静默删除。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Windows 10" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="1. 在开始菜单中打开设置，选择 “更新与安全”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d8e552c862.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="2. 进入左侧菜单中的 “Windows 安全中心” 选项，单击右侧的 “打开 Windows 安全中心” 按钮。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d962150f5d.png" />
+        </Grid>
+
+        <local:MyHint Margin="0,20,0,0" Text="若打开 Windows 安全中心后未找到 “病毒和威胁防护” 字样，请直接选择左侧菜单栏中有盾牌图标的选项即可。" IsWarn="False" />
+        <Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="3. 在弹出的 Windows 安全中心窗口中的左侧菜单栏中选择 “病毒和威胁防护”，在弹出的页面中向下滚动页面，找到并进入 “管理设置”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d8fe859c58.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="4. 在出现的 “‘病毒和威胁防护’ 设置” 中向下滚动页面，找到并进入 “添加或删除排除项”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d91bda42d4.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="5. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL2 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d963b7c37a.png" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Windows 11" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="1. 在开始菜单中打开设置，选择左侧菜单中的 “隐私和安全性”，单击右侧 “Windows 安全中心” 选项。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d948165b24.png" />
+        </Grid>
+
+        <local:MyHint Margin="0,20,0,0" Text="若打开 Windows 安全中心后未找到 “病毒和威胁防护” 字样，请直接选择左侧菜单栏中有盾牌图标的选项即可。" IsWarn="False" />
+        <Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="2. 在弹出的 Windows 安全中心窗口中的左侧菜单栏中选择 “病毒和威胁防护”，在弹出的页面中向下滚动页面，找到并进入 “管理设置”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d8fe859c58.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="3. 在出现的 “‘病毒和威胁防护’ 设置” 中向下滚动页面，找到并进入 “添加或删除排除项”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d91bda42d4.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="4. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL2 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d963b7c37a.png" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：风释清然SC" IsWarn="False" />
