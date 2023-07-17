@@ -3,7 +3,7 @@
 <local:MyCard Title="前言" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
-                    Text="本篇简单介绍了在 PCL2 中使用 XAML 进行自定义页面的相关语法。由于内容繁多，建议下载本篇代码参考学习。" />
+                    Text="本篇简单介绍了在 PCL 中使用 XAML 进行自定义页面的相关语法。由于内容繁多，建议下载本篇代码参考学习。" />
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
                     Text="下载本篇的代码" EventType="下载文件" EventData="https://cdn.jsdelivr.net/gh//LTCatt/PCL2Help@latest/个性化/XAML%20格式.xaml" ToolTip="下载本篇的代码" />
     </StackPanel>
@@ -98,13 +98,13 @@
         <TextBlock Margin="0,4,0,0"
                     Text="如果能在 PCL 文件夹中找到该文件，则会优先打开 PCL 文件夹中的文件。当然，你可以使用例如 C:\ 开头的绝对路径。" />
         <TextBlock Margin="0,0,0,4"
-                    Text="此外，PCL2 会将文件中的花括号 path 替换为 PCL 可执行文件所在文件夹（{path}），可以用于执行特定程序或加载图片。" />
+                    Text="此外，PCL 会将文件中的花括号 path 替换为 PCL 可执行文件所在文件夹（{path}），可以用于执行特定程序或加载图片。" />
         <local:MyButton Margin="0,4,0,10" Width="200" Height="35"
-                    Text="打开 PCL 日志" EventType="打开文件" EventData="Log1.txt" ToolTip="PCL2 的日志文件就在 PCL 文件夹内，且名为 Log1.txt" />
+                    Text="打开 PCL 日志" EventType="打开文件" EventData="Log1.txt" ToolTip="PCL 的日志文件就在 PCL 文件夹内，且名为 Log1.txt" />
         <TextBlock Margin="0,0,0,4"
                     Text="就像为游戏指定服务器 IP 一样，你也可以在 EventData 的竖线后为程序添加启动参数。" />
         <local:MyButton Margin="0,4,0,0" Width="200" Height="35"
-                    Text="定位游戏启动脚本" EventType="打开文件" EventData="explorer.exe|/select,LatestLaunch.bat" ToolTip="PCL2 会将上一次启动 MC 的脚本保存在 PCL 文件夹内，且名为 LatestLaunch.bat。&#xA;点击按钮会打开文件管理器，并且借助参数要求它选中这个文件。" />
+                    Text="定位游戏启动脚本" EventType="打开文件" EventData="explorer.exe|/select,LatestLaunch.bat" ToolTip="PCL 会将上一次启动 MC 的脚本保存在 PCL 文件夹内，且名为 LatestLaunch.bat。&#xA;点击按钮会打开文件管理器，并且借助参数要求它选中这个文件。" />
     </StackPanel>
 </local:MyCard>
 

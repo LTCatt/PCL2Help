@@ -1,7 +1,7 @@
 {
     "__Author__": "龙腾猫跃",
 	"Title": "自定义帮助页面",
-	"Description": "添加自己的帮助页面，或是隐藏 PCL2 内置的帮助页面",
+	"Description": "添加自己的帮助页面，或是隐藏 PCL 内置的帮助页面",
 	"Keywords": "PCL2个性化修改自定义xaml",
 	"Types": ["个性化"]
 }

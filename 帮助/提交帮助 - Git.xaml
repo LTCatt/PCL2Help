@@ -15,9 +15,9 @@
 	<StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,0,0,15" Text="如果你已经在之前使用过 Git，可以直接跳过此步骤。" IsWarn="False" />
 		<TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="在开始之前请确保已经根据“参与完善 PCL2 帮助库”条目下的“获取帮助库”的指引，注册了 GitHub 并 Fork 了仓库。"/>
+                    Text="在开始之前请确保已经根据“参与完善 PCL 帮助库”条目下的“获取帮助库”的指引，注册了 GitHub 并 Fork 了仓库。"/>
 		<TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="在开始获取 PCL2 帮助库之前不可缺少的是安装 Git 工具，你可以直接通过下面的按钮下载，或访问网页下载。"/>
+                    Text="在开始获取 PCL 帮助库之前不可缺少的是安装 Git 工具，你可以直接通过下面的按钮下载，或访问网页下载。"/>
 		<StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
 			<local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                         Text="下载 Git (32 位)" EventType="下载文件" EventData="https://registry.npmmirror.com/-/binary/git-for-windows/v2.39.2.windows.1/Git-2.39.2-32-bit.exe" />
@@ -71,7 +71,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="获取 PCL2 帮助库" CanSwap="true" IsSwaped="false">
+<local:MyCard Title="获取 PCL 帮助库" CanSwap="true" IsSwaped="false">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock Margin="0,5,0,4" LineHeight="17"
                     Text="1. 克隆仓库到本地。"/>

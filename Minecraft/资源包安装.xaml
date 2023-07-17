@@ -14,7 +14,7 @@
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="1. 在 PCL2 启动器中找到您想要安装资源包的版本，如教程内选择 1.16.5 作为演示。" HorizontalAlignment="Left" />
+                        Text="1. 在 PCL 启动器中找到您想要安装资源包的版本，如教程内选择 1.16.5 作为演示。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/pcl2-find-version-add-mosaic.png" />
         </Grid>
 
