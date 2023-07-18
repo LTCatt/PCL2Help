@@ -1,5 +1,3 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-
 <!-- 由 WTP016 修改的部分的图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/mods -->
 
 <local:MyCard Title="Mod 是什么？" Margin="0,0,0,15">
@@ -19,10 +17,10 @@
 <local:MyCard Title="安装 Mod 加载器 - Forge" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 打开 PCL2 的自动安装页面，选择想要安装的 Minecraft 版本。然后点击下方的 “Forge” 按钮即可打开 Forge 版本菜单。" />
+                    Text="1. 打开 PCL2 的自动安装页面，选择想要安装的 Minecraft 版本。然后点击下方的 &quot;Forge&quot; 按钮即可打开 Forge 版本菜单。" />
 		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/install%20forge.png" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 选择合适的 Forge 版本之后，点击上方的 “开始安装” 即可安装一个带有 Forge 的 Minecraft 版本。" />
+                    Text="2. 选择合适的 Forge 版本之后，点击上方的 &quot;开始安装&quot; 即可安装一个带有 Forge 的 Minecraft 版本。" />
 		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/start%20install%20forge.png" />
 		<local:MyHint Margin="0,0,0,15" IsWarn="False" Text="一般来说，只需要选择最新版或推荐版的 Forge 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" />
 	</StackPanel>
@@ -31,13 +29,13 @@
 <local:MyCard Title="安装 Mod 加载器 - Fabric" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 打开 PCL2 的自动安装页面，选择想要安装的 Minecraft 版本。然后点击下方的 “Fabric” 按钮即可打开 Fabric 版本菜单。" />
+                    Text="1. 打开 PCL2 的自动安装页面，选择想要安装的 Minecraft 版本。然后点击下方的 &quot;Fabric&quot; 按钮即可打开 Fabric 版本菜单。" />
 		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/install%20fabric.png" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="2. 选择适合的 Fabric 版本，之后下方会出现 Fabric API 的安装选项，从中选择合适的版本。" />
 		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/install%20fabric%20api.png" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 点击上方的 “开始安装” 即可安装一个带有 Fabric 的 Minecraft 版本。" />
+                    Text="3. 点击上方的 &quot;开始安装&quot; 即可安装一个带有 Fabric 的 Minecraft 版本。" />
 		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/start%20install%20fabric.png" />
 		<local:MyHint Margin="0,0,0,15" Text="虽然 Fabric API 的安装并不是必须的，但绝大多数 Mod 都需要 Fabric API 作为前置。" />
 		<local:MyHint Margin="0,0,0,15" IsWarn="False" Text="一般来说，只需要选择最新版本的 Fabric 和 Fabric API 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" />
@@ -48,7 +46,7 @@
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="1. 在 PCL2 中点击 “下载” 按钮，并选择左侧菜单 “资源” 分类下的 “Mod” 选项。" HorizontalAlignment="Left" />
+                        Text="1. 在 PCL2 中点击 &quot;下载&quot; 按钮，并选择左侧菜单 &quot;资源&quot; 分类下的 &quot;Mod&quot; 选项。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/04/09/6432ac09a99e8.png?comment=Mod下载页面" />
         </Grid>
 
@@ -61,13 +59,13 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 选择一个 Mod。本教程使用 “Waystones” 为范例。当您想要安装 Mod 需要安装前置时，点击 “前置 Mod” 字样下方列出的 Mod，并下载与您游戏版本和模组加载器版本兼容的前置 Mod 版本。完成后，点击返回按钮，并下载与您游戏版本和模组加载器版本兼容的 Mod 版本。" HorizontalAlignment="Left" />
+                        Text="3. 选择一个 Mod。本教程使用 &quot;Waystones&quot; 为范例。当您想要安装 Mod 需要安装前置时，点击 &quot;前置 Mod&quot; 字样下方列出的 Mod，并下载与您游戏版本和模组加载器版本兼容的前置 Mod 版本。完成后，点击返回按钮，并下载与您游戏版本和模组加载器版本兼容的 Mod 版本。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/04/09/6432ac1f0507d.png?comment=下载含前置的Mod" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                        Text="4. 回到主页面，点击 “版本设置”，选择左侧菜单栏中的 “Mod 管理” 选项，您会看到您刚刚下载的 Mod。" />
+                        Text="4. 回到主页面，点击 &quot;版本设置&quot;，选择左侧菜单栏中的 &quot;Mod 管理&quot; 选项，您会看到您刚刚下载的 Mod。" />
         </Grid>
     </StackPanel>
 </local:MyCard>
@@ -79,7 +77,7 @@
 		<local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Margin="0,0,0,4"
                         Text="打开 MCBBS Mod 分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-mod-1.html" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="下载完成的 Mod 文件的扩展名一般为 .jar（用于老旧加载器 LiteLoader 的 Mod 扩展名为 .litemod），玩家需要将 Mod 文件放入对应游戏版本的 mods 文件夹。" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="PCL2 可以帮助玩家打开 mods 文件夹: 在 PCL2 主页选中需要安装 Mod 的版本，点击 “版本设置”，点击左侧菜单中的 “Mod 管理”，再点击 “打开 Mod 文件夹” 即可打开这个游戏版本的 mods 文件夹。将 Mod 文件移动进去即可完成安装。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="PCL2 可以帮助玩家打开 mods 文件夹: 在 PCL2 主页选中需要安装 Mod 的版本，点击 &quot;版本设置&quot;，点击左侧菜单中的 &quot;Mod 管理&quot;，再点击 &quot;打开 Mod 文件夹&quot; 即可打开这个游戏版本的 mods 文件夹。将 Mod 文件移动进去即可完成安装。" />
 		<Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/main%20screen.png" />
 		<Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/mod%20list.png" />
 		<Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/mods%20folder.png" />
