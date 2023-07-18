@@ -1,7 +1,7 @@
 {
     "__Author__": "龙腾猫跃",
 	"Title": "解锁隐藏主题",
-	"Description": "使用 PCL2 个性化页面中的隐藏主题",
+	"Description": "使用 PCL 个性化页面中的隐藏主题",
 	"Types": ["启动器","个性化"],
 	"IsEvent": true,
 	"EventType": "弹出窗口",

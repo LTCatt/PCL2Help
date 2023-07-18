@@ -39,7 +39,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="4. 打开 PCL2，点击左下角的“版本选择”。" HorizontalAlignment="Left" />
+                        Text="4. 打开 PCL，点击左下角的“版本选择”。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/02/19/63f20230b5136.png" />
         </Grid>
 

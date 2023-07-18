@@ -3,7 +3,7 @@
 <local:MyCard Title="前言" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
-                    Text="本篇简单介绍了在 PCL2 中使用 XAML 进行自定义页面的相关语法。由于内容繁多，建议下载本篇代码参考学习。" />
+                    Text="本篇简单介绍了在 PCL 中使用 XAML 进行自定义页面的相关语法。由于内容繁多，建议下载本篇代码参考学习。" />
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
                     Text="下载本篇的代码" EventType="下载文件" EventData="https://cdn.jsdelivr.net/gh//LTCatt/PCL2Help@latest/个性化/XAML%20格式.xaml" ToolTip="下载本篇的代码" />
     </StackPanel>
@@ -98,13 +98,13 @@
         <TextBlock Margin="0,4,0,0"
                     Text="如果能在 PCL 文件夹中找到该文件，则会优先打开 PCL 文件夹中的文件。当然，你可以使用例如 C:\ 开头的绝对路径。" />
         <TextBlock Margin="0,0,0,4"
-                    Text="此外，PCL2 会将文件中的花括号 path 替换为 PCL 可执行文件所在文件夹（{path}），可以用于执行特定程序或加载图片。" />
+                    Text="此外，PCL 会将文件中的花括号 path 替换为 PCL 可执行文件所在文件夹（{path}），可以用于执行特定程序或加载图片。" />
         <local:MyButton Margin="0,4,0,10" Width="200" Height="35"
-                    Text="打开 PCL 日志" EventType="打开文件" EventData="Log1.txt" ToolTip="PCL2 的日志文件就在 PCL 文件夹内，且名为 Log1.txt" />
+                    Text="打开 PCL 日志" EventType="打开文件" EventData="Log1.txt" ToolTip="PCL 的日志文件就在 PCL 文件夹内，且名为 Log1.txt" />
         <TextBlock Margin="0,0,0,4"
                     Text="就像为游戏指定服务器 IP 一样，你也可以在 EventData 的竖线后为程序添加启动参数。" />
         <local:MyButton Margin="0,4,0,0" Width="200" Height="35"
-                    Text="定位游戏启动脚本" EventType="打开文件" EventData="explorer.exe|/select,LatestLaunch.bat" ToolTip="PCL2 会将上一次启动 MC 的脚本保存在 PCL 文件夹内，且名为 LatestLaunch.bat。&#xA;点击按钮会打开文件管理器，并且借助参数要求它选中这个文件。" />
+                    Text="定位游戏启动脚本" EventType="打开文件" EventData="explorer.exe|/select,LatestLaunch.bat" ToolTip="PCL 会将上一次启动 MC 的脚本保存在 PCL 文件夹内，且名为 LatestLaunch.bat。&#xA;点击按钮会打开文件管理器，并且借助参数要求它选中这个文件。" />
     </StackPanel>
 </local:MyCard>
 
@@ -114,8 +114,10 @@
                     Text="EventType 共有以下种类：" />
         <TextBlock Margin="0,0,0,4"
                     Text="· 打开网页、启动游戏、打开文件：已在上方的卡片中介绍" />
+        <local:MyButton Margin="0,5,0,6" Width="250" Height="35"
+                    Text="查看 PCL 源代码" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/blob/main/Plain%20Craft%20Launcher%202/FormMain.xaml.vb"/>
         <TextBlock Margin="0,0,0,4"
-                    Text="· 今日人品、清理垃圾、内存优化：触发百宝箱中的对应功能" />
+                    Text="· 今日人品、清理垃圾、内存优化、安装整合包：触发对应功能" />
         <TextBlock Margin="0,0,0,4"
                     Text="· 复制文本：将 EventData 中的内容复制到剪贴板" />
         <TextBlock Margin="0,0,0,4"
@@ -124,10 +126,16 @@
                     Text="· 下载文件：在点击时要求选择文件保存位置，并且下载 EventData 的链接中的文件" />
         <local:MyButton Margin="0,5,0,6" Width="250" Height="35"
                     Text="下载 MCBBS 的 Logo" EventType="下载文件" EventData="https://www.mcbbs.net/template/mcbbs/image/logo_sc.png" />
-        <TextBlock Margin="0,4,0,0"
+        <TextBlock Margin="0,4,0,4"
                     Text="· 打开帮助：跳转到 EventData 对应的帮助文件（输入相对 Help 文件夹的路径）"/>
         <local:MyButton Margin="0,5,0,6" Width="250" Height="35"
                     Text="打开自定义帮助页面" EventType="打开帮助" EventData="帮助/自定义帮助.json"/>
+        <TextBlock Margin="0,4,0,4"
+                    Text="· 切换页面：强制切换到 PCL 的某一页面（尝试切换到不太对头的页面会出现不可预知的 Bug，使用时请谨慎）&#xa;  　　　　　EventData 为 页面种类|次要页面种类（PageType|PageSubType，例如 1|1）&#xa;  　　　　　点击上方的 查看 PCL 源代码 按钮，在 1000 行左右的位置即可查找到对应数值"/>
+        <local:MyButton Margin="0,5,0,6" Width="250" Height="35"
+                    Text="切换到下载页面" EventType="切换页面" EventData="1|1"/>
+        <local:MyButton Margin="0,5,0,6" Width="250" Height="35"
+                    Text="切换到启动器设置" EventType="切换页面" EventData="3|2"/>
     </StackPanel>
 </local:MyCard>
 

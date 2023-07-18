@@ -29,14 +29,14 @@
 		<Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/explorer-import-worlds.png" />
 		<local:MyHint Margin="0,0,0,15" Text="注意: 大部分地图下载下来后为压缩文件(.rar / .zip / .7z)，您需要解压后放入 saves 文件夹。" IsWarn="False"/>
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="如果您开启了版本隔离，则您需要在 PCL2 中选中您需要安装世界的版本，点击右侧的小齿轮(或在主页点击“版本设置”)，然后点击“打开版本文件夹”，找到 .minecraft/saves 文件夹再将世界放入此文件夹。"/>
+                    Text="如果您开启了版本隔离，则您需要在 PCL 中选中您需要安装世界的版本，点击右侧的小齿轮(或在主页点击“版本设置”)，然后点击“打开版本文件夹”，找到 .minecraft/saves 文件夹再将世界放入此文件夹。"/>
 		<Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/click_example_choose.png"/>
 		<Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/click_settings.png"/>
 		<Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/open_version_folder.png"/>
 		<Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/explorer-saves-folder.png"/>
 		<Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/explorer-other-saves.png"/>
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="在 PCL2 中选中您刚才导入世界的版本，点击启动，点击“单人游戏”，找到您刚刚导入的存档(一般与文件夹同名)，双击以游玩。"/>
+                    Text="在 PCL 中选中您刚才导入世界的版本，点击启动，点击“单人游戏”，找到您刚刚导入的存档(一般与文件夹同名)，双击以游玩。"/>
 		<Image HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/minecraft-play.png"/>
 	</StackPanel>
 </local:MyCard>

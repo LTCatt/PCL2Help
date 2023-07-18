@@ -1,7 +1,7 @@
 <local:MyCard Title="概述">
 <StackPanel Margin="25,40,23,15">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="PCL2 帮助库欢迎大家参与编辑！你可以参与完善帮助库，帮助更多人了解 PCL2 与 Minecraft！&#xa;本文将指导你下载、修改 PCL2 的内置帮助库，最后提交更改。&#xa;这里默认你已经了解如何修改、添加 PCL2 的自定义帮助页面。如果你还不了解，可以先查看此教程：" />
+                   Text="PCL 帮助库欢迎大家参与编辑！你可以参与完善帮助库，帮助更多人了解 PCL 与 Minecraft！&#xa;本文将指导你下载、修改 PCL 的内置帮助库，最后提交更改。&#xa;这里默认你已经了解如何修改、添加 PCL 的自定义帮助页面。如果你还不了解，可以先查看此教程：" />
         <local:MyListItem Margin="0,0,0,4"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
     </StackPanel>
@@ -32,7 +32,7 @@
 <local:MyCard Title="编写规范">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="19"
-                   Text="我们对 PCL2 内置帮助库有格式与语法上的固定要求。&#xa;在开始编辑与提交前，请仔细阅读下文并逐条进行检查，这能让你的提交更快通过。" />
+                   Text="我们对 PCL 内置帮助库有格式与语法上的固定要求。&#xa;在开始编辑与提交前，请仔细阅读下文并逐条进行检查，这能让你的提交更快通过。" />
         <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
 		            EventType="打开帮助" EventData="帮助/提交帮助 - 编写规范.json" />
     </StackPanel>
@@ -44,9 +44,9 @@
                    Text="目前我们还需要补充 MC 游戏过程中常见问题的解决方法。&#xa;你可以添加上述的帮助项，或者继续修改、完善目前已有的页面。&#xa;非常感谢你的参与！" />
         <StackPanel Height="35" Margin="0,4,0,4" Orientation="Horizontal">
             <local:MyButton MinWidth="200" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
-                            Text="打开 PCL2 常见问题文档" EventType="打开网页" EventData="https://shimo.im/docs/qKPttVvXKqPD8YDC" />
+                            Text="打开 PCL 常见问题文档" EventType="打开网页" EventData="https://shimo.im/docs/qKPttVvXKqPD8YDC" />
             <local:MyButton MinWidth="180" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="打开 PCL2 帮助站" EventType="打开网页" EventData="https://pcl2-help.gitee.io/" />
+                        Text="打开 PCL 帮助站" EventType="打开网页" EventData="https://pcl2-help.gitee.io/" />
         </StackPanel>
     </StackPanel>
 </local:MyCard>

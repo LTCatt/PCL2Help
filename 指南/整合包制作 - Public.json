@@ -1,7 +1,7 @@
 {
     "__Author__": "龙腾猫跃",
 	"Title": "整合包制作指南",
-	"Description": "介绍对整合包制作可能有用的 PCL2 相关功能",
+	"Description": "介绍对整合包制作可能有用的 PCL 相关功能",
 	"Types": ["指南","个性化"],
 	"Keywords": "服务器客户端",
 	"ShowInSnapshot": false

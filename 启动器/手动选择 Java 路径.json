@@ -1,7 +1,7 @@
 {
     "__Author__": "龙腾猫跃",
 	"Title": "手动选择 Java",
-	"Description": "若 PCL2 自动查找未能找到 Java，可以手动选择 Java 路径",
+	"Description": "若 PCL 自动查找未能找到 Java，可以手动选择 Java 路径",
 	"Types": ["启动器"],
 	"IsEvent": true,
 	"EventType": "弹出窗口",

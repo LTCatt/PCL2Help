@@ -24,7 +24,7 @@
         <local:MyHint Margin="0,0,0,15" Text="注意: 以下情况假设您已下载好整合包(通常是为 .zip / .rar 结尾的文件)。" IsWarn="False" />
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL2 启动器，点击 “下载” 按钮后选择左侧菜单 “资源” 分类下的 “整合包” 选项，点击 “安装整合包” 按钮并选择你下载好的本地整合包。此处以 “Example.zip” 为案例。" HorizontalAlignment="Left" />
+                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL 启动器，点击 “下载” 按钮后选择左侧菜单 “资源” 分类下的 “整合包” 选项，点击 “安装整合包” 按钮并选择你下载好的本地整合包。此处以 “Example.zip” 为案例。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Modpack_Install_Directio.png" />
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Modpack_Choose.png" />
@@ -33,7 +33,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="此时 PCL2 会弹出 “输入版本名” 的窗口，您可自由输入。点击 “确定” 后，PCL2 自动开始安装。安装完毕后，您即可在版本列表选择以您输入的版本名为标题的整合包以开始游玩。" HorizontalAlignment="Left" />
+                        Text="此时 PCL 会弹出 “输入版本名” 的窗口，您可自由输入。点击 “确定” 后，PCL 自动开始安装。安装完毕后，您即可在版本列表选择以您输入的版本名为标题的整合包以开始游玩。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Input_Game_Name.png" />
                 <Image Source="https://cdn.img.z0z0r4.top/2022/07/26/6/Game_Launch.png" />
@@ -47,7 +47,7 @@
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="1. 在 PCL2 中点击 “下载” 按钮，并选择左侧菜单 “资源” 分类下的 “整合包” 选项。" HorizontalAlignment="Left" />
+                        Text="1. 在 PCL 中点击 “下载” 按钮，并选择左侧菜单 “资源” 分类下的 “整合包” 选项。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/04/09/6432ac7454dd1.png?comment=打开整合包页面" />
         </Grid>
 
@@ -60,7 +60,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 选择一个整合包。本教程使用 &quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL2 会自动弹出输入版本名的窗口，您可自由输入，此处以 “RLCraft” 为范例，点击确定，PCL2 会自动开始下载。" HorizontalAlignment="Left" />
+                        Text="3. 选择一个整合包。本教程使用 &quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL 会自动弹出输入版本名的窗口，您可自由输入，此处以 “RLCraft” 为范例，点击确定，PCL 会自动开始下载。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/modpack_name_input.png" />
         </Grid>
 

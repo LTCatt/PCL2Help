@@ -1,9 +1,9 @@
 <!--图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/Help_image3 -->
 
-<local:MyCard Title="PCL2 为什么会被静默删除？">
+<local:MyCard Title="PCL 为什么会被静默删除？">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="19"
-                   Text="由于 PCL2 会联网下载程序并且运行，经常被杀毒软件和 Microsoft Defender 误判为病毒，这是正常现象。如遇到报毒等情况，也可以尝试参考本教程进行处理。&#xA;您现在正在使用快照版 PCL2，由于未向 Microsoft 提交误报反馈，因此 PCL2 快照版可能被 Microsoft Defender 在不做任何提醒的情况下静默删除。" />
+                   Text="由于 PCL 会联网下载程序并且运行，经常被杀毒软件和 Microsoft Defender 误判为病毒，这是正常现象。如遇到报毒等情况，也可以尝试参考本教程进行处理。&#xA;您现在正在使用快照版 PCL，由于未向 Microsoft 提交误报反馈，因此 PCL 快照版可能被 Microsoft Defender 在不做任何提醒的情况下静默删除。" />
     </StackPanel>
 </local:MyCard>
 
@@ -36,7 +36,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                       Text="5. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL2 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
+                       Text="5. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d963b7c37a.png" />
         </Grid>
     </StackPanel>
@@ -65,7 +65,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                       Text="4. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL2 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
+                       Text="4. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/06/29/649d963b7c37a.png" />
         </Grid>
     </StackPanel>
