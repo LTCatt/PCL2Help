@@ -1,4 +1,3 @@
-
 <local:MyCard Title="创建帮助条目">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -87,7 +86,7 @@
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="4. 请勿在图中添加影响阅读性的大型水印，您可以在图片右下/左下等位置添加水印以防止他人使用该图片。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="5. 请勿使用 img1、1等名字，请使用拼音或英文在图片名称中简要描述图片的用途。" />
+                    Text="5. 请勿使用 img1、1 等名字，请使用拼音或英文在图片名称中简要描述图片的用途。" />
         <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
                     Text="    ❌  img1.png" />
         <TextBlock Foreground="#229922" Margin="0,0,0,2"
@@ -97,11 +96,18 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="6. 使用常见的图片格式，如 png、jpg、webp 等。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="7. 如图片需要详细注释，可以在图片链接末尾以参数 &quot;comment=注释&quot; 为格式添加。" />
+                    Text="7. 如图片需要详细注释，可以在图片链接末尾以参数 &quot;?comment=注释&quot; 为格式添加。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="8. 若图片需要对应一段文字，请使用以下示例方案：" />
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="在 PCL 中点击 &quot;下载&quot; 按钮，并选择左侧菜单 &quot;资源&quot; 分类下的 &quot;Mod&quot; 选项。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/04/09/6432ac09a99e8.png?comment=Mod下载页面" />
+        </Grid>
         <TextBlock Margin="0,5,0,2" LineHeight="17"
                     Text="以下为非官方的推荐列表。" />
         <local:MyListItem  Margin="0,0,0,4"
-		            Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床。" 
+		            Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床。" Logo="https://img.z0z0r4.top/favicon.ico" 
 		            EventType="打开网页" EventData="https://img.z0z0r4.top/" Type="Clickable" />
         <!-- <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="Tips" />
