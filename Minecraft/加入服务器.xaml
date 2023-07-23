@@ -24,13 +24,13 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="上文所说服务器地址，即服务器 IP，服主一般会公布在论坛、群公告等位置。其常见格式如下：" />
         <TextBlock Foreground="#229922" Margin="0,0,0,2"
-                    Text="    ✔  mc2b2t.com" />
+                    Text="    ✔  mc.hypixel.net" />
         <TextBlock Foreground="#229922" Margin="0,0,0,2"
                     Text="    ✔  mc.example.com:25565" />
         <TextBlock Foreground="#229922" Margin="0,0,0,2"
                     Text="    ✔  233.233.233.233:12345" />
         <TextBlock Foreground="#DD4411" Margin="0,0,0,5"
-                    Text="    ❌  http://mc2b2t.com" />
+                    Text="    ❌  http://mc.hypixel.net" />
 
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="如果在连接服务器时提示 &quot;无法连接至服务器&quot;，或在服务器游玩时提示 &quot;连接已丢失&quot;，你可以查看报错信息，在下面找到错误原因；也可以联系服主，或在 QQ 群求助。" />
