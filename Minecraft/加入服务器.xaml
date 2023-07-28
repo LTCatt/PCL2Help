@@ -1,0 +1,131 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+
+<local:MyCard Title="一般步骤" CanSwap="True" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 点击启动游戏按钮，然后单击 &quot;多人游戏&quot;。" HorizontalAlignment="Left" />
+            <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/07/22/64bbdb9c30e4a.png?comment=启动游戏" />
+        </Grid>
+        <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.X 版本，或者切换到正版登录。" IsWarn="False" />
+        
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 如果选择 &quot;直接连接&quot; 按钮，则输入服务器地址（即 IP），然后点击 &quot;加入服务器&quot;。" HorizontalAlignment="Left" />
+            <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/07/22/64bbddff3c14d.png?comment=多人游戏直接连接" />
+        </Grid>
+
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 如果选择 &quot;添加服务器&quot; 按钮，则输入服务器名称、服务器地址（即 IP），然后点击 &quot;完成&quot;，并双击加入该服务器，方便以后快速进入。&#xa;服务器名称用于区分不同的服务器，不影响实际连接效果，也可以保留默认。" HorizontalAlignment="Left" />
+            <Image Margin="220,0,0,20" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/07/22/64bbdfc77fed1.png?comment=多人游戏添加服务器" />
+        </Grid>
+
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="上文所说服务器地址，即服务器 IP，服主一般会公布在论坛、群公告等位置。其常见格式如下：" />
+        <TextBlock Foreground="#229922" Margin="0,0,0,2"
+                    Text="    ✔  mc.hypixel.net" />
+        <TextBlock Foreground="#229922" Margin="0,0,0,2"
+                    Text="    ✔  mc.example.com:25565" />
+        <TextBlock Foreground="#229922" Margin="0,0,0,2"
+                    Text="    ✔  233.233.233.233:12345" />
+        <TextBlock Foreground="#DD4411" Margin="0,0,0,5"
+                    Text="    ❌  http://mc.hypixel.net" />
+
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="如果在连接服务器时提示 &quot;无法连接至服务器&quot;，或在服务器游玩时提示 &quot;连接已丢失&quot;，你可以查看报错信息，在下面找到错误原因；也可以联系服主，或在 QQ 群求助。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="未知的主机 或 Cannot assign requested address: no further information" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：无法访问目标地址。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：确认服务器地址拼写正确（尽量复制粘贴），或者确认服务器已开启。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Can't resolve hostname" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：解析服务器地址失败。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：确认服务器地址拼写正确（尽量复制粘贴）。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Connection timed out: no further information" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：连接超时。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：确认服务器地址拼写正确（尽量复制粘贴），网络连接正常，或使用加速器、VPN 再试。" />
+        <!-- 把地址拼写的问题放在这里，是因为尝试连接 www.baidu.com 的时候也报这个错 -->
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Failed to login 或 Bad login" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：离线玩家尝试登录正版服务器。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：切换至正版登录再试。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Outdated server 或 Outdated client" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：客户端版本有误。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：切换 Minecraft 版本，再重新尝试连接。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="You are not white-listed on this server" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：不在服务器白名单内。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：联系服主添加白名单。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="You are banned from this server" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：被服务器封禁。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：若你认为这是误封，联系服主。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Internal server error" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：服务器内部错误。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：尝试重连。如果经常出现，可以联系服主解决。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="End of Stream" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：客户端 Mod 出错，或频繁加入服务器。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：尝试重连；禁用部分 Mod，并检查问题是否仍然存在。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Server closed" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：服务器关闭。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：联系服主开启服务器。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子" IsWarn="False" />
