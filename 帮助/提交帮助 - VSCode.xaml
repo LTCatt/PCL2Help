@@ -21,7 +21,7 @@
 <local:MyCard Title="使用 VSCode 获取帮助库并提交">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 即使你使用 VSCode 依旧需要安装 Git 工具。点击左侧的第三个按钮 &quot;源代码管理&quot; ，按照 VSCode 的引导完成 Git 安装。"/>
+                    Text="1. 即使你使用 VSCode 依旧需要安装 Git 工具。点击左侧的第三个按钮 &quot;源代码管理&quot;，按照 VSCode 的引导完成 Git 安装。"/>
         <Image HorizontalAlignment="Center" Source="https://cdn.newfei.top/image/2023/01/13/ouXw.jpg" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="2. 在左下角管理 → 设置或按下键盘上的 Ctrl 键 + , 键，在搜索框中输入 “git.path”，点击 “在 settings.json 中” 并设置 git.exe 路径（&lt;Git 安装路径&gt;\bin\git.exe），然后保存（Ctrl + S）" />
