@@ -34,10 +34,10 @@
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/25/6/Network_Settings.png" />
         </Grid>
 
-        <local:MyHint Margin="0,20,0,0" Text="您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。" IsWarn="False" />
+        <local:MyHint Margin="0,20,0,0" Text="您也可选择其他国内知名 DNS 提供商提供的 DNS（如 DNSPod）。" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="4. 双击 “Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在 “备用 DNS 服务器” 内填写“223.6.6.6”并保存。" HorizontalAlignment="Left" />
+                        Text="4. 双击 “Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在“首选 DNS 服务器”内填写“223.5.5.5”，在 “备用 DNS 服务器” 内填写 “223.6.6.6” 并保存。" HorizontalAlignment="Left" />
             <!-- 此处原 DNS 为微软公用 DNS，鉴于此 DNS 在中国大陆内使用情况不佳，更改为阿里云 DNS -->
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/ControlPanel.DNS.Settings.png" />
         </Grid>
@@ -93,7 +93,7 @@
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/10/1/4R.png" />
         </Grid>
 
-        <local:MyHint Margin="0,20,0,0" Text="您也可选择其他国内知名 DNS 提供商提供的 DNS (如 DNSPod)。" IsWarn="False" />
+        <local:MyHint Margin="0,20,0,0" Text="您也可选择其他国内知名 DNS 提供商提供的 DNS（如 DNSPod）。" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="4. 双击 “Internet 协议版本 4 (TCP/IPv4)”，点击使用下面的 DNS 服务器地址，在 “首选 DNS 服务器” 内填写 “223.5.5.5”，在 “备用 DNS 服务器” 内填写 “223.6.6.6” 并保存。" HorizontalAlignment="Left" />
