@@ -1,17 +1,31 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<local:MyCard Title="游戏存档损坏" Margin="0,0,0,15">
+<local:MyCard Title="游戏存档损坏解决方案" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,10,4" Text="该教程提供的恢复方式只能一定概率保证能进入存档，并不能防止区块文件的损坏造成的损失，请勤备份自己的游戏存档。" IsWarn="True"/>
+        <local:MyHint Margin="0,0,10,4" Text="请注意,该教程使用Windows 11操作系统和Minecraft 1.20.1编写,可能不适用于所有版本,操作过程中的界面也可能有区别,请自己找到最适合自己的操作方式。" IsWarn="False"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="电脑蓝屏、死机重启等情况下，游戏存档可能会损坏，如果损坏请按照以下步骤操作："/>
+                    Text="在电脑蓝屏、死机重启或异常关闭Minecraft等情况下,游戏存档可能会损坏,请按照以下步骤操作来尝试修复存档:"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 点击对应版本的 “版本设置” → “存档文件夹” 后打开 saves 文件夹。"/>
+                    Text='1. 点击PCL2顶部的"启动"选项卡。'/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 进入损坏存档，删除 “level.dat” 文件。"/>
+                    Text="2. 点击对应版本的“版本设置” → “存档文件夹”后打开 saves 文件夹，图片示例:"/>
+        <Image Margin="0,0,0,8" Source="https://statics.lvnya.top/pcl/broken_save/guide_versetting.webp"/>
+        <Image Source="https://statics.lvnya.top/pcl/broken_save/guide_opensavefolder.webp"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,10,8,4" LineHeight="17"
+                    Text="3. 在打开的窗口中找到自己的存档文件夹，进入，并找到里面的“level.dat”文件,删除它。图片示例:"/>
+        <Image Source="https://statics.lvnya.top/pcl/broken_save/guide_deleteleveldat.webp"/>
+        <local:MyCard Title="不知道如何找到自己的存档对应的文件夹?点击查看提示" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+            <StackPanel Margin="25,40,23,15">
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text='启动存档损坏的Minecraft版本,在主界面点击"单人游戏",在里面找到自己损坏的存档,找到世界标题下对应的文件夹名称,图片示例:'/>
+            <Image Source="https://statics.lvnya.top/pcl/broken_save/guide_findsavefolder.webp"/>
+            </StackPanel>
+        </local:MyCard>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 找到 “level.dat_old”，并右键重命名，将后缀 “_old” 部分删除。 "/>
+                    Text='4. 在打开的存档文件夹中,找到"level.dat_old"文件，并右键该文件,点击"重命名"，将后缀 “_old” 部分删除。图片示例:'/>
+        <Image Margin="0,0,10,4" Source="https://statics.lvnya.top/pcl/broken_save/guide_renameleveldat.webp"/>
+        <local:MyHint Margin="0,0,10,4" Text="如果没有显示后缀名，请将文件的显示扩展名选项打开 &#xA; Win7：资源管理器(我的电脑) → 组织 → 文件夹和搜索选项 → 查看 → 勾选“显示已知文件的扩展名” &#xA; Win10：资源管理器(此电脑) → 查看 → 勾选“文件扩展名” &#xA; Win11: 资源管理器(此电脑) → 查看 → 显示 → 勾选“文件扩展名”选项 " IsWarn="False"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="此时进入游戏将恢复存档，但注意的是：每次进入游戏都会自动备份存档为 level.dat_old 文件，所以使用此文档会回档到未损坏之前的存档 。"/>
-        <local:MyHint Text="如果没有显示后缀，请将显示文件扩展名打开即可 &#xA; Win7：资源管理器（我的电脑） → 组织 → 文件夹和搜索选项 → 查看 → 勾选 “显示已知文件的扩展名” &#xA; Win10、Win11：资源管理器（此电脑） → 查看 → 勾选 “文件扩展名” " IsWarn="False" />
+                    Text="此时将能正常游玩该存档，但需要注意的是：每次进入游戏都会自动备份存档为 level.dat_old 文件，所以使用此文档提供的恢复教程只能回档到上个未损坏的存档 。"/>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans,HarukaB" IsWarn="False" />
