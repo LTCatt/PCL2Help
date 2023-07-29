@@ -7,7 +7,7 @@
                         Text="1. 点击启动游戏按钮，然后单击 &quot;多人游戏&quot;。" HorizontalAlignment="Left" />
             <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/07/22/64bbdb9c30e4a.png?comment=启动游戏" />
         </Grid>
-        <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.X 版本，或者切换到正版登录。" IsWarn="False" />
+        <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.x 版本，或者切换到正版登录。" IsWarn="False" />
         
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -21,23 +21,58 @@
             <Image Margin="220,0,0,20" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/07/22/64bbdfc77fed1.png?comment=多人游戏添加服务器" />
         </Grid>
 
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
+        <TextBlock Margin="0,0,0,5" LineHeight="17"
                     Text="上文所说服务器地址，即服务器 IP，服主一般会公布在论坛、群公告等位置。其常见格式如下：" />
-        <TextBlock Foreground="#229922" Margin="0,0,0,2"
+        <TextBlock Foreground="#229922" Margin="0,0,0,3"
                     Text="    ✔  mc.hypixel.net" />
-        <TextBlock Foreground="#229922" Margin="0,0,0,2"
+        <TextBlock Foreground="#229922" Margin="0,0,0,3"
                     Text="    ✔  mc.example.com:25565" />
-        <TextBlock Foreground="#229922" Margin="0,0,0,2"
+        <TextBlock Foreground="#229922" Margin="0,0,0,3"
                     Text="    ✔  233.233.233.233:12345" />
         <TextBlock Foreground="#DD4411" Margin="0,0,0,5"
                     Text="    ❌  http://mc.hypixel.net" />
 
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
+        <TextBlock Margin="0,5,0,4" LineHeight="17"
                     Text="如果在连接服务器时提示 &quot;无法连接至服务器&quot;，或在服务器游玩时提示 &quot;连接已丢失&quot;，你可以查看报错信息，在下面找到错误原因；也可以联系服主，或在 QQ 群求助。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="未知的主机 或 Cannot assign requested address: no further information" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="多人游戏已被禁用，请检查你的 Microsoft 账户设置" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：Mojang 限制了离线账户使用 1.16.x 的多人游戏。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：使用正版登录或断网启动游戏或安装下方的 MultiOfflineFix 或 Offline Multiplayer 模组。" />
+        <local:MyListItem  Margin="0,0,0,4"
+		            Title="MultiOfflineFix" Info="Fabric / Forge 1.16.5"
+		            EventType="打开网页" EventData="https://github.com/MCTeamPotato/MultiOfflineFix" Type="Clickable" />
+        <local:MyListItem  Margin="0,0,0,4"
+		            Title="Offline Multiplayer" Info="Fabric 1.16.5"
+		            EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric" Type="Clickable" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Connection timed out: no further information" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：连接超时。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：请逐一尝试和排查以下情况：" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="1. 确认服务器地址拼写正确（尽量复制粘贴）。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="2. 确认网络连接正常且网络环境良好，使用加速器或 VPN 后再次尝试连接服务器。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="3. 尝试修改 DNS 服务器地址并刷新 DNS 缓存后再次尝试连接服务器。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="4. 尝试关闭 Microsoft Defender 公用网络防火墙后再次尝试连接服务器。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="5. 如问题仍未解决，请尝试在相关论坛及群聊中上传截图并寻求帮助。" />
+        <!-- 把地址拼写的问题放在这里，是因为尝试连接 www.baidu.com 的时候也报这个错 -->
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="未知的主机 Unknown host 或 Cannot assign requested address: no further information" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：无法访问目标地址。" />
@@ -55,22 +90,39 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Connection timed out: no further information" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="您的主机中的软件中止了一个已建立的连接" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="原因：连接超时。" />
+                    Text="原因：网络状况不佳。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="解决方法：确认服务器地址拼写正确（尽量复制粘贴），网络连接正常，或使用加速器、VPN 再试。" />
-        <!-- 把地址拼写的问题放在这里，是因为尝试连接 www.baidu.com 的时候也报这个错 -->
+                    Text="解决方法：确认网络连接正常且网络环境良好，尝试使用加速器或 VPN 后再次尝试连接服务器。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Failed to login 或 Bad login" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="登入失败、Failed to login 或 Bad login" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：离线玩家尝试登录正版服务器。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="解决方法：切换至正版登录再试。" />
+                    Text="解决方法：使用正版登录后再次尝试重新进入服务器。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Invalid characters in username" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：用户名含非法字符。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：修改您的游戏用户名，确保仅含英文字母及下划线。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="此名称已被占用" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：服务器内有相同用户名的玩家。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：修改您的游戏用户名后再次尝试重新进入服务器。" />
     </StackPanel>
 </local:MyCard>
 
@@ -128,4 +180,22 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子" IsWarn="False" />
+<local:MyCard Title="Server is full!" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：服务器已满。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：等待服务器有空位时再次尝试连接服务器。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Internal Exception: io.netty.handler.timeout.ReadTimeoutException" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：客户端取读不了服务器传输的数据包（过大）或服务器状态不佳。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：联系服主，通常重启服务器可以解决。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、风释清然SC" IsWarn="False" />
