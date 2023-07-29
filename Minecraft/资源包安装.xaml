@@ -4,7 +4,7 @@
 <local:MyCard Title="获取资源包" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="资源包和光影类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的光影包。很多 Minecraft 交流网站(如 MCBBS)都有专门的资源包版块，你可以在这些地方挑选自己喜欢的资源包。" />
+                   Text="资源包和光影类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的光影包。很多 Minecraft 交流网站（如 MCBBS）都有专门的资源包版块，你可以在这些地方挑选自己喜欢的资源包。" />
         <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="打开 MCBBS 资源包板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-texture-1.html" />
     </StackPanel>
@@ -32,7 +32,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="4. 打开 “resourcepacks” 文件夹，并将您的资源包拖入 ”resourcepacks“ 文件夹。" HorizontalAlignment="Left" />
+                        Text="4. 打开 “resourcepacks” 文件夹，并将您的资源包拖入 “resourcepacks” 文件夹。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2022/07/26/6/explorer-prepared-put-into-resourcepack-folder.png" />
         </Grid>
         <local:MyHint Margin="0,15,0,0" Text="注意：部分资源包压缩包主体内套入了一个文件夹，此时你可以直接将此文件夹解压至 “resourcepacks” 文件夹使用。（如下图）" IsWarn="False" />
