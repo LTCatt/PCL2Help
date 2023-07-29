@@ -7,7 +7,7 @@
                         Text="1. 点击启动游戏按钮，然后单击 &quot;多人游戏&quot;。" HorizontalAlignment="Left" />
             <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://cdn.img.z0z0r4.top/2023/07/22/64bbdb9c30e4a.png?comment=启动游戏" />
         </Grid>
-        <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.X 版本，或者切换到正版登录。" IsWarn="False" />
+        <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.x 版本，或者切换到正版登录。" IsWarn="False" />
         
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -183,7 +183,7 @@
 <local:MyCard Title="Server is full!" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="原因：服务器已满人。" />
+                    Text="原因：服务器已满。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="解决方法：等待服务器有空位时再次尝试连接服务器。" />
     </StackPanel>
