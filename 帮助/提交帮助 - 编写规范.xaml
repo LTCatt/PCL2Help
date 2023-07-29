@@ -43,7 +43,7 @@
         <TextBlock Foreground="#229922" Margin="0,0,0,10"
                     Text="    ✔  要修改 PCL 的内置帮助库，在提交 Pull Request 后还需要等待审核。" />
         <TextBlock Margin="0,0,0,2"
-                    Text="3. 注意大小写。在中文与非中文的连接处添加一个空格（双引号除外）。使用中文标点符号（例如括号）。" />
+                    Text="3. 注意大小写。在中文与非中文的连接处、引号与引号外文字的连接处添加一个空格（双引号除外）。使用中文标点符号（例如括号）。" />
         <TextBlock Margin="0,0,0,4"
                     Text="4. 使用 PCL、Minecraft、Mojang 作为标准称谓。不要使用 我的世界、MC、mj 等非标准称谓或缩写。" />
         <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
