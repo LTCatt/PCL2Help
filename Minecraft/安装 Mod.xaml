@@ -18,10 +18,10 @@
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="1. 打开 PCL 的自动安装页面，选择想要安装的 Minecraft 版本。然后点击下方的 &quot;Forge&quot; 按钮即可打开 Forge 版本菜单。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/install%20forge.png" />
+		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c86e6f6.png" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="2. 选择合适的 Forge 版本之后，点击上方的 &quot;开始安装&quot; 即可安装一个带有 Forge 的 Minecraft 版本。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/start%20install%20forge.png" />
+		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13cae5a63.png" />
 		<local:MyHint Margin="0,0,0,15" IsWarn="False" Text="一般来说，只需要选择最新版或推荐版的 Forge 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" />
 	</StackPanel>
 </local:MyCard>
@@ -30,13 +30,13 @@
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="1. 打开 PCL 的自动安装页面，选择想要安装的 Minecraft 版本。然后点击下方的 &quot;Fabric&quot; 按钮即可打开 Fabric 版本菜单。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/install%20fabric.png" />
+		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c7c26b9.png" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="2. 选择适合的 Fabric 版本，之后下方会出现 Fabric API 的安装选项，从中选择合适的版本。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/install%20fabric%20api.png" />
+		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13cd416e1.png" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="3. 点击上方的 &quot;开始安装&quot; 即可安装一个带有 Fabric 的 Minecraft 版本。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/start%20install%20fabric.png" />
+		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c9f0748.png" />
 		<local:MyHint Margin="0,0,0,15" Text="虽然 Fabric API 的安装并不是必须的，但绝大多数 Mod 都需要 Fabric API 作为前置。" />
 		<local:MyHint Margin="0,0,0,15" IsWarn="False" Text="一般来说，只需要选择最新版本的 Fabric 和 Fabric API 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" />
 	</StackPanel>
@@ -78,9 +78,9 @@
                         Text="打开 MCBBS Mod 分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-mod-1.html" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="下载完成的 Mod 文件的扩展名一般为 .jar（用于老旧加载器 LiteLoader 的 Mod 扩展名为 .litemod），玩家需要将 Mod 文件放入对应游戏版本的 mods 文件夹。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="PCL 可以帮助玩家打开 mods 文件夹: 在 PCL 主页选中需要安装 Mod 的版本，点击 &quot;版本设置&quot;，点击左侧菜单中的 &quot;Mod 管理&quot;，再点击 &quot;打开 Mod 文件夹&quot; 即可打开这个游戏版本的 mods 文件夹。将 Mod 文件移动进去即可完成安装。" />
-		<Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/main%20screen.png" />
-		<Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/mod%20list.png" />
-		<Image HorizontalAlignment="Center" Source="https://resources.cakeskin.tk/file/pcl2-image/mods/mods%20folder.png" />
+		<Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c74be58.png" />
+		<Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c9254e3.png" />
+		<Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/03/64cb15e5efcc7.png" />
 		<local:MyHint Margin="0,0,0,15" Text="在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。" IsWarn="False" />
 	</StackPanel>
 </local:MyCard>
