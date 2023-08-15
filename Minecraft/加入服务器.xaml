@@ -1,6 +1,4 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-
-<local:MyCard Title="一般步骤" CanSwap="True" Margin="0,0,0,15">
+<local:MyCard Title="如何加入服务器？" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -32,17 +30,17 @@
         <TextBlock Foreground="#DD4411" Margin="0,0,0,5"
                     Text="    ❌  http://mc.hypixel.net" />
 
-        <TextBlock Margin="0,5,0,4" LineHeight="17"
-                    Text="如果在连接服务器时提示 &quot;无法连接至服务器&quot;，在服务器游玩时提示 &quot;连接已丢失&quot;，或者无法进入多人游戏页面，你可以查看报错信息，在下面找到错误原因；也可以联系服主，或在 QQ 群求助。" />
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="若在加入服务器时遇到问题，可以查看下列常见错误中是否包含了你的问题。" IsWarn="False" />
 
 <local:MyCard Title="多人游戏已被禁用，请检查你的 Microsoft 账户设置" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="原因：Mojang 限制了离线账户使用 1.16.x 的多人游戏。" />
+                    Text="原因：目前离线账户无法使用 1.16.x 的多人游戏功能。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="解决方法：使用正版登录；尝试在启动游戏时断开网络连接；安装下方的 MultiOfflineFix 或 Offline Multiplayer 模组。" />
+                    Text="解决方法：使用正版登录或第三方登录；尝试在启动游戏时断开网络连接；安装下方的 MultiOfflineFix 或 Offline Multiplayer 模组。" />
         <local:MyListItem  Margin="0,0,0,4"
 		            Title="MultiOfflineFix" Info="Fabric / Forge 1.16.5"
 		            EventType="打开网页" EventData="https://www.mcmod.cn/download/10643.html" Type="Clickable" />
@@ -59,16 +57,18 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="解决方法：请逐一尝试和排查以下情况。" />
         <TextBlock Margin="2,0,0,4" LineHeight="17"
-                    Text="1. 确认服务器地址拼写正确（尽量复制粘贴）。" />
+                    Text="1. 服务器已关闭或未正确开启。" />
         <TextBlock Margin="2,0,0,4" LineHeight="17"
-                    Text="2. 确认网络连接正常且网络环境良好，使用加速器或 VPN 后再次尝试连接服务器。" />
-        <TextBlock Margin="2,0,0,4" LineHeight="17"
-                    Text="3. 尝试修改 DNS 服务器地址并刷新 DNS 缓存后再次尝试连接服务器。" />
-        <TextBlock Margin="2,0,0,4" LineHeight="17"
-                    Text="4. 尝试关闭 Microsoft Defender 公用网络防火墙后再次尝试连接服务器。" />
-        <TextBlock Margin="2,0,0,4" LineHeight="17"
-                    Text="5. 如问题仍未解决，请尝试在相关论坛及群聊中上传截图并寻求帮助。" />
+                    Text="2. 确认服务器地址拼写正确（尽量复制粘贴）。" />
         <!-- 把地址拼写的问题放在这里，是因为尝试连接 www.baidu.com 的时候也报这个错 -->
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="3. 确认网络连接正常且网络环境良好，使用加速器或 VPN 后再次尝试连接服务器。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="4. 尝试修改 DNS 服务器地址并刷新 DNS 缓存后再次尝试连接服务器。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="5. 尝试关闭 Microsoft Defender 公用网络防火墙后再次尝试连接服务器。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="6. 如问题仍未解决，请尝试在相关论坛及群聊中上传截图并寻求帮助。" />
     </StackPanel>
 </local:MyCard>
 
@@ -95,7 +95,7 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：网络状况不佳。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="解决方法：确认网络连接正常且网络环境良好，尝试使用加速器或 VPN 后再次尝试连接服务器。" />
+                    Text="解决方法：确认网络连接正常且网络环境良好，请在尝试使用加速器或 VPN 后再次尝试连接服务器。" />
     </StackPanel>
 </local:MyCard>
 
@@ -111,25 +111,16 @@
 <local:MyCard Title="Invalid characters in username" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="原因：用户名含非法字符。" />
+                    Text="原因：用户名包含中文或特殊字符。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="解决方法：修改您的游戏用户名，确保仅含英文字母、数字及下划线。" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="此名称已被占用" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,11">
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="原因：服务器内有相同用户名的玩家。" />
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="解决方法：修改游戏 ID 后再次尝试重新进入服务器。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="Outdated server 或 Outdated client" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="原因：客户端版本有误。" />
+                    Text="原因：您的 Minecraft 版本与服务器不匹配。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="解决方法：切换 Minecraft 版本为服务器兼容的版本，再重新尝试连接。" />
     </StackPanel>
@@ -174,7 +165,7 @@
 <local:MyCard Title="Server closed" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="原因：服务器关闭。" />
+                    Text="原因：服务器已关闭。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="解决方法：联系服主开启服务器。" />
     </StackPanel>
@@ -208,4 +199,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、风释清然SC" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、风释清然SC、龙腾猫跃" IsWarn="False" />
