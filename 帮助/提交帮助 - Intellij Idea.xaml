@@ -76,7 +76,7 @@
         <local:MyButton Height="35px" HorizontalAlignment="Left" ColorType="Highlight" Margin="0,0,0,15"
                     Text="GitHub 进行 Fork 后如何与原仓库同步" EventType="打开网页" EventData="https://github.com/selfteaching/the-craft-of-selfteaching/issues/67" />
         <TextBlock Margin="0,5,0,4" LineHeight="17" Padding="15,0,0,15"
-                    Text="以上内容为详细的 Git 提交帮助,如果还是无法理解，可以通过搜索引擎进一步学习。"/>
+                    Text="以上内容为详细的 Intellij Idea 提交帮助,如果还是无法理解，可以通过搜索引擎进一步学习。"/>
     </StackPanel>
 </local:MyCard>            
 
