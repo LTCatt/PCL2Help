@@ -40,7 +40,7 @@
 </local:MyCard>        
 
 <local:MyCard Title="利用 Git 获取代码库并进行版本控制">
-        
+    <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,5,0,4" LineHeight="17" Text="1. 克隆仓库到本地。打开 Terminal，输入git clone https://github.com/LTCatt/PCL2Help.git，此操作会在本地创建一个名为 'PCL2Help' 的文件夹，并将代码仓库的内容下载到这个文件夹。" />
 
         <TextBlock Margin="0,5,0,4" LineHeight="17" Text="2. 使用 IntelliJ IDEA 进行编写。首先，在 Terminal 中输入 cd PCL2Help 切换到代码仓库目录，然后打开 IntelliJ IDEA，选择打开已有的项目，选择刚刚下载的 'PCL2Help' 文件夹，编写代码并保存更改。" />
