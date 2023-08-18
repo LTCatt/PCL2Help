@@ -1,5 +1,3 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-
 <local:MyCard Title="下载和配置 IntelliJ IDEA">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17" Text="IntelliJ IDEA 是主流的 Java 集成开发环境，适用于商业和开源开发。你可以通过点击下面的按钮来进行下载或访问其官方网站。" />
@@ -17,13 +15,13 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17" Text="如果要在 IntelliJ IDEA 中使用 Git 工具，你需要按照以下步骤进行相关设置：" />
         
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 安装 Git Integration 插件。首先打开 IntelliJ IDEA，然后依次点击“File”→“Settings”→“Plugins”，在出现的搜索框内输入”Git Integration“，找到插件并进行安装。" />            
+                    Text="1. 安装 Git Integration 插件。首先打开 IntelliJ IDEA，然后依次点击 “File” → “Settings” → “Plugins” ，在出现的搜索框内输入 “Git Integration” ，找到插件并进行安装。" />            
         
         <TextBlock Margin="0,0,0,4" LineHeight="17" 
-                    Text="2. 生成 SSH 公钥和私钥。打开 “Terminal”，并输入 “ssh-keygen -t rsa -C ”你的邮箱' ” 以生成 SSH 公钥和私钥，然后打开生成的 id_rsa.pub 文件，并复制文件中的内容。" /> 
+                    Text="2. 生成 SSH 公钥和私钥。打开 “Terminal”，并输入 ssh-keygen -t rsa -C “你的邮箱” 以生成 SSH 公钥和私钥，然后打开生成的 id_rsa.pub 文件，并复制文件中的内容。" />
         
         <TextBlock Margin="0,0,0,4" LineHeight="17" 
-                    Text="3. 将 SSH 公钥添加到 GitHub。点击下面的 “访问设置” 按钮，然后在 GitHub 设置页面点击 “SSH and GPG keys”，接着点击 “New SSH Key”，最后在 'Key' 区域粘贴步骤2中复制的 SSH 公钥，并为其添加标题。" />  
+                    Text="3. 将 SSH 公钥添加到 GitHub。点击下面的 “访问设置” 按钮，然后在 GitHub 设置页面点击 “SSH and GPG keys”，接着点击 “New SSH Key”，最后在 “Key” 区域粘贴步骤2中复制的 SSH 公钥，并为其添加标题。" />  
         
            <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
@@ -42,9 +40,9 @@
     </StackPanel>
 </local:MyCard>        
 
-<local:MyCard Title="利用 Git 获取代码库并进行版本控制">
+<local:MyCard Title="利用 Git 获取代码库">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,5,0,4" LineHeight="17" Text="1. 克隆仓库到本地。打开 ”Terminal“，输入git clone https://github.com/LTCatt/PCL2Help.git，此操作会在本地创建一个名为 “PCL2Help” 的文件夹，并将代码仓库的内容下载到这个文件夹。" />
+        <TextBlock Margin="0,5,0,4" LineHeight="17" Text="1. 克隆仓库到本地。打开 “Terminal”，输入 git clone https://github.com/LTCatt/PCL2Help.git ，此操作会在本地创建一个名为 “PCL2Help” 的文件夹，并将代码仓库的内容下载到这个文件夹。" />
 
         <TextBlock Margin="0,5,0,4" LineHeight="17" Text="2. 使用 IntelliJ IDEA 进行编写。首先，在 “Terminal” 中输入 “cd PCL2Help” 切换到代码仓库目录，然后打开 IntelliJ IDEA，选择打开已有的项目，选择刚刚下载的 “PCL2Help” 文件夹，编写代码并保存更改。" />
 
