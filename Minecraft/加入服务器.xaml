@@ -5,7 +5,7 @@
                         Text="1. 点击启动游戏按钮，然后单击 &quot;多人游戏&quot;。" HorizontalAlignment="Left" />
             <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/01/64c8715fcc1ab.png?comment=启动游戏" />
         </Grid>
-        <!-- <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.x 版本，或者切换到正版登录。" IsWarn="False" /> -->
+        <!-- <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.4 或 1.16.5 版本，或者切换到正版登录。" IsWarn="False" /> -->
         
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -38,15 +38,26 @@
 <local:MyCard Title="多人游戏已被禁用，请检查你的 Microsoft 账户设置" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="原因：目前离线账户无法使用 1.16.x 的多人游戏功能。" />
+                    Text="原因：目前离线账户无法使用 1.16.4 和 1.16.5 的多人游戏功能。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="解决方法：使用正版登录或第三方登录；尝试在启动游戏时断开网络连接；安装下方的 MultiOfflineFix 或 Offline Multiplayer 模组。" />
+                    Text="解决方法：请逐一尝试以下方法。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="1. 使用正版登录或第三方登录进入游戏。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="2. 尝试在启动游戏时断开网络连接。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="3. 安装下方的 MultiOfflineFix 或 Offline Multiplayer 模组。" />
         <local:MyListItem  Margin="0,0,0,4"
 		            Title="MultiOfflineFix" Info="Fabric / Forge 1.16.5"
 		            EventType="打开网页" EventData="https://www.mcmod.cn/download/10643.html" Type="Clickable" />
         <local:MyListItem  Margin="0,0,0,4"
 		            Title="Offline Multiplayer" Info="Fabric 1.16.5"
-		            EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric" Type="Clickable" />
+		            EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric/releases" Type="Clickable" />
+        <TextBlock Margin="2,2,0,4" LineHeight="17"
+                    Text="4. 使用下方的 Authlib 更新工具。" />
+        <local:MyListItem  Margin="0,0,0,4"
+		            Title="Authlib 更新工具" Info="502mc 制作的 Authlib 更新工具，支持修复未安装 Mod 加载器的客户端。"
+		            EventType="打开网页" EventData="https://www.mcbbs.net/thread-1450892-1-1.html" Type="Clickable" />
     </StackPanel>
 </local:MyCard>
 
