@@ -88,12 +88,12 @@
 
 <local:MyCard Title="下载并安装 Mod（Mod 文件）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<local:MyHint Margin="0,0,0,7" Text="在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。&#xa;下载完成的 Mod 文件的扩展名一般为 .jar（用于老旧加载器 LiteLoader 的 Mod 扩展名为 .litemod）" IsWarn="False" />
+		<local:MyHint Margin="0,0,0,10" Text="在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。&#xa;下载完成的 Mod 文件的扩展名一般为 .jar（用于老旧加载器 LiteLoader 的 Mod 扩展名为 .litemod）" IsWarn="False" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="虽然 PCL 内置的 Mod 下载功能可以满足大部分安装 Mod 的需求，但在很多情况下，玩家仍需通过网站的方式来安装 Mod。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="玩家可以访问发布 Mod 资源的网站并通过网页链接下载 Mod 文件，除 CurseForge 之外发布 Mod 的网站还有很多，例如国内知名的 MCBBS。" />
-		<local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Margin="0,0,0,4"
+		<local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Margin="0,5,0,10"
                         Text="打开 MCBBS Mod 分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-mod-1.html" />
-		<local:MyHint Margin="0,10,0,5" Text="若你仅需要安装单个模组，可以在版本设置中选择需要安装 Mod 的版本后直接将 Mod 拖入 PCL 窗口进行安装。" IsWarn="False" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="若仅需要安装单个模组，可以在版本设置中选择需要安装 Mod 的版本后，直接将该 Mod 文件拖入 PCL 窗口进行安装。若需要批量安装 Mod，请依照以下步骤进行安装：" />
 		<Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL 中启动页面中的版本设置中选择需要安装 Mod 的版本，点击版本设置。" HorizontalAlignment="Left" />
@@ -107,9 +107,8 @@
         </Grid>
 
 		<Grid Margin="0,20,0,4">
-            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
                         Text="3. 将 Mod 文件拖入打开的文件夹中，即可完成安装。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea1c54830ba.png?comment=打开文件夹" />
         </Grid>
 	</StackPanel>
 </local:MyCard>
