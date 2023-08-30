@@ -1,4 +1,7 @@
 <!-- 由 WTP016 修改的部分的图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/mods -->
+<!-- 由 SC 修改的 Mod 及整合包下载安装部分图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_mod_new -->
+<!-- 由 SC 修改的模组加载器安装部分图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_modloader -->
+<!-- 由 SC 修改的 Mod 文件安装 Mod 部分图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_mod_import -->
 
 <local:MyCard Title="Mod 是什么？" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
@@ -14,31 +17,44 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 Mod 加载器 - Forge" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 Mod 加载器（Forge）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 打开 PCL 的自动安装页面，选择想要安装的 Minecraft 版本。然后点击下方的 &quot;Forge&quot; 按钮即可打开 Forge 版本菜单。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c86e6f6.png" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 选择合适的 Forge 版本之后，点击上方的 &quot;开始安装&quot; 即可安装一个带有 Forge 的 Minecraft 版本。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13cae5a63.png" />
-		<local:MyHint Margin="0,0,0,15" IsWarn="False" Text="一般来说，只需要选择最新版或推荐版的 Forge 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" />
+	    <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL 中点击 “下载” 按钮，在 “自动下载” 页面中点击 “正式版”，选择想要安装的 Minecraft 版本。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea16a77b83f.png?comment=Minecraft版本选择" />
+        </Grid>
+
+		<local:MyHint Margin="0,20,0,0" Text="一般来说，只需要选择最新版或推荐版的 Forge 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" IsWarn="False" />
+		<Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 等待加载完成后，点击 “Forge”，选择合适的 Forge 版本，点击 “开始安装” 按钮。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea16c74e4f3.png?comment=加载器选择" />
+        </Grid>
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 Mod 加载器 - Fabric" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 Mod 加载器（Fabric）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 打开 PCL 的自动安装页面，选择想要安装的 Minecraft 版本。然后点击下方的 &quot;Fabric&quot; 按钮即可打开 Fabric 版本菜单。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c7c26b9.png" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 选择适合的 Fabric 版本，之后下方会出现 Fabric API 的安装选项，从中选择合适的版本。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13cd416e1.png" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 点击上方的 &quot;开始安装&quot; 即可安装一个带有 Fabric 的 Minecraft 版本。" />
-		<Image HorizontalAlignment="Center" Margin="0,0,0,4" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c9f0748.png" />
-		<local:MyHint Margin="0,0,0,15" Text="虽然 Fabric API 的安装并不是必须的，但绝大多数 Mod 都需要 Fabric API 作为前置。" />
-		<local:MyHint Margin="0,0,0,15" IsWarn="False" Text="一般来说，只需要选择最新版本的 Fabric 和 Fabric API 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" />
+		<Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL 中点击 “下载” 按钮，在 “自动下载” 页面中点击 “正式版”，选择想要安装的 Minecraft 版本。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea16a77b83f.png?comment=Minecraft版本选择" />
+        </Grid>
+
+		<local:MyHint Margin="0,20,0,0" Text="一般来说，只需要选择最新版本的 Fabric 和 Fabric API 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" IsWarn="False" />
+		<Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 点击 “Fabric”，选择合适的 Fabric 版本。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea189f2ec4e.png?comment=加载器选择" />
+        </Grid>
+
+		<local:MyHint Margin="0,20,0,0" Text="虽然 Fabric API 的安装并不是必须的，但绝大多数 Mod 都需要 Fabric API 作为前置。&#xa;现在 PCL 一般会在您选择 Fabric 后同时自动选择 Fabric API。" IsWarn="False" />
+		<Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 点击 “Fabric API”，选择合适的 Fabric API 版本，点击 “开始安装” 按钮。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea19c360e68.png?comment=FabAPI选择" />
+        </Grid>
 	</StackPanel>
 </local:MyCard>
 
@@ -72,16 +88,31 @@
 
 <local:MyCard Title="下载并安装 Mod（Mod 文件）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
+		<local:MyHint Margin="0,0,0,10" Text="在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。&#xa;下载完成的 Mod 文件的扩展名一般为 .jar（用于老旧加载器 LiteLoader 的 Mod 扩展名为 .litemod）" IsWarn="False" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="虽然 PCL 内置的 Mod 下载功能可以满足大部分安装 Mod 的需求，但在很多情况下，玩家仍需通过网站的方式来安装 Mod。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="玩家可以访问发布 Mod 资源的网站并通过网页链接下载 Mod 文件，除 CurseForge 之外发布 Mod 的网站还有很多，例如国内知名的 MCBBS。" />
-		<local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Margin="0,0,0,4"
+		<local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Margin="0,5,0,10"
                         Text="打开 MCBBS Mod 分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-mod-1.html" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="下载完成的 Mod 文件的扩展名一般为 .jar（用于老旧加载器 LiteLoader 的 Mod 扩展名为 .litemod），玩家需要将 Mod 文件放入对应游戏版本的 mods 文件夹。" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="PCL 可以帮助玩家打开 mods 文件夹: 在 PCL 主页选中需要安装 Mod 的版本，点击 &quot;版本设置&quot;，点击左侧菜单中的 &quot;Mod 管理&quot;，再点击 &quot;打开 Mod 文件夹&quot; 即可打开这个游戏版本的 mods 文件夹。将 Mod 文件移动进去即可完成安装。" />
-		<Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c74be58.png" />
-		<Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/03/64cb13c9254e3.png" />
-		<Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/03/64cb15e5efcc7.png" />
-		<local:MyHint Margin="0,0,0,15" Text="在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。" IsWarn="False" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="下载完想要安装的 Mod 后，可以在版本设置中选择需要安装 Mod 的版本，直接将需要安装的所有 Mod 文件拖入 PCL 窗口进行安装即可。" />
+        <!--
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="若仅需要安装少量模组，可以在版本设置中选择需要安装 Mod 的版本后，直接将需要安装的所有 Mod 文件拖入 PCL 窗口进行安装即可。若需要批量安装较多 Mod，建议依照以下步骤进行安装：" />
+		<Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL 中启动页面中的版本设置中选择需要安装 Mod 的版本，点击版本设置。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea1bd627822.png?comment=版本设置" />
+        </Grid>
+
+		<Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 在弹出的菜单中点击 &quot;打开 Mod 文件夹&quot; 按钮。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea1c54830ba.png?comment=打开文件夹" />
+        </Grid>
+
+		<Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
+                        Text="3. 将 Mod 文件拖入打开的文件夹中，即可完成安装。" HorizontalAlignment="Left" />
+        </Grid>
+        -->
 	</StackPanel>
 </local:MyCard>
 
