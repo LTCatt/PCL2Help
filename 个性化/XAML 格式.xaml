@@ -98,7 +98,7 @@
         <TextBlock Margin="0,4,0,0"
                     Text="如果能在 PCL 文件夹中找到该文件，则会优先打开 PCL 文件夹中的文件。当然，你可以使用例如 C:\ 开头的绝对路径。" />
         <TextBlock Margin="0,0,0,4"
-                    Text="此外，PCL 会将文件中的花括号 path 替换为 PCL 可执行文件所在文件夹（{path}），可以用于执行特定程序或加载图片。" />
+                    Text="此外，PCL 会将文件中的 “花括号 path” 替换为 PCL 可执行文件所在文件夹（{path}），可以用于执行特定程序或加载图片。" />
         <local:MyButton Margin="0,4,0,10" Width="200" Height="35"
                     Text="打开 PCL 日志" EventType="打开文件" EventData="Log1.txt" ToolTip="PCL 的日志文件就在 PCL 文件夹内，且名为 Log1.txt" />
         <TextBlock Margin="0,0,0,4"
@@ -139,7 +139,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="横向布局 1：StackPanel" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="StackPanel 横向布局" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,10"
                     Text="你需要使用 StackPanel 在一行里塞下多个按钮。你可以仅在这个教学卡片的基础上稍作调整，来实现自己的按钮布局。" />
@@ -161,29 +161,6 @@
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                         Text="下载作者的头像" EventType="下载文件" EventData="https://www.mcbbs.net/uc_server/data/avatar/000/14/51/06_avatar_small.jpg?ts=1471402592" />
         </StackPanel>
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="横向布局 2：Grid" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,4"
-                    Text="如果要实现更复杂的布局，则必须使用 Grid。Grid 可以让按钮们自动适应窗口宽度：随意拉伸 PCL 窗口，按钮大小会自动改变。" />
-        <TextBlock Margin="0,0,0,10"
-                    Text="你可以上网查找 “WPF Grid” 的相关教程，这里仅给出一个例子，不作详细介绍。你可以仅在这个教学卡片的基础上稍作调整，来实现自己的按钮布局。" />
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="1.6*" /> <!-- 这个按钮的宽度是其他按钮的 1.6 倍 -->
-                <ColumnDefinition Width="1*" /> <!-- 如果不打 *，则会占用固定的宽度 -->
-            </Grid.ColumnDefinitions>
-            <!-- 为按钮添加 Grid.Column 属性，删除 Width 与 HorizontalAlignment 属性 -->
-            <local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35" ColorType="Highlight"
-                        Text="打开 B 站" EventType="打开网页" EventData="https://www.bilibili.com/" />
-            <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35" 
-                        Text="进入 Hypixel" EventType="启动游戏" EventData="1.16.3|mc.hypixel.net" ToolTip="使用 Minecraft 1.16.3 进入 Hypixel" />
-            <local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35" 
-                        Text="打开画图" EventType="打开文件" EventData="mspaint.exe" />
-        </Grid>
     </StackPanel>
 </local:MyCard>
 
@@ -250,13 +227,86 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="替换标记" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                    Text="在花括号 {} 中写入特定内容，PCL 会在加载时对其进行替换。&#xa;例如，path 会被替换为 PCL 可执行文件所在文件夹（{path}），用于在 EventData 中指定特定文件，或是加载图片。" />
+        <local:MyHint Margin="0,6,0,10" Text="以下特性于 PCL 2.6.5 (299) 加入，不适用于更早版本的 PCL。" IsWarn="False" />
+        <TextBlock Margin="0,0,0,4"
+                    Text="你也可以使用替换标记来获取随机内容：cave 会被替换为一条随机的回声洞内容，hint 则是 “你知道吗” 的内容。" />
+        <TextBlock Margin="10,6,0,5" Foreground="{DynamicResource ColorBrush3}"
+                    Text="你知道吗：{hint}" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="进阶：Grid 布局" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                    Text="如果要实现更复杂的布局，则必须使用 Grid。Grid 可以让按钮们自动适应窗口宽度：随意拉伸 PCL 窗口，按钮大小会自动改变。" />
+        <TextBlock Margin="0,0,0,10"
+                    Text="你可以上网查找 “WPF Grid” 的相关教程，这里仅给出一个例子，不作详细介绍。你可以仅在这个教学卡片的基础上稍作调整，来实现自己的按钮布局。" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1.6*" MinWidth="200" /> <!-- 第二个按钮的宽度是第一个按钮的 1.6 倍，且至少为 200 -->
+                <ColumnDefinition Width="150" /> <!-- 如果不打 *，则会占用固定的宽度，也可以写 Auto 来自适应 -->
+            </Grid.ColumnDefinitions>
+            <!-- 为按钮添加 Grid.Column 属性指定它所在的列，不要添加 Width 与 HorizontalAlignment 属性 -->
+            <local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35" ColorType="Highlight"
+                        Text="打开 B 站" EventType="打开网页" EventData="https://www.bilibili.com/" />
+            <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35" 
+                        Text="进入 Hypixel" EventType="启动游戏" EventData="1.16.3|mc.hypixel.net" ToolTip="使用 Minecraft 1.16.3 进入 Hypixel" />
+            <local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35" 
+                        Text="打开画图" EventType="打开文件" EventData="mspaint.exe" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="进阶：图标按钮" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,10" Text="以下特性于 PCL 2.6.5 (299) 加入，不适用于更早版本的 PCL。" IsWarn="False" />
+        <TextBlock Margin="0,0,0,4"
+                    Text="MyIconTextButton 是一种带有自定义矢量图标的按钮变体，它同样支持 EventType 与 EventData 属性。&#xa;通过设置 Logo 属性来控制它的图标，设置 LogoScale 属性还可以调整图标的缩放比例。" />
+        <local:MyIconTextButton Margin="0,4,0,8" Height="35" HorizontalAlignment="Center"
+                    Text="查看 SVG Path 简介" EventType="打开网页" EventData="https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial/Paths"
+                    LogoScale="1.02" Logo="M1091 0H78C35 0 0 35 0 78v863c0 43 35 78 78 78H1091c43 0 78-35 78-78V78C1170 35 1134 0 1091 0z m-8 87v78H87v-78h994zM87 933V254h994v679H87v0zM724 340l-206 547a43 43 0 0 1-82-31l206-547a43 43 0 0 1 82 30zM369 545l-85 85 85 85a43 43 0 0 1-62 62l-116-116a43 43 0 0 1 0-62l116-116a43 43 0 0 1 62 61z m610-37a43 43 0 0 1 0 62l-116 116a43 43 0 0 1-62 0 43 43 0 0 1 0-62l85-85-85-85a43 43 0 0 1 62-62l116 116z" />
+        <TextBlock Margin="0,0,0,4"
+                    Text="Logo 属性的内容是 SVG Path 的值，你需要使用 SVG 编辑器或者从图标资源网站（如 IconFont）查找它。不要自己写，写不懂的。&#xa;此外，它还有两种 ColorType：Black（默认）和 Highlight。" />
+        <local:MyIconTextButton Margin="0,4,0,8" Height="35" HorizontalAlignment="Center"
+                    ColorType="Highlight" Text="打开 IconFont" EventType="打开网页" EventData="https://www.iconfont.cn/"
+                    LogoScale="1" Logo="M510 959c-51-31-40-86-74-120-61-63-168-66-231-138C-5 457 196 3 593 70c231 39 407 363 250 592-67 98-198 106-277 213-23 23-11 81-55 83zM176 432c-9 176 240 167 240 9 0-80-72-145-166-111-66 23-71 49-74 101z m509 129c212 59 217-307 0-231-102 36-90 206 0 231z m-213 111c33 7 44-91 9-92-19 19-64 79-9 92z m83 0H575c23-37-8-87-46-92 3 37-11 92 27 92z" />
+        <TextBlock Margin="0,0,0,4"
+                    Text="如果只想要图标，不要文字，还可以使用 MyIconButton。它不能设置 Text 属性，只有一个图标可以按。&#xa;它的 Theme 属性可以设置为 Color（默认）、White、Black、Red。" />
+        <local:MyIconButton Margin="0,4,0,0" Width="25" Height="25" HorizontalAlignment="Center"
+                    Theme="Black" EventType="弹出窗口" EventData="事件|MyIconButton 当然也支持 EventType 和 EventData——要不然介绍它干啥？"
+                    LogoScale="1" Logo="M149 873c47 47 101 83 162 109 63 26 130 40 199 40 69 0 136-13 199-40 61-25 115-62 162-109s83-101 109-162c26-63 40-130 40-199 0-69-13-136-40-199-25-61-62-115-109-162-46-46-101-83-162-109C648 13 580 0 511 0s-136 13-199 40c-61 25-115 62-162 109s-83 101-109 162C13 375 0 442 0 511s13 136 40 199c25 61 62 115 109 162zM97 511c0-228 185-414 414-414 228 0 414 185 414 414S740 926 511 926c-228 0-414-185-414-414z M539 244c-8-4-17-7-27-7-9 0-19 2-27 7-16 9-27 27-27 47 0 30 24 54 54 54 30 0 54-24 54-54 0-19-10-37-27-47zM566 732v-284c0-30-24-54-54-54-30 0-54 24-54 54v284c0 30 24 54 54 54 30 0 54-24 54-54z" />
+        <TextBlock Margin="0,0,0,4"
+                    Text="如果只想显示一个图标，不想让它是能按的按钮，可以使用 WPF 自带的 Path 等绘图控件，感兴趣的话可以自行搜索。想偷懒也可以把 MyIconButton 的 IsHitTestVisible 属性改为 False……" />
+        <Path Margin="0,4,0,0" Width="20" Height="20" HorizontalAlignment="Center"
+                    Stretch="Uniform" Fill="{DynamicResource ColorBrush1}"
+                    Data="M149 873c47 47 101 83 162 109 63 26 130 40 199 40 69 0 136-13 199-40 61-25 115-62 162-109s83-101 109-162c26-63 40-130 40-199 0-69-13-136-40-199-25-61-62-115-109-162-46-46-101-83-162-109C648 13 580 0 511 0s-136 13-199 40c-61 25-115 62-162 109s-83 101-109 162C13 375 0 442 0 511s13 136 40 199c25 61 62 115 109 162zM97 511c0-228 185-414 414-414 228 0 414 185 414 414S740 926 511 926c-228 0-414-185-414-414z M539 244c-8-4-17-7-27-7-9 0-19 2-27 7-16 9-27 27-27 47 0 30 24 54 54 54 30 0 54-24 54-54 0-19-10-37-27-47zM566 732v-284c0-30-24-54-54-54-30 0-54 24-54 54v284c0 30 24 54 54 54 30 0 54-24 54-54z" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="进阶：联网自定义主页" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,10" Text="以下特性于 PCL 2.6.5 (299) 加入，不适用于更早版本的 PCL。" IsWarn="False" />
+        <TextBlock Margin="0,0,0,10"
+                    Text="如果你在尝试制作联网更新的自定义主页，可以查看下方的 GitHub 讨论页。&#xa;你可以根据其中的介绍为主页添加版本号检查以节省流量，也可以通过检查 Referer 和 User Agent 来确定对方的 PCL 版本。" />
+        <local:MyButton Margin="0,0,0,8" Height="35" HorizontalAlignment="Center" Padding="20,0,20,0"
+                    Text="打开 GitHub 讨论页" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/discussions/2528" />
+    </StackPanel>
+</local:MyCard>
+
 <!-- 
 
 全部通用的属性：
  - Width、Height：设置宽度与高度
  - ToolTip：设置鼠标指向时的提示文本
- - Background：调整背景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
  - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+ - HorizontalAlignment：设置横向对齐方式，居左：Left、居中：Center、居右：Right、拉伸（默认）：Stretch
+ - VerticalAlignment：设置纵向对齐方式，居上：Top、居中：Center、居下：Bottom、拉伸（默认）：Stretch
+ - IsHitTestVisible：该控件是否响应交互（点击、指向动画等），True 为是（默认），False 为否
 
 TextBlock（纯文本）：
  - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
@@ -264,44 +314,51 @@ TextBlock（纯文本）：
  - FontSize：设置字号
  - FontWeight：设置为 Bold 时，文字加粗
  - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
- - HorizontalAlignment：设置对齐方式（Left、Center、Right）
 
 Image（图片）：
- - Source：要显示的图片的网址
- - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
- - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+ - Source：要显示的图片的网址，或 PCL 内置图片位置
 
 local:MyCard（卡片）：
  - Title：设置显示的标题文本
- - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
- - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
- - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
- - HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）
+ - CanSwap：卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：卡片是否默认折叠，要求 CanSwap 必须为 True
+ - HorizontalAlignment：若使用，要求 CanSwap 必须为 False
+ - UseAnimation：是否在展开等高度改变时触发动画，True 为是（默认），False 为否
+ - SwapLogoRight：卡片折叠时的箭头是朝下还是朝右，True 为朝右，False 为朝下（默认）
+ - HasMouseAnimation：是否在鼠标指向时改变卡片颜色，True 为是（默认），False 为否
 
 local:MyHint（提示条）：
  - Text：设置显示的文本（&#xA; 代表换行）
  - IsWarn：设置为 True 代表警告样式，False 代表提示样式
- - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
- - HorizontalAlignment：设置对齐方式（Left、Center、Right）
 
 local:MyButton（按钮）：
  - Text：设置显示的文本
  - Padding：设置内边距，格式与 Margin 一致
  - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
  - EventType、EventData：触发特定事件
- - HorizontalAlignment：设置对齐方式（Left、Center、Right）
 
 local:MyTextButton（文本按钮）：
  - Text：设置显示的文本
  - EventType、EventData：触发特定事件
- - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
- - HorizontalAlignment：设置对齐方式（Left、Center、Right）
 
 local:MyListItem（列表项）：
  - Logo：列表项的图标（所指定的可以是链接也可以是文件路径）
  - Title：列表项的大标题
  - Info：列表项的详细信息，它将会以灰色显示在大标题下方
  - Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动
+
+local:MyIconTextButton（带图标的按钮）：
+ - Text：设置显示的文本
+ - Logo：设置显示的图标
+ - LogoScale：设置图标的缩放，默认为 1
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，默认为黑色）
+ - EventType、EventData：触发特定事件
+
+local:MyIconButton（图标按钮）：
+ - Logo：设置显示的图标
+ - LogoScale：设置图标的缩放，默认为 1
+ - Theme：设置颜色主题，Color（默认）为当前启动器的主题颜色，也可设置为 White、Black、Red
+ - EventType、EventData：触发特定事件
 
 -->
 
