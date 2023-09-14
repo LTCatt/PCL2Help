@@ -21,7 +21,7 @@
 <local:MyCard Title="使用 VSCode 获取帮助库并提交">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 即使你使用 VSCode 依旧需要安装 Git 工具。点击左侧的第三个按钮 &quot;源代码管理&quot;，按照 VSCode 的引导完成 Git 安装。"/>
+                    Text="1. 即使你使用 VSCode，依旧需要安装 Git 工具。点击左侧的第三个按钮 &quot;源代码管理&quot;，按照 VSCode 的引导完成 Git 安装。"/>
         <Image HorizontalAlignment="Center" Source="https://cdn.newfei.top/image/2023/01/13/ouXw.jpg" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="2. 在左下角管理 → 设置或按下键盘上的 Ctrl 键 + , 键，在搜索框中输入 “git.path”，点击 “在 settings.json 中” 并设置 git.exe 路径（&lt;Git 安装路径&gt;\bin\git.exe），然后保存（Ctrl + S）" />
@@ -51,8 +51,8 @@
         <Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/VSCode.Pull.Changes.png" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="在 Pull Request 前，你需要同步原仓库内的内容以保证你的仓库保持最新。打开你的 Fork 仓库主页，找到 &quot;Fetch upstream (从上游获取)&quot; 按钮并点击，再点击 &quot;Fetch and merge (获取并合并)&quot;，你的仓库就同步了原仓库。经过了这些步骤之后，你就可以提交你的 Pull Request 了。"/>
-        <Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/Github.Fetch.upstream.png" />
+        <Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/09/14/6502faa1ebfa0.png" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：Not_Killer_233、龙腾猫跃、XiaoFans、林小槐、WTP016、Dong_Yi_feng、huangminzhe" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：Not_Killer_233、龙腾猫跃、XiaoFans、林小槐、WTP016、Dong_Yi_feng、huangminzhe、wuyuncheng-26" IsWarn="False" />
