@@ -1,6 +1,6 @@
 <local:MyCard Title="下载和配置 IntelliJ IDEA">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="IntelliJ IDEA 是主流的 Java 集成开发环境，适用于商业和开源开发。你可以通过点击下面的按钮来进行下载或访问其官方网站。JetBrains 开发的其他 IDE 同样适用于该教程。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17" Text="IntelliJ IDEA 是主流的 Java 集成开发环境，适用于商业和开源开发。你可以通过点击下面的按钮来进行下载或访问其官方网站。由 JetBrains 开发的其他 IDE 或任何基于 InteillJ IDEA 的 IDE (如 Android Studio)同样适用于该教程。" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="下载 IntelliJ IDEA" EventType="打开网页" EventData="https://www.jetbrains.com/zh-cn/idea/download/?section=windows" />
