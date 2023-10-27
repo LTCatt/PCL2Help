@@ -113,7 +113,7 @@
 		            Title="聚合图床" Info="于 2018 年 8 月上线" Logo="https://img.z0z0r4.top/favicon.ico" 
 		            EventType="打开网页" EventData="https://www.superbed.cn/" Type="Clickable" />
         <local:MyListItem  Margin="0,0,0,4"
-		            Title="Moetu 图床" Info="最高可以上传 20 MB 的图片" Logo="https://file.moetu.org/content/images/system/favicon_1474022352934_ac602b.png" 
+		            Title="Moetu 图床" Info="最大可以上传 20 MB 的图片" Logo="https://file.moetu.org/content/images/system/favicon_1474022352934_ac602b.png" 
 		            EventType="打开网页" EventData="https://moetu.org/" Type="Clickable" />
         <!-- <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="Tips" />
