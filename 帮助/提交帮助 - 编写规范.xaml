@@ -107,11 +107,14 @@
         <TextBlock Margin="0,5,0,2" LineHeight="17"
                     Text="以下为非官方的推荐列表。" />
         <local:MyListItem  Margin="0,0,0,4"
-		            Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床。" Logo="https://www.superbed.cn/favicon.ico" 
+		            Title="ZIMG" Info="z0z0r4 的自建图床" Logo="https://www.superbed.cn/favicon.ico" 
 		            EventType="打开网页" EventData="https://img.z0z0r4.top/" Type="Clickable" />
         <local:MyListItem  Margin="0,0,0,4"
-		            Title="聚合图床" Info="聚合图床于 2018 年 8 月上线" Logo="https://img.z0z0r4.top/favicon.ico" 
+		            Title="聚合图床" Info="于 2018 年 8 月上线" Logo="https://img.z0z0r4.top/favicon.ico" 
 		            EventType="打开网页" EventData="https://www.superbed.cn/" Type="Clickable" />
+        <local:MyListItem  Margin="0,0,0,4"
+		            Title="Moetu 图床" Info="最高可以上传 20 MB 的图片" Logo="https://file.moetu.org/content/images/system/favicon_1474022352934_ac602b.png" 
+		            EventType="打开网页" EventData="https://moetu.org/" Type="Clickable" />
         <!-- <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="Tips" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -126,7 +129,7 @@
         <TextBlock Margin="0,0,0,4"
                     Text="1. 打开 PCL，刷新并检查文档是否可正常查看，排版是否美观，按钮是否正常工作，文中是否存在错别字。" />
         <TextBlock Margin="0,0,0,4"
-                    Text="2. 在 Json 文件开头与 XAML 文件末尾留下作者信息。但如果你仅是修改已有文件中的个别措辞，没有大幅修改，则不建议将自己添加进作者名单。" />
+                    Text="2. 在 JSON 文件开头与 XAML 文件末尾留下作者信息。但如果你仅是修改已有文件中的个别措辞，没有大幅修改，则不建议将自己添加进作者名单。" />
         <TextBlock Margin="0,0,0,15"
                     Text="3. 如果没有完全完成某页，或你认为它还有优化空间，请在 XAML 的开头处添加类似于下方的提示条，以让他人可以继续修改。" />
         <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
