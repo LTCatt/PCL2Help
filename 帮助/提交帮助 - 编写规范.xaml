@@ -53,9 +53,9 @@
         <TextBlock Margin="0,0,0,4"
                     Text="5. 使用客观详实的说明文文体，尽量避免时效性叙述与主观评价。" />
         <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
-                    Text="    ❌  mj在今年4月更新了1.14，更新内容很多" />
+                    Text="    ❌  mj在今年4月更新了mc的1.14，更新内容很多" />
         <TextBlock Foreground="#229922" Margin="0,0,0,10"
-                    Text="    ✔  Mojang 在 2019 年 4 月更新了 Java 版 1.14。" />
+                    Text="    ✔  Mojang 在 2019 年 4 月更新了 Minecraft Java 版 1.14。" />
         <TextBlock Margin="0,0,0,4"
                     Text="6. 考虑帮助的受众。如果面向新手，则应该写得尽量详细。如果面向高级用户，则应该省略部分基础内容。" />
         <TextBlock Foreground="#DD4411" Margin="0,0,0,2"
