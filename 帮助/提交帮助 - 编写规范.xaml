@@ -107,8 +107,11 @@
         <TextBlock Margin="0,5,0,2" LineHeight="17"
                     Text="以下为非官方的推荐列表。" />
         <local:MyListItem  Margin="0,0,0,4"
-		            Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床。" Logo="https://img.z0z0r4.top/favicon.ico" 
+		            Title="ZIMG" Info="ZIMG 为 z0z0r4 的自建图床。" Logo="https://www.superbed.cn/favicon.ico" 
 		            EventType="打开网页" EventData="https://img.z0z0r4.top/" Type="Clickable" />
+        <local:MyListItem  Margin="0,0,0,4"
+		            Title="聚合图床" Info="聚合图床于 2018 年 8 月上线" Logo="https://img.z0z0r4.top/favicon.ico" 
+		            EventType="打开网页" EventData="https://www.superbed.cn/" Type="Clickable" />
         <!-- <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="Tips" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -132,4 +135,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、z0z0r4" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃、XiaoFans、z0z0r4、wuyuncheng-26" IsWarn="False" />
