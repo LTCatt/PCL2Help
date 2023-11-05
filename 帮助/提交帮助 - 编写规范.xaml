@@ -98,7 +98,9 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="7. 如图片需要详细注释，可以在图片链接末尾以参数 &quot;?comment=注释&quot; 为格式添加。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="8. 若图片需要对应一段文字，请使用以下示例方案：" />
+                    Text="8. 如一张图片中涉及多个操作，请使用矩形框出各步骤并用箭头顺次连接。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="9. 如图片需要对应一段文字，请使用以下示例方案：" />
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="在 PCL 中点击 &quot;下载&quot; 按钮，并选择左侧菜单 &quot;资源&quot; 分类下的 &quot;Mod&quot; 选项。" HorizontalAlignment="Left" />
