@@ -1,65 +1,82 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<!--图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_shaders-->
 
-<local:MyCard Title="光影是什么？" Margin="0,0,0,15">
+<local:MyCard Title="选择光影加载器" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="光影（Shader）是通过游戏 Mod 实现的一项画面修改功能，玩家可以通过加载光影包（Shader Pack）来修改 Minecraft 的画面渲染方式，使得游戏画面更为美观或具有风格。" />
+                   Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders。其中 Optifine 支持 Forge 加载器（可以通过 OptiFabric Mod 兼容 Fabric），Iris Shaders 支持 Fabric 和 Quilt 加载器。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders，前者支持 Forge 加载器（可以通过 OptiFabric Mod 兼容 Fabric）而后者支持 Fabric 加载器。OptiFine 几乎支持所有的 Minecraft 版本而 Iris Shaders 作为新兴的光影 Mod，目前只支持 1.16.5 及更高版本。一般情况下，OptiFine 是使用光影的最佳选择。" />
-        <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="虽然 Iris Shaders 支持的游戏版本较少，但其支持的 Sodium Mod 对图像性能的优化效果显著，甚至优于 OptiFine。如果你游玩的版本能够使用，不妨先尝试 Iris Shaders。" />
-        <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="从 1.1.3 版本开始，Iris Shaders 不再自带 Sodium Mod，你需要额外下载 Sodium Mod。" />
+                   Text= "OptiFine 几乎支持所有的 Minecraft 版本，而 Iris Shaders 目前只支持 1.16 及更高版本。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="由于 Optifine 闭源，因此在整合包中可能会导致模组冲突、渲染错误或游戏崩溃，但 Optifine 拓展了 Minecraft 游戏内视觉方面的自定义内容和资源包内容，同时在部分版本可以显著提高 FPS。因此对于 1.16 及以下版本，推荐使用 Optifine。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="Iris Shaders 支持的游戏版本较少，但其支持的 Sodium Mod 对图像性能的优化效果显著且兼容性较好，其表现在较高版本通常优于 OptiFine。因此对于 1.16 及以上版本，推荐使用 Iris Shaders。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="获取光影包" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="光影包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的光影包。很多 Minecraft 交流网站（如 MCBBS）都有专门的光影版块，你可以在这些地方挑选自己喜欢的光影包。OptiFine 也提供了一个分享光影包的网站，在光影设置界面点击光影包文件夹旁的下载按钮即可。" />
+        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Margin="0,4,20,0"
+                   Text="打开 MCBBS 光影分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?mod=forumdisplay&amp;fid=1357" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="安装 OptiFine" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="如果你选择使用 OptiFine，PCL 可以为下载的 Minecraft 版本自动安装 OptiFine，使用自动安装功能时展开“OptiFine”菜单，选择需要的版本即可。" />
-        <Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/25/6/OptiFine_Install_with_Game.png" />
-        <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="OptiFine 可以通过安装 OptiFabric Mod 兼容 Fabric 加载器，在 PCL 最新版本中使用自动安装功能时同时选择&quot;OptiFine&quot;、&quot;OptiFabric&quot;、&quot;Fabric&quot;和&quot;Fabric API&quot;即可。" />
+        <local:MyHint Margin="0,4,0,0" Text="若您需要在 Fabric 加载器下加载 Optifine，直接在自动安装页面选择你想要安装的 Fabric 版本即可，PCL 会自动为你选择安装合适的 Fabric API 和 OptiFabric。" IsWarn="False" />
+        <Grid Margin="0,10,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="如果你选择使用 OptiFine，进入 “自动安装” 页面，选择 Minecraft 版本后选择合适的 Optifine 版本，点击 “开始安装” 按钮即可安装。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/654770cb669e5.png" />
+        </Grid>
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="安装 Iris Shaders" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="如果你选择使用 Iris Shaders，PCL 提供的 Mod 下载功能可以帮助你下载这个 Mod。在 Mod 下载界面搜索“Iris Shaders”即可找到此 Mod。" />
-        <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="关于安装 Mod 的详细说明，请查看帮助“安装 Mod”。" />
-    </StackPanel>
-</local:MyCard>
-
-
-<local:MyCard Title="获取光影包" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="光影包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的光影包。很多 Minecraft 交流网站(如 MCBBS)都有专门的光影版块，你可以在这些地方挑选自己喜欢的光影包。OptiFine 也提供了一个分享光影包的网站，在光影设置界面点击光影包文件夹旁的下载按钮即可打开（英文网站）。" />
-        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="打开 MCBBS 光影分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?mod=forumdisplay&amp;fid=1357" />
+                   Text="如果你选择使用 Iris Shaders，在 Mod 下载界面搜索 “Iris Shaders” 即可。如果你尚不清楚如何使用 PCL 安装 Mod，可以查看此教程：" />
+        <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+		            EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="导入并启用光影包" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="光影包下载完成后需要导入方可在游戏中使用，OptiFine 和 Iris Shaders 导入光影包的操作相同，只需将光影包放入 .minecraft/shaderpacks 文件夹即可。如果你不清楚怎么找到这个文件夹，可以在进入游戏后，点击 选项-视频设置-光影-光影包 文件夹，游戏会自动为你打开文件夹。" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="如果你使用的是 Iris Shaders，还可以在光影设置界面（选项-视频设置-光影包…）直接将光影包文件拖放到 Minecraft 窗口内完成导入。" />
-        <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="光影包不区分 OptiFine 或 Iris Shaders，理论上任何光影包都可以在两个 Mod 中使用。" />
-        <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="光影包下载完成后一般是 .zip 压缩文件的形式，直接放入光影包文件夹即可，不需要解压。" />
-        <local:MyHint Margin="0,0,0,7" IsWarn="False"
-                   Text="有时光影包的作者会依据光影包对电脑性能的需求高低制作多个版本的光影包，并打包成一个压缩包方便玩家下载，此时则需要将大压缩包中的每个光影包提取出来才能使用。" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="导入完成后，在光影设置界面（选项-视频设置-光影…）可以看到已经导入的光影包，点击即可启用。" />
-        <Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/Shader-List.png" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="你还可以在光影设置界面对光影的效果做进一步调整，右侧列出的是 OptiFine 提供的通用选项，点击右下角的光影设置可以打开当前光影包的专有选项，以便对光影的效果作出更多调整。" />
+        <Grid Margin="0,0,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在版本选择中选择需要安装光影的版本，点击 “版本设置”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/65477d6b6278a.png" />
+        </Grid>
+        
+        <local:MyHint Margin="0,4,0,0" Text="若未找到 shaderpacks 文件夹，你可以手动创建一个。" IsWarn="False" />
+        <Grid Margin="0,10,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 点击 “版本文件夹”，在弹出的文件夹中找到并进入 shaderpacks 文件夹，将你要安装的光影包拖入该文件夹。启动游戏。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/65477d81185d5.png" />
+        </Grid>
+
+        <TextBlock Margin="0,12,0,7" FontSize="19" Foreground="{DynamicResource ColorBrush2}"
+                   Text="Optifine" />
+        
+        <local:MyHint Margin="0,4,0,0" Text="Optifine 会在你选择光影后直接开始加载此光影，请在选择前确认该光影是否为你想启用的光影以避免长时间的等待。" IsWarn="False" />
+        <Grid Margin="0,10,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="进入游戏后顺次点击 “选项” → “视频设置” → “光影”，点击你想要应用的光影即可。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/65477db23053c.png" />
+        </Grid>
+        
+        <TextBlock Margin="0,12,0,7" FontSize="19" Foreground="{DynamicResource ColorBrush2}"
+                   Text="Iris Shaders" />
+        
+        <local:MyHint Margin="0,4,0,0" Text="如果你在世界中打开光影包页面，则在选择后可以先点击 “应用” 按钮来预览光影包效果后再点击 “完成”。" IsWarn="False" />
+        <Grid Margin="0,10,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="进入游戏后顺次点击 “选项” → “视频设置” → “光影包”，选择你想要应用的光影后点击 “完成”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/65477da284435.png" />
+        </Grid>
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：Logic_530" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：Logic_530、风释清然SC" IsWarn="False" />
