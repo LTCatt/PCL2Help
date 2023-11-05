@@ -1,5 +1,5 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
 <!-- 图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/modpack -->
+<!-- SC 图片备份: https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_modpack -->
 
 <local:MyCard Title="整合包是什么?" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -21,24 +21,18 @@
 <local:MyCard Title="安装已有的压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         
-        <local:MyHint Margin="0,0,0,15" Text="注意: 以下情况假设您已下载好整合包（通常是为 .zip / .rar 结尾的文件）。" IsWarn="False" />
+        <local:MyHint Margin="0,0,0,15" Text="以下情况假设您已下载好整合包文件。&#xa;若拖入文件时鼠标指针显示禁止符号，请检查是否以管理员身份打开了 PCL 并重启 PCL。" IsWarn="False" />
+        
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="对于结尾为 .zip / .rar 的压缩文件整合包，您需打开 PCL 启动器，点击 “下载” 按钮后选择左侧菜单 “资源” 分类下的 “整合包” 选项，点击 “安装整合包” 按钮并选择你下载好的本地整合包。此处以 “Example.zip” 为案例。" HorizontalAlignment="Left" />
-            <StackPanel Margin="250,0,0,0">
-                <Image Source="https://img.z0z0r4.top/local/2022/07/26/6/Modpack_Install_Directio.png" />
-                <Image Source="https://img.z0z0r4.top/local/2022/07/26/6/Modpack_Choose.png" />
-            </StackPanel>
+                        Text="1. 将整合包文件拖入 PCL 窗口。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/654745b7a6112.png?comment=拖入" />
         </Grid>
 
-        <Grid Margin="0,20,0,4">
+        <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="此时 PCL 会弹出 “输入版本名” 的窗口，您可自由输入。点击 “确定” 后，PCL 自动开始安装。安装完毕后，您即可在版本列表选择以您输入的版本名为标题的整合包以开始游玩。" HorizontalAlignment="Left" />
-            <StackPanel Margin="250,0,0,0">
-                <Image Source="https://img.z0z0r4.top/local/2022/07/26/6/Input_Game_Name.png" />
-                <Image Source="https://img.z0z0r4.top/local/2022/07/26/6/Game_Launch.png" />
-                <Image Source="https://img.z0z0r4.top/local/2022/07/26/6/Game_Launch_Home.png" />
-            </StackPanel>
+                        Text="2. 输入版本名称后点击 “确定”，等待 PCL 安装完成。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/654748c679b27.png?comment=命名" />
         </Grid>
     </StackPanel>
 </local:MyCard>
@@ -60,7 +54,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 选择一个整合包。本教程使用 &quot;RLCraft&quot; 为范例。点击此整合包，点击您需要下载的版本，PCL 会自动弹出输入版本名的窗口，您可自由输入，此处以 “RLCraft” 为范例，点击确定，PCL 会自动开始下载。" HorizontalAlignment="Left" />
+                        Text="3. 选择一个整合包后，点击您需要下载的版本，在弹出的窗口输入版本名称，点击 “确定”，等待 PCL 安装完成。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/26/6/modpack_name_input.png" />
         </Grid>
 
