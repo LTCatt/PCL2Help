@@ -6,8 +6,6 @@
                    Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders。其中 OptiFine 支持 Forge（可以通过 OptiFabric Mod 兼容 Fabric），Iris Shaders 支持 Fabric 和 Quilt。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text= "OptiFine 几乎支持所有的 Minecraft 版本，而 Iris Shaders 目前只支持 1.16 及更高版本。" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="综合考量，对于 1.16 以下版本，推荐使用 OptiFine；而对于 1.16 及以上版本，推荐使用 Iris Shaders。" />
     </StackPanel>
 </local:MyCard>
 
