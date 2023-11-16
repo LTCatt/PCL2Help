@@ -1,6 +1,4 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-
-<local:MyCard Title="正版登录">
+<local:MyCard Title="正版账户" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -21,7 +19,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="离线及第三方登录">
+<local:MyCard Title="离线及第三方账户" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
