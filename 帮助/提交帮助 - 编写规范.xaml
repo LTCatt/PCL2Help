@@ -21,11 +21,11 @@
                     Text="在创建新的帮助条目时，请根据情况选择链接、弹窗或新帮助页面。" />
         <TextBlock LineHeight="17"
                    Text="1. 尽量使用网络中已有的教程帖，添加一个链接即可。若无必要，不必从头到尾重新写一遍。" />
-        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
 		            EventType="打开帮助" EventData="Minecraft/新手教程.json" />
         <TextBlock LineHeight="17"
                     Text="2. 如果教程内容可以用几句话说清，则只需使用第二类帮助，弹出窗口说明即可，无需添加 XAML 页面。" />
-        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+        <local:MyListItem Margin="0,0,0,12" SnapsToDevicePixels="True" Type="Clickable"
 		            EventType="打开帮助" EventData="启动器/手动选择 Java 路径.json" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="3. 仅在你确认网络中没有类似教程，且一个弹出窗口无法完全说明内容时，才去添加 XAML 页面。" />

@@ -39,7 +39,7 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="如果你选择使用 Iris Shaders，在 Mod 下载界面搜索 “Iris Shaders” 即可。如果你尚不清楚如何使用 PCL 安装 Mod，可以查看此教程：" />
-        <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable" PaddingRight="4"
+        <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable"
 		            EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
     </StackPanel>
 </local:MyCard>
