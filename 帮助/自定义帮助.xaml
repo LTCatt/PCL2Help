@@ -36,7 +36,7 @@
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="与读取自定义帮助条目时类似，PCL 会在帮助文件夹查找扩展名为 .helpignore 的文件，该文件可以用于隐藏 PCL 内置的帮助条目。&#xa;该文件的每行都是一条正则表达式，PCL 会对这些正则逐条进行匹配，如果某内置条目的相对路径符合该正则，那么该条目就会被忽略。例如，这个帮助条目的路径为 帮助\自定义帮助.xaml，因此任何符合这一字符串的正则都可以隐藏这个条目。&#xa;此外，仅往文件中写入 \S* 就可以隐藏 PCL 的所有内置帮助，因为任何文件名都满足这条正则。" />
         <local:MyListItem Margin="0,2,0,10" 
-		                  Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Title="正则表达式教程" Info="如果你对正则表达式并不熟悉，你可以查看此教程" Type="Clickable" PaddingRight="4"
+		                  Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Title="正则表达式教程" Info="如果你对正则表达式并不熟悉，你可以查看此教程" Type="Clickable"
 		                  EventType="打开网页" EventData="https://www.runoob.com/regexp/regexp-intro.html" />
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="在读取 .helpignore 文件的内容时，空行、行首行尾空格以及每行的 # 符号之后的内容均会被忽略。因此，你可以在 # 符号后书写注释。" />
