@@ -1,17 +1,52 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
-<local:MyCard Title="游戏存档损坏" Margin="0,0,0,15">
+<local:MyCard Title="注意事项" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="电脑蓝屏、死机重启等情况下，游戏存档可能会损坏，如果损坏请按照以下步骤操作："/>
+                    Text="电脑蓝屏、死机重启等情况下，游戏存档可能会损坏。如遇存档损坏可参考此教程的方案进行修复。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="1. 点击对应版本的 “版本设置” → “存档文件夹” 后打开 saves 文件夹。"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="2. 进入损坏存档，删除 “level.dat” 文件。"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="3. 找到 “level.dat_old”，并右键重命名，将后缀 “_old” 部分删除。 "/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="此时进入游戏将恢复存档，但注意的是：每次进入游戏都会自动备份存档为 level.dat_old 文件，所以使用此文档会回档到未损坏之前的存档 。"/>
-        <local:MyHint Text="如果没有显示后缀，请将显示文件扩展名打开即可 &#xA; Win7：资源管理器（我的电脑） → 组织 → 文件夹和搜索选项 → 查看 → 勾选 “显示已知文件的扩展名” &#xA; Win10、Win11：资源管理器（此电脑） → 查看 → 勾选 “文件扩展名” " IsWarn="False" />
+                    Text="但请注意，使用此方法会使得该世界回退至进入游戏前的存档。"/>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans" IsWarn="False" />
+
+<local:MyCard Title="显示文件扩展名" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,15" Text="如您阅读了下方的教程中发现您的文件没有显示后缀，则请依照如下步骤显示文件扩展名。" IsWarn="False"/>
+        <TextBlock Margin="0,0,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                   Text="Windows 7" />
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="文件资源管理器（我的电脑） → 组织 → 文件夹和搜索选项 → 查看 → 取消勾选 “隐藏已知文件的扩展名” 。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/12/11/65770a71e87f0.png" />
+        </Grid>
+        <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                   Text="Windows 10 / 11" />
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="文件资源管理器（此电脑） → 查看 → 勾选 “文件扩展名”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/12/11/6577001f7773e.png" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="操作步骤" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 点击对应版本的 “版本设置” → “存档文件夹” 后打开 saves 文件夹。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/12/11/657691c2605d2.png" />
+        </Grid>
+        
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 进入损坏存档，删除 “level.dat” 文件。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/12/11/65770bd54fc33.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 找到 “level.dat_old”，并右键重命名，将后缀 “_old” 部分删除，完成后再次进入世界即可。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/12/11/65770c659fdf6.png" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans、风释清然SC" IsWarn="False" />
