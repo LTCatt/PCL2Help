@@ -57,15 +57,12 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 此时，左侧 “可用” 列表中罗列有尚未启用的资源包。将鼠标指针移动至资源包图标上方，点击出现的箭头，使该资源包将移动至右侧 “已选” 列表后，点击 “完成” 应用资源包。" HorizontalAlignment="Left" />
+                        Text="2. 此时，左侧 “可用” 列表中罗列有尚未启用的资源包。将鼠标指针移动至资源包图标上方，点击出现的箭头，使该资源包将移动至右侧 “已选” 列表后，点击 “完成” 后即可应用资源包。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
                 <Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/26/6/minecraft-resourcepack-choose.png" />
                 <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="https://img.z0z0r4.top/local/2022/07/26/6/minecraft-resourcepack-left.png" />
             </StackPanel>
         </Grid>
-
-        <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                   Text="3. 最后，等待 Mojang 进度条至尽头，资源包即可加载完成。"/>
     </StackPanel>
 </local:MyCard>
 
@@ -90,15 +87,12 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 此时，左侧 “可用” 列表中罗列有尚未启用的资源包。将鼠标指针移动至资源包图标上方，点击出现的箭头，使该资源包将移动至右侧 “已选” 列表后，点击 “完成” 应用资源包。" HorizontalAlignment="Left" />
+                        Text="3. 此时，左侧 “可用” 列表中罗列有尚未启用的资源包。将鼠标指针移动至资源包图标上方，点击出现的箭头，使该资源包将移动至右侧 “已选” 列表后，点击 “完成” 后即可应用资源包。" HorizontalAlignment="Left" />
             <StackPanel Margin="250,0,0,0">
                 <Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/26/6/minecraft-resourcepack-choose.png" />
                 <Image HorizontalAlignment="Center" Margin="0,15,0,0" Source="https://img.z0z0r4.top/local/2022/07/26/6/minecraft-resourcepack-left.png" />
             </StackPanel>
         </Grid>
-
-        <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                   Text="4. 最后，等待 Mojang 进度条至尽头，资源包即可加载完成。"/>
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：WTP016、林小槐、风释清然SC" IsWarn="False" />
