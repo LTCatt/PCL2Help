@@ -3,12 +3,6 @@
 <!-- 由 SC 修改的模组加载器安装部分图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_modloader -->
 <!-- 由 SC 修改的 Mod 文件安装 Mod 部分图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_mod_import -->
 
-<local:MyCard Title="Mod 是什么？" Margin="0,0,0,15">
-	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" LineHeight="17" Text="Mod 是由 Minecraft 社区的部分玩家制作的游戏补丁，能够为 Minecraft 添加更多的内容，例如更多工具、方块、生物、世界以及新的玩法与机制等。" />
-	</StackPanel>
-</local:MyCard>
-
 <local:MyCard Title="如何选择 Mod 加载器？" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Mod 加载器是为 Minecraft 安装 Mod 的必要前置条件，要想安装 Mod，必须先安装 Mod 加载器。目前主流的 Mod 加载器有 Forge、Fabric 和 Quilt 三种，而它们不能同时被安装在同一个版本中。" />

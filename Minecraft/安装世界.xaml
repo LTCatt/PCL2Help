@@ -1,13 +1,6 @@
 <!-- 图片备份: https://github.com/WTP016-CN/Image_for_PCL2Help/tree/saves -->
 <!-- SC图片备份: https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_world -->
 
-<local:MyCard Title="世界是什么？" Margin="0,0,0,15">
-	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="世界 (Worlds, 亦称为地图、存档) 是指由 Minecraft 玩家创造的存档。玩家的游戏中生成的世界可以被其他玩家下载并进行游玩。" />
-	</StackPanel>
-</local:MyCard>
-
 <local:MyCard Title="获取世界" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"

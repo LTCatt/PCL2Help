@@ -1,13 +1,5 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要进一步完善，优化排版与文案。如果您感兴趣也可以来帮帮忙！" IsWarn="False" />
 <!-- 不会XAML，在WTP016、林小槐的资源包安装教程帮助文档上稍作修改，可能需要根据规范重新修改表述及格式，仍需继续完善。 -->
 <!-- 图片备份 https://wwe.lanzoui.com/ieuBKqndr7g -->
-
-<local:MyCard Title="数据包是什么?" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                   Text="数据包（Data Pack）是 Minecraft 内置的、可用于覆盖或添加新的进度、维度、函数、战利品表、谓词、配方、结构和标签，而不进行任何代码修改的功能。" />
-    </StackPanel>
-</local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="注意: 数据包功能仅适用于 Minecraft 1.13 以上版本。" />
 
 <local:MyCard Title="获取数据包" Margin="0,0,0,15">
