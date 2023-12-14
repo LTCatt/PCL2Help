@@ -20,15 +20,6 @@
 
 <local:MyCard Title="导入世界" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock Margin="0,0,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
-                   Text="安装世界内置资源包" />
-		    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="有些地图的文件夹根目录有 resources.zip 文件，这是地图自带的资源包。一般情况下，该资源包会在单人游戏中进入世界时被自动加载。若你需要在多人游戏中加载此资源包，你可以参考此教程手动加载此资源包：" />
-		    <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable"
-		           EventType="打开帮助" EventData="Minecraft/资源包安装.json" />
-		
-		<TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
-                   Text="导入世界" />
 		<Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="200"
                         Text="1. 选择你想要导入世界的游戏版本后，点击 “版本设置”。" HorizontalAlignment="Left" />
