@@ -5,5 +5,5 @@
 	"Types": ["启动器"],
 	"IsEvent": true,
 	"EventType": "弹出窗口",
-	"EventData": "手动选择 Java|点击设置选项卡，在 Java 选择中点击手动选择，然后选择 javaw.exe 文件即可。"
+	"EventData": "手动选择 Java|点击设置选项卡，在 Java 选择中点击手动选择，然后选择 javaw.exe 文件即可。\n 不同版本的 Minecraft 可能会要求不同的 Java 版本：\n 最早 ~ 1.16.5：Java 8（推荐） \n 1.17 ~ 1.17.1：Java 17 或 Java 18 \n 1.18 ~ 最新：Java 18 或 Java 20"
 }

@@ -30,7 +30,7 @@
               
           <TextBlock Margin="0,5,0,4" LineHeight="17" 
                         Text="4. 在 “Terminal” 中设置 Git 用户信息，需确保 Git 邮箱和 SSH 公钥使用的是相同的邮箱。如果只对当前库设置用户信息，“--global” 参数可以省略。" />
-
+          <local:MyHint Text="'你的名称'应是Github中的'GitHub Settings - Accounts' 中的 'username'，而非Public profile中的'Name'；同时'你的邮箱'中的邮箱应当在 GitHub 中 应为 'verified' 状态" />
           <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
                 <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                             Text="设置 Git 用户名" EventType="复制文本" EventData="git config --global user.name '你的名称' " />
