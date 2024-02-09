@@ -200,6 +200,15 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="java.lang.IllegalArgumentException: Packet too big" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：客户端无法读取服务器传输的数据包，因为数据包过大。你有可能被禁人塔、禁人书等造成的大量数据阻塞在服务器外。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：使用离线登录，更换游戏 ID，如果问题消失，则代表你受到了禁人塔或禁人书的限制。该原因造成的问题暂时无解。" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
