@@ -84,9 +84,7 @@
 	<StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,0,0,10" Text="在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。&#xa;下载完成的 Mod 文件的扩展名一般为 .jar（用于老旧加载器 LiteLoader 的 Mod 扩展名为 .litemod）" IsWarn="False" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="虽然 PCL 内置的 Mod 下载功能可以满足大部分安装 Mod 的需求，但在很多情况下，玩家仍需通过网站的方式来安装 Mod。" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="玩家可以访问发布 Mod 资源的网站并通过网页链接下载 Mod 文件，除 CurseForge 之外发布 Mod 的网站还有很多，例如国内知名的 MCBBS。" />
-		<local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Margin="0,5,0,10"
-                        Text="打开 MCBBS Mod 分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-mod-1.html" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="玩家可以访问发布 Mod 资源的网站并通过网页链接下载 Mod 文件，如 CurseForge、Modrinth。" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="下载完想要安装的 Mod 后，可以在版本设置中选择需要安装 Mod 的版本，直接将需要安装的所有 Mod 文件拖入 PCL 窗口进行安装即可。" />
         <!--
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="若仅需要安装少量模组，可以在版本设置中选择需要安装 Mod 的版本后，直接将需要安装的所有 Mod 文件拖入 PCL 窗口进行安装即可。若需要批量安装较多 Mod，建议依照以下步骤进行安装：" />

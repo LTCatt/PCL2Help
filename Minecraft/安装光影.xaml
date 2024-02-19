@@ -12,10 +12,8 @@
 <local:MyCard Title="获取光影包" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="你可以在许多相关资源网站找到光影包，诸如 MCBBS、CurseForge、Modrinth。你可以点击下面的按钮来快速跳转至这些网站：" />
+                   Text="你可以在许多相关资源网站找到光影包，诸如 CurseForge、Modrinth。你可以点击下面的按钮来快速跳转至这些网站：" />
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-            <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                        Text="MCBBS 光影分享板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?mod=forumdisplay&amp;fid=1357&amp;filter=typeid&amp;typeid=2376" />
             <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                         Text="CurseForge 光影下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/search?class=shaders" />
             <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
