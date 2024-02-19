@@ -53,11 +53,13 @@
         <local:MyListItem  Margin="0,0,0,4"
 		            Title="Offline Multiplayer" Info="Fabric 1.16.5"
 		            EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric/releases" Type="Clickable" />
+        <!--MCBBS 已关停，此处链接已失效
         <TextBlock Margin="2,2,0,4" LineHeight="17"
                     Text="4. 使用下方的 Authlib 更新工具。" />
         <local:MyListItem  Margin="0,0,0,4"
 		            Title="Authlib 更新工具" Info="502mc 制作的 Authlib 更新工具，支持修复未安装 Mod 加载器的客户端。"
 		            EventType="打开网页" EventData="https://www.mcbbs.net/thread-1450892-1-1.html" Type="Clickable" />
+        -->
     </StackPanel>
 </local:MyCard>
 
