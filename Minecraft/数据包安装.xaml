@@ -5,9 +5,11 @@
 <local:MyCard Title="获取数据包" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="数据包和资源包类似，是由 Minecraft 玩家创作并分享的，你可以在网上找到其他玩家制作的数据包。很多 Minecraft 交流网站（如 MCBBS）都有专门的数据包版块，你可以在这些地方挑选自己喜欢的数据包。" />
-        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                    Text="打开 MCBBS 数据包板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum-datapack-1.html" />
+                   Text="你可以在许多相关资源网站找到数据包，诸如 Modrinth、Minecraft Maps、Planet Minecraft 等。你可以点击下面的按钮来快速跳转至这些网站：" />
+        <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="Modrinth 数据包下载" EventType="打开网页" EventData="https://modrinth.com/datapacks" />
+        <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="Planet Minecraft 数据包下载" EventType="打开网页" EventData="https://www.planetminecraft.com/data-packs/" />
     </StackPanel>
 </local:MyCard>
 
@@ -15,7 +17,6 @@
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-
                         Text="1. 在 PCL 启动器中启动您想要安装数据包的版本，教程内选择 1.17 作为演示。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/Launch-Game.png" />        
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/Launch-Game.png" />        
