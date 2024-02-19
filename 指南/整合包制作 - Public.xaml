@@ -6,6 +6,7 @@
     </StackPanel>
 </local:MyCard>
 
+<!--MCBBS 已关停，此处链接已失效
 <local:MyCard Title="整合包制作入门">
     <StackPanel Margin="25,40,23,11">
 	    <local:MyListItem Margin="-5,0,-5,8" 
@@ -13,6 +14,7 @@
 		                  EventType="打开网页" EventData="https://www.mcbbs.net/thread-485881-1-1.html" />
 	</StackPanel>
 </local:MyCard>
+-->
 
 <local:MyCard Title="删除自己的账号信息" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
