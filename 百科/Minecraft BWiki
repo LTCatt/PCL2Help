@@ -1,7 +1,7 @@
 {
 	"__Author__": "deep-dark-forest",
 	"Title": "原版百科（镜像）",
-	"Description": "Minecraft BWiki：Minecraft Wiki的镜像站，访问更快但更新较慢",
+	"Description": "Minecraft BWiki：Minecraft Wiki 的镜像站，访问更快但更新较慢",
 	"Types": ["百科"],
 	"IsEvent": true,
 	"EventType": "打开网页",
