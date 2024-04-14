@@ -1,0 +1,46 @@
+<!--图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_updatemods-->
+
+<local:MyHint Margin="0,0,0,15" Text="请在依照本文操作前仔细阅读注意事项，以避免游戏崩溃或存档损坏！" IsWarn="True" />
+
+<local:MyCard Title="注意事项" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="PCL 支持将已安装的旧版本 Mod 升级至最新版本。在依照本文操作前请注意，一味地升级 Mod 可能会对该版本造成严重的兼容性问题，包括但不限于存档不兼容或损坏和游戏崩溃。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="对于从互联网上获取的整合包，除非整合包作者要求，否则如无必要请不要私自更新整合包中的任何 Mod！"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="在更新前，请仔细阅读 PCL 的警告弹窗，并备份您的存档，在确认无误后再进行操作！"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="选择 Mod 并更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+	    <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL 的 “启动” 页面中选择你想进行更新的游戏版本，点击 “版本设置”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/04/14/661bd55122615.png" />
+        </Grid>
+
+		<Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 点击 “Mod 管理”。此时列表中名称最右侧带有向上的箭头的 Mod 即为可更新的 Mod。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/04/14/661bd5c6bf794.png" />
+        </Grid>
+        
+        <local:MyHint Margin="0,20,0,0" Text="在第一次使用 Mod 更新功能时，会弹出一个警告弹窗。请在更新前仔细阅读改弹窗的所有信息，并在确认无误后再点击 “我已了解上述风险，继续更新”！" IsWarn="True" />
+		<Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 选择您想要更新的 Mod 后，点击下方的 “更新” 按钮，即可开始更新。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/04/14/661bd6755fdb3.png" />
+        </Grid>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="恢复 Mod 至原始版本" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="PCL 在更新 Mod 时不会直接永久删除旧版本 Mod 文件，而是会将其移动至回收站。您可以在 “版本设置” → “Mod 管理” 中删除更新的新版本 Mod，并在回收站中选择您想要还原的 Mod 文件（如需批量选择请按下键盘上的 “Ctrl” 键）后，右键选择的文件，点击 “还原” 以还原旧版本 Mod 文件。"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：风释清然SC" IsWarn="False" />
