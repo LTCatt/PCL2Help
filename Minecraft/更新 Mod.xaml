@@ -1,0 +1,43 @@
+<!--图片备份：https://github.com/WForst-Breeze/Files/tree/main/PCL2/H_img_updatemods-->
+
+<local:MyHint Margin="0,0,0,15" Text="请在依照本文操作前仔细阅读注意事项和 PCL 警告弹窗，以避免游戏崩溃或存档损坏！" IsWarn="True" />
+
+<local:MyCard Title="注意事项" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="PCL 支持将已安装的旧版本 Mod 升级至最新版本。新版本 Mod 可能不兼容老版本的存档或者其他 Mod，这可能导致游戏崩溃，甚至存档损坏！"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="除非整合包作者要求你更新，否则不要私自更新整合包里的 Mod！"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="在更新 Mod 前，请先备份存档，并检查它的更新日志！"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="更新时，老版本的 Mod 会被移动到回收站，以防万一。如若您希望回退至更新前的旧版本 Mod，可以在回收站中恢复。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                    Text="最后，请仔细阅读 PCL 的警告弹窗，在确认无误后再进行操作！"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="选择 Mod 并更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL 的 “启动” 页面中选择你想进行更新的游戏版本，点击 “版本设置”。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/04/14/661bd55122615.png" />
+        </Grid>
+
+		<local:MyHint Margin="0,20,0,0" Text="第一次进入 Mod 管理页面时可能需要等待一段时间。如若没有箭头，则可能是您无法连接到 CurseForge 或 Modrinth，请尝试使用加速器或 VPN。" IsWarn="False" />
+        <Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 点击 “Mod 管理”。此时列表中名称最右侧带有向上的箭头的 Mod 即为可更新的 Mod。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/04/14/661bd5c6bf794.png" />
+        </Grid>
+        
+		<Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 选择您想要更新的 Mod 后，点击下方的 “更新” 按钮，即可开始更新。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/04/14/661bd6755fdb3.png" />
+        </Grid>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：风释清然SC" IsWarn="False" />
