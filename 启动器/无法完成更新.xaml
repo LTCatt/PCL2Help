@@ -1,0 +1,18 @@
+<local:MyCard Title="您的启动器无法完成更新？">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="症状：您的启动器在下载完更新文件后突然弹出信息框，提示“无法成功完成操作，因为文件包含病毒或潜在的垃圾软件。”"/>
+        <TextBlock Margin="0,0,0,4" LineHeight="15"
+                   Text="原因：启动器被Windows Defender报毒了，因而无法完成更新（此类事故常见于Windows 10和11）"/>
+        <TextBlock Margin="0,12,0,7" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
+                   Text="解决方法：禁用Windows Defender即可" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="使用Windows + R快捷键打开「运行」对话框，执行gpedit.msc打开组策略编辑器。"/>
+        <TextBlock Margin="0,0,0,4"
+                   Text="导航至：“计算机配置 > 管理模板 > Windows 组件 > Windows Defender 防病毒”"/>
+        <TextBlock Margin="0,0,0,4"
+                   Text="双击「关闭 Windows Defender 防病毒」策略，选择「已启用」，然后点击「确定」。"/>           
+        
+    </StackPanel>
+</local:MyCard>
+<local:MyHint Margin="0,0,0,15" Text="作者：辉夜星瞳" IsWarn="False" />
