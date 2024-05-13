@@ -26,4 +26,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、XiaoFans、wuyuncheng-26" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="帮助作者：Not_Killer_233、龙腾猫跃、XiaoFans" IsWarn="False" />
