@@ -45,8 +45,6 @@
         <StackPanel Height="35" Margin="0,4,0,4" Orientation="Horizontal">
             <local:MyButton MinWidth="200" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight"
                             Text="打开 PCL 常见问题文档" EventType="打开网页" EventData="https://shimo.im/docs/qKPttVvXKqPD8YDC" />
-            <local:MyButton MinWidth="180" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
-                        Text="打开 PCL 帮助站" EventType="打开网页" EventData="https://pcl2-help.gitee.io/" />
         </StackPanel>
     </StackPanel>
 </local:MyCard>
