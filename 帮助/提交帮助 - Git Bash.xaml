@@ -87,7 +87,7 @@
 <local:MyCard Title="在 GitHub 上向 PCL 帮助库发送 Pull Request">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,15" LineHeight="17"
-            Text="在 GitHub 上打开 PCL 帮助库，然后依次点击：位于屏幕上方的 Pull requests - 页面右上方的 New pull request。" />
+            Text="在 GitHub 上打开您 Fork 的仓库，然后依次点击：位于屏幕上方的 Pull requests - 页面右上方的 New pull request。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
             Text="此时，可以在当前页面进行代码对比。确认无误后点击 Create pull request 按钮发起代码合并请求，根据指示填写注释后点击 Create pull request ，即可完成 Pull Request，等待审核。" />
 
