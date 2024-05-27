@@ -24,8 +24,10 @@
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - VSCode.json" />
         <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - Intellij Idea.json" />
-        <local:MyListItem Margin="0,0,0,10"
+        <local:MyListItem Margin="0,0,0,0"
 		                  EventType="打开帮助" EventData="帮助/提交帮助 - GitHub Desktop.json" />
+        <local:MyListItem Margin="0,0,0,10"
+		                  EventType="打开帮助" EventData="帮助/提交帮助 - Git Bash.json" />
     </StackPanel>
 </local:MyCard>
 

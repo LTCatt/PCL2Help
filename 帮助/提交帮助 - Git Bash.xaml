@@ -1,0 +1,97 @@
+<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
+<local:MyCard Title="Git 简介">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,15" Text="本篇内容较为复杂，不建议纯新手使用" IsWarn="true" />
+        <TextBlock Margin="0,0,0,6" LineHeight="17"
+            Text="Git 是一个分布式版本控制系统。本文将提供简要的 Git 使用教程，指导如何使用 Git Bash 或其他命令行工具拉取 PCL 的帮助库并提交修改。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+            Text="首先，您需要下载 Git 工具：" />
+        <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0"
+                HorizontalAlignment="Left"
+                Text="访问 Git 官网" EventType="打开网页" EventData="https://git-scm.com/" />
+            <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0"
+                HorizontalAlignment="Left"
+                Text="查看 Git 安装教程" EventType="打开网页"
+                EventData="https://blog.csdn.net/weixin_41714277/article/details/79399270" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="使用 Git Bash 获取帮助库">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,15" Text="在以下步骤中，使用 Git Bash 与使用其他命令行工具是等效的。" IsWarn="False" />
+        <TextBlock Margin="0,0,0,15" LineHeight="17"
+            Text="在安装完 Git 后，您可以通过在文件夹内右键选择 Git Bash Here 在此处打开 Git Bash。然后在 GitHub 上打开您 Fork 的仓库，点击右上角的 Code 按钮并复制仓库链接，然后使用 git clone 将仓库下载到本地。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+            Text="例如，可以使用以下命令（请替换链接为您实际的仓库链接）：" />
+        <Border BorderBrush="Gray" BorderThickness="1" Background="#F5F5F5" Padding="5,5,0,5"
+            Margin="0,0,0,15">
+            <TextBlock Padding="0" Margin="0,0,0,0">
+                <Span FontFamily="Consolas" Foreground="DarkBlue">git</Span>
+                <Span> </Span>
+                <Span FontFamily="Consolas" Foreground="DarkRed">clone</Span>
+                <Span> </Span>
+                <Span FontFamily="Consolas" Foreground="DarkGreen">https://github.com/YourUserName/PCL2Help.git
+                    ./Help</Span>
+            </TextBlock>
+        </Border>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+            Text="将下载的 Help 文件夹移动到与 Plain Craft Launcher 2.exe 同目录下的 PCL 文件夹内。接下来打开 PCL2 启动器，看到的便是 Help 文件夹下的帮助文件。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="使用 Git Bash 提交帮助库">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,4" Text="在以下步骤中，使用 Git Bash 与使用其他命令行工具是等效的。" IsWarn="False" />
+        <local:MyHint Margin="0,0,0,15" Text="在将更改提交到 GitHub 前，您需要登录 GitHub 账号。" IsWarn="true" />
+        <TextBlock Margin="0,0,0,15" LineHeight="17"
+            Text="在修改完帮助文件后，您可以通过以下方式提交更改：首先，在 Help 文件夹内打开 Git Bash。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+            Text="1. 使用 git add . 命令暂存所有被修改的或未跟踪的文件：" />
+        <Border BorderBrush="Gray" BorderThickness="1" Background="#F5F5F5" Padding="5,5,0,5"
+            Margin="0,0,0,15">
+            <TextBlock Padding="0" Margin="0,0,0,0">
+                <Span FontFamily="Consolas" Foreground="DarkBlue">git</Span>
+                <Span> </Span>
+                <Span FontFamily="Consolas" Foreground="DarkRed">add</Span>
+                <Span> </Span>
+                <Span FontFamily="Consolas" Foreground="DarkGreen">.</Span>
+            </TextBlock>
+        </Border>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+            Text="2. 使用 git commit -m 命令提交这些更改：" />
+        <Border BorderBrush="Gray" BorderThickness="1" Background="#F5F5F5" Padding="5,5,0,5"
+            Margin="0,0,0,15">
+            <TextBlock Padding="0" Margin="0,0,0,0">
+                <Span FontFamily="Consolas" Foreground="DarkBlue">git</Span>
+                <Span> </Span>
+                <Span FontFamily="Consolas" Foreground="DarkRed">commit -m</Span>
+                <Span> </Span>
+                <Span FontFamily="Consolas" Foreground="DarkGreen">"对本次更改的描述"</Span>
+            </TextBlock>
+        </Border>
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+            Text="3. 使用 git push 命令将更改推送到远程仓库：" />
+        <Border BorderBrush="Gray" BorderThickness="1" Background="#F5F5F5" Padding="5,5,0,5"
+            Margin="0,0,0,15">
+            <TextBlock Padding="0" Margin="0,0,0,0">
+                <Span FontFamily="Consolas" Foreground="DarkBlue">git</Span>
+                <Span> </Span>
+                <Span FontFamily="Consolas" Foreground="DarkRed">push</Span>
+            </TextBlock>
+        </Border>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="在 GitHub 上向 PCL 帮助库发送 Pull Request">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,15" LineHeight="17"
+            Text="在 GitHub 上打开 PCL 帮助库，然后依次点击：位于屏幕上方的 Pull requests - 页面右上方的 New pull request。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+            Text="此时，可以在当前页面进行代码对比。确认无误后点击 Create pull request 按钮发起代码合并请求，根据指示填写注释后点击 Create pull request ，即可完成 Pull Request，等待审核。" />
+
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：一只屑枫枫" IsWarn="False" />
