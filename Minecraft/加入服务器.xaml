@@ -221,4 +221,13 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="网络协议错误" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：Mod 导致错误。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：逐个禁用 Mod，并检查问题是否仍然存在。" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、风释清然SC、龙腾猫跃" IsWarn="False" />
