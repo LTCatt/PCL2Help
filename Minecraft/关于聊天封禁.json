@@ -4,7 +4,7 @@
 	"Description": "“您已经被永久封禁，禁止进入《Minecraft》！”mc聊天举报解答",
 	"Types": [ "Minecraft" ],
 	"IsEvent": true,
-	"Keywords": "入正",
+	"Keywords": "封禁",
 	"EventType": "打开网页",
 	"EventData": "https://www.bilibili.com/read/cv17410493/"
 }
