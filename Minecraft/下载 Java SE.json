@@ -1,7 +1,7 @@
 {
-	"__author__": "",
+	"__author__": "Fish-LP",
 	"Title": "下载 Java",
-	"Description": "从 www.oracle.com 下载 Java SE 的不同版本。",
+	"Description": "从 adoptium.net 下载 Java JDK 的不同版本。",
 	"Types": ["Minecraft"],
     "Keywords": "java"
 }

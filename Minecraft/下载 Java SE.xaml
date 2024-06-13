@@ -1,10 +1,9 @@
 <local:MyHint Margin="0,8,0,2" IsWarn="False"
                     Text="未来可能需要添加新版本 Java" />
-<!--
-http://www.codebaoku.com/jdk/jdk-index.html
--->
 
-<local:MyCard Title="什么是 &quot;x86 &quot;x64&quot;" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<!--资源来源 https://adoptium.net-->
+
+<local:MyCard Title="什么是 &quot;x86 &quot;x64&quot;" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4"
                     Text="windows 10" />
@@ -13,16 +12,15 @@ http://www.codebaoku.com/jdk/jdk-index.html
         <TextBlock Margin="0,0,0,4"
                     Text="此时你应该可以在 设备规格 栏目下的 系统类型找到类似&quot;64 位操作系统, 基于 x64 的处理器&quot;的文本" />
         <TextBlock Margin="0,0,0,6"
-                    Text=" 基于 x64 的处理器兼容 x86" />
-        <!--
-        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text=" 基于 x64 的处理器兼容 x86"/>
+        <!-- <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                     Text="打开 windous设置" EventType="打开文件" EventData="SystemSettingsAdminFlows.exe"/>
-                    怎么打不开啊(
-                    -->
+                    怎么打不开啊( -->
 </StackPanel>
 </local:MyCard>
 <local:MyCard Title="Java 22" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Text="具体版本：22.0.1"/>
         <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
                     Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
@@ -33,6 +31,7 @@ http://www.codebaoku.com/jdk/jdk-index.html
 <!--8 11 16 17 21-->
 <local:MyCard Title="Java 21" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Text="具体版本：21.0.3"/>
         <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
                     Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
@@ -42,6 +41,7 @@ http://www.codebaoku.com/jdk/jdk-index.html
 
 <local:MyCard Title="Java 17" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Text="具体版本：17.0.11"/>
         <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
                     Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
@@ -51,6 +51,7 @@ http://www.codebaoku.com/jdk/jdk-index.html
 
 <local:MyCard Title="Java 16" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Text="具体版本：16.0.2"/>
         <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
                     Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
@@ -60,6 +61,7 @@ http://www.codebaoku.com/jdk/jdk-index.html
 
 <local:MyCard Title="Java 11" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Text="具体版本：11.0.23"/>
         <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
                     Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
@@ -69,6 +71,7 @@ http://www.codebaoku.com/jdk/jdk-index.html
 
 <local:MyCard Title="Java 8" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Text="具体版本：412"/>
         <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
                     Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
@@ -76,3 +79,4 @@ http://www.codebaoku.com/jdk/jdk-index.html
     </StackPanel>
 </local:MyCard>
 
+<TextBlock Margin="0,0,0,4" Text="资源来源于 https://adoptium.net"/>
