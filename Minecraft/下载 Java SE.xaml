@@ -1,0 +1,78 @@
+<local:MyHint Margin="0,8,0,2" IsWarn="False"
+                    Text="未来可能需要添加新版本 Java" />
+<!--
+http://www.codebaoku.com/jdk/jdk-index.html
+-->
+
+<local:MyCard Title="什么是 &quot;x86 &quot;x64&quot;" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                    Text="windows 10" />
+        <TextBlock Margin="0,0,0,4"
+                    Text="打开 windows设置 选择 系统 在左侧侧边栏找到并打开 关于" />
+        <TextBlock Margin="0,0,0,4"
+                    Text="此时你应该可以在 设备规格 栏目下的 系统类型找到类似&quot;64 位操作系统, 基于 x64 的处理器&quot;的文本" />
+        <TextBlock Margin="0,0,0,6"
+                    Text=" 基于 x64 的处理器兼容 x86" />
+        <!--
+        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="打开 windous设置" EventType="打开文件" EventData="SystemSettingsAdminFlows.exe"/>
+                    怎么打不开啊(
+                    -->
+</StackPanel>
+</local:MyCard>
+<local:MyCard Title="Java 22" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x64 安装程序" EventType="下载文件" EventData="https://github.com/adoptium/temurin22-binaries/releases/download/jdk-22.0.1%2B8/OpenJDK22U-jdk_x64_windows_hotspot_22.0.1_8.msi"/>
+    </StackPanel>
+</local:MyCard>
+
+<!--8 11 16 17 21-->
+<local:MyCard Title="Java 21" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x64 安装程序" EventType="下载文件" EventData="https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3%2B9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.3_9.msi"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Java 17" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x64 安装程序" EventType="下载文件" EventData="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.11%2B9/OpenJDK17U-jdk_x64_windows_hotspot_17.0.11_9.msi"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Java 16" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x64 安装程序" EventType="下载文件" EventData="https://github.com/adoptium/temurin16-binaries/releases/download/jdk-16.0.2%2B7/OpenJDK16U-jdk_x86-32_windows_hotspot_16.0.2_7.msi"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Java 11" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x64 安装程序" EventType="下载文件" EventData="https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.msi"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="Java 8" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <!-- <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x86 安装程序" EventType="下载文件" EventData=""/> -->
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                    Text="Windows x64 安装程序" EventType="下载文件" EventData="https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u412-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u412b08.msi"/>
+    </StackPanel>
+</local:MyCard>
+
