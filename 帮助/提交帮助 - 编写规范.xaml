@@ -7,7 +7,7 @@
         <TextBlock Margin="0,0,0,2" LineHeight="17"
                     Text="  2. 查看帮助库在 GitHub 上的 Pull Requests，是否没有其他人正在编辑此内容？" />
         <TextBlock Margin="0,0,0,2" LineHeight="17"
-                    Text="  3. 你的条目需要适用于较多玩家，且有足够派上用场的可能。如果它面向的情景极少发生，那就不要添加它。" />
+                    Text="  3. 你的条目需要适用于较多玩家，且有足够派上用场的可能。如果它面向的情景极少发生或者具有时效性，那就不要添加它。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="  4. 如果要添加网页条目，它需要有帮助性质，且必须是中文网站。比起添加整个站点，仅添加其中的特定帖子会有用得多。" />
         <TextBlock Margin="0,5,0,4" LineHeight="17"
