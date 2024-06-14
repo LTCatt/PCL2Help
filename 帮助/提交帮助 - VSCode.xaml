@@ -42,7 +42,7 @@
                         Text="打开文件夹" EventType="打开文件" EventData="explorer.exe|/select,Help" />
         </StackPanel>
         <TextBlock Margin="0,0,0,15" LineHeight="17"
-                    Text="完成上述后，将第二步 clone 下仓库内 PCL2Help 文件夹剪切到 PCL 目录下并重命名文件夹 PCL2Help 为 Help 。"/>
+                    Text="完成上述后，将第二步 clone 下仓库内 PCL2Help 文件夹剪切到 PCL 目录下并重命名文件夹 PCL2Help 为 Help 。此外你可以选择在资源管理器中，在查看 → 显示下方选中 ”隐藏的项目“ 查看 .git 文件夹是否存在于 Help 文件夹"/>
         <TextBlock Margin="0,10,0,4" LineHeight="17"
                     Text="最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
