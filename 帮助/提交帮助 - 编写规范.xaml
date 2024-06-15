@@ -7,7 +7,7 @@
         <TextBlock Margin="0,0,0,2" LineHeight="17"
                     Text="  2. 查看帮助库在 GitHub 上的 Pull Requests，是否没有其他人正在编辑此内容？" />
         <TextBlock Margin="0,0,0,2" LineHeight="17"
-                    Text="  3. 你的条目需要适用于较多玩家，且有足够派上用场的可能。如果它面向的情景极少发生，那就不要添加它。" />
+                    Text="  3. 你的条目需要适用于较多玩家，且有足够派上用场的可能。如果它面向的情景极少发生或者具有较强的时效性，那就不要添加它。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="  4. 如果要添加网页条目，它需要有帮助性质，且必须是中文网站。比起添加整个站点，仅添加其中的特定帖子会有用得多。" />
         <TextBlock Margin="0,5,0,4" LineHeight="17"
@@ -130,7 +130,7 @@
                     Text="3. 如果没有完全完成某页，或你认为它还有优化空间，请在 XAML 的开头处添加类似于下方的提示条，以让他人可以继续修改。" />
         <local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果你感兴趣也可以来帮帮忙！" IsWarn="False" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="在提交之后请耐心等待结果。如果没有通过，你可以继续进行修改，并在 Pull Request 页面重新要求 Code Review。&#xA;如果没有通过，且你 2 周没有任何新的操作，你的 Pull Request 会被删除。&#xA;如果已通过（Merged），你可以 QQ 私聊龙腾猫跃，获取你的 PCL 识别码，以换取活跃橙主题！" />
+                    Text="在提交之后请耐心等待结果。如果没有通过，你可以继续进行修改，并在 Pull Request 页面重新要求 Code Review。&#xA;如果没有通过，且你 2 周没有任何新的操作，你的 Pull Request 会被删除。&#xA;如果已通过（Merged），你可以 QQ 私聊龙腾猫跃，提供你的 PCL 识别码，以获取活跃橙主题！" />
     </StackPanel>
 </local:MyCard>
 
