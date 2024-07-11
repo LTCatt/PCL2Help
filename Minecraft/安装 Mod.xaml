@@ -5,7 +5,7 @@
 
 <local:MyCard Title="如何选择 Mod 加载器？" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Mod 加载器是为 Minecraft 安装 Mod 的必要前置条件，要想安装 Mod，必须先安装 Mod 加载器。目前主流的 Mod 加载器有 Forge、Fabric 和 Quilt 三种，而它们不能同时被安装在同一个版本中。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Mod 加载器是为 Minecraft 安装 Mod 的必要前置条件，要想安装 Mod，必须先安装 Mod 加载器。目前主流的 Mod 加载器有 Forge、NeoForge、Fabric 和 Quilt 等，而它们不能同时被安装在同一个版本中。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Forge 几乎支持所有 Minecraft 正式版本，而 Fabric 和 Quilt 只支持 1.14 及以上的正式版本。总体上，Forge 支持的 Mod 比其他 Mod 加载器更多，但一部分 Mod 只支持 Fabric 或 Quilt。" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="有一些 Mod 仅支持其中一种加载器，因此，你需要尝试搜索其它加载器中有没有类似的 Mod 可以当作替代品。Quilt 兼容一部分 Fabric 的 Mod，但是 Fabric 不兼容 Quilt 的 Mod；Forge 与 Fabric 不兼容；Liteloader 与 Forge 兼容。" />
 	</StackPanel>
@@ -28,6 +28,23 @@
 	</StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="安装 Mod 加载器（NeoForge）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+	    <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL 中点击 “下载” 按钮，在 “自动下载” 页面中点击 “正式版”，选择想要安装的 Minecraft 版本。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea16a77b83f.png?comment=Minecraft版本选择" />
+        </Grid>
+
+		<local:MyHint Margin="0,20,0,0" Text="一般来说，只需要选择最新版或推荐版的 NeoForge 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" IsWarn="False" />
+		<Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 等待加载完成后，点击 “NeoForge”，选择合适的 NeoForge 版本，点击 “开始安装” 按钮。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/07/10/8ac8274608976.jpg?comment=加载器选择" />
+        </Grid>
+	</StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="安装 Mod 加载器（Fabric）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
 		<Grid>
@@ -46,7 +63,7 @@
 		<local:MyHint Margin="0,20,0,0" Text="虽然 Fabric API 的安装并不是必须的，但绝大多数 Mod 都需要 Fabric API 作为前置。&#xa;现在 PCL 一般会在您选择 Fabric 后同时自动选择 Fabric API。" IsWarn="False" />
 		<Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 点击 “Fabric API”，选择合适的 Fabric API 版本，点击 “开始安装” 按钮。" HorizontalAlignment="Left" />
+                        Text="3. 点击 “Fabric API”，选择合适的 Fabric API 版本，点击 “开始安装” 按钮。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea19c360e68.png?comment=FabAPI选择" />
         </Grid>
 	</StackPanel>
