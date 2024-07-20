@@ -22,15 +22,15 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="1. 即使你使用 VSCode，依旧需要安装 Git 工具。点击左侧的第三个按钮 &quot;源代码管理&quot;，按照 VSCode 的引导完成 Git 安装。"/>
-        <Image HorizontalAlignment="Center" Source="https://cdn.newfei.top/image/2023/01/13/ouXw.jpg" />
+        <Image HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/07/06/6688c37f0629d.png" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="2. 在左下角管理 → 设置或按下键盘上的 Ctrl 键 + , 键，在搜索框中输入 “git.path”，点击 “在 settings.json 中” 并设置 git.exe 路径（&lt;Git 安装路径&gt;\bin\git.exe），然后保存（Ctrl + S）" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="在 settings.json 中写入此文本" EventType="复制文本" EventData="{}{&#x000A;&#x0009;&quot;git.path&quot;: &quot;&lt;Git 安装路径&gt;\\bin\\git.exe&quot;,&#x000A;&#x0009;&quot;git.autofetch&quot;: true&#x000A;}" />
         </StackPanel>
-        <Image Margin="0,0,0,8" HorizontalAlignment="Center" Source="https://cdn.newfei.top/image/2023/01/13/oE4T.jpg" />
-        <Image Margin="0,0,0,4" HorizontalAlignment="Center" Source="https://cdn.newfei.top/image/2023/01/13/oPqS.png" />
+        <Image Margin="0,0,0,8" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/07/06/6688c37f43af4.png" />
+        <Image Margin="0,0,0,4" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/07/06/6688c37f60b40.png" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="3. 在主界面按下 “F1” 键打开指令输入框，输入 “git clone” 并回车。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
