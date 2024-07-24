@@ -21,10 +21,10 @@
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/Launch-Game.png" />        
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/Launch-Game.png" />        
         </Grid>
-        <local:MyHint Margin="0,15,0,0" Text="在 Minecraft Java 1.16 版本以下，您需要一个已经创建的世界（存档）才能对这个世界添加数据包" IsWarn="False" />
+        <local:MyHint Margin="0,15,0,0" Text="在 Minecraft Java 1.16 及以下版本中，您需要在已有的世界（存档）中方可添加数据包。" IsWarn="False" />
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="2. 点击 “单人游戏”，单击选择您想要安装数据包的世界（不是进入世界），点击下方 &quot;编辑&quot; → &quot;打开世界文件夹&quot;" HorizontalAlignment="Left" />
+                        Text="2. 点击 “单人游戏”，单击选择您想要安装数据包的世界（不是进入世界），点击下方 &quot;编辑&quot; → &quot;打开世界文件夹&quot;。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/Edit-World.png" />        
         </Grid>
 
@@ -89,12 +89,12 @@
                         Text="4. 此时，您应该能看到左侧 “可用” 列表中有您下载的数据包，将指针移动至图标将出现一个箭头，点击箭头，此时您应该可以看到此数据包移动到了右侧 “已选” 列表，点击 “完成” 应用数据包。" HorizontalAlignment="Left" />
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/Datapack-List.png" />
         </Grid>
-        <local:MyHint Margin="0,15,0,0" Text="如果点击箭头后出现“这个压缩包是为更旧的 Minecraft 版本所打造的,在此版本可能不会正常工作。”等提示，一般点击“是”，可以向他人或该数据包作者请求帮助" IsWarn="False" />
+        <local:MyHint Margin="0,15,0,0" Text="如果点击箭头后出现“这个压缩包是为更旧的 Minecraft 版本所打造的,在此版本可能不会正常工作。”等提示，一般情况可点击“是”，也可以向他人或该数据包作者请求帮助。" IsWarn="False" />
         <Grid Margin="0,20,0,4">
             <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/10/1/Confirm-Install.png" />        
         </Grid>
         <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                   Text="5. 设置一些你想设置的，如世界名称、游戏模式等，点击下方 “创建新的世界” 进入游戏。"/>
+                   Text="5. 设置一些自定义内容，如世界名称、游戏模式等，点击下方 “创建新的世界” 进入游戏。"/>
     </StackPanel>
 </local:MyCard>
 <local:MyHint Margin="0,0,0,15" Text="作者：jiecs_23、WTP016、CheloverC60" IsWarn="False" />
