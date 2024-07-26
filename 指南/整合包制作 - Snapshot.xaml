@@ -4,7 +4,7 @@
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="你目前所使用的 PCL 快照版仅限你本人使用，禁止发给其他人或是用于制作整合包、服务器客户端。&#xa;不过，你可以使用 PCL 正式版任意制作整合包，点击下方按钮即可下载。" />
         <local:MyButton MinWidth="160" Height="35" Padding="13,0" Margin="0,4,20,8" HorizontalAlignment="Left" ColorType="Highlight"
-                        Text="下载 PCL 正式版" EventType="打开网页" EventData="https://afdian.net/p/0164034c016c11ebafcb52540025c377" />
+                        Text="下载 PCL 正式版" EventType="打开网页" EventData="https://afdian.com/p/0164034c016c11ebafcb52540025c377" />
     </StackPanel>
 </local:MyCard>
 

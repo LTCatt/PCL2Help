@@ -5,6 +5,6 @@
 	"Types": ["启动器","个性化"],
 	"IsEvent": true,
 	"EventType": "弹出窗口",
-	"EventData": "解锁主题切换|主题功能仅对 PCL 的赞助者开放。\n在爱发电赞助后，爱发电私信发送【下载】，按说明操作即可使用主题功能！\n多谢各位的支持啦……\n\n爱发电：https://afdian.net/a/LTCat",
+	"EventData": "解锁主题切换|主题功能仅对 PCL 的赞助者开放。\n在爱发电赞助后，爱发电私信发送【下载】，按说明操作即可使用主题功能！\n多谢各位的支持啦……\n\n爱发电：https://afdian.com/a/LTCat",
 	"ShowInSnapshot": false
 }
