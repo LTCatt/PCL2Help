@@ -37,54 +37,45 @@
 
 <local:MyCard Title="多人游戏已被禁用，请检查你的 Microsoft 账户设置" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
-        <local:MyCard Title="正版账户出现问题" CanSwap="True" IsSwaped="True">
-            <StackPanel Margin="25,40,23,21">
-            <local:MyHint Margin="0,0,0,15" Text="更改账户年龄设置" IsWarn="False" />
-                <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="600"
-                            Text="1. 点击下方链接进入 Microsoft 账户信息，并更改个人资料中的年龄。" />
-                <local:MyListItem Margin="-5,15,-5,0"
-                          Logo = "" Title="Microsoft" Info="Microsoft 账户信息设置"
-                          EventType="打开网页" EventData ="https://account.microsoft.com/profile" Type="Clickable" />
-                <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="600"
-                            Text="注：如果你的账户年龄小于 18 且你是 Microsoft 家庭中的一员，请打开下面查看家庭管理者并用家庭管理者的账号进行更改年龄。" />
-                    <local:MyListItem Margin="-5,15,-5,0"
-                          Logo = "" Title="Microsoft" Info="Microsoft 家庭设置"
-                          EventType="打开网页" EventData ="https://account.microsoft.com/family/home" Type="Clickable" />
-                <local:MyHint Margin="0,0,0,15" Text="更改Xbox联机设置" IsWarn="False" />
-                <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="600"
-                            Text="2. 请打开下方链接进入Xbox在线安全，选择 Xbox 与 Windows 10 设备在线安全，把“您可以加入多人游戏”设置为允许。" />
-                    <local:MyListItem Margin="-5,15,-5,0"
-                          Logo = "" Title="Xbox" Info="Xbox隐私在线安全"
-                          EventType="打开网页" EventData ="https://www.xbox.com/zh-CN/user/settings/privacy-and-safety" Type="Clickable" />
-            </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="离线账户出现问题" CanSwap="True" IsSwaped="True">
-            <StackPanel Margin="25,40,23,21">
-                <TextBlock Margin="0,0,0,4" LineHeight="17"
-                        Text="原因：目前离线账户无法使用 1.16.4 和 1.16.5 的多人游戏功能。" />
-                <TextBlock Margin="0,0,0,4" LineHeight="17"
-                        Text="解决方法：请逐一尝试以下方法。" />
-                <TextBlock Margin="2,0,0,4" LineHeight="17"
-                        Text="1. 使用正版登录或第三方登录进入游戏。" />
-                <TextBlock Margin="2,0,0,4" LineHeight="17"
-                        Text="2. 尝试在启动游戏时断开网络连接。" />
-                <TextBlock Margin="2,0,0,4" LineHeight="17"
-                        Text="3. 安装下方的 “离线多人修正” 或 “Offline Multiplayer” 模组。" />
-                <local:MyListItem  Margin="0,0,0,4"
-		                    Title="离线多人修正 | MultiOfflineFix" Info="Fabric / Forge 1.16.4 - 1.16.5"
-		                    EventType="打开网页" EventData="https://www.mcmod.cn/download/10643.html" Type="Clickable" />
-                <local:MyListItem  Margin="0,0,0,4"
-                            Title="Offline Multiplayer" Info="Fabric 1.16.5"
-                            EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric/releases" Type="Clickable" />
-                <!--MCBBS 已关停，此处链接已失效 -->
-                <TextBlock Margin="2,2,0,4" LineHeight="17"
-                            Text="4. 使用下方的 Authlib 更新工具。" />
-                <local:MyListItem  Margin="0,0,0,4"
-                            Title="Authlib 更新工具" Info="502mc 制作的 Authlib 更新工具，支持修复未安装 Mod 加载器的客户端。"
-                            EventType="打开网页" EventData="https://www.mcbbs.net/thread-1450892-1-1.html" Type="Clickable" />
-            </StackPanel>
-        </local:MyCard>
-
+        <TextBlock Margin="0,5,0,0" FontSize="16" Foreground="{DynamicResource ColorBrush2}"
+                   Text="正版账户" />
+        <local:MyHint Margin="0,10,0,10" Text="如果你是 Microsoft 家庭中的一员，请进入 Microsoft 家庭设置查看家庭管理者，并用家庭管理者的账号更改年龄。" IsWarn="False" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：点击下方按钮进入 Microsoft 账户信息设置，并更改个人资料中的年龄，使其大于 18 周岁。再进入 Xbox 隐私和在线安全，选择 Xbox 与 Windows 10 设备在线安全，把 “您可以加入多人游戏” 设置为 “允许”。" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="Microsoft 账户信息设置" EventType="打开网页" EventData="https://account.microsoft.com/profile" />
+            <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="Xbox 隐私和在线安全" EventType="打开网页" EventData="https://www.xbox.com/zh-CN/user/settings/privacy-and-safety" />
+            <local:MyButton Margin="0,4,20,00" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="Microsoft 家庭设置" EventType="打开网页" EventData="https://account.microsoft.com/family/home" />
+		</StackPanel>
+        
+        <TextBlock Margin="0,20,0,12" FontSize="16" Foreground="{DynamicResource ColorBrush2}"
+                   Text="离线账户" />
+            <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：目前离线账户无法使用 1.16.4 和 1.16.5 的多人游戏功能。" />
+            <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：请逐一尝试以下方法。" />
+            <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="1. 使用正版登录或第三方登录进入游戏。" />
+            <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="2. 尝试在启动游戏时断开网络连接。" />
+            <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="3. 安装下方的 “离线多人修正” 或 “Offline Multiplayer” 模组。" />
+            <local:MyListItem  Margin="0,0,0,4"
+		            Title="离线多人修正 | MultiOfflineFix" Info="Fabric / Forge 1.16.4 - 1.16.5"
+		            EventType="打开网页" EventData="https://www.mcmod.cn/download/10643.html" Type="Clickable" />
+            <local:MyListItem  Margin="0,0,0,4"
+                    Title="Offline Multiplayer" Info="Fabric 1.16.5"
+                    EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric/releases" Type="Clickable" />
+            <!--MCBBS 已关停，此处链接已失效 
+            <TextBlock Margin="2,2,0,4" LineHeight="17"
+                    Text="4. 使用下方的 Authlib 更新工具。" />
+            <local:MyListItem  Margin="0,0,0,4"
+                    Title="Authlib 更新工具" Info="502mc 制作的 Authlib 更新工具，支持修复未安装 Mod 加载器的客户端。"
+                    EventType="打开网页" EventData="https://www.mcbbs.net/thread-1450892-1-1.html" Type="Clickable" />
+            -->
     </StackPanel>
 </local:MyCard>
 
