@@ -71,6 +71,7 @@
 		            EventType="打开网页" EventData="https://account.microsoft.com/profile?lang=zh-CN#main-content-landing-react" Type="Clickable" />
 	<TextBlock Margin="2,0,0,4" LineHeight="17"
                     Text="5. 检查出生日期至现在是否已满18岁" />
+
         <!--MCBBS 已关停，此处链接已失效
         <TextBlock Margin="2,2,0,4" LineHeight="17"
                     Text="4. 使用下方的 Authlib 更新工具。" />
