@@ -53,6 +53,24 @@
         <local:MyListItem  Margin="0,0,0,4"
 		            Title="Offline Multiplayer" Info="Fabric 1.16.5"
 		            EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric/releases" Type="Clickable" />
+	 <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="如果您是正版玩家，可以尝试以下方法。" />
+	 <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="1. 打开以下网站并登录" />
+	 <local:MyListItem  Margin="0,0,0,4"
+		            Title="Xbox隐私设置" 
+		            EventType="打开网页" EventData="https://www.xbox.com/zh-CN/user/settings/privacy-and-safety" Type="Clickable" />
+	 <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="2. 选择“Xbox 和 Windows 10 设备在线安全”" />
+	<TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="3. 将“你可以加入跨网络游戏决定是否允许或阻止玩家在 Xbox 以外的其他游戏服务上进行多人游戏。”设为允许" />
+	<TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="4. 进入Microsoft账户“您的信息”页面并登录" />
+	<local:MyListItem  Margin="0,0,0,4"
+		            Title="Microsoft账户“您的信息”页面" 
+		            EventType="打开网页" EventData="https://account.microsoft.com/profile?lang=zh-CN#main-content-landing-react" Type="Clickable" />
+	<TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="5. 检查出生日期至现在是否已满18岁" />
         <!--MCBBS 已关停，此处链接已失效
         <TextBlock Margin="2,2,0,4" LineHeight="17"
                     Text="4. 使用下方的 Authlib 更新工具。" />
