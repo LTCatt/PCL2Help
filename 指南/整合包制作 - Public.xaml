@@ -2,21 +2,21 @@
 <local:MyCard Title="我可以使用 PCL 制作整合包吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你目前所使用的是 PCL 正式版。正式版没有分发限制，因此你可以发给其他人或是用于制作整合包、服务器客户端，无需向作者申请授权。" />
+                   Text="你目前所使用的是 PCL 正式版。正式版没有分发限制，因此你可以分发给其他人或是用于制作整合包、服务器客户端，无需向作者申请授权。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="自动安装整合包" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="将你的整合包重命名为 modpack.zip 或 modpack.mrpack，和 PCL 的 exe 文件放在同一文件夹下。&#xa;如果这样做，打开 PCL 时，PCL 会自动安装这一整合包。" />
+                   Text="将你的整合包重命名为 modpack.zip 或 modpack.mrpack，并和 PCL 的 exe 文件放在同一文件夹下。&#xa;如果这样做，下次打开 PCL 时将会自动安装这一整合包。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="删除自己的账号信息" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="PCL 将你的账号、密码等重要信息加密存储在注册表中，而不是文件中。&#xa;因此，你无需刻意删除你的账号信息，它们不会随着你的整合包被发放给其他人。" />
+                   Text="PCL 会将你的账号、密码等重要信息加密存储在注册表而不是文件中。&#xa;因此，你无需刻意删除你的账号信息，它们不会随着你的整合包被分发给其他人。" />
     </StackPanel>
 </local:MyCard>
 

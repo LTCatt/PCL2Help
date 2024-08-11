@@ -14,7 +14,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                        Text="3. 在弹出的对话框中选择导出路径，即可将皮肤文件导出。"/>
+                        Text="3. 在弹出的对话框中选择导出路径，即可导出皮肤文件。"/>
         </Grid>
     </StackPanel>
 </local:MyCard>
@@ -29,7 +29,7 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4"
-                        Text="2. 在弹出的对话框中选择导出路径，即可将皮肤文件导出。"/>
+                        Text="2. 在弹出的对话框中选择导出路径，即可导出皮肤文件。"/>
         </Grid>
     </StackPanel>
 </local:MyCard>
