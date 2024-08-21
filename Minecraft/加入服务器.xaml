@@ -86,7 +86,6 @@
                     Text="原因：连接超时。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="解决方法：请逐一尝试和排查以下情况。" />
-        <TextBlock Margin="2,0,0,4" LineHeight="17"/>
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="Connection timed out: no further information" CanSwap="True" IsSwaped="True">
