@@ -9,7 +9,7 @@
             <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                         Text="CurseForge 整合包下载" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/search?class=modpacks" />
             <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                        Text="Modrinth 整合包下载" EventType="打开网页" EventData="https://modrinth.com/shaders" />
+                        Text="Modrinth 整合包下载" EventType="打开网页" EventData="https://modrinth.com/modpacks" />
         </StackPanel>
     </StackPanel>
 </local:MyCard>
