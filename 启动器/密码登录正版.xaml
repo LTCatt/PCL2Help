@@ -1,7 +1,7 @@
 <local:MyCard Title="前言">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="一些微软账户在未使用密码登录时，会使 PCL 的正版登录过程出现一些错误，从而无法登录正版账号。因此，PCL 要求使用密码登录你的微软账户。"/>
+                   Text="微软要求一些账号必须通过输入密码来完成登录验证。下文介绍了如何改用密码登录，或者为没有设置密码的账号添加新的密码。"/>
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="使用密码登录" CanSwap="True">
