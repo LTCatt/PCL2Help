@@ -1,0 +1,38 @@
+<local:MyCard Title="前言">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="微软要求一些账号必须通过输入密码来完成登录验证。下文介绍了如何改用密码登录，或者为没有设置密码的账号添加新的密码。"/>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="使用密码登录" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <Grid Margin="0,5,0,15">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="在执行登录操作时，注意检查登录页面是否有 “其他登录方式” 的选项。如看到此选项，请点击进行选择。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s2.loli.net/2024/10/01/H2WIzxgrKuvaMim.png" />
+        </Grid>
+        <Grid Margin="0,5,0,15">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="在登录页面，系统会询问您希望采用哪种登录方式。此时，您需要选择 “使用我的密码”，然后输入密码完成登录。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s2.loli.net/2024/10/01/2lGTikXzqPMVOxY.png" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="添加/更改密码" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <Grid Margin="0,5,0,15">
+            <StackPanel Margin="0,15,0,4" Width="200" HorizontalAlignment="Left">
+                <TextBlock TextWrapping="Wrap" Text="部分微软账户可能并未设置密码登录，或者忘记了密码，请按照以下步骤进行操作：" HorizontalAlignment="Left" />
+                <local:MyTextButton Margin="0,8,0,3" Text=" - 前往 “添加/更改密码” 页面" HorizontalAlignment="Left" EventType="打开网页" EventData="https://account.live.com/password/Change"/>
+                <TextBlock TextWrapping="Wrap" Text=" - 在该页面按照指示添加密码即可。若忘记密码，可选择该页面 “忘记密码了?” 选项进行找回密码操作。" HorizontalAlignment="Left" />
+            </StackPanel>
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s2.loli.net/2024/10/01/9WA1FQ6dZnGSoRe.png" />    
+        </Grid>
+        <Grid Margin="0,5,0,15">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="完成上述操作后，再按照上方 “使用密码登录” 的操作，即可使用密码登录微软账户。" HorizontalAlignment="Left" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s2.loli.net/2024/10/01/P7RHpTqnVJ9Qk1l.png" />
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+<local:MyHint Margin="0,0,0,10" Text="作者：zkitefly、tangge233&#xa;本教程基于 HMCL 文档改写，点此查看原教程" IsWarn="False" EventType="打开网页" EventData="https://docs.hmcl.net/launcher/use-password-login-microsoft-account.html"/>
