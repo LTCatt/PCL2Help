@@ -1,7 +1,7 @@
 <local:MyCard Title="前言">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="一些微软账户在未使用密码登录时，会使 PCL2 的正版登录过程出现一些错误，从而无法登录正版账号。因此，PCL2 要求使用密码登录你的微软账户。"/>
+                   Text="一些微软账户在未使用密码登录时，会使 PCL 的正版登录过程出现一些错误，从而无法登录正版账号。因此，PCL 要求使用密码登录你的微软账户。"/>
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="使用密码登录" CanSwap="True">
@@ -35,5 +35,4 @@
         </Grid>
     </StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,10" Text="本教程基于 HMCL 文档改写，点此查看原教程" IsWarn="False" EventType="打开网页" EventData="https://docs.hmcl.net/launcher/use-password-login-microsoft-account.html"/>
-<local:MyHint Margin="0,0,0,15" Text="作者：zkitefly、tangge233" IsWarn="False" />
+<local:MyHint Margin="0,0,0,10" Text="作者：zkitefly、tangge233&#xa;本教程基于 HMCL 文档改写，点此查看原教程" IsWarn="False" EventType="打开网页" EventData="https://docs.hmcl.net/launcher/use-password-login-microsoft-account.html"/>
