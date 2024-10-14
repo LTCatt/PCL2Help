@@ -27,7 +27,7 @@
                     Text="将提示条的 IsWarn 属性改为 False 即可改为提示样式。&#xA;使用左边的那堆字符可以在任意地方手动换行，如果需要使用等号、引号等特殊字符，可以自行百度 XAML 转义字符。" />
         <TextBlock Margin="0,6,0,0"
                     Text="卡片（local:MyCard）的 Title 属性决定了它的标题。&#xA;为卡片添加 CanSwap 属性让它可以被折叠，True 代表是，False 代表否。在此基础上，再使用 IsSwaped 属性调整它是否默认被折叠。" />
-   </StackPanel>
+    </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="长宽属性、图片" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
@@ -35,8 +35,8 @@
         <TextBlock Margin="0,0,0,4" Width="320" HorizontalAlignment="Right"
                     Text="任意项目都可以添加 Width 与 Height 属性来控制宽高。HorizontalAlignment 属性可以控制对齐：Center 代表居中，Right 代表居右，例如这段文本就被居右了。" />
         <TextBlock Margin="0,0,0,6"
-                    Text="Image 代表图片，你需要在它的 Source 属性中填写一个网址或文件路径，它会从该处获取图片并显示。通常需要使用 Height 限制它的高度。" />
-        <Image Height="50" HorizontalAlignment="Center" Source="https://zh.minecraft.wiki/images/Grass_Block_JE7_BE6.png?bf67e" />
+                    Text="local:MyImage 代表图片，你需要在它的 Source 属性中填写一个网址或文件路径，它会从该处获取图片并显示。通常需要使用 Height 限制它的高度。" />
+        <local:MyImage Height="50" HorizontalAlignment="Center" Source="https://www.baidu.com/img/flexible/logo/pc/result.png" />
     </StackPanel>
 </local:MyCard>
 
@@ -84,11 +84,11 @@
                     Text="启动 Minecraft 1.12.2" EventType="启动游戏" EventData="1.12.2" />
         <TextBlock Margin="0,0,0,4"
                     Text="在 EventData 后面添加一条竖线（|），竖线后填写服务器 IP，即可在启动该版本的同时自动进入服务器。" />
-		<local:MyButton Margin="0,4,0,0" Width="250" Height="35"
+        <local:MyButton Margin="0,4,0,0" Width="250" Height="35"
                     Text="启动 1.20.1 并进入 Hypixel" EventType="启动游戏" EventData="1.20.1|mc.hypixel.net" ToolTip="服务器 IP：mc.hypixel.net" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+        <TextBlock Margin="0,0,0,4"
                     Text="在 EventData 中填写 \current，表示启动当前被选中的游戏版本，同样可以在后面填写服务器 IP。" />
-		<local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
                     Text="启动当前选中版本并进入 Hypixel" EventType="启动游戏" EventData="\current|mc.hypixel.net" ToolTip="启动当前版本" />
     </StackPanel>
 </local:MyCard>
@@ -173,13 +173,13 @@
         <TextBlock Margin="0,0,0,4"
                     Text="你也可以使用列表项 “local:MyListItem” 来替代按钮，其使用方式与按钮类似。" />
         <local:MyListItem  Margin="-5,2,-5,8"
-		            Logo="https://www.baidu.com/favicon.ico" Title="百度" Info="百度一下，你就知道！" 
-		            EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable" />
+                    Logo="https://www.baidu.com/favicon.ico" Title="百度" Info="百度一下，你就知道！"
+                    EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable" />
         <TextBlock Margin="0,0,0,4"
                     Text="Logo 属性为列表项的图标，指定的可以是链接也可以是文件路径；Title 是大标题，Info 是可选的小标题（详细信息）；Type 如果省略，该列表项则单纯只展示信息，仅当 Type 为 Clickable 才能触发点击效果。"/>
         <local:MyListItem Margin="-5,2,-5,8"
                     Logo="pack://application:,,,/images/Blocks/Grass.png"
-		            EventType="打开帮助" EventData="帮助/自定义帮助.json" Type="Clickable" />
+                    EventType="打开帮助" EventData="帮助/自定义帮助.json" Type="Clickable" />
         <TextBlock Margin="0,0,0,4"
                     Text="EventType、EventData 与按钮几乎一致，唯一不同的是，列表项不支持联网加载帮助文件。" />
     </StackPanel>
@@ -190,30 +190,30 @@
         <TextBlock Margin="0,0,0,4"
                     Text="PCL 内置了一些 Minecraft 方块与物品图片，可以直接使用。"/>
         <StackPanel Orientation="Horizontal" Margin="10,8,0,15" Height="30">
-			<!-- 命令方块 -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/CommandBlock.png"/>
-			<!-- 圆石 -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Cobblestone.png"/>
-			<!-- 金块 -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/GoldBlock.png"/>
-			<!-- 草方块 -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Grass.png"/>
-			<!-- 草径 -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/GrassPath.png"/>
-			<!-- 铁砧 -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Anvil.png"/>
-			<!-- 红石块 -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/RedstoneBlock.png"/>
-			<!-- 红石灯（亮） -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/RedstoneLampOn.png"/>
-			<!-- 红石灯（灭） -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"/>
-			<!-- 鸡蛋 -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Egg.png"/>
-			<!-- 布料（Fabric 图标） -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Fabric.png"/>
-			<!-- 狐狸（NeoForge 图标） -->
-			<Image Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/NeoForge.png"/>
+            <!-- 命令方块 -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/CommandBlock.png"/>
+            <!-- 圆石 -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Cobblestone.png"/>
+            <!-- 金块 -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/GoldBlock.png"/>
+            <!-- 草方块 -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Grass.png"/>
+            <!-- 草径 -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/GrassPath.png"/>
+            <!-- 铁砧 -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Anvil.png"/>
+            <!-- 红石块 -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/RedstoneBlock.png"/>
+            <!-- 红石灯（亮） -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/RedstoneLampOn.png"/>
+            <!-- 红石灯（灭） -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/RedstoneLampOff.png"/>
+            <!-- 鸡蛋 -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Egg.png"/>
+            <!-- 布料（Fabric 图标） -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/Fabric.png"/>
+            <!-- 狐狸（NeoForge 图标） -->
+            <local:MyImage Width="30" Margin="5,0,0,0" Source="pack://application:,,,/images/Blocks/NeoForge.png"/>
         </StackPanel>
         <TextBlock Margin="0,0,0,4"
                     Text="使用时，将上方对应行的 Source 复制到 MyListItem 的 Logo 属性处即可。"/>
@@ -239,7 +239,7 @@
             <TextBlock Text=" 浓度 7 " Margin="5,0" Background="{DynamicResource ColorBrush7}" />
             <TextBlock Text=" 浓度 8 " Margin="5,0" Background="{DynamicResource ColorBrush8}" />
         </StackPanel>
-        <TextBlock TextWrapping="Wrap" Margin="0,15,0,8" Foreground="{DynamicResource ColorBrush2}" Background="{DynamicResource ColorBrush6}"
+        <TextBlock Margin="0,15,0,8" Foreground="{DynamicResource ColorBrush2}" Background="{DynamicResource ColorBrush6}"
                     Text="除了字体颜色，你也可以将主题色用于背景色、边框颜色等颜色参数。例如这行字的颜色为浓度 2，背景为浓度 6。" />
     </StackPanel>
 </local:MyCard>
@@ -271,9 +271,9 @@
             <!-- 为按钮添加 Grid.Column 属性指定它所在的列，不要添加 Width 与 HorizontalAlignment 属性 -->
             <local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35" ColorType="Highlight"
                         Text="打开 B 站" EventType="打开网页" EventData="https://www.bilibili.com/" />
-            <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35" 
+            <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35"
                         Text="进入 Hypixel" EventType="启动游戏" EventData="1.16.3|mc.hypixel.net" ToolTip="使用 Minecraft 1.16.3 进入 Hypixel" />
-            <local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35" 
+            <local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35"
                         Text="打开记事本" EventType="打开文件" EventData="notepad" />
         </Grid>
     </StackPanel>
@@ -321,9 +321,9 @@
  - Width、Height：设置宽度与高度
  - ToolTip：设置鼠标指向时的提示文本
  - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
- - HorizontalAlignment：设置横向对齐方式，居左：Left、居中：Center、居右：Right、拉伸（默认）：Stretch
- - VerticalAlignment：设置纵向对齐方式，居上：Top、居中：Center、居下：Bottom、拉伸（默认）：Stretch
- - IsHitTestVisible：该控件是否响应交互（点击、指向动画等），True 为是（默认），False 为否
+ - HorizontalAlignment：设置横向对齐方式；居左：Left、居中：Center、居右：Right、拉伸（默认）：Stretch
+ - VerticalAlignment：设置纵向对齐方式；居上：Top、居中：Center、居下：Bottom、拉伸（默认）：Stretch
+ - IsHitTestVisible：该控件是否响应交互（点击、指向动画等）；True 为是（默认），False 为否
 
 TextBlock（纯文本）：
  - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
@@ -332,17 +332,20 @@ TextBlock（纯文本）：
  - FontWeight：设置为 Bold 时，文字加粗
  - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
 
-Image（图片）：
+local:MyImage（图片）：
  - Source：要显示的图片的网址，或 PCL 内置图片位置
+ - FallbackSource：当 Source 首次下载失败时，会从该备用地址加载图片
+ - LoadingSource：正在下载网络图片时显示的本地图片（不支持联网下载）；默认为 pack://application:,,,/images/Icons/NoIcon.png
+ - EnableCache：若图片是联网获取的，是否将图片保存到本地缓存，在 7 天内不再重新下载；True 为是（默认），False 为否
 
 local:MyCard（卡片）：
  - Title：设置显示的标题文本
  - CanSwap：卡片是否可以折叠，True 为是，False 为否
  - IsSwaped：卡片是否默认折叠，要求 CanSwap 必须为 True
  - HorizontalAlignment：若使用，要求 CanSwap 必须为 False
- - UseAnimation：是否在展开等高度改变时触发动画，True 为是（默认），False 为否
- - SwapLogoRight：卡片折叠时的箭头是朝下还是朝右，True 为朝右，False 为朝下（默认）
- - HasMouseAnimation：是否在鼠标指向时改变卡片颜色，True 为是（默认），False 为否
+ - UseAnimation：是否在展开等高度改变时触发动画；True 为是（默认），False 为否
+ - SwapLogoRight：卡片折叠时的箭头是朝下还是朝右；True 为朝右，False 为朝下（默认）
+ - HasMouseAnimation：是否在鼠标指向时改变卡片颜色；True 为是（默认），False 为否
 
 local:MyHint（提示条）：
  - Text：设置显示的文本（&#xA; 代表换行）
