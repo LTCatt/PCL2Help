@@ -181,7 +181,7 @@
                     Logo="pack://application:,,,/images/Blocks/Grass.png"
                     EventType="打开帮助" EventData="帮助/自定义帮助.json" Type="Clickable" />
         <TextBlock Margin="0,0,0,4"
-                    Text="EventType、EventData 与按钮几乎一致，唯一不同的是，列表项不支持联网加载帮助文件。" />
+                    Text="EventType、EventData 与按钮几乎一致，唯一不同的是，列表项联网加载帮助文件时，必须手动设置 Title 与 Info 属性，否则会报错。" />
     </StackPanel>
 </local:MyCard>
 

@@ -6,7 +6,7 @@
             <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/01/64c8715fcc1ab.png?comment=启动游戏" />
         </Grid>
         <!-- <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.4 或 1.16.5 版本，或者切换到正版登录。" IsWarn="False" /> -->
-        
+
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 如果选择 &quot;直接连接&quot; 按钮，则输入服务器地址（即 IP），然后点击 &quot;加入服务器&quot;。" HorizontalAlignment="Left" />
@@ -37,32 +37,57 @@
 
 <local:MyCard Title="多人游戏已被禁用，请检查你的 Microsoft 账户设置" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,5,0,0" FontSize="16" Foreground="{DynamicResource ColorBrush2}"
+                   Text="正版账户" />
+        <local:MyHint Margin="0,10,0,10" Text="如果你是 Microsoft 家庭中的一员，请进入 Microsoft 家庭设置查看家庭管理者，并用家庭管理者的账号更改年龄。" IsWarn="False" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：点击下方按钮进入 Microsoft 账户信息设置，并更改个人资料中的年龄，使其大于 18 周岁。再进入 Xbox 隐私和在线安全，选择 Xbox 与 Windows 10 设备在线安全，把 “您可以加入多人游戏” 设置为 “允许”。" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="Microsoft 账户信息设置" EventType="打开网页" EventData="https://account.microsoft.com/profile" />
+            <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="Xbox 隐私和在线安全" EventType="打开网页" EventData="https://www.xbox.com/zh-CN/user/settings/privacy-and-safety" />
+            <local:MyButton Margin="0,4,20,00" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="Microsoft 家庭设置" EventType="打开网页" EventData="https://account.microsoft.com/family/home" />
+		</StackPanel>
+        
+        <TextBlock Margin="0,20,0,12" FontSize="16" Foreground="{DynamicResource ColorBrush2}"
+                   Text="离线账户" />
+            <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：目前离线账户无法使用 1.16.4 和 1.16.5 的多人游戏功能。" />
-        <TextBlock Margin="0,0,0,4" LineHeight="17"
+            <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="解决方法：请逐一尝试以下方法。" />
-        <TextBlock Margin="2,0,0,4" LineHeight="17"
+            <TextBlock Margin="2,0,0,4" LineHeight="17"
                     Text="1. 使用正版登录或第三方登录进入游戏。" />
-        <TextBlock Margin="2,0,0,4" LineHeight="17"
+            <TextBlock Margin="2,0,0,4" LineHeight="17"
                     Text="2. 尝试在启动游戏时断开网络连接。" />
-        <TextBlock Margin="2,0,0,4" LineHeight="17"
+            <TextBlock Margin="2,0,0,4" LineHeight="17"
                     Text="3. 安装下方的 “离线多人修正” 或 “Offline Multiplayer” 模组。" />
-        <local:MyListItem  Margin="0,0,0,4"
+            <local:MyListItem  Margin="0,0,0,4" Logo="pack://application:,,,/images/Blocks/CommandBlock.png"
 		            Title="离线多人修正 | MultiOfflineFix" Info="Fabric / Forge 1.16.4 - 1.16.5"
 		            EventType="打开网页" EventData="https://www.mcmod.cn/download/10643.html" Type="Clickable" />
-        <local:MyListItem  Margin="0,0,0,4"
-		            Title="Offline Multiplayer" Info="Fabric 1.16.5"
-		            EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric/releases" Type="Clickable" />
-        <!--MCBBS 已关停，此处链接已失效
-        <TextBlock Margin="2,2,0,4" LineHeight="17"
+            <local:MyListItem  Margin="0,0,0,4" Logo="pack://application:,,,/images/Blocks/CommandBlock.png"
+                    Title="Offline Multiplayer" Info="Fabric 1.16.5"
+                    EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric/releases" Type="Clickable" />
+            <!--MCBBS 已关停，此处链接已失效 
+            <TextBlock Margin="2,2,0,4" LineHeight="17"
                     Text="4. 使用下方的 Authlib 更新工具。" />
-        <local:MyListItem  Margin="0,0,0,4"
-		            Title="Authlib 更新工具" Info="502mc 制作的 Authlib 更新工具，支持修复未安装 Mod 加载器的客户端。"
-		            EventType="打开网页" EventData="https://www.mcbbs.net/thread-1450892-1-1.html" Type="Clickable" />
-        -->
+            <local:MyListItem  Margin="0,0,0,4"
+                    Title="Authlib 更新工具" Info="502mc 制作的 Authlib 更新工具，支持修复未安装 Mod 加载器的客户端。"
+                    EventType="打开网页" EventData="https://www.mcbbs.net/thread-1450892-1-1.html" Type="Clickable" />
+            -->
     </StackPanel>
 </local:MyCard>
 
+
+<local:MyCard Title="连接超时" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：连接超时。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：请逐一尝试和排查以下情况。" />
+    </StackPanel>
+</local:MyCard>
 <local:MyCard Title="Connection timed out: no further information" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -217,8 +242,8 @@
                     Text="原因：Mod 导致错误。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="解决方法：逐个禁用 Mod，并检查问题是否仍然存在。" />
-        <!-- 参考自：https://forums.minecraftforge.net/topic/119626-%C2%A0internal-exception-ionettyhandlercodecdecoderexception-javalangindexoutofboundsexception-readerindex19139-length1/ -->
+        <!-- 参考自：https://forums.minecraftforge.net/topic/119626-%C2%A0internal-exception-ionettyhandlercodecdecoderexception-javalangindexoutofboundsexception-readerindex19139-length1 -->
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、风释清然SC、龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、风释清然SC、龙腾猫跃、Enigma_Soul" IsWarn="False" />
