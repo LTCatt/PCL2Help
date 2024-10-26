@@ -16,14 +16,14 @@
 	    <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL 中点击 “下载” 按钮，在 “自动下载” 页面中点击 “正式版”，选择想要安装的 Minecraft 版本。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea16a77b83f.png?comment=Minecraft版本选择" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/f897acf73862f5b7f3622dbe3ffcd406565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/26/64ea16a77b83f.png?comment=Minecraft版本选择" />
         </Grid>
 
 		<local:MyHint Margin="0,20,0,0" Text="一般来说，只需要选择最新版或推荐版的 Forge 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" IsWarn="False" />
 		<Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 等待加载完成后，点击 “Forge”，选择合适的 Forge 版本，点击 “开始安装” 按钮。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea16c74e4f3.png?comment=加载器选择" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/1347f940a43e5ebf912d7fae8fee32f9558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/08/26/64ea16c74e4f3.png?comment=加载器选择" />
         </Grid>
 	</StackPanel>
 </local:MyCard>
@@ -33,14 +33,14 @@
 	    <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL 中点击 “下载” 按钮，在 “自动下载” 页面中点击 “正式版”，选择想要安装的 Minecraft 版本。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea16a77b83f.png?comment=Minecraft版本选择" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/f897acf73862f5b7f3622dbe3ffcd406565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/26/64ea16a77b83f.png?comment=Minecraft版本选择" />
         </Grid>
 
 		<local:MyHint Margin="0,20,0,0" Text="一般来说，只需要选择最新版或推荐版的 NeoForge 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" IsWarn="False" />
 		<Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 等待加载完成后，点击 “NeoForge”，选择合适的 NeoForge 版本，点击 “开始安装” 按钮。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2024/07/10/8ac8274608976.jpg?comment=加载器选择" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/44d6a5eea2311a5e32c4439a3ff820b3558830935.jpg@.webp" FallbackSource="https://img.z0z0r4.top/local/2024/07/10/8ac8274608976.jpg?comment=加载器选择" />
         </Grid>
 	</StackPanel>
 </local:MyCard>
@@ -50,21 +50,21 @@
 		<Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL 中点击 “下载” 按钮，在 “自动下载” 页面中点击 “正式版”，选择想要安装的 Minecraft 版本。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea16a77b83f.png?comment=Minecraft版本选择" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/f897acf73862f5b7f3622dbe3ffcd406565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/26/64ea16a77b83f.png?comment=Minecraft版本选择" />
         </Grid>
 
 		<local:MyHint Margin="0,20,0,0" Text="一般来说，只需要选择最新版本的 Fabric 和 Fabric API 即可。仅在出现 Mod 或服务器等兼容问题时，玩家需要遵循相关指示选择特定的版本。" IsWarn="False" />
 		<Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 点击 “Fabric”，选择合适的 Fabric 版本。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea189f2ec4e.png?comment=加载器选择" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/623c486babd5cf6f956407f562b65a6f558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/08/26/64ea189f2ec4e.png?comment=加载器选择" />
         </Grid>
 
 		<local:MyHint Margin="0,20,0,0" Text="虽然 Fabric API 的安装并不是必须的，但绝大多数 Mod 都需要 Fabric API 作为前置。&#xa;现在 PCL 一般会在您选择 Fabric 后同时自动选择 Fabric API。" IsWarn="False" />
 		<Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 点击 “Fabric API”，选择合适的 Fabric API 版本，点击 “开始安装” 按钮。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea19c360e68.png?comment=FabAPI选择" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/ee4f30bd41a4c45fefed2d2bbe7e311e558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/08/26/64ea19c360e68.png?comment=FabAPI选择" />
         </Grid>
 	</StackPanel>
 </local:MyCard>
@@ -74,20 +74,20 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL 中点击 &quot;下载&quot; 按钮，并选择左侧菜单 &quot;资源&quot; 分类下的 &quot;Mod&quot; 选项。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/04/09/6432ac09a99e8.png?comment=Mod下载页面" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/4d570b53b5a7b5705a219a230f8ce305558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/04/09/6432ac09a99e8.png?comment=Mod下载页面" />
         </Grid>
 
         <local:MyHint Margin="0,20,0,0" Text="搜索时请尽量使用 Mod 的英文名称。" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 在左侧页面中通过选择或输入您所需 Mod 的名称、类型、来源、游戏版本及其需要的加载器类型以筛选并搜索整合包。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/04/09/6432ac35f0f42.png?comment=Mod搜索筛选选项" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/a041c32397a56a1e6076c32b8f7442d3565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/04/09/6432ac35f0f42.png?comment=Mod搜索筛选选项" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 选择一个 Mod。本教程使用 &quot;Waystones&quot; 为范例。当您想要安装 Mod 需要安装前置时，点击 &quot;前置 Mod&quot; 字样下方列出的 Mod，并下载与您游戏版本和模组加载器版本兼容的前置 Mod 版本。完成后，点击返回按钮，并下载与您游戏版本和模组加载器版本兼容的 Mod 版本。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/04/09/6432ac1f0507d.png?comment=下载含前置的Mod" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/128d93431d38b5c24d982d565a511818565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/04/09/6432ac1f0507d.png?comment=下载含前置的Mod" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
@@ -108,13 +108,13 @@
 		<Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL 中启动页面中的版本设置中选择需要安装 Mod 的版本，点击版本设置。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea1bd627822.png?comment=版本设置" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/10f3531c1f3b6723794a14f27d5739ca565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/26/64ea1bd627822.png?comment=版本设置" />
         </Grid>
 
 		<Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 在弹出的菜单中点击 &quot;打开 Mod 文件夹&quot; 按钮。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/26/64ea1c54830ba.png?comment=打开文件夹" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/9029c8d68127a7695300961a5cb9e651565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/26/64ea1c54830ba.png?comment=打开文件夹" />
         </Grid>
 
 		<Grid Margin="0,20,0,4">

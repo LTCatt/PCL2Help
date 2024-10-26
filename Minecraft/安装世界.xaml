@@ -21,19 +21,19 @@
 		<Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Width="200"
                         Text="1. 选择你想要导入世界的游戏版本后，点击 “版本设置”。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/12/11/657691bd6338a.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/98bb710db3f3fd90954ece31bd22fd45565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/657691bd6338a.png" />
         </Grid>
 
 		<Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 于 “快捷方式” 一栏中点击 “存档文件夹” 按钮。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/12/11/657691c2605d2.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/a6b0480df8cb9806eea397128cf5b3d9565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/657691c2605d2.png" />
         </Grid>
 
 		<Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 将你下载好的世界的压缩文件解压后并拖入弹出的文件夹中。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/12/11/6576944822045.png" />
+            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/3afe3f112549bb4fd54e8520fd266ccb565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/6576944822045.png" />
         </Grid>
 		
         <Grid Margin="0,20,0,4">
