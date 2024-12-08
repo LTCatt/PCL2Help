@@ -22,20 +22,20 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL 的 “启动” 页面中选择你想进行更新的游戏版本，点击 “版本设置”。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/7a9a549ab96cdbd900d025ed26ef011b565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2024/04/14/661bd55122615.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/7a9a549ab96cdbd900d025ed26ef011b565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2024/04/14/661bd55122615.png" />
         </Grid>
 
 		<local:MyHint Margin="0,20,0,0" Text="第一次进入 Mod 管理页面时可能需要等待一段时间。如若没有箭头，则可能是您无法连接到 CurseForge 或 Modrinth，请尝试使用加速器或 VPN。" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 点击 “Mod 管理”。此时列表中名称最右侧带有向上的箭头的 Mod 即为可更新的 Mod。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/6feebae4e723e5e8c6e71c22121aa2f6565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2024/04/14/661bd5c6bf794.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/6feebae4e723e5e8c6e71c22121aa2f6565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2024/04/14/661bd5c6bf794.png" />
         </Grid>
         
 		<Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 选择您想要更新的 Mod 后，点击下方的 “更新” 按钮，即可开始更新。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/751eb430bc13c4db36717b971f28bb51565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2024/04/14/661bd6755fdb3.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/751eb430bc13c4db36717b971f28bb51565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2024/04/14/661bd6755fdb3.png" />
         </Grid>
 	</StackPanel>
 </local:MyCard>
