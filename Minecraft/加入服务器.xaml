@@ -3,20 +3,20 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 点击启动游戏按钮，然后单击 &quot;多人游戏&quot;。" HorizontalAlignment="Left" />
-            <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/5b8c21a0c000dbe259a878370df19148565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/01/64c8715fcc1ab.png?comment=启动游戏" />
+            <local:MyImage Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/5b8c21a0c000dbe259a878370df19148565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/01/64c8715fcc1ab.png?comment=启动游戏" />
         </Grid>
         <!-- <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.4 或 1.16.5 版本，或者切换到正版登录。" IsWarn="False" /> -->
 
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 如果选择 &quot;直接连接&quot; 按钮，则输入服务器地址（即 IP），然后点击 &quot;加入服务器&quot;。" HorizontalAlignment="Left" />
-            <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/db756a18373d86a9315379a29eae15cc565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/01/64c8715dd99cd.png?comment=多人游戏直接连接" />
+            <local:MyImage Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/db756a18373d86a9315379a29eae15cc565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/01/64c8715dd99cd.png?comment=多人游戏直接连接" />
         </Grid>
 
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 如果选择 &quot;添加服务器&quot; 按钮，则输入服务器名称、服务器地址（即 IP），然后点击 &quot;完成&quot;，并双击加入该服务器，方便以后快速进入。&#xa;服务器名称用于区分不同的服务器，不影响实际连接效果，也可以保留默认。" HorizontalAlignment="Left" />
-            <Image Margin="220,0,0,20" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/1cf1ee43e844f3a838e721f25f300cd8565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/01/64c8715c60c66.png?comment=多人游戏添加服务器" />
+            <local:MyImage Margin="220,0,0,20" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/1cf1ee43e844f3a838e721f25f300cd8565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/08/01/64c8715c60c66.png?comment=多人游戏添加服务器" />
         </Grid>
 
         <TextBlock Margin="0,0,0,5" LineHeight="17"

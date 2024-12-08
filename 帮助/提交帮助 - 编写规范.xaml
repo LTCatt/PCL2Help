@@ -104,7 +104,7 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="在 PCL 中点击 &quot;下载&quot; 按钮，并选择左侧菜单 &quot;资源&quot; 分类下的 &quot;Mod&quot; 选项。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/4d570b53b5a7b5705a219a230f8ce305558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/04/09/6432ac09a99e8.png?comment=Mod下载页面" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/4d570b53b5a7b5705a219a230f8ce305558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/04/09/6432ac09a99e8.png?comment=Mod下载页面" />
         </Grid>
         <TextBlock Margin="0,5,0,2" LineHeight="17"
                     Text="以下为非官方的推荐列表。" />

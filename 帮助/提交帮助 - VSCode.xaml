@@ -22,15 +22,15 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="1. 即使你使用 VSCode，依旧需要安装 Git 工具。点击左侧的第三个按钮 &quot;源代码管理&quot;，按照 VSCode 的引导完成 Git 安装。"/>
-        <Image HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/011fbf49c33bafad055fb9b09ded59e4565437509.png" FallbackSource="https://img.z0z0r4.top/local/2024/07/06/6688c37f0629d.png" />
+        <local:MyImage HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/011fbf49c33bafad055fb9b09ded59e4565437509.png" FallbackSource="https://img.z0z0r4.top/local/2024/07/06/6688c37f0629d.png" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="2. 在左下角管理 → 设置或按下键盘上的 Ctrl 键 + , 键，在搜索框中输入 “git.path”，点击 “在 settings.json 中” 并设置 git.exe 路径（&lt;Git 安装路径&gt;\bin\git.exe），然后保存（Ctrl + S）" />
         <StackPanel Height="35" Margin="0,4,0,10" Orientation="Horizontal">
             <local:MyButton MinWidth="140" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left"
                         Text="在 settings.json 中写入此文本" EventType="复制文本" EventData="{}{&#x000A;&#x0009;&quot;git.path&quot;: &quot;&lt;Git 安装路径&gt;\\bin\\git.exe&quot;,&#x000A;&#x0009;&quot;git.autofetch&quot;: true&#x000A;}" />
         </StackPanel>
-        <Image Margin="0,0,0,8" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/065039878df4c60d12e46f686c09c8be565437509.png" FallbackSource="https://img.z0z0r4.top/local/2024/07/06/6688c37f43af4.png" />
-        <Image Margin="0,0,0,4" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/93b862d660e3bc984b69b5c539f899e8565437509.png" FallbackSource="https://img.z0z0r4.top/local/2024/07/06/6688c37f60b40.png" />
+        <local:MyImage Margin="0,0,0,8" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/065039878df4c60d12e46f686c09c8be565437509.png" FallbackSource="https://img.z0z0r4.top/local/2024/07/06/6688c37f43af4.png" />
+        <local:MyImage Margin="0,0,0,4" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/93b862d660e3bc984b69b5c539f899e8565437509.png" FallbackSource="https://img.z0z0r4.top/local/2024/07/06/6688c37f60b40.png" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="3. 在主界面按下 “F1” 键打开指令输入框，输入 “git clone” 并回车。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -47,10 +47,10 @@
                     Text="最后，点击左边栏 → 源代码管理 → 打开文件夹，选择 Help 文件夹即可。"/>
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="在获取帮助库后，你就可以按照正常自定义帮助的方式对帮助库进行修改了。修改完成后，点击左侧的第三个按钮 &quot;源代码管理&quot; 或按下键盘上的 Ctrl 键 + Shift 键 + G 键，在上方输入你的修改内容，然后点击 &quot;提交&quot; 旁边的小三角，再点击 &quot;提交和推送&quot; ，你的更新就被推送到你的 Fork 仓库了。"/>
-        <Image HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/3c0b5a42ba7a3d1dcabba91c6d9b5c5f565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/09/14/6503004c2096f.png" />
+        <local:MyImage HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/3c0b5a42ba7a3d1dcabba91c6d9b5c5f565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/09/14/6503004c2096f.png" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="在 Pull Request 前，你需要同步原仓库内的内容以保证你的仓库保持最新。打开你的 Fork 仓库主页，找到 &quot;Sync fork&quot; 按钮并点击，再点击 &quot;Update branch&quot;，你的仓库就同步了原仓库。经过了这些步骤之后，你就可以提交你的 Pull Request 了。"/>
-        <Image HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/5ee850721deea6f7c5bcc887b7582a52558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/09/14/6502ffe7b62ee.png" />
+        <local:MyImage HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/5ee850721deea6f7c5bcc887b7582a52558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/09/14/6502ffe7b62ee.png" />
     </StackPanel>
 </local:MyCard>
 
