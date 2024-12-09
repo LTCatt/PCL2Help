@@ -37,6 +37,8 @@
         <TextBlock Margin="0,0,0,6"
                     Text="local:MyImage 代表图片，你需要在它的 Source 属性中填写一个网址或文件路径，它会从该处获取图片并显示。通常需要使用 Height 限制它的高度。" />
         <local:MyImage Height="50" HorizontalAlignment="Center" Source="https://www.baidu.com/img/flexible/logo/pc/result.png" />
+        <TextBlock Margin="0,0,0,6"
+                    Text="如果有多个网址。也可以通过设置 FallbackSource 属性来设置备用地址。&#xA;当从网址 1 获取图片失败后，会自动从网址 2 获取图片。" />
     </StackPanel>
 </local:MyCard>
 
