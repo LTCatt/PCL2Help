@@ -28,7 +28,7 @@
         <Grid Margin="0,10,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="如果你选择使用 OptiFine，进入 “自动安装” 页面，选择 Minecraft 版本后选择合适的 OptiFine 版本，点击 “开始安装” 按钮即可安装。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/5eba09f6de5b9f523aae38cd47b8a96a565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/654770cb669e5.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/5eba09f6de5b9f523aae38cd47b8a96a565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/654770cb669e5.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>
@@ -47,14 +47,14 @@
         <Grid Margin="0,0,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在版本选择中选择需要安装光影的版本，点击 “版本设置”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/1f8dfb1e60c32acceac0afb4cd9671e3565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/65477d6b6278a.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/1f8dfb1e60c32acceac0afb4cd9671e3565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/65477d6b6278a.png" />
         </Grid>
         
         <local:MyHint Margin="0,4,0,0" Text="若未找到 shaderpacks 文件夹，你可以手动创建一个。" IsWarn="False" />
         <Grid Margin="0,10,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 点击 “版本文件夹”，在弹出的文件夹中找到并进入 shaderpacks 文件夹，将你要安装的光影包拖入该文件夹。启动游戏。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/80b263c1e7ae7e2ba2ebac4eceeec2d2565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/65477d81185d5.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/80b263c1e7ae7e2ba2ebac4eceeec2d2565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/65477d81185d5.png" />
         </Grid>
 
         <TextBlock Margin="0,12,0,7" FontSize="19" Foreground="{DynamicResource ColorBrush2}"
@@ -64,7 +64,7 @@
         <Grid Margin="0,10,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="进入游戏后顺次点击 “选项” → “视频设置” → “光影”，点击你想要应用的光影即可。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/600fd52ddf2e043e2fc64c08b9edb6fa565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/65477db23053c.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/600fd52ddf2e043e2fc64c08b9edb6fa565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/65477db23053c.png" />
         </Grid>
         
         <TextBlock Margin="0,12,0,7" FontSize="19" Foreground="{DynamicResource ColorBrush2}"
@@ -74,7 +74,7 @@
         <Grid Margin="0,10,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="进入游戏后顺次点击 “选项” → “视频设置” → “光影包”，选择你想要应用的光影后点击 “完成”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/febfd86f53252349fa541533231d2eaf565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/65477da284435.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/febfd86f53252349fa541533231d2eaf565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/11/05/65477da284435.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>

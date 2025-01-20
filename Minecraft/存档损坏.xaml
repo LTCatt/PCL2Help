@@ -15,14 +15,14 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="文件资源管理器（我的电脑） → 组织 → 文件夹和搜索选项 → 查看 → 取消勾选 “隐藏已知文件的扩展名” 。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/e7283dedd8a334396e486b658329e549565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/65770a71e87f0.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/e7283dedd8a334396e486b658329e549565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/65770a71e87f0.png" />
         </Grid>
         <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
                    Text="Windows 10 / 11" />
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="文件资源管理器（此电脑） → 查看 → 勾选 “文件扩展名”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/46e5433acdf640da5bd94551daf67821565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/6577001f7773e.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/46e5433acdf640da5bd94551daf67821565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/6577001f7773e.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>
@@ -32,19 +32,19 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 点击对应版本的 “版本设置” → “存档文件夹” 后打开 saves 文件夹。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/a6b0480df8cb9806eea397128cf5b3d9565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/657691c2605d2.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/a6b0480df8cb9806eea397128cf5b3d9565437509.jpg" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/657691c2605d2.png" />
         </Grid>
         
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 进入损坏存档，删除 “level.dat” 文件。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/dec1e94a7a658ca8b00c1e21aa07fcbe565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/65770bd54fc33.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/dec1e94a7a658ca8b00c1e21aa07fcbe565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/65770bd54fc33.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 找到 “level.dat_old”，并右键重命名，将后缀 “_old” 部分删除，完成后再次进入世界即可。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/article/59425f9c33304bf1793ff0c02b89c9d2565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/65770c659fdf6.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/59425f9c33304bf1793ff0c02b89c9d2565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/12/11/65770c659fdf6.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>
