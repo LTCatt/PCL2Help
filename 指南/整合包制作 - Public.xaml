@@ -2,21 +2,23 @@
 <local:MyCard Title="我可以使用 PCL 制作整合包吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你目前所使用的是 PCL 正式版。正式版没有分发限制，因此你可以发给其他人或是用于制作整合包、服务器客户端，无需向作者申请授权。" />
+                   Text="你目前所使用的是 PCL 正式版，你可以随意发给其他人或是用于制作整合包、服务器客户端，无需申请授权。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="自动安装整合包" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="将你的整合包重命名为 modpack.zip 或 modpack.mrpack，和 PCL 的 exe 文件放在同一文件夹下。&#xa;如果这样做，打开 PCL 时，PCL 会自动安装这一整合包。" />
+                   Text="若整合包文件名为 modpack.zip 或 modpack.mrpack，且与 PCL 的 exe 文件位于同一文件夹下，那么 PCL 会在打开时自动安装该整合包。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="若在导出时勾选了 “PCL 启动器程序”，就会自动按照此格式打包。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="删除自己的账号信息" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="需要手动删除账号等敏感信息吗？" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="PCL 将你的账号、密码等重要信息加密存储在注册表中，而不是文件中。&#xa;因此，你无需刻意删除你的账号信息，它们不会随着你的整合包被发放给其他人。" />
+                   Text="无需担心正版账号等敏感信息，它们不会随着整合包发放。" />
     </StackPanel>
 </local:MyCard>
 
@@ -30,7 +32,7 @@
 <local:MyCard Title="自定义主页" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你可以在 设置→个性化→主页 中自定义启动器的主页。&#xa;你也可以将你的主页 XAML 文件上传到服务器，并通过 “联网更新” 选项实现主页的动态更新。" />
+                   Text="你可以在 设置 → 个性化 → 主页 中自定义启动器的主页。&#xa;你也可以将你的主页 XAML 文件上传到服务器，并通过 “联网更新” 选项实现主页的动态更新。" />
     </StackPanel>
 </local:MyCard>
 
@@ -44,7 +46,7 @@
 <local:MyCard Title="关闭启动器更新与公告" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,8" LineHeight="17"
-                   Text="你可以在 设置→启动器→系统 中修改启动器的更新方式与公告推送方式。" />
+                   Text="你可以在 设置 → 启动器 → 系统 中修改启动器的更新方式与公告推送方式。" />
 	    <TextBlock Margin="0,0,0,8" LineHeight="17"
                    Text="如果你能通过 QQ 群等方式通知到所有使用你的整合包的玩家，你可以完全关闭启动器更新。&#xa;如果你无法通知到使用整合包的所有玩家，则请至少选择 “仅在有重大漏洞更新时显示提示”，以免有玩家因为无法收到重大漏洞更新而无法正常游戏。" />
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
@@ -62,14 +64,14 @@
 <local:MyCard Title="自带 Java" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="如果你想让整合包自带某个版本的 Java，可以直接将 Java 放在版本文件夹（versions/版本名）中，PCL 会自动搜索并优先选用放在版本文件夹里的 Java。" />
+                   Text="如果你想让整合包自带某个版本的 Java，可以直接将 Java 放在版本文件夹（versions/版本名）中，PCL 会自动搜索并优先选用放在版本文件夹里的 Java。&#xa;在导出时，你必须手动添加配置，才会导出该文件夹中的 Java。" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="关闭 PCL 中不需要的功能" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
-                   Text="你可以在 设置→个性化→功能隐藏 中关闭你不需要的功能入口，例如下载、个性化设置等页面。" />
+                   Text="你可以在 设置 → 个性化 → 功能隐藏 中关闭你不需要的功能入口，例如下载、个性化设置等页面。" />
     </StackPanel>
 </local:MyCard>
 
