@@ -1,0 +1,62 @@
+<local:MyCard Title="自动导出整合包" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="你可以使用 PCL 内置的整合包导出功能快捷地导出整合包并分发给你的朋友。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="PCL 会自动检测可以导出的内容，最大程度地方便你的操作，同时根据已安装的 Mod 添加你可能需要的选项。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="如果你是整合包作者，还可以通过编写配置文件来精准地控制导出内容，或是一键应用之前的导出配置，操作步骤请见下文中的 “高级选项设置” 部分。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="选择版本并自动导出" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL 的 “启动” 页面中选择你想导出的游戏版本，点击 “版本设置”。" HorizontalAlignment="Left" />
+
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/fa623fdb189cd5d32ab362d0d3a1cd58506713078.jpg" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 点击 “导出”。此时呈现的即为整合包的导出页面。你可以为你的整合包自定义名称和版本号。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/73abe4dc45777672e846f8fbe796fbdf506713078.jpg" />
+        </Grid>
+        
+        <local:MyHint Margin="0,20,0,0" Text="一般情况而言，为了使得整合包可以正常运行，至少需要导出 “Mod” 选项及其下方的 “整合包重要数据” 和 “Mod 设置”。其他选项可以按需选择。&#xa;同时注意，如果你勾选了 “PCL 启动器程序” 及其下方的 “PCL 个性化内容”，整合包内将会包含 PCL 程序文件及你的 PCL 设置 → 个性化 中所设置的内容。" IsWarn="False" />
+
+		<Grid Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 选择你想要导出的内容后，点击 “开始导出”，即可完成导出操作。" HorizontalAlignment="Left" />
+
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/f4fb19a6c5dfda5c44dc5ed4929bc2e1506713078.jpg" />
+        </Grid>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="高级选项设置" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,15" Text="对于一般的玩家，上方的教程足以让你导出一个完全可以正常游戏的整合包，下方的内容仅适用于了解相关基础知识的玩家阅读。" IsWarn="True"/>
+        
+        <TextBlock Margin="0,0,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                   Text="修改整合包导出形式" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="PCL 会默认以 Modrinth 格式导出整合包，你可以通过调整如下两个选项来调整 PCL 对整合包的导出方式。" />
+        <TextBlock TextWrapping="Wrap" Margin="2,0,0,4" LineHeight="17" 
+                   Text="1. 打包资源文件，以避免在导入时下载：将 Mod、资源包、光影包的文件直接放入整合包中，这样在导入时就无需联网下载它们。建议仅在无法稳定连接 CurseForge 或 Modrinth 时才考虑启用。" />
+        <TextBlock TextWrapping="Wrap" Margin="2,0,0,4" LineHeight="17" 
+                   Text="2. Modrinth 上传模式：启用此项会生成完全符合 Modrinth 要求的整合包文件。" />
+        
+        <TextBlock Margin="0,12,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
+                   Text="使用配置文件导出" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="PCL 为整合包作者提供了配置文件，允许通过配置文件精准地控制导出范围。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="如果你尚不清楚配置文件如何配置，可以在一个版本中点击 “保存配置” 来导出一个配置文件。配置文件中有详细的注释说明其使用方法，此处不再赘述。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="修改完成配置文件，此后需要使用时，仅需点击 “读取配置” 并选择你的配置文件即可快捷地将你的配置运用于当前整合包的导出。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：风释清然SC" IsWarn="False" />
