@@ -13,7 +13,8 @@
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="1. 在 PCL 的 “启动” 页面中选择你想进行更新的游戏版本，点击 “版本设置”。" HorizontalAlignment="Left" />
+                        Text="1. 在 PCL 的 “启动” 页面中选择你想导出的游戏版本，点击 “版本设置”。" HorizontalAlignment="Left" />
+
             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/fa623fdb189cd5d32ab362d0d3a1cd58506713078.jpg" />
         </Grid>
 
@@ -26,7 +27,8 @@
         <local:MyHint Margin="0,20,0,0" Text="一般情况而言，为了使得整合包可以正常运行，至少需要导出 “Mod” 选项下的 “整合包重要数据” 和 “Mod 设置”。其他选项可以按需选择。&#xa;同时注意，如果你勾选了 “PCL 启动器程序” 及其下方的 “PCL 个性化内容”，整合包内将会包含 PCL 程序文件及你的 PCL 设置 → 个性化 中所设置的内容。" IsWarn="False" />
 		<Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 选择您想要导出的内容后，点击 “开始导出”，即可完成导出操作。" HorizontalAlignment="Left" />
+                        Text="3. 选择你想要导出的内容后，点击 “开始导出”，即可完成导出操作。" HorizontalAlignment="Left" />
+
             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/f4fb19a6c5dfda5c44dc5ed4929bc2e1506713078.jpg" />
         </Grid>
 	</StackPanel>
