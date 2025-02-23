@@ -13,7 +13,8 @@
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="1. 在 PCL 的 “启动” 页面中选择你想进行更新的游戏版本，点击 “版本设置”。" HorizontalAlignment="Left" />
+                        Text="1. 在 PCL 的 “启动” 页面中选择你想导出的游戏版本，点击 “版本设置”。" HorizontalAlignment="Left" />
+
             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/fa623fdb189cd5d32ab362d0d3a1cd58506713078.jpg" />
         </Grid>
 
