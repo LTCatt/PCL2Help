@@ -8,7 +8,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="自动导出整合包" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="导出整合包" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="Minecraft/导出整合包.json" />

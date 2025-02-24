@@ -1,4 +1,4 @@
-<local:MyCard Title="自动导出整合包" Margin="0,0,0,15">
+<local:MyCard Title="导出整合包" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
                    Text="你可以使用 PCL 内置的整合包导出功能快捷地导出整合包并分发给你的朋友。" />
@@ -9,7 +9,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="选择版本并自动导出" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="选择版本并导出" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
