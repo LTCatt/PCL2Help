@@ -1,4 +1,7 @@
-<div align="center"><img src="https://img.z0z0r4.top/local/2022/07/10/1/PCL2HELP.png" alt="PCL 内置帮助库"/></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Hex-Dragon/PCL2/refs/heads/main/Plain%20Craft%20Launcher%202/Images/icon.ico" alt="PCL 内置帮助库"/></div>
+
+<center><h1>PCL 内置帮助库</h1></center>
+
 <div align="center"><img src="https://img.shields.io/github/stars/LTCatt/PCL2Help">&nbsp; <img src="https://img.shields.io/github/forks/LTCatt/PCL2Help?color=%23f8e71c">&nbsp;<img src="https://img.shields.io/github/issues/LTCatt/PCL2Help?color=%237ed321"></div>
 
 
@@ -28,4 +31,7 @@
 
 非常感谢你抽出宝贵的时间参与编写！
 
-###### 本 README 由 XiaoFans 与龙腾猫跃共同编辑。
+
+------
+
+###### 本 README 由 XiaoFans 与龙腾猫跃 以及 [fuydg](https://github.com/settings/enterprises) 共同编辑。
