@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Hex-Dragon/PCL2/refs/heads/main/Plain%20Craft%20Launcher%202/Images/icon.ico" alt="PCL 内置帮助库" width="64" height="64"/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Hex-Dragon/PCL2/refs/heads/main/Plain%20Craft%20Launcher%202/Images/icon.ico" alt="PCL 内置帮助库" width="200" />
 </div>
 
 # PCL 内置帮助库
