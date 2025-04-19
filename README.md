@@ -1,10 +1,12 @@
+<div align="center">
+
 <div align="center"><img src="https://raw.githubusercontent.com/Hex-Dragon/PCL2/refs/heads/main/Plain%20Craft%20Launcher%202/Images/icon.ico" alt="PCL 内置帮助库"/></div>
 
-<center><h1>PCL 内置帮助库</h1></center>
+# PCL 内置帮助库
 
 <div align="center"><img src="https://img.shields.io/github/stars/LTCatt/PCL2Help">&nbsp; <img src="https://img.shields.io/github/forks/LTCatt/PCL2Help?color=%23f8e71c">&nbsp;<img src="https://img.shields.io/github/issues/LTCatt/PCL2Help?color=%237ed321"></div>
 
-
+</div>
 
 ## 💎 简介
 
