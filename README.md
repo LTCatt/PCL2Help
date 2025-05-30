@@ -1,13 +1,20 @@
-<div align="center"><img src="https://img.z0z0r4.top/local/2022/07/10/1/PCL2HELP.png" alt="PCL 内置帮助库"/></div>
+<div align="center">
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Hex-Dragon/PCL2/refs/heads/main/Plain%20Craft%20Launcher%202/Images/icon.ico" alt="PCL 内置帮助库" width="60" />
+</div>
+
+### PCL 内置帮助库
+
 <div align="center"><img src="https://img.shields.io/github/stars/LTCatt/PCL2Help">&nbsp; <img src="https://img.shields.io/github/forks/LTCatt/PCL2Help?color=%23f8e71c">&nbsp;<img src="https://img.shields.io/github/issues/LTCatt/PCL2Help?color=%237ed321"></div>
 
+</div>
 
-
-## 💎 简介
+## 简介
 
 这是一个 PCL 启动器内置的帮助库，你可以通过它查阅到关于 PCL 启动器及 Minecraft 的帮助。 由 PCL 用户及 Minecraft 玩家共同编写维护。
 
-## ✨ 它有什么用？
+## 它有什么用？
 
 有许多 MC 新人在游戏过程中会遇到很多疑惑，也有 PCL 用户在使用时出现了一些问题。本帮助库的目标即为尽量帮助大家解决这些问题，让新人对 MC 更为熟悉。
 
@@ -18,7 +25,7 @@
 - Minecraft 的常见启动错误的解决方案
 - 制作整合包及服务器客户端的指南
 
-## 🎨 我要如何参与编写？
+## 我要如何参与编写？
 
 这个帮助库几乎由大家自发编写维护，我们也非常需要你的参与！
 
@@ -28,4 +35,3 @@
 
 非常感谢你抽出宝贵的时间参与编写！
 
-###### 本 README 由 XiaoFans 与龙腾猫跃共同编辑。
