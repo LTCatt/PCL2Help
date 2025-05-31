@@ -6,8 +6,8 @@
 <local:MyCard Title="如何选择 Mod 加载器？" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Mod 加载器是为 Minecraft 安装 Mod 的必要前置条件，要想安装 Mod，必须先安装 Mod 加载器。目前主流的 Mod 加载器有 Forge、NeoForge、Fabric 和 Quilt 等，而它们不能同时被安装在同一个版本中。" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Forge 几乎支持所有 Minecraft 正式版本，而 Fabric 和 Quilt 只支持 1.14 及以上的正式版本。总体上，Forge 支持的 Mod 比其他 Mod 加载器更多，但一部分 Mod 只支持 Fabric 或 Quilt。" />
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="有一些 Mod 仅支持其中一种加载器，因此，你需要尝试搜索其它加载器中有没有类似的 Mod 可以当作替代品。Quilt 兼容一部分 Fabric 的 Mod，但是 Fabric 不兼容 Quilt 的 Mod；Forge 与 Fabric 不兼容；Liteloader 与 Forge 兼容。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="Forge 几乎支持所有 Minecraft 正式版本，而 Fabric 和 Quilt 只支持 1.14 及以上的正式版本，NeoForge 只支持 1.20.1 及以上的正式版本。总体上，Forge 支持的 Mod 比其他 Mod 加载器更多，但一部分 Mod 只支持 Fabric 或 NeoForge 或 Quilt。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="有一些 Mod 仅支持其中一种加载器，因此，你需要尝试搜索其它加载器中有没有类似的 Mod 可以当作替代品。Quilt 兼容一部分 Fabric 的 Mod，但是 Fabric 不兼容 Quilt 的 Mod；Forge 与 Fabric 不兼容；Liteloader 与 Forge 兼容；在 1.20.1 版本中 NeoForge 兼容大部分 Forge 的 Mod。" />
 	</StackPanel>
 </local:MyCard>
 
