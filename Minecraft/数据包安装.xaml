@@ -12,7 +12,7 @@
 	        <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
 	                        Text="Planet Minecraft 数据包下载" EventType="打开网页" EventData="https://www.planetminecraft.com/data-packs/" />
 	    </StackPanel>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+        <TextBlock TextWrapping="Wrap" Margin="0,8,0,4"
                    Text="同时，PCL 中也提供了数据包的下载渠道，你可以在 “下载 → 数据包” 中找到你所需的数据包。" />
     </StackPanel>
 </local:MyCard>
