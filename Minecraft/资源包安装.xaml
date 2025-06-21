@@ -8,6 +8,8 @@
             <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                         Text="Modrinth 资源包下载" EventType="打开网页" EventData="https://modrinth.com/resourcepacks" />
         </StackPanel>
+        <TextBlock TextWrapping="Wrap" Margin="0,8,0,4"
+                   Text="同时，PCL 中也提供了资源包的下载渠道，你可以在 “下载 → 资源包” 中找到你所需的资源包。" />
     </StackPanel>
 </local:MyCard>
 

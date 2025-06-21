@@ -6,12 +6,14 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="你可以在许多相关资源网站找到数据包，诸如 Modrinth、Planet Minecraft 等。你可以点击下面的按钮来快速跳转至这些网站：" />
-	<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+	    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
 	        <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
 	                        Text="Modrinth 数据包下载" EventType="打开网页" EventData="https://modrinth.com/datapacks" />
 	        <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
 	                        Text="Planet Minecraft 数据包下载" EventType="打开网页" EventData="https://www.planetminecraft.com/data-packs/" />
-	</StackPanel>
+	    </StackPanel>
+        <TextBlock TextWrapping="Wrap" Margin="0,8,0,4"
+                   Text="同时，PCL 中也提供了数据包的下载渠道，你可以在 “下载 → 数据包” 中找到你所需的数据包。" />
     </StackPanel>
 </local:MyCard>
 
