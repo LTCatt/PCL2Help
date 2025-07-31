@@ -29,6 +29,10 @@
                     Text="    ✔  233.233.233.233:12345" />
         <TextBlock Foreground="#DD4411" Margin="0,0,0,5"
                     Text="    ❌  http://mc.hypixel.net" />
+        <TextBlock Foreground="#DD4411" Margin="0,0,0,5"
+                    Text="    ❌  233.233.233.233：12345" />
+        <TextBlock Margin="0,0,0,5" LineHeight="17"
+                    Text="请注意，如果服务器 IP 中包括冒号，请使用英文输入法输入，不要打成中文冒号。" />
 
     </StackPanel>
 </local:MyCard>
@@ -115,7 +119,7 @@
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：无法访问目标地址。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="解决方法：确认服务器地址拼写正确（尽量复制粘贴），或者确认服务器已开启。" />
+                    Text="解决方法：确认服务器地址拼写正确（尽量复制粘贴），确认服务器已开启，并确认服务器地址中的冒号使用英文（半角）冒号。" />
     </StackPanel>
 </local:MyCard>
 
