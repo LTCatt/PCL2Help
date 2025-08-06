@@ -5,7 +5,7 @@
         <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
                     Text="本篇简单介绍了在 PCL 中使用 XAML 进行自定义页面的相关语法。由于内容繁多，建议下载本篇代码参考学习。" />
         <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
-                    Text="下载本篇的代码" EventType="下载文件" EventData="https://cdn.jsdelivr.net/gh//LTCatt/PCL2Help@latest/个性化/XAML%20格式.xaml" ToolTip="下载本篇的代码" />
+                    Text="下载本篇的代码" EventType="下载文件" EventData="https://testingcf.jsdelivr.net/gh/LTCatt/PCL2Help@latest/个性化/XAML%20格式.xaml" ToolTip="下载本篇的代码" />
     </StackPanel>
 </local:MyCard>
 
