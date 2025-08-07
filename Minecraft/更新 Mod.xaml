@@ -17,7 +17,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="选择 Mod 并更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="选择 Mod 并更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"

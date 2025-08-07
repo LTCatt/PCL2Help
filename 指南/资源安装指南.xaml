@@ -1,40 +1,40 @@
 ﻿
-<local:MyCard Title="安装 Mod / 模组" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 Mod / 模组" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装光影" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装光影" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="Minecraft/安装光影.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装存档 / 地图 / 世界" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装存档 / 地图 / 世界" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="Minecraft/安装世界.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装数据包 / 原版模组" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装数据包 / 原版模组" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="Minecraft/数据包安装.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装整合包" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装整合包" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="Minecraft/整合包安装.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装资源包 / 纹理包（材质包）" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装资源包 / 纹理包（材质包）" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="Minecraft/资源包安装.json" />

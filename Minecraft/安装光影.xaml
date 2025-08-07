@@ -24,7 +24,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 OptiFine" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 OptiFine" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,4,0,0" Text="若您需要在 Fabric 中加载 OptiFine，直接在自动安装页面选择你想要安装的 Fabric 版本即可，PCL 会自动为你选择安装合适的 Fabric API 和 OptiFabric。（1.20.5+ 没有 OptiFabric，无法在 Fabric 中加载，如需加载光影请考虑使用 Iris Shaders。）" IsWarn="False" />
         <Grid Margin="0,10,0,4">
@@ -35,7 +35,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 Iris Shaders" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 Iris Shaders" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                    Text="如果你选择使用 Iris Shaders，在 Mod 下载界面搜索 “Iris Shaders” 即可。如果你尚不清楚如何使用 PCL 安装 Mod，可以查看此教程：" />

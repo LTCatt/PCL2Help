@@ -12,7 +12,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="第一种问题解决方案" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="第一种问题解决方案" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -52,7 +52,7 @@
 </local:MyCard>
 
 <!-- 第二种问题解决方案 -->
-<local:MyCard Title="第二种问题解决方案" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="第二种问题解决方案" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
         <!-- 此处我存疑，部分台式电脑无无线局域网功能 -->
         <Grid>

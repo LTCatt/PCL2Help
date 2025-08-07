@@ -7,7 +7,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Windows 10" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Windows 10" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -42,7 +42,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Windows 11" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Windows 11" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"

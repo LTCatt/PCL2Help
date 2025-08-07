@@ -67,7 +67,7 @@
     </Grid>
 </local:MyCard>
 
-<local:MyCard Title="对于 Minecraft Java 1.16 及以上版本的安装方法" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="对于 Minecraft Java 1.16 及以上版本的安装方法" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="这是 1.16 及以上版本的新的更便捷的安装方式。新的安装方式需要在创建一个世界前操作。&#xa;如果您已经创建了世界您依旧可以使用上面的方式来安装数据包。" IsWarn="False" />
 

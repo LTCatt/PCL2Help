@@ -14,7 +14,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装已有的压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装已有的压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         
         <local:MyHint Margin="0,0,0,15" Text="以下情况假设您已下载好整合包文件。&#xa;若拖入文件时鼠标指针显示禁止符号，请检查是否以管理员身份打开了 PCL 并重启 PCL。" IsWarn="False" />
@@ -33,7 +33,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="下载并安装 CurseForge 或 Modrinth 整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="下载并安装 CurseForge 或 Modrinth 整合包" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"

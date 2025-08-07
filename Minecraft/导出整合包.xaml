@@ -9,7 +9,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="选择版本并导出" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="选择版本并导出" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -35,7 +35,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="高级选项设置" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="高级选项设置" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,0,0,15" Text="对于一般的玩家，上方的教程足以让你导出一个完全可以正常游戏的整合包，下方的内容仅适用于了解相关基础知识的玩家阅读。" IsWarn="True"/>
         

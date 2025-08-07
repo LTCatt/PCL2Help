@@ -7,7 +7,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="显示文件扩展名" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="显示文件扩展名" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,0,0,15" Text="如您阅读了下方的教程中发现您的文件没有显示后缀，则请依照如下步骤显示文件扩展名。" IsWarn="False"/>
         <TextBlock Margin="0,0,0,7" FontSize="15" Foreground="{DynamicResource ColorBrush2}"
