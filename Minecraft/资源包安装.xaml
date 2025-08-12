@@ -66,7 +66,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="对于 1.16 以上版本的安装方法" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="对于 1.16 以上版本的安装方法" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="这是 1.16 以上版本的更快捷的安装方式，你依旧可以使用上面的方式来安装材质。" IsWarn="False" />
 

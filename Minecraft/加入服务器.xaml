@@ -1,4 +1,4 @@
-<local:MyCard Title="如何加入服务器？" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
+<local:MyCard Title="如何加入服务器？" CanSwap="True" IsSwapped="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -35,7 +35,7 @@
 
 <local:MyHint Margin="0,0,0,15" Text="若在加入服务器时遇到问题，可以查看下列常见错误中是否包含了你的问题。" IsWarn="False" />
 
-<local:MyCard Title="多人游戏已被禁用，请检查你的 Microsoft 账户设置" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="多人游戏已被禁用，请检查你的 Microsoft 账户设置" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,5,0,0" FontSize="16" Foreground="{DynamicResource ColorBrush2}"
                    Text="正版账户" />
@@ -80,7 +80,7 @@
 </local:MyCard>
 
 
-<local:MyCard Title="连接超时" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="连接超时" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：连接超时。" />
@@ -88,7 +88,7 @@
                     Text="解决方法：请逐一尝试和排查以下情况。" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="Connection timed out: no further information" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Connection timed out: no further information" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：连接超时。" />
@@ -110,7 +110,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="未知的主机 Unknown host 或 Cannot assign requested address: no further information" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="未知的主机 Unknown host 或 Cannot assign requested address: no further information" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：无法访问目标地址。" />
@@ -119,7 +119,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Can't resolve hostname" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Can't resolve hostname" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：解析服务器地址失败。" />
@@ -128,7 +128,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="您的主机中的软件中止了一个已建立的连接" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="您的主机中的软件中止了一个已建立的连接" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：网络状况不佳。" />
@@ -137,7 +137,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="登入失败、Failed to login 或 Bad login" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="登入失败、Failed to login 或 Bad login" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：离线玩家尝试登录正版服务器。" />
@@ -146,7 +146,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Invalid characters in username" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Invalid characters in username" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：用户名包含中文或特殊字符。" />
@@ -155,7 +155,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Outdated server 或 Outdated client" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Outdated server 或 Outdated client" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：您的 Minecraft 版本与服务器不匹配。" />
@@ -164,7 +164,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="You are not white-listed on this server" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="You are not white-listed on this server" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：不在服务器白名单内。" />
@@ -173,7 +173,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="You are banned from this server" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="You are banned from this server" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：被服务器封禁。" />
@@ -182,7 +182,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Internal server error" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Internal server error" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：服务器内部错误。" />
@@ -191,7 +191,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="End of Stream" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="End of Stream" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：客户端 Mod 出错，或频繁加入服务器。" />
@@ -200,7 +200,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Server closed" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Server closed" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：服务器已关闭。" />
@@ -209,7 +209,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Server is full" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Server is full" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：服务器已满。" />
@@ -218,7 +218,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Internal Exception: io.netty.handler.timeout.ReadTimeoutException" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Internal Exception: io.netty.handler.timeout.ReadTimeoutException" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：客户端无法读取服务器传输的数据包（数据包过大）或服务器状态不佳。" />
@@ -227,7 +227,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="java.lang.IllegalArgumentException: Packet too big" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="java.lang.IllegalArgumentException: Packet too big" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：客户端无法读取服务器传输的数据包，因为数据包过大。你有可能被禁人塔、禁人书等造成的大量数据阻塞在服务器外。" />
@@ -236,7 +236,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：Mod 导致错误。" />

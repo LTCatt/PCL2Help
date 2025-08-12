@@ -1,19 +1,19 @@
 ﻿
-<local:MyCard Title="我可以使用 PCL 制作整合包吗？" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="我可以使用 PCL 制作整合包吗？" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="你目前所使用的是 PCL 正式版，你可以随意发给其他人或是用于制作整合包、服务器客户端，无需申请授权。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="导出整合包" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="导出整合包" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="Minecraft/导出整合包.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="自动安装整合包" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="自动安装整合包" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="若整合包文件名为 modpack.zip 或 modpack.mrpack，且与 PCL 的 exe 文件位于同一文件夹下，那么 PCL 会在打开时自动安装该整合包。" />
@@ -22,35 +22,35 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="需要手动删除账号等敏感信息吗？" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="需要手动删除账号等敏感信息吗？" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="无需担心正版账号等敏感信息，它们不会随着整合包发放。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="设置第三方登录、限制登录方式" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="设置第三方登录、限制登录方式" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="启动器/指定登录方式.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="自定义主页" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="自定义主页" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="你可以在 设置 → 个性化 → 主页 中自定义启动器的主页。&#xa;你也可以将你的主页 XAML 文件上传到服务器，并通过 “联网更新” 选项实现主页的动态更新。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="自定义帮助页面" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="自定义帮助页面" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="关闭启动器更新与公告" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="关闭启动器更新与公告" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,8" LineHeight="17"
                    Text="你可以在 设置 → 启动器 → 系统 中修改启动器的更新方式与公告推送方式。" />
@@ -61,21 +61,21 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="修改启动时 “你知道吗?” 的内容" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="修改启动时 “你知道吗?” 的内容" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="在 PCL 文件夹下新建一个名为 hints.txt 的文件，然后每一行写入一条信息，即可修改启动时 “你知道吗?” 的内容。&#xa;PCL 读取该文件时会忽略空行。&#xa;若写入后出现乱码，可以尝试将编码改为 UTF-8。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="自带 Java" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="自带 Java" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="如果你想让整合包自带某个版本的 Java，可以直接将 Java 放在版本文件夹（versions/版本名）中，PCL 会自动搜索并优先选用放在版本文件夹里的 Java。&#xa;在导出时，你必须手动添加配置，才会导出该文件夹中的 Java。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="关闭 PCL 中不需要的功能" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="关闭 PCL 中不需要的功能" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
 	    <TextBlock Margin="0,0,0,4" LineHeight="17"
                    Text="你可以在 设置 → 个性化 → 功能隐藏 中关闭你不需要的功能入口，例如下载、个性化设置等页面。" />

@@ -1,4 +1,4 @@
-<local:MyCard Title="正版账户" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="正版账户" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -19,7 +19,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="离线及第三方账户" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="离线及第三方账户" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"

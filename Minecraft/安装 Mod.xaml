@@ -11,7 +11,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 Mod 加载器（Forge）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 Mod 加载器（Forge）" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
 	    <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -28,7 +28,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 Mod 加载器（NeoForge）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 Mod 加载器（NeoForge）" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
 	    <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -45,7 +45,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 Mod 加载器（Fabric）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 Mod 加载器（Fabric）" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
 		<Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -69,7 +69,7 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="下载并安装 Mod（CurseForge 和 Modrinth）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="下载并安装 Mod（CurseForge 和 Modrinth）" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
@@ -97,7 +97,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="下载并安装 Mod（Mod 文件）" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="下载并安装 Mod（Mod 文件）" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
 	<StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,0,0,10" Text="在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。&#xa;下载完成的 Mod 文件的扩展名一般为 .jar（用于老旧加载器 LiteLoader 的 Mod 扩展名为 .litemod）" IsWarn="False" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Text="虽然 PCL 内置的 Mod 下载功能可以满足大部分安装 Mod 的需求，但在很多情况下，玩家仍需通过网站的方式来安装 Mod。" />

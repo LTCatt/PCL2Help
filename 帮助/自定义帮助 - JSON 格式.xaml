@@ -124,7 +124,7 @@
     </Grid>
 </local:MyCard>
 
-<local:MyCard Title="第一类 JSON 范例" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="第一类 JSON 范例" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyListItem Margin="0,0,0,10"
 		                  EventType="打开帮助" EventData="帮助/自定义帮助.json" />
@@ -137,7 +137,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="第二类 JSON 范例" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="第二类 JSON 范例" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyListItem Margin="0,0,0,10"
 		                  EventType="打开帮助" EventData="百科/Minecraft Wiki.json" />
