@@ -14,25 +14,25 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 点击启动页面下方的 “版本选择”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/23c5f07d81e3ca4a0f2208d45f4b894c565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/02/19/63f20230b5136.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/23c5f07d81e3ca4a0f2208d45f4b894c565437509.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 右键点击需要修改的游戏版本。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/4f6dbbe781eecc06ba8151ef1acf0bcf565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/02/19/63f20230c9e9b.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/4f6dbbe781eecc06ba8151ef1acf0bcf565437509.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 点击左侧 “设置” 按钮。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/8a1e28c4e649287b701366e90dd6b8af565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/02/19/63f20230bedd5.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/8a1e28c4e649287b701366e90dd6b8af565437509.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="4. 滑动至下方，在 “服务器” 中选择登录方式即可切换。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/d14d60b1f634bf4bc56baa2be5dc7abc565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/05/13/645f36c487851.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/d14d60b1f634bf4bc56baa2be5dc7abc565437509.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>

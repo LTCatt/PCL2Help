@@ -17,21 +17,21 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在任务栏上找到对应网络状态的图标，右键点击此图标后，点击 &quot;网络和 Internet 设置&quot;。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/5b1b2b6a21c158cbc15eb93cfb687c0e558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2022/07/26/6/Taskbar.NI.Settings.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/5b1b2b6a21c158cbc15eb93cfb687c0e558830935.png@.webp" />
         </Grid>
         <!-- 更改适配器设置 -->
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. Win10: 转到 &quot;状态&quot; 页面并点击 &quot;更改适配器设置&quot;。&#xA; Win11: 点击 &quot;高级网络设置&quot; 后点击下方的 &quot;更多网络适配器选项&quot;。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/e288e246fe5d2bf9a1ab6334e900b215565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/25/6/Adopt_Settings.png" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/49160edf12a0dda275aeb0e92943f606565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/26/6/Win11.Settings.NW.SPQ.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/e288e246fe5d2bf9a1ab6334e900b215565437509.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/49160edf12a0dda275aeb0e92943f606565437509.png" />
         </Grid>
         <!-- 右键点击你的连接 点击属性 -->
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 右键点击您目前正在连接的网络（一般为 &quot;以太网&quot; 或 &quot;WLAN&quot;），点击属性。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/429bb4224a7b2bcf72175dd348b583a7565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/10/1/4R.png" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/0f7ffd50c89b150ae54a4641bf351c29558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2022/07/25/6/Network_Settings.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/429bb4224a7b2bcf72175dd348b583a7565437509.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/0f7ffd50c89b150ae54a4641bf351c29558830935.png@.webp" />
         </Grid>
 
         <local:MyHint Margin="0,20,0,0" Text="您也可选择其他国内知名 DNS 提供商提供的 DNS（如 DNSPod）。" IsWarn="False" />
@@ -39,7 +39,7 @@
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="4. 双击 &quot;Internet 协议版本 4 (TCP/IPv4)&quot;，点击使用下面的 DNS 服务器地址，在 &quot;首选 DNS 服务器&quot; 内填写 &quot;223.5.5.5&quot;，在 &quot;备用 DNS 服务器&quot; 内填写 &quot;223.6.6.6&quot; 并保存。" HorizontalAlignment="Left" />
             <!-- 此处原 DNS 为微软公用 DNS，鉴于此 DNS 在中国大陆内使用情况不佳，更改为阿里云 DNS -->
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/632b250960430074f87fe4b5977c9b23565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/26/6/ControlPanel.DNS.Settings.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/632b250960430074f87fe4b5977c9b23565437509.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
@@ -65,32 +65,32 @@
                         Text="2. 按下键盘上的 Windows + R 键，打开运行界面，输入 services.msc 打开服务管理程序。" HorizontalAlignment="Left" />
             <local:MyButton MinWidth="170" Height="35" Padding="10,0" Margin="0,5,20,8" HorizontalAlignment="Left"
                         Text="复制 services.msc 命令" EventType="复制文本" EventData="services.msc" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/f8150609ad06388d29711a5702e7324e565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/10/1/10.Service.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/f8150609ad06388d29711a5702e7324e565437509.png" />
         </Grid>
         <!-- 功能开启 -->
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 找到 &quot;Microsoft (R) 诊断中心标准收集器服务&quot;，右键点击属性，改成手动，开启服务。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/8a80550abd6323810eb96ecaf6a85270565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/10/1/11.Microsoft(R).png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/8a80550abd6323810eb96ecaf6a85270565437509.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="4. 在任务栏上找到对应网络状态的图标，右键点击此图标后，点击 &quot;网络和 Internet 设置&quot;。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/30ab861f842066f36639b3cf26dd57ae565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/10/1/Taskbar.NI.Settings.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/30ab861f842066f36639b3cf26dd57ae565437509.png" />
         </Grid>
         <!-- 更改适配器设置 -->
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="5. Win10: 转到 &quot;状态&quot; 页面并点击 &quot;更改适配器设置&quot;。&#xA; Win11: 点击 &quot;高级网络设置&quot; 后点击下方的 &quot;更多网络适配器选项&quot;。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/e288e246fe5d2bf9a1ab6334e900b215565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/25/6/Adopt_Settings.png" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/49160edf12a0dda275aeb0e92943f606565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/26/6/Win11.Settings.NW.SPQ.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/e288e246fe5d2bf9a1ab6334e900b215565437509.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/49160edf12a0dda275aeb0e92943f606565437509.png" />
         </Grid>
         <!-- 右键点击你的连接 点击属性 -->
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="6. 右键点击您目前正在连接的网络（一般为 &quot;以太网&quot; 或 &quot;WLAN&quot;），点击属性。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/429bb4224a7b2bcf72175dd348b583a7565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/10/1/4R.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/429bb4224a7b2bcf72175dd348b583a7565437509.png" />
         </Grid>
 
         <local:MyHint Margin="0,20,0,0" Text="您也可选择其他国内知名 DNS 提供商提供的 DNS（如 DNSPod）。" IsWarn="False" />
@@ -98,7 +98,7 @@
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="7. 双击 &quot;Internet 协议版本 4 (TCP/IPv4)&quot;，点击使用下面的 DNS 服务器地址，在 &quot;首选 DNS 服务器&quot; 内填写 &quot;223.5.5.5&quot;，在 &quot;备用 DNS 服务器&quot; 内填写 &quot;223.6.6.6&quot; 并保存。" HorizontalAlignment="Left" />
             <!-- 此处原 DNS 为微软公用 DNS，鉴于此 DNS 在中国大陆内使用情况不佳，更改为阿里云 DNS -->
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/632b250960430074f87fe4b5977c9b23565437509.png" FallbackSource="https://img.z0z0r4.top/local/2022/07/26/6/ControlPanel.DNS.Settings.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/632b250960430074f87fe4b5977c9b23565437509.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">

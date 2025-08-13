@@ -12,32 +12,32 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="1. 在开始菜单中打开设置，选择 “更新与安全”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/6be0aca3a1a0adf8aa858b312be1aed9558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/06/29/649d8e552c862.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/6be0aca3a1a0adf8aa858b312be1aed9558830935.png@.webp" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="2. 进入左侧菜单中的 “Windows 安全中心” 选项，单击右侧的 “打开 Windows 安全中心” 按钮。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/620a28ea14563a8fb62968925d33d371558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/06/29/649d962150f5d.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/620a28ea14563a8fb62968925d33d371558830935.png@.webp" />
         </Grid>
 
         <local:MyHint Margin="0,20,0,0" Text="若打开 Windows 安全中心后未找到 “病毒和威胁防护” 字样，请直接选择左侧菜单栏中有盾牌图标的选项即可。" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="3. 在弹出的 Windows 安全中心窗口中的左侧菜单栏中选择 “病毒和威胁防护”，在弹出的页面中向下滚动页面，找到并进入 “管理设置”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/6be0aca3a1a0adf8aa858b312be1aed9558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/06/29/649d8fe859c58.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/6be0aca3a1a0adf8aa858b312be1aed9558830935.png@.webp" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="4. 在出现的 “‘病毒和威胁防护’ 设置” 中向下滚动页面，找到并进入 “添加或删除排除项”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/d8f9929711060638d807887dbe45898f558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/06/29/649d91bda42d4.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/d8f9929711060638d807887dbe45898f558830935.png@.webp" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="5. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/0ab491e024c66ae6fcd1a31c11939fbd565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/06/29/649d963b7c37a.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/0ab491e024c66ae6fcd1a31c11939fbd565437509.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>
@@ -47,26 +47,26 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="1. 在开始菜单中打开设置，选择左侧菜单中的 “隐私和安全性”，单击右侧 “Windows 安全中心” 选项。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/c8d95324014a94ad5e9e16b4c504c7cf558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/06/29/649d948165b24.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/c8d95324014a94ad5e9e16b4c504c7cf558830935.png@.webp" />
         </Grid>
 
         <local:MyHint Margin="0,20,0,0" Text="若打开 Windows 安全中心后未找到 “病毒和威胁防护” 字样，请直接选择左侧菜单栏中有盾牌图标的选项即可。" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="2. 在弹出的 Windows 安全中心窗口中的左侧菜单栏中选择 “病毒和威胁防护”，在弹出的页面中向下滚动页面，找到并进入 “管理设置”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/6be0aca3a1a0adf8aa858b312be1aed9558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/06/29/649d8fe859c58.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/6be0aca3a1a0adf8aa858b312be1aed9558830935.png@.webp" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="3. 在出现的 “‘病毒和威胁防护’ 设置” 中向下滚动页面，找到并进入 “添加或删除排除项”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/d8f9929711060638d807887dbe45898f558830935.png@.webp" FallbackSource="https://img.z0z0r4.top/local/2023/06/29/649d91bda42d4.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/d8f9929711060638d807887dbe45898f558830935.png@.webp" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                        Text="4. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/0ab491e024c66ae6fcd1a31c11939fbd565437509.png" FallbackSource="https://img.z0z0r4.top/local/2023/06/29/649d963b7c37a.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/0ab491e024c66ae6fcd1a31c11939fbd565437509.png" />
         </Grid>
     </StackPanel>
 </local:MyCard>
