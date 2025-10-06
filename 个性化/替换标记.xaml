@@ -1,0 +1,33 @@
+
+<local:MyCard Title="简介">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="在部分设置、自定义主页和帮助中，可以使用类似 &#123;time} 的替换标记，它可以动态替换设置和文件中的某些部分。" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="示例">
+    <StackPanel Margin="25,40,23,11">
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="例如，在 设置 → 启动选项 → 游戏窗口标题 中输入 “现在是 &#123;time}”，在启动游戏后就能在游戏窗口看到当前时间。" />
+	    <TextBlock Margin="0,15,0,4" LineHeight="17"
+                   Text="你也可以在 XAML 中直接使用替换标记，例如：" />
+	    <Label Margin="0,0,0,4" Padding="6" Background="{DynamicResource ColorBrush7}"
+                   Content="你在 &#123;date} &#123;time} 点进了这个帮助页，PCL 版本是 &#123;pcl_version}。" />
+	    <TextBlock Margin="0,0,0,4" LineHeight="17"
+                   Text="就会被自动替换为：" />
+	    <Label Margin="0,0,0,4" Padding="6" Background="{DynamicResource ColorBrush7}"
+                   Content="你在 {date} {time} 点进了这个帮助页，PCL 版本是 {pcl_version}。" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="详情">
+    <StackPanel Margin="25,40,23,11">
+        <local:MyListItem Margin="-5,0,-5,8"
+            Title="替换标记 - PCL Wiki" Info="点击查看替换标记的完整列表与说明"
+            Logo="pack://application:,,,/images/Blocks/CommandBlock.png" Type="Clickable"
+		    EventType="打开网页" EventData="https://github.com/Meloong-Git/PCL/wiki/替换标记" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：龙腾猫跃" IsWarn="False" />
