@@ -76,11 +76,9 @@
         <local:MyTextButton Margin="0,8,0,0" HorizontalAlignment="Center"
                     Text="点击打开哔哩哔哩" EventType="打开网页" EventData="https://www.bilibili.com/" />
         <TextBlock Margin="0,30,0,0"
-                    Text="你也可以让一个控件触发多个事件。自定义事件的详细用法请参考下方的 Wiki。" />
-        <local:MyListItem Margin="-5,8,-5,5"
-            Title="自定义事件 - PCL Wiki" Info="点击查看自定义事件的完整列表与说明"
-            Logo="pack://application:,,,/images/Blocks/CommandBlock.png" Type="Clickable"
-		    EventType="打开网页" EventData="https://github.com/Meloong-Git/PCL/wiki/自定义事件" />
+                    Text="自定义事件的详细用法请参考下方的页面。" />
+        <local:MyListItem Margin="-5,4,-5,5"
+		                  EventType="打开帮助" EventData="个性化/自定义事件.json" />
     </StackPanel>
 </local:MyCard>
 
@@ -88,6 +86,37 @@
     <StackPanel Margin="25,40,23,10">
         <local:MyListItem Margin="-5,0,-5,8"
 		                  EventType="打开帮助" EventData="个性化/替换标记.json" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="进阶：高级自定义事件" Margin="0,0,0,15" CanSwap="True" IsSwapped="{variable:TutorialCardSwap:True}">
+    <StackPanel Margin="25,40,23,10">
+        <TextBlock Margin="0,0,0,10"
+            Text="你可以让一个控件触发多个事件。下方的例子展示了连续触发多个事件搭配 {variable} 替换标记的效果。" />
+        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="20,0,20,0" Margin="0,0,0,10"
+            Text="隐藏下方的百度 Logo" Visibility="{variable:TutorialVisibility1:Visible}">
+            <local:CustomEventService.Events>
+                <local:CustomEventCollection>
+                    <local:CustomEvent Type="修改变量" Data="TutorialVisibility1|Collapsed|-" />
+                    <local:CustomEvent Type="修改变量" Data="TutorialVisibility2|Visible|-" />
+                    <local:CustomEvent Type="修改变量" Data="TutorialCardSwap|False|-" />
+                    <local:CustomEvent Type="刷新页面" Data="-" />
+                </local:CustomEventCollection>
+            </local:CustomEventService.Events>
+        </local:MyButton>
+        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="20,0,20,0" Margin="0,0,0,10"
+            Text="再次显示 Logo 并折叠卡片" Visibility="{variable:TutorialVisibility2:Collapsed}">
+            <local:CustomEventService.Events>
+                <local:CustomEventCollection>
+                    <local:CustomEvent Type="修改变量" Data="TutorialVisibility1|Visible|-" />
+                    <local:CustomEvent Type="修改变量" Data="TutorialVisibility2|Collapsed|-" />
+                    <local:CustomEvent Type="修改变量" Data="TutorialCardSwap|True|-" />
+                    <local:CustomEvent Type="刷新页面" Data="-" />
+                </local:CustomEventCollection>
+            </local:CustomEventService.Events>
+        </local:MyButton>
+        <local:MyImage Height="50" HorizontalAlignment="Left" Margin="0,0,0,10" Visibility="{variable:TutorialVisibility1:Visible}"
+            Source="https://www.baidu.com/img/flexible/logo/pc/result.png" />
     </StackPanel>
 </local:MyCard>
 
