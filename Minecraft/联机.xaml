@@ -1,0 +1,82 @@
+<local:MyCard Title="使用 PCL 进行多人游戏" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="你可以使用 PCL 内置的联机功能快捷地与你的好友进行联机，以最大程度地简化联机所需要的操作步骤。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="PCL 的联机功能同样适用于部分其他游戏，此处仅介绍使用 PCL 进行 Minecraft 联机的操作步骤。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                   Text="如果你在加入服务器过程中遇到了问题，可以参考下方帮助提供的解决方案。" />
+        <local:MyListItem Margin="-5,0,-5,8"
+		           EventType="打开帮助" EventData="Minecraft/加入服务器.json" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="创建房间（房主）" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+	<StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 启动 Minecraft，进入世界后按 Esc 进入菜单，点击 “对局域网开放”，在弹出的页面中点击 “创建局域网世界”。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/7180e0a3097c9de5b83ba5a4e60ea594506713078.png" />
+        </Grid>
+
+		<Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 记下游戏对话框中弹出的端口号。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/5f318ffc734f56045a434d7f31ef371c506713078.png" />
+        </Grid>
+        
+		<Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 在 PCL 中打开 “联机” → “创建房间”。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/0dad8ed3ec91f191e8f69d9688c3da04506713078.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="4. 在弹出的窗口中填写刚刚记下的端口号，点击 “确定”。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/7c960576e9836188f69fd7273483f70d506713078.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="5. 点击 “复制邀请码”，将邀请码粘贴分享给你的好友。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/00c056ca267a31b2720b84fdb964bac2506713078.png" />
+        </Grid>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="加入房间（玩家）" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+	<StackPanel Margin="25,40,23,15">
+        <Grid>
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="1. 在 PCL 中打开 “联机” → “加入房间”。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/d1b16bc465221892739f6a3fc9f0b934506713078.png" />
+        </Grid>
+
+		<Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="2. 在弹出的窗口中粘贴你朋友分享给你的邀请码，点击 “确定”。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/ab8df1a3e9f31cd1abe4851342e45e1c506713078.png" />
+        </Grid>
+        
+		<Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="3. 点击 “复制地址”。此后启动 Minecraft。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/d6fa1a3974e830a31b4db794633a5117506713078.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="4. 在主界面中点击 “多人游戏”，选择 “直接连接”。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/f50bcf008ecadca13c23c7efe8e60e2a506713078.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                        Text="5. 粘贴地址，点击 “加入服务器”，即可加入多人游戏世界。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/6f650af92da375f31db52d819b352daf506713078.png" />
+        </Grid>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：虾米逃生计划" IsWarn="False" />
