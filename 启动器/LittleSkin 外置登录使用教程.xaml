@@ -76,4 +76,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：一闪、呇星、EggPixel、风释清然SC、龙腾猫跃" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：一闪、呇星、EggPixel、虾米逃生计划、龙腾猫跃" IsWarn="False" />

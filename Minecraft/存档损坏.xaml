@@ -49,4 +49,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans、风释清然SC" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans、虾米逃生计划" IsWarn="False" />
