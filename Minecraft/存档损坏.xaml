@@ -3,7 +3,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                     Text="电脑蓝屏、死机重启等情况下，游戏存档可能会损坏。如遇存档损坏可参考此教程的方案进行修复。"/>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
-                    Text="但请注意，使用此方法会使得该世界回退至进入游戏前的存档。"/>
+                    Text="修复的原理是由于Minecraft有自动保存机制，修复的存档就是基于上一次保存的存档进行替换，所以使用此方法会使得该世界回退至Minecraft上一次自动保存前的存档。"/>
     </StackPanel>
 </local:MyCard>
 
@@ -49,4 +49,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans、虾米逃生计划" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：XiaoFans、虾米逃生计划、宽宽" IsWarn="False" />
