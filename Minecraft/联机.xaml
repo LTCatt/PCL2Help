@@ -58,25 +58,19 @@
                         Text="2. 在弹出的窗口中粘贴你朋友分享给你的邀请码，点击 “确定”。" HorizontalAlignment="Left" />
             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/ab8df1a3e9f31cd1abe4851342e45e1c506713078.png" />
         </Grid>
-        
-		<Grid Margin="0,20,0,4">
+
+        <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="3. 点击 “复制地址”。此后启动 Minecraft。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/d6fa1a3974e830a31b4db794633a5117506713078.png" />
+                        Text="3. 在主界面中点击 “多人游戏”，找到带有 “PCL联机房间” 的字样。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s21.ax1x.com/2025/11/03/pZSpoYd.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="4. 在主界面中点击 “多人游戏”，选择 “直接连接”。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/f50bcf008ecadca13c23c7efe8e60e2a506713078.png" />
-        </Grid>
-
-        <Grid Margin="0,20,0,4">
-            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                        Text="5. 粘贴地址，点击 “加入服务器”，即可加入多人游戏世界。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/6f650af92da375f31db52d819b352daf506713078.png" />
+                        Text="4. 选择联机房间并点击 “加入服务器”，即可加入多人游戏世界。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s21.ax1x.com/2025/11/03/pZSpTfA.png" />
         </Grid>
 	</StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：虾米逃生计划" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：虾米逃生计划、宽宽" IsWarn="False" />
