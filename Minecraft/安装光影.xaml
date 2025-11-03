@@ -3,9 +3,9 @@
 <local:MyCard Title="选择光影加载器" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders。其中 OptiFine 支持 Forge（可以通过 OptiFabric Mod 兼容 Fabric，但 OptiFabric 没有 1.20.5+ 的版本），Iris Shaders 支持 Fabric、Quilt 和 NeoForge。" />
+                   Text="目前提供光影功能的 Mod 有 OptiFine、Iris Shaders 和 Oculus。其中 OptiFine 支持 Forge（可以通过 OptiFabric Mod 兼容 Fabric，但 OptiFabric 没有 1.20.5+ 的版本），Iris Shaders 支持 Fabric、Quilt 和 NeoForge，Oculus 是 Iris Shaders 的第三方移植版本，目前仅支持 Forge（部分版本） 和 NeoForge（仅支持 1.20.1）且该模组现已停更" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text= "OptiFine 几乎支持所有的 Minecraft 版本，而 Iris Shaders 目前只支持 1.16 及更高版本。" />
+                   Text= "OptiFine 几乎支持所有的 Minecraft 版本，Iris Shaders 目前只支持 1.16 及更高版本，Oculus 只支持 1.16.5-1.20.1" />
     </StackPanel>
 </local:MyCard>
 
@@ -35,10 +35,10 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 Iris Shaders" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+<local:MyCard Title="安装 Iris Shaders 或 Oculus" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="如果你选择使用 Iris Shaders，在 Mod 下载界面搜索 “Iris Shaders” 即可。如果你尚不清楚如何使用 PCL 安装 Mod，可以查看此教程：" />
+                   Text="如果你选择使用 Iris Shaders 或 Oculus，在 Mod 下载界面搜索 “Iris Shaders” 或 “Oculus” 即可。如果你尚不清楚如何使用 PCL 安装 Mod，可以查看此教程：" />
         <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable"
 		            EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
     </StackPanel>
@@ -70,7 +70,7 @@
         </Grid>
         
         <TextBlock Margin="0,12,0,7" FontSize="19" Foreground="{DynamicResource ColorBrush2}"
-                   Text="Iris Shaders" />
+                   Text="Iris Shaders 及 Oculus" />
         
         <local:MyHint Margin="0,4,0,0" Text="如果你在世界中打开光影包页面，则在选择后可以先点击 “应用” 按钮来预览光影包效果后再点击 “完成”。" IsWarn="False" />
         <Grid Margin="0,10,0,4">
@@ -81,4 +81,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：Logic_530、虾米逃生计划" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：Logic_530、虾米逃生计划、宽宽" IsWarn="False" />
