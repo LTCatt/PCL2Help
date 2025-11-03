@@ -3,9 +3,9 @@
 <local:MyCard Title="选择光影加载器" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="目前提供光影功能的 Mod 有 OptiFine、Iris Shaders 和 Oculus。其中 OptiFine 支持 Forge（可以通过 OptiFabric Mod 兼容 Fabric，但 OptiFabric 没有 1.20.5+ 的版本），Iris Shaders 支持 Fabric、Quilt 和 NeoForge，Oculus 是 Iris Shaders 的第三方移植版本，目前仅支持 Forge（部分版本） 和 NeoForge（仅支持1.20.1）且该模组现已停更" />
+                   Text="目前提供光影功能的 Mod 有 OptiFine、Iris Shaders 和 Oculus。其中 OptiFine 支持 Forge（可以通过 OptiFabric Mod 兼容 Fabric，但 OptiFabric 没有 1.20.5+ 的版本），Iris Shaders 支持 Fabric、Quilt 和 NeoForge，Oculus 是 Iris Shaders 的第三方移植版本，目前仅支持 Forge（部分版本） 和 NeoForge（仅支持 1.20.1）且该模组现已停更" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text= "OptiFine 几乎支持所有的 Minecraft 版本，Iris Shaders 目前只支持 1.16 及更高版本，Oculus只支持1.16.5-1.20.1" />
+                   Text= "OptiFine 几乎支持所有的 Minecraft 版本，Iris Shaders 目前只支持 1.16 及更高版本，Oculus 只支持 1.16.5-1.20.1" />
     </StackPanel>
 </local:MyCard>
 
