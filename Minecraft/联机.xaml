@@ -63,7 +63,8 @@
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 在主界面中点击 “多人游戏”，在列表最下方找到 “PCL 联机房间”，双击即可加入游戏。" HorizontalAlignment="Left" />
             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://s21.ax1x.com/2025/11/03/pZSpoYd.png" />
-	</StackPanel>
+        </Grid>
+    </StackPanel>
 </local:MyCard>
 
 <local:MyHint Margin="0,0,0,15" Text="作者：虾米逃生计划、宽宽" IsWarn="False" />
