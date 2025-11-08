@@ -246,4 +246,15 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、虾米逃生计划、龙腾猫跃、Enigma_Soul" IsWarn="False" />
+<local:MyCard Title="Connection throttled! Please wait before reconnecting." CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：短时间内多次尝试连接服务器，触发了服务器的连接速率限制（即防刷连接机制）。该机制用于防止异常连接请求或恶意重复登录。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：请等待数秒后再尝试重新连接服务器。若您是服务器管理员，可在 Bukkit、Spigot、Paper、Leaves 等服务端的 bukkit.yml 配置文件中，将 settings 中的 connection-throttle 参数设置为 0 或 -1 以关闭此限制。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="注意：若关闭该功能，可能增加服务器遭受恶意连接或刷包攻击的风险，请谨慎调整。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、虾米逃生计划、龙腾猫跃、Enigma_Soul、卡带酱" IsWarn="False" />
