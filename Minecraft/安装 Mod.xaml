@@ -23,7 +23,7 @@
 		<Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 等待加载完成后，点击 “Forge”，选择合适的 Forge 版本，点击 “开始安装” 按钮。" HorizontalAlignment="Left" />
-            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/1347f940a43e5ebf912d7fae8fee32f9558830935.png@1192w.avif" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/1347f940a43e5ebf912d7fae8fee32f9558830935.png" />
         </Grid>
 	</StackPanel>
 </local:MyCard>
