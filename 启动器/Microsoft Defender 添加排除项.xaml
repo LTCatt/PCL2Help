@@ -52,13 +52,19 @@
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                       Text="2. 在左侧选择 “病毒和威胁防护”，然后向下滚动页面，找到并进入 “添加或删除排除项”。" HorizontalAlignment="Left" />
+                       Text="2. 在左侧选择 “病毒和威胁防护”，单击右侧 “管理设置”。" HorizontalAlignment="Left" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/new_dyn/1834009d0de8aa4f573251b72862805531320727.png@1280w_996h_1e_1c_!web-dynamic.avif" />
+        </Grid>
+
+        <Grid Margin="0,20,0,4">
+            <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
+                       Text="3. 向下滚动页面，找到并进入 “添加或删除排除项”。" HorizontalAlignment="Left" />
             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/d8f9929711060638d807887dbe45898f558830935.png@.webp" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
-                       Text="3. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
+                       Text="4. 在出现的 “排除项” 页面中点击 “添加排除项” 按钮，选择 “文件夹”，选择 PCL 所在的文件夹，点击 “确定”。" HorizontalAlignment="Left" />
             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/0ab491e024c66ae6fcd1a31c11939fbd565437509.png" />
         </Grid>
     </StackPanel>
