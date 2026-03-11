@@ -29,7 +29,7 @@
         <Grid Margin="0,20,0,20">
             <TextBlock TextWrapping="Wrap" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center"
                        Text="4. 选择皮肤模型：Standard（经典）或 Slim（滑头）。注意：Slim模型仅在 1.8 及以上版本受支持，模型选错会导致手臂错位。" />
-             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/c60b25818c62337c27dc4f904fd616333494362549848523.png" />
+             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/2035ace5d4a4e12cc340c0a7cd44ec813494362549848523.png" />
         </Grid>
 
         <Grid Margin="0,20,0,0">
