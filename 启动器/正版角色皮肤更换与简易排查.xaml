@@ -1,0 +1,77 @@
+<local:MyCard Title="简介">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="17"
+                   Text="微软正版账号登录 PCL 后，启动器与游戏会自动加载官网皮肤。若需更换皮肤，请参考下方的修改步骤。若遇到皮肤不显示的问题，请优先执行检查步骤。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="修改步骤（官网最短流程）" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        
+        <Grid Margin="0,0,0,20">
+            <TextBlock TextWrapping="Wrap" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center"
+                       Text="1. 访问官网 minecraft.net，点击右上角“账户”→“登录”进行登录。" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/fda3dc6c4f6c3706cc64455de19d46573494362549848523.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,20">
+            <TextBlock TextWrapping="Wrap" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center"
+                       Text="2. 登录后自动进入档案页面，或点击右上角“账户”→“档案”进入。" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/db2fac0348a17c3c18a245dec52c1de53494362549848523.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,20">
+            <TextBlock TextWrapping="Wrap" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center"
+                       Text="3. 点击左侧“所有游戏”，在“Minecraft: Java”下方点击“更改皮肤”。" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/ef1651f4e3fede5d53934c279098fa543494362549848523.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,20">
+            <TextBlock TextWrapping="Wrap" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center"
+                       Text="4. 选择皮肤模型：Standard（经典）或 Slim（滑头）。注意：Slim模型仅在 1.8 及以上版本受支持，模型选错会导致手臂错位。" />
+             <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/c60b25818c62337c27dc4f904fd616333494362549848523.png" />
+        </Grid>
+
+        <Grid Margin="0,20,0,0">
+            <TextBlock TextWrapping="Wrap" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center"
+                       Text="5. 点击“选择文件”上传 64×64 尺寸的 PNG 皮肤文件，最后点击“上传”保存。" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/f0fae9383e79d43aed516b75a5a8cbf93494362549848523.png" />
+        </Grid>
+
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="PCL 检查步骤（关键步骤）" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <Grid Margin="0,0,0,20">
+            <TextBlock TextWrapping="Wrap" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center"
+                       Text="A. 方案一：在 PCL 启动器中点击正版，点击人物头像下方的“皮肤与披风”，随后弹出的界面点击“刷新”按钮，检查头像是否更新。" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="http://i0.hdslb.com/bfs/new_dyn/2737e2f82f67f563272b3d36c45cccea3494362549848523.jpg" />
+        </Grid>
+
+        <TextBlock Margin="0,20,0,0" TextWrapping="Wrap"
+                   Text="B. 方案二：进入游戏按 F5 切换至第三人称，这是判断皮肤是否下发最直接的方法。" />
+      
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="排查建议" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,8" Text="• 网络环境：若网络阻断了皮肤服务，请尝试使用加速工具或更换网络。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,8" Text="• 缓存清理：PCL里 更多 → 百宝箱 → 清理游戏垃圾，随后再次刷新。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,8" Text="• 服务器限制：若服务器未开启正版验证，可能无法看到官方皮肤。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,0" Text="• 模组干扰：部分光影或模型模组可能影响显示，请排查相关模组。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="皮肤下载站点推荐" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="• NameMC (zh-cn.namemc.com)" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="• The Skindex (minecraftskins.com)" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="• Planet Minecraft (planetminecraft.com/skins)" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,0" Text="• SkinMC (skinmc.net)" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,10" Text=" 本教程基于 Minecraft 帮助文档改写，点此查看原教程" IsWarn="False" EventType="打开网页" EventData="https://help.minecraft.net/hc/en-us/articles/4408894664461"/>
+<local:MyHint Text="提示：上传后请先点击『刷新』，只有无效时再尝试登出或清缓存。(作者：Kyou)" IsWarn="False" />
