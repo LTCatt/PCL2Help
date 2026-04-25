@@ -1,0 +1,95 @@
+<local:MyCard Title="排查前的准备">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                    Text="在排查崩溃问题之前，请先完成以下检查：" />
+        <TextBlock Margin="0,5,0,2"
+                    Text="1. 确认你使用的是官方原版 Minecraft，未安装任何 Mod。" />
+        <TextBlock Margin="0,0,0,2"
+                    Text="2. 尝试使用 HMCL 或其他启动器启动相同版本，确认问题是否仅出现在 PCL。" />
+        <TextBlock Margin="0,0,0,2"
+                    Text="3. 记录崩溃发生时的情况，包括游戏版本、是否有模组或光影、崩溃前进行了什么操作。" />
+        <local:MyHint Margin="0,10,0,0" Theme="Yellow"
+                    Text="如果 HMCL 也会出现同样的崩溃，那么问题大概率不是由 PCL 导致的。" IsWarn="False" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="检查错误报告">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                    Text="PCL 会在游戏崩溃后生成错误报告，位于游戏目录下的 crash-reports 文件夹中。" />
+        <TextBlock Margin="0,5,0,4"
+                    Text="打开错误报告，重点关注以下部分：" />
+        <TextBlock Margin="0,0,0,2" FontFamily="Consolas" FontSize="12"
+                    Text="---- Minecraft Crash Report ----" />
+        <TextBlock Margin="0,0,0,2" FontFamily="Consolas" FontSize="12"
+                    Text="Description: 这里会说明崩溃的原因" />
+        <TextBlock Margin="0,0,0,4" FontFamily="Consolas" FontSize="12"
+                    Text="java.lang.ExceptionInInitializerError" />
+        <TextBlock Margin="0,5,0,4"
+                    Text="常见错误类型：" />
+        <TextBlock Margin="0,0,0,2" FontWeight="Bold"
+                    Text="• java.lang.NoClassDefFoundError" />
+        <TextBlock Margin="10,0,0,2"
+                    Text="通常是 Mod 与游戏版本不兼容导致的。" />
+        <TextBlock Margin="0,0,0,2" FontWeight="Bold"
+                    Text="• OutOfMemoryError" />
+        <TextBlock Margin="10,0,0,2"
+                    Text="内存不足，需要在 PCL 中增大分配内存。" />
+        <TextBlock Margin="0,0,0,2" FontWeight="Bold"
+                    Text="• NoSuchMethodError 或 NoSuchFieldError" />
+        <TextBlock Margin="10,0,0,2"
+                    Text="通常是 Mod 版本过旧或不兼容。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="常见崩溃原因及解决方法" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,8" FontWeight="Bold"
+                    Text="1. 显卡或驱动问题" />
+        <TextBlock Margin="10,0,0,2"
+                    Text="如果是显卡驱动问题，错误报告中通常会包含 "glBindTexture" 或 "Display" 相关的错误。" />
+        <TextBlock Margin="10,0,0,4"
+                    Text="解决方法：更新显卡驱动，或在 PCL 设置中尝试切换启动模式。" />
+        <TextBlock Margin="0,10,0,8" FontWeight="Bold"
+                    Text="2. Java 版本不兼容" />
+        <TextBlock Margin="10,0,0,2"
+                    Text="某些游戏版本需要特定版本的 Java。例如 1.17+ 需要 Java 16 或更高版本。" />
+        <TextBlock Margin="10,0,0,4"
+                    Text="解决方法：在 PCL 设置中手动选择正确版本的 Java。" />
+        <TextBlock Margin="0,10,0,8" FontWeight="Bold"
+                    Text="3. Mod 冲突或版本不匹配" />
+        <TextBlock Margin="10,0,0,2"
+                    Text="这是最常见的崩溃原因。Mod 之间的冲突、版本不匹配、或 Mod 与游戏版本不兼容都可能导致崩溃。" />
+        <TextBlock Margin="10,0,0,4"
+                    Text="解决方法：逐个移除 Mod 进行排查，或使用 Mod 冲突检测工具。" />
+        <TextBlock Margin="0,10,0,8" FontWeight="Bold"
+                    Text="4. 光影或材质包问题" />
+        <TextBlock Margin="10,0,0,2"
+                    Text="某些光影包可能与特定显卡或游戏版本不兼容。" />
+        <TextBlock Margin="10,0,0,4"
+                    Text="解决方法：移除光影包，确认问题是否消失。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="获取更多帮助">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                    Text="如果以上方法都无法解决问题，建议通过以下途径寻求帮助：" />
+        <local:MyListItem Margin="-5,8,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/CommandBlock.png"
+                    Title="PCL 论坛与社区"
+                    Info="前往 PCL 论坛发帖求助，提供错误报告和游戏版本等信息"
+                    EventType="打开网页"
+                    EventData="https://afdian.net/a/LTCat"
+                    Type="Clickable" />
+        <local:MyListItem Margin="-5,0,-5,8"
+                    Logo="https://www.bilibili.com/favicon.ico"
+                    Title="B 站搜索相关教程"
+                    Info="搜索 "Minecraft 崩溃 解决方法" 获取更多视频教程"
+                    EventType="打开网页"
+                    EventData="https://search.bilibili.com/search?keyword=Minecraft+%E5%B4%A9%E6%8D%95+%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"
+                    Type="Clickable" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：k酱 | 仅供参考，如有问题请联系社区寻求官方帮助" IsWarn="False" />
