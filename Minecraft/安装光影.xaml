@@ -3,9 +3,9 @@
 <local:MyCard Title="选择光影加载器" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders。其中 OptiFine 支持 Forge（可以通过 OptiFabric Mod 兼容 Fabric），Iris Shaders 支持 Fabric 和 Quilt。" />
+                   Text="目前提供光影功能的 Mod 有 OptiFine、Iris Shaders 和 Oculus。其中 OptiFine 支持 Forge（可以通过 OptiFabric Mod 兼容 Fabric，但 OptiFabric 没有 1.20.5+ 的版本），Iris Shaders 支持 Fabric、Quilt 和 NeoForge，Oculus 是 Iris Shaders 的第三方移植版本，目前仅支持 Forge（部分版本） 和 NeoForge（仅支持 1.20.1）且该模组现已停更" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text= "OptiFine 几乎支持所有的 Minecraft 版本，而 Iris Shaders 目前只支持 1.16 及更高版本。" />
+                   Text= "OptiFine 几乎支持所有的 Minecraft 版本，Iris Shaders 目前只支持 1.16 及更高版本，Oculus 只支持 1.16.5-1.20.1" />
     </StackPanel>
 </local:MyCard>
 
@@ -19,24 +19,26 @@
             <local:MyButton Margin="0,4,20,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                         Text="Modrinth 光影下载" EventType="打开网页" EventData="https://modrinth.com/shaders" />
         </StackPanel>
+        <TextBlock TextWrapping="Wrap" Margin="0,8,0,4"
+                   Text="同时，PCL 中也提供了光影包的下载渠道，你可以在 “下载 → 光影包” 中找到你所需的光影包。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 OptiFine" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 OptiFine" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Margin="0,4,0,0" Text="若您需要在 Fabric 中加载 OptiFine，直接在自动安装页面选择你想要安装的 Fabric 版本即可，PCL 会自动为你选择安装合适的 Fabric API 和 OptiFabric。" IsWarn="False" />
+        <local:MyHint Margin="0,4,0,0" Text="若您需要在 Fabric 中加载 OptiFine，直接在自动安装页面选择你想要安装的 Fabric 版本即可，PCL 会自动为你选择安装合适的 Fabric API 和 OptiFabric。（1.20.5+ 没有 OptiFabric，无法在 Fabric 中加载，如需加载光影请考虑使用 Iris Shaders。）" IsWarn="False" />
         <Grid Margin="0,10,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="如果你选择使用 OptiFine，进入 “自动安装” 页面，选择 Minecraft 版本后选择合适的 OptiFine 版本，点击 “开始安装” 按钮即可安装。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/654770cb669e5.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/5eba09f6de5b9f523aae38cd47b8a96a565437509.jpg" />
         </Grid>
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装 Iris Shaders" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装 Iris Shaders 或 Oculus" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="如果你选择使用 Iris Shaders，在 Mod 下载界面搜索 “Iris Shaders” 即可。如果你尚不清楚如何使用 PCL 安装 Mod，可以查看此教程：" />
+                   Text="如果你选择使用 Iris Shaders 或 Oculus，在 Mod 下载界面搜索 “Iris Shaders” 或 “Oculus” 即可。如果你尚不清楚如何使用 PCL 安装 Mod，可以查看此教程：" />
         <local:MyListItem Margin="0,0,0,4" SnapsToDevicePixels="True" Type="Clickable"
 		            EventType="打开帮助" EventData="Minecraft/安装 Mod.json" />
     </StackPanel>
@@ -47,14 +49,14 @@
         <Grid Margin="0,0,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在版本选择中选择需要安装光影的版本，点击 “版本设置”。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/65477d6b6278a.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/1f8dfb1e60c32acceac0afb4cd9671e3565437509.jpg" />
         </Grid>
         
         <local:MyHint Margin="0,4,0,0" Text="若未找到 shaderpacks 文件夹，你可以手动创建一个。" IsWarn="False" />
         <Grid Margin="0,10,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 点击 “版本文件夹”，在弹出的文件夹中找到并进入 shaderpacks 文件夹，将你要安装的光影包拖入该文件夹。启动游戏。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/65477d81185d5.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/80b263c1e7ae7e2ba2ebac4eceeec2d2565437509.png" />
         </Grid>
 
         <TextBlock Margin="0,12,0,7" FontSize="19" Foreground="{DynamicResource ColorBrush2}"
@@ -64,19 +66,19 @@
         <Grid Margin="0,10,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="进入游戏后顺次点击 “选项” → “视频设置” → “光影”，点击你想要应用的光影即可。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/65477db23053c.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/600fd52ddf2e043e2fc64c08b9edb6fa565437509.jpg" />
         </Grid>
         
         <TextBlock Margin="0,12,0,7" FontSize="19" Foreground="{DynamicResource ColorBrush2}"
-                   Text="Iris Shaders" />
+                   Text="Iris Shaders 及 Oculus" />
         
         <local:MyHint Margin="0,4,0,0" Text="如果你在世界中打开光影包页面，则在选择后可以先点击 “应用” 按钮来预览光影包效果后再点击 “完成”。" IsWarn="False" />
         <Grid Margin="0,10,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="进入游戏后顺次点击 “选项” → “视频设置” → “光影包”，选择你想要应用的光影后点击 “完成”。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/65477da284435.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/febfd86f53252349fa541533231d2eaf565437509.jpg" />
         </Grid>
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：Logic_530、风释清然SC" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：Logic_530、虾米逃生计划、宽宽" IsWarn="False" />

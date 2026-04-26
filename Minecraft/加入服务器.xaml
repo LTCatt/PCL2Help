@@ -1,22 +1,22 @@
-<local:MyCard Title="如何加入服务器？" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
+<local:MyCard Title="如何加入服务器？" CanSwap="True" IsSwapped="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 点击启动游戏按钮，然后单击 &quot;多人游戏&quot;。" HorizontalAlignment="Left" />
-            <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/01/64c8715fcc1ab.png?comment=启动游戏" />
+            <local:MyImage Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/5b8c21a0c000dbe259a878370df19148565437509.png" />
         </Grid>
         <!-- <local:MyHint Margin="0,0,0,15" Text="如果无法点击多人游戏按钮，请不要使用 1.16.4 或 1.16.5 版本，或者切换到正版登录。" IsWarn="False" /> -->
 
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 如果选择 &quot;直接连接&quot; 按钮，则输入服务器地址（即 IP），然后点击 &quot;加入服务器&quot;。" HorizontalAlignment="Left" />
-            <Image Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/01/64c8715dd99cd.png?comment=多人游戏直接连接" />
+            <local:MyImage Margin="220,0,0,15" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/db756a18373d86a9315379a29eae15cc565437509.png" />
         </Grid>
 
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 如果选择 &quot;添加服务器&quot; 按钮，则输入服务器名称、服务器地址（即 IP），然后点击 &quot;完成&quot;，并双击加入该服务器，方便以后快速进入。&#xa;服务器名称用于区分不同的服务器，不影响实际连接效果，也可以保留默认。" HorizontalAlignment="Left" />
-            <Image Margin="220,0,0,20" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/08/01/64c8715c60c66.png?comment=多人游戏添加服务器" />
+            <local:MyImage Margin="220,0,0,20" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/1cf1ee43e844f3a838e721f25f300cd8565437509.png" />
         </Grid>
 
         <TextBlock Margin="0,0,0,5" LineHeight="17"
@@ -29,13 +29,15 @@
                     Text="    ✔  233.233.233.233:12345" />
         <TextBlock Foreground="#DD4411" Margin="0,0,0,5"
                     Text="    ❌  http://mc.hypixel.net" />
+		<TextBlock Foreground="#DD4411" Margin="0,0,0,5"
+                    Text="    ❌  mc.example.com：25565" />
 
     </StackPanel>
 </local:MyCard>
 
 <local:MyHint Margin="0,0,0,15" Text="若在加入服务器时遇到问题，可以查看下列常见错误中是否包含了你的问题。" IsWarn="False" />
 
-<local:MyCard Title="多人游戏已被禁用，请检查你的 Microsoft 账户设置" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="多人游戏已被禁用，请检查你的 Microsoft 账户设置" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,5,0,0" FontSize="16" Foreground="{DynamicResource ColorBrush2}"
                    Text="正版账户" />
@@ -80,15 +82,28 @@
 </local:MyCard>
 
 
-<local:MyCard Title="连接超时" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="连接超时" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：连接超时。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="解决方法：请逐一尝试和排查以下情况。" />
+		<TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="1. 服务器已关闭或未正确开启。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="2. 确认服务器地址拼写正确（尽量复制粘贴）。" />
+        <!-- 把地址拼写的问题放在这里，是因为尝试连接 www.baidu.com 的时候也报这个错 -->
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="3. 确认网络连接正常且网络环境良好，使用加速器或 VPN 后再次尝试连接服务器。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="4. 尝试修改 DNS 服务器地址并刷新 DNS 缓存后再次尝试连接服务器。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="5. 尝试关闭 Microsoft Defender 公用网络防火墙后再次尝试连接服务器。" />
+        <TextBlock Margin="2,0,0,4" LineHeight="17"
+                    Text="6. 如问题仍未解决，请尝试在相关论坛及群聊中上传截图并寻求帮助。" />
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="Connection timed out: no further information" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Connection timed out: no further information" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：连接超时。" />
@@ -110,16 +125,16 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="未知的主机 Unknown host 或 Cannot assign requested address: no further information" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="未知的主机 Unknown host 或 Cannot assign requested address: no further information" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：无法访问目标地址。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="解决方法：确认服务器地址拼写正确（尽量复制粘贴），或者确认服务器已开启。" />
+                    Text="解决方法：确认服务器地址拼写正确，若有冒号请确定为半角（英文）冒号，服务器地址尽量复制粘贴，或者确认服务器已开启。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Can't resolve hostname" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Can't resolve hostname" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：解析服务器地址失败。" />
@@ -128,7 +143,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="您的主机中的软件中止了一个已建立的连接" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="您的主机中的软件中止了一个已建立的连接" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：网络状况不佳。" />
@@ -137,7 +152,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="登入失败、Failed to login 或 Bad login" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="登入失败、Failed to login 或 Bad login" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：离线玩家尝试登录正版服务器。" />
@@ -146,7 +161,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Invalid characters in username" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Invalid characters in username" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：用户名包含中文或特殊字符。" />
@@ -155,7 +170,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Outdated server 或 Outdated client" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Outdated server 或 Outdated client" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：您的 Minecraft 版本与服务器不匹配。" />
@@ -164,7 +179,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="You are not white-listed on this server" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="You are not white-listed on this server" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：不在服务器白名单内。" />
@@ -173,16 +188,16 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="You are banned from this server" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="You are banned from this server" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：被服务器封禁。" />
         <TextBlock Margin="0,0,0,4" LineHeight="17"
-                    Text="解决方法：若你认为这是误封，联系服主。" />
+                    Text="解决方法：若你认为这是误封，请联系服主。" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Internal server error" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Internal server error" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：服务器内部错误。" />
@@ -191,7 +206,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="End of Stream" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="End of Stream" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：客户端 Mod 出错，或频繁加入服务器。" />
@@ -200,7 +215,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Server closed" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Server closed" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：服务器已关闭。" />
@@ -209,7 +224,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Server is full" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Server is full" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：服务器已满。" />
@@ -218,7 +233,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Internal Exception: io.netty.handler.timeout.ReadTimeoutException" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Internal Exception: io.netty.handler.timeout.ReadTimeoutException" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：客户端无法读取服务器传输的数据包（数据包过大）或服务器状态不佳。" />
@@ -227,7 +242,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="java.lang.IllegalArgumentException: Packet too big" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="java.lang.IllegalArgumentException: Packet too big" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：客户端无法读取服务器传输的数据包，因为数据包过大。你有可能被禁人塔、禁人书等造成的大量数据阻塞在服务器外。" />
@@ -236,7 +251,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,11">
         <TextBlock Margin="0,0,0,4" LineHeight="17"
                     Text="原因：Mod 导致错误。" />
@@ -246,4 +261,15 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、风释清然SC、龙腾猫跃、Enigma_Soul" IsWarn="False" />
+<local:MyCard Title="Connection throttled! Please wait before reconnecting." CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,11">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="原因：短时间内多次尝试连接服务器，触发了服务器的连接速率限制（即防刷连接机制）。该机制用于防止异常连接请求或恶意重复登录。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="解决方法：请等待数秒后再尝试重新连接服务器。若您是服务器管理员，可在 Bukkit、Spigot、Paper、Leaves 等服务端的 bukkit.yml 配置文件中，将 settings 中的 connection-throttle 参数设置为 0 或 -1 以关闭此限制。" />
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="注意：若关闭该功能，可能增加服务器遭受恶意连接或刷包攻击的风险，请谨慎调整。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyHint Margin="0,0,0,15" Text="作者：柚子柚子、虾米逃生计划、龙腾猫跃、Enigma_Soul、卡带酱" IsWarn="False" />

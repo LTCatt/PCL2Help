@@ -1,0 +1,10 @@
+{
+    "__Author__": "龙腾猫跃",
+	"Title": "自定义事件列表",
+	"Description": "在自定义主页和帮助中使用的自定义事件的列表",
+	"Keywords": "XAMLCustomEvent",
+	"Types": ["个性化"],
+	"IsEvent": true,
+	"EventType": "打开网页",
+	"EventData": "https://github.com/Meloong-Git/PCL/wiki/自定义事件"
+}

@@ -14,7 +14,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="安装已有的压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="安装已有的压缩文件" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         
         <local:MyHint Margin="0,0,0,15" Text="以下情况假设您已下载好整合包文件。&#xa;若拖入文件时鼠标指针显示禁止符号，请检查是否以管理员身份打开了 PCL 并重启 PCL。" IsWarn="False" />
@@ -22,36 +22,36 @@
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 将整合包文件拖入 PCL 窗口。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/654745b7a6112.png?comment=拖入" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/6612767ffeac11c2a280cee080917f28558830935.png@.webp" />
         </Grid>
 
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 输入版本名称后点击 “确定”，等待 PCL 安装完成。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/11/05/654748c679b27.png?comment=命名" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/new_dyn/9d9dca8e85eaba65de21e60a2f1d2e2e558830935.png@.webp" />
         </Grid>
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="下载并安装 CurseForge 或 Modrinth 整合包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="下载并安装 CurseForge 或 Modrinth 整合包" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <Grid>
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="1. 在 PCL 中点击 “下载” 按钮，并选择左侧菜单 “资源” 分类下的 “整合包” 选项。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/04/09/6432ac7454dd1.png?comment=打开整合包页面" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/77c53dd0e3c218538f869852b8d34225565437509.png" />
         </Grid>
 
         <local:MyHint Margin="0,20,0,0" Text="搜索时请使用整合包的英文名称。" IsWarn="False" />
         <Grid Margin="0,10,0,0">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="2. 在左侧页面中通过选择或输入您所需整合包的名称、类型、来源、游戏版本以筛选并搜索整合包。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2023/04/09/6432ac6568fa6.png?comment=整合包搜索筛选选项" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/bdcfde76da5afbd09b14b220ae3e8383565437509.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
             <TextBlock TextWrapping="Wrap" Margin="0,15,0,4" Width="200"
                         Text="3. 选择一个整合包后，点击您需要下载的版本，在弹出的窗口输入版本名称，点击 “确定”，等待 PCL 安装完成。" HorizontalAlignment="Left" />
-            <Image Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://img.z0z0r4.top/local/2022/07/26/6/modpack_name_input.png" />
+            <local:MyImage Margin="250,0,0,0" HorizontalAlignment="Center" Source="https://i1.hdslb.com/bfs/article/d9abb572dd48576b28ab642a7252ff92565437509.png" />
         </Grid>
 
         <Grid Margin="0,20,0,4">
@@ -61,4 +61,4 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyHint Margin="0,0,0,15" Text="作者：WTP016、龙腾猫跃、风释清然SC" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="作者：WTP016、龙腾猫跃、虾米逃生计划" IsWarn="False" />
